@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Schnaubelt, Arial, Helvetica, sans-serif;
+}
+
+font-face {
+  font-family: Schnaubelt;
+  src: url('./assets/fonts/Schnaubelt.otf');
+}
+
+body, html {
+  height: 100%;
+  cursor: url('./assets/cursor.png'), auto;
+}
+
+.container {
+  background-color: #bccddf;
+  width: 100vw;
+  height: 100vh;
+}
+
