@@ -16,8 +16,21 @@ body, html {
 }
 
 .container {
-  background-color: #bccddf;
+  background-image: url('./assets/background.png');
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
 
+p, h1, h2, h3, h4, h5, h6, li {
+  transform: scale(1, 1.05)
+}
+
+.navbar {
+  height: 23.7vh;
+}
+
+main {
+  height: 76.3vh;
+  width: 100%;
+}

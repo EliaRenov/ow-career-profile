@@ -6,20 +6,21 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
     padding: 3rem;
+    padding-bottom: 2.3rem;
     position: relative;
 }
 
-nav.navbar__nav-links {
-    background-color: #171d33;
-    list-style-type: none;
-    border-radius: 5px;
-}
 
 nav.navbar__nav-links {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 2px;
+    background-color: #171d33;
+    list-style-type: none;
+    border-radius: 5px;
 }
 
 .navbar__nav-links li {
@@ -52,10 +53,9 @@ li.navbar__current_tab:hover {
 .navbar__small-player {
     grid-column: 8 / -1;
     grid-row: 1;
-
     height: 60px;
-    width: 73%;
-    margin-left: -32px;
+    width: 60%;
+    margin-left: 36px;
     background-color: #ffffff;
     border-radius: 2px;
     display: flex;
@@ -72,11 +72,10 @@ li.navbar__current_tab:hover {
     font-weight: lighter;
 }
 
-.navbar__small_player-line {
-    outline: 1px solid grey;
+.navbar__small-player-line {
+    outline: 1px solid #676e85;
     height: 90%;
     width: 0;
-    margin: 0 3px;
 }
 
 .navbar__top-right_icons {
@@ -85,6 +84,7 @@ li.navbar__current_tab:hover {
     margin-left: 1.65rem;
     grid-column: 11 / 13;
     grid-row: 1;
+    margin-left: 45px;
 }
 
 .navbar__social-logo, .navbar__challenges-logo {
@@ -143,6 +143,13 @@ li.navbar__current_tab:hover {
     display: block;
 }
 
+.navbar__social-logo:hover, .navbar__challenges-logo:hover {
+    outline: 2px solid white;
+    /* outline-offset: 1px; */
+}
+
+
+
 .navbar__social-logo-hover {
     top: 7.2rem;
     right: 5rem;
@@ -169,6 +176,62 @@ li.navbar__current_tab:hover {
 }
 
 .navbar__player-profile {
-    
+    grid-row: 3 / -1;
+    grid-column: 1 / 2;
+    display: flex;
+    gap: 2rem;
 }
+
+.navbar__player-profile-logo {
+    margin-top: -0.6rem;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+/* PLAYER NAME SIZE SHOULD CHANGE 
+   IF PROFILE TITLE IS SELECTED */
+
+.navbar__player-profile-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-style: oblique;
+    color: white;
+    transform: scale(1, 2);
+    margin-bottom: 1rem;
+}
+
+.navbar__player-profile-title {
+    color: #1defef;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.navbar__player-profile-endorsement-level {
+    align-self: flex-start;
+    margin-top: -8px;
+}
+
+.navbar__player-profile_line {
+    height: 120%;
+    margin: 0 6px;
+    width: 0;
+    outline: 1px solid #676e85;
+}
+
+.navbar__player-profile_level {
+    background-image: url("./assets/icons/level_icon.png");
+    background-repeat: no-repeat;
+    width: 3.5rem;
+    height: 3.8rem;
+    font-size: 1.6rem;
+    color: #b4c2c7;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-left: 12px;
+}
+
 
