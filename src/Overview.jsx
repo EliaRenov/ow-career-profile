@@ -9,8 +9,8 @@ const Overview = (props) => {
 
     return (
         <main className="overview">
-            <TimePlayed timePlayedModesData={props.timePlayedModesData} />
-            <CurrentMode timePlayedHeroesData={props.timePlayedHeroesData.slice(0, 3)} />
+            <TimePlayed />
+            <CurrentMode />
         </main>
     )
 

@@ -32,6 +32,10 @@
     border-radius: 5px;
     align-items: center;
     overflow: hidden;
+
+    background-position: center 110%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
 }
 
 .overview__current-mode_most-played-heroes-card-hero {
@@ -40,7 +44,8 @@
     color: black;
     background-color: white;
     width: 100%;
-    padding-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 3px;
     text-align: center;
     box-shadow: 0px -14px 14px 5px rgb(255, 255, 255)
 

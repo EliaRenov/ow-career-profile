@@ -1,8 +1,13 @@
+import DataContext from "../DataContext";
+import { useContext } from "react";
 import TimePlayedBars from "./TimePlayedBars";
 import './TimePlayed.css'
 
-const TimePlayed = (props) => {
-    const overallHoursPlayed = props.timePlayedModesData.reduce((total, item) => total + item.hours, 0)
+const TimePlayed = () => {
+    const allData = useContext(DataContext)
+    const data = allData.timePlayedModesData
+
+    const overallHoursPlayed = data.reduce((total, item) => total + item.hours, 0)
 
     return (
         <div className="overview_time-played">
@@ -14,7 +19,7 @@ const TimePlayed = (props) => {
                     {overallHoursPlayed.toLocaleString()} HRS
                     </h3>
                 </div>
-                <TimePlayedBars data={props.timePlayedModesData} />
+                <TimePlayedBars />
             </div>
     )
 
