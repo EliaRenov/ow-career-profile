@@ -25,11 +25,22 @@ const TimePlayedBar = (props) => {
             break;
     }
 
+    const fillWidth = Math.ceil(
+    props.mode === props.mostPlayed.mode ? 100 : `${props.hours / props.mostPlayed.hours * 100}`)
+    
 
     return (
         <div className={`overview_time-played-bar`}>
-            <img src={img} alt="" />
-            {props.mode}
+            <img src={img} alt="mode logo" height="24px" className='overview_mode-logo' />
+            <p className="overview_time-played-mode">
+            {props.mode === 'gameBrowser' ? 'GAME BROWSER' : props.mode.toUpperCase()}
+            </p>
+            <p className="overview_time-played-hours">
+            {props.hours} HRS
+            </p>
+            <div style={{width: fillWidth + '%'}} className={`overview_time-played-fill overview_time-played-fill-${props.mode}`}>
+
+            </div>
         </div>
     )
 

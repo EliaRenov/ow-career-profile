@@ -1,15 +1,16 @@
 import './Overview.css'
-import TimePlayedBars from './OverviewComponents/TimePlayedBars'
+
+import TimePlayed from './OverviewComponents/TimePlayed'
+import CurrentMode from './OverviewComponents/CurrentMode'
 
 const Overview = (props) => {
+   
+
+
     return (
         <main className="overview">
-            <div className="overview_time-played">
-                <TimePlayedBars data={props.timePlayedData} />
-            </div>
-
-
-
+            <TimePlayed timePlayedModesData={props.timePlayedModesData} />
+            <CurrentMode timePlayedHeroesData={props.timePlayedHeroesData.slice(0, 3)} />
         </main>
     )
 

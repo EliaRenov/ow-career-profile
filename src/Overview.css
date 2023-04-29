@@ -7,23 +7,3 @@
     grid-template-columns: 381px 703px 635px;
 }
 
-.overview_time-played {
-    background-image: url('./assets/overview_time_played.png');
-    background-repeat: no-repeat;
-    border-radius: 5px;
-    grid-row: 2 / 3;
-    padding: 0 1.5rem;
-    padding-top: 19.5rem;
-}
-
-.overview_time-played-bar {
-    background-color: #404656;
-    height: 42px;
-    margin-bottom: 12px;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.overview_time-played-fill-competitive {
-    background-color: #df4069;
-}

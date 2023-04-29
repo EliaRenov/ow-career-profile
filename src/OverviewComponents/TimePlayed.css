@@ -1,0 +1,90 @@
+.overview_time-played {
+    background-image: url('../assets/overview_time_played.png');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    grid-row: 2 / 3;
+    padding: 0 1.5rem;
+    /* padding-top: 19.5rem; */
+}
+
+.overview_time-played-bar {
+    background-color: #404656;
+    height: 43px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.overview_time-played-mode {
+    position: relative;
+    z-index: 5;
+}
+
+.overview_mode-logo {
+    height: 28px;
+    margin-left: 8px;
+    position: relative;
+    z-index: 5;
+}
+
+.overview_time-played-hours {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.overview_time-played-fill {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.overview_time-played-fill-competitive {
+    background-color: #df4069;
+}
+
+.overview_time-played-fill-unranked {
+    background-color: #05a0fa;
+}
+
+.overview_time-played-fill-arcade {
+    background-color: #00ba00;
+}
+
+.overview_time-played-fill-gameBrowser {
+    background-color: #bf41e6;
+}
+
+.overview_time-played-fill-experimental {
+    background-color: #a95541;
+}
+
+.overview_overall-hours-circle {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 140px;
+}
+
+.overview_overall-hours {
+    letter-spacing: 2px;
+    color: #1cefef;
+    padding-bottom: 110px;
+    font-size: 28px;
+}
+
+.overview_overall-hours-text {
+    color: #e9e9ea;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,57 @@
+.current-mode {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    display: grid;
+
+    grid-template-rows: 31px 218px 1fr;
+    row-gap: 15px;
+    box-sizing: border-box;
+
+}
+
+.current-mode_title {
+    color: #ffffff;
+    font-size: 21px;
+    align-self: flex-end;
+    text-shadow: 1px 1px rgb(135, 135, 135);
+}
+
+.overview__current-mode_most-played-heroes {
+    display: flex;
+    gap: 18px;
+}
+
+.overview__current-mode_most-played-heroes-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 33.3%;
+    /* background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
+    border-radius: 5px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.overview__current-mode_most-played-heroes-card-hero {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    box-shadow: 0px -14px 14px 5px rgb(255, 255, 255)
+
+}
+
+.overview__current-mode_most-played-heroes-card-hours {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ec6516;
+    padding-bottom: 8px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}

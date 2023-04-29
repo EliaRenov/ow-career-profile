@@ -1,0 +1,46 @@
+import Ana from './assets/hero_logos/ana.png'
+import Ashe from './assets/hero_logos/ashe.png'
+import Baptiste from './assets/hero_logos/baptiste.png'
+import Bastion from './assets/hero_logos/bastion.png'
+import Brigitte from './assets/hero_logos/brigitte.png'
+import Cassidy from './assets/hero_logos/cassidy.png'
+import Doomfist from './assets/hero_logos/doomfist.png'
+import Dva from './assets/hero_logos/dva.png'
+import Echo from './assets/hero_logos/echo.png'
+import Genji from './assets/hero_logos/genji.png'
+import Hanzo from './assets/hero_logos/hanzo.png'
+import Junkerqueen from './assets/hero_logos/junkerqueen.png'
+import Junkrat from './assets/hero_logos/junkrat.png'
+import Kiriko from './assets/hero_logos/kiriko.png'
+import Lifeweaver from './assets/hero_logos/lifeweaver.png'
+import Lucio from './assets/hero_logos/lucio.png'
+import Mei from './assets/hero_logos/mei.png'
+import Mercy from './assets/hero_logos/mercy.png'
+import Moira from './assets/hero_logos/moira.png'
+import Orisa from './assets/hero_logos/orisa.png'
+import Pharah from './assets/hero_logos/pharah.png'
+import Ramatrra from './assets/hero_logos/ramattra.png'
+import Reaper from './assets/hero_logos/reaper.png'
+import Reinhardt from './assets/hero_logos/reinhardt.png'
+import Roadhog from './assets/hero_logos/roadhog.png'
+import Sigma from './assets/hero_logos/sigma.png'
+import Sojourn from './assets/hero_logos/sojourn.png'
+import Soldier76 from './assets/hero_logos/soldier76.png'
+import Sombra from './assets/hero_logos/sombra.png'
+import Symmetra from './assets/hero_logos/symmetra.png'
+import Torbjorn from './assets/hero_logos/torbjorn.png'
+import Tracer from './assets/hero_logos/tracer.png'
+import Widowmaker from './assets/hero_logos/widowmaker.png'
+import Winston from './assets/hero_logos/winston.png'
+import Wreckingball from './assets/hero_logos/wreckingball.png'
+import Zarya from './assets/hero_logos/zarya.png'
+import Zenyatta from './assets/hero_logos/zenyatta.png'
+
+const Heroes = {
+    ana: {
+        logo: Ana,
+        color: '#8898b8'
+    }
+}
+
+export default Heroes
