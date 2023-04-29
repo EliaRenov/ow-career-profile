@@ -34,3 +34,7 @@ main {
   height: 76.3vh;
   width: 100%;
 }
+
+li {
+  list-style: none;
+}

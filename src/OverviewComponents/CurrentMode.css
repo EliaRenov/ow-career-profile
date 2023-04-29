@@ -28,7 +28,6 @@
     justify-content: flex-end;
     height: 100%;
     width: 33.3%;
-    /* background: linear-gradient(to top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); */
     border-radius: 5px;
     align-items: center;
     overflow: hidden;
@@ -56,7 +55,60 @@
     font-weight: 600;
     color: #ec6516;
     padding-bottom: 8px;
-    background-color: white;
+    background-color: #fff;
     width: 100%;
     text-align: center;
+}
+
+.overview__current-mode_not-comp {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.overview__current-mode-role-data {
+    height: 36px;
+    border-radius: 5px;
+}
+
+.overview__current-mode-role-cell-layout {
+    display: grid;
+    grid-template-columns: 0.9fr 1fr 1fr;
+    align-items: center;
+    height: 100%;
+}
+
+.overview__current-mode-role-cell-layout li {
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.overview__current-mode-role-cell-layout li:first-child {
+     display: flex;
+     align-items: center;
+}
+
+.overview__current-mode-role-cell-layout li:not(:first-child) {
+    text-align: center;
+}
+
+.overview__current-mode-role-cell:not(:first-child) {
+    color: white;
+}
+
+.overview__current-mode-role-cell {
+    background-color: #3f4758;
+}
+
+.overview__current-mode_not-comp-cell {
+    background-color: #fff;
+}
+
+.overview__current-mode_not-comp-cell li {
+    color: #5e6068;
+}
+
+.overview__current-mode-role-logo {
+    height: 26px;
 }

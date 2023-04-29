@@ -21,21 +21,23 @@ function App() {
       timePlayedHeroesData: 
       {
           all:
-            [{hero: 'reinhardt', hours: 938},
-            {hero: 'winston', hours: 341},
-            {hero: 'roadhog', hours: 313}],
+            [{hero: 'reinhardt', hours: 938, role: 'tank', gamesWon: 2583},
+            {hero: 'winston', hours: 341, role: 'tank', gamesWon: 1392},
+            {hero: 'roadhog', hours: 313, role: 'tank', gamesWon: 517},],
       
           competitive:
-            [{hero: 'reinhardt', hours: 832},
-            {hero: 'roadhog', hours: 300},
-            {hero: 'winston', hours: 276}],
+            [{hero: 'reinhardt', hours: 832, role: 'tank', gamesWon: 1830},
+            {hero: 'roadhog', hours: 300, role: 'tank', gamesWon: 1200},
+            {hero: 'winston', hours: 276, role: 'tank', gamesWon: 474}],
             
           quickplay: 
-            [{hero: 'reinhardt', hours: 106},
-            {hero: 'winston', hours: 65},
-            {hero: 'roadhog', hours: 13}]
+            [{hero: 'reinhardt', hours: 106, role: 'tank', gamesWon: 753},
+            {hero: 'winston', hours: 65, role: 'tank', gamesWon: 192},
+            {hero: 'roadhog', hours: 13, role: 'tank', gamesWon: 43}]
           
         },
+      
+
       states: {
         current: currentMode,
         setCurrent: setCurrentMode

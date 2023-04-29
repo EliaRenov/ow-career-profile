@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import Heroes from '../Heroes'
 import DataContext from '../DataContext'
+import Heroes from '../Heroes'
 
 
 const MostPlayedHeroes = () => {
@@ -9,7 +9,7 @@ const MostPlayedHeroes = () => {
 
     return (
         <div className="overview__current-mode_most-played-heroes">
-            {data.map(card => {
+            {data.slice(0, 3).map(card => {
                 return <div style={{
                     backgroundImage: `url(${Heroes[card.hero].logo})`}} key={card.hero} className="
                 overview__current-mode_most-played-heroes-card">
