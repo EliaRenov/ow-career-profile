@@ -1,0 +1,23 @@
+button.dropdown {
+    text-align: left;
+    padding: 6px 16px;
+    padding-right: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    grid-column: 2 / 3;
+    background-color: #f3f5f8;
+    border-radius: 2px;
+    background-size: 100%;
+    width: 300px;
+    cursor: url('./assets/cursor.png'), auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: background-color 0.5s ease;
+}
+
+button.dropdown:hover {
+    background-color: #fff;
+}
