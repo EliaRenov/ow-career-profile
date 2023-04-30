@@ -60,7 +60,7 @@
     text-align: center;
 }
 
-.overview__current-mode_not-comp {
+.overview__current-mode_unranked {
     display: flex;
     flex-direction: column;
     row-gap: 7px;
@@ -101,11 +101,11 @@
     background-color: #3f4758;
 }
 
-.overview__current-mode_not-comp-cell {
+.overview__current-mode_unranked-cell {
     background-color: #fff;
 }
 
-.overview__current-mode_not-comp-cell li {
+.overview__current-mode_unranked-cell li {
     color: #5e6068;
 }
 

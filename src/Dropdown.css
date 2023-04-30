@@ -16,8 +16,40 @@ button.dropdown {
     align-items: center;
 
     transition: background-color 0.5s ease;
+    position: relative;
 }
 
 button.dropdown:hover {
     background-color: #fff;
+}
+
+.dropdown-options {
+    border: 2px solid #545d6f;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 2rem;
+    position: absolute;
+    top: 38px;
+    left: -2px;
+    background-color: #fff;
+    padding: 5px 10px;
+    z-index: 5;
+    width: 107%;
+    border-radius: 4px;
+}
+
+.dropdown-option {
+    margin: 1px 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.dropdown-option:hover {
+    background-color: #cccccd;
+}
+
+.dropdown-option-current, .dropdown-option-current:hover {
+    color: #fff;
+    background-color: #43444a;
 }

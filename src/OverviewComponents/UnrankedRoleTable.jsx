@@ -4,13 +4,14 @@ import TankLogo from '../assets/icons/overview_tank-icon.png';
 import DamageLogo from '../assets/icons/overview_damage-icon.png';
 import SupportLogo from '../assets/icons/overview_support-icon.png';
 
-const NonCompRoleTable = () => {
+const UnrankedRoleTable = () => {
     const allData = useContext(DataContext);
     const mode = allData.states.current;
 
     const getRoleStats = (role, data) => {
         return allData.timePlayedHeroesData[mode].reduce((total, hero) => {
             if (hero.role === role) return total + hero[data];
+            return total
         }, 0)
     }
 
@@ -22,8 +23,8 @@ const NonCompRoleTable = () => {
     const supportGamesWon = getRoleStats('support', 'gamesWon');
 
     return (
-        <ul className="overview__current-mode_not-comp">
-                <li className='overview__current-mode-role-data overview__current-mode_not-comp-cell'>
+        <ul className="overview__current-mode_unranked">
+                <li className='overview__current-mode-role-data overview__current-mode_unranked-cell'>
                     <ul className="overview__current-mode-role-cell-layout">
                         <li>
                             ROLE
@@ -84,4 +85,4 @@ const NonCompRoleTable = () => {
     )
 }
 
-export default NonCompRoleTable;
+export default UnrankedRoleTable;

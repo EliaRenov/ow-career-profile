@@ -7,7 +7,7 @@ import Dropdown from './Dropdown'
 const Overview = () => {
     return (
         <main className="overview">
-            <Dropdown options={['ALL MODES', 'COMPETITIVE', 'QUICKPLAY']} class="overview_mode_dropdown" />
+            <Dropdown options={['all', 'competitive', 'unranked']} class="overview_mode_dropdown" />
             <TimePlayed />
             <CurrentMode />
         </main>
