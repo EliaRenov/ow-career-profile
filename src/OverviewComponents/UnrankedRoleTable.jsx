@@ -24,8 +24,8 @@ const UnrankedRoleTable = () => {
 
     return (
         <ul className="overview__current-mode_unranked">
-                <li className='overview__current-mode-role-data overview__current-mode_unranked-cell'>
-                    <ul className="overview__current-mode-role-cell-layout">
+                <li className='role-data cell'>
+                    <ul className="role-cell-layout">
                         <li>
                             ROLE
                         </li>
@@ -38,10 +38,10 @@ const UnrankedRoleTable = () => {
                     </ul>
                     
                 </li>
-                <li className='overview__current-mode-role-data overview__current-mode-role-cell'>
-                    <ul className="overview__current-mode-role-cell-layout">
+                <li className='role-data role-cell'>
+                    <ul className="role-cell-layout">
                         <li>
-                        <img className="overview__current-mode-role-logo" src={TankLogo} alt="" />
+                        <img className="role-logo" src={TankLogo} alt="" />
                             TANK
                         </li>
                         <li>
@@ -52,10 +52,10 @@ const UnrankedRoleTable = () => {
                         </li>
                     </ul>
                 </li>
-                <li className='overview__current-mode-role-data overview__current-mode-role-cell'>
-                <ul className="overview__current-mode-role-cell-layout">
+                <li className='role-data role-cell'>
+                <ul className="role-cell-layout">
                         <li>
-                        <img className="overview__current-mode-role-logo" src={DamageLogo} alt="" />
+                        <img className="role-logo" src={DamageLogo} alt="" />
                             DAMAGE
                         </li>
                         <li>
@@ -66,10 +66,10 @@ const UnrankedRoleTable = () => {
                         </li>
                     </ul>
                 </li>
-                <li className='overview__current-mode-role-data overview__current-mode-role-cell'>
-                <ul className="overview__current-mode-role-cell-layout">
+                <li className='role-data role-cell'>
+                <ul className="role-cell-layout">
                         <li>
-                        <img className="overview__current-mode-role-logo" src={SupportLogo} alt="" />
+                        <img className="role-logo" src={SupportLogo} alt="" />
                             SUPPORT
                         </li>
                         <li>

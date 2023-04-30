@@ -60,55 +60,106 @@
     text-align: center;
 }
 
-.overview__current-mode_unranked {
+/* ROLE STATS */
+
+.overview__current-mode_unranked, .overview__current-mode_ranked {
     display: flex;
     flex-direction: column;
-    row-gap: 7px;
+    row-gap: 9px;
 }
 
-.overview__current-mode-role-data {
+.overview__current-mode_unranked .role-data, .overview__current-mode_ranked .role-data {
     height: 36px;
+    border-radius: 6px;
+}
+
+.overview__current-mode_ranked .role-data:not(:first-child) {
+    height: 67px;
     border-radius: 5px;
 }
 
-.overview__current-mode-role-cell-layout {
+
+.overview__current-mode_unranked .role-cell-layout, .overview__current-mode_ranked .role-cell-layout {
     display: grid;
-    grid-template-columns: 0.9fr 1fr 1fr;
     align-items: center;
     height: 100%;
 }
 
-.overview__current-mode-role-cell-layout li {
-    margin-left: 20px;
-    font-weight: 800;
-    font-size: 15px;
+.overview__current-mode_unranked .role-cell-layout {
+    grid-template-columns: 0.9fr 1fr 1fr;
 }
 
-.overview__current-mode-role-cell-layout li:first-child {
+.overview__current-mode_ranked .role-cell-layout {
+    grid-template-columns: 1.28fr 1fr 1fr 1fr;
+}
+
+.overview__current-mode_unranked .role-cell-layout li, .overview__current-mode_ranked .role-cell-layout li {
+    margin-left: 13px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: -10px;
+}
+
+.overview__current-mode_unranked .role-cell-layout li:first-child, .overview__current-mode_ranked .role-cell-layout li:first-child {
      display: flex;
      align-items: center;
 }
 
-.overview__current-mode-role-cell-layout li:not(:first-child) {
+.overview__current-mode_unranked .role-cell-layout li:not(:first-child), .overview__current-mode_ranked .role-cell-layout li:not(:first-child) {
     text-align: center;
 }
 
-.overview__current-mode-role-cell:not(:first-child) {
+.overview__current-mode_unranked .role-cell:not(:first-child), .overview__current-mode_ranked .role-cell:not(:first-child){
     color: white;
 }
 
-.overview__current-mode-role-cell {
-    background-color: #3f4758;
+.overview__current-mode_unranked .role-cell, .overview__current-mode_ranked .role-cell {
+    /* background-color: #3f4758; */
+    background-image: linear-gradient(to right, #3f4758, #424a5c, #464e60, #495164, #4d5568);
 }
 
-.overview__current-mode_unranked-cell {
+.overview__current-mode_unranked .cell, .overview__current-mode_ranked .cell {
     background-color: #fff;
 }
 
-.overview__current-mode_unranked-cell li {
+.overview__current-mode_unranked .cell li, .overview__current-mode_ranked .cell li {
     color: #5e6068;
 }
 
-.overview__current-mode-role-logo {
+.overview__current-mode_unranked .role-logo {
     height: 26px;
 }
+
+.overview__current-mode_ranked img.rank-logo {
+    height: 62px;
+    margin-top: -5px;
+    filter: brightness(1.15);
+    transform: scale(1.1, 1);
+}
+
+.overview__current-mode_ranked img.rank-logo-top500 {
+    transform: scale(1.4, 1.3);
+}
+
+.overview__current-mode_ranked h5.rank-text-top500 {
+    /* position: absolute; */
+    font-style: italic;
+    font-weight: 500;
+    top: 20px;
+    left: 120px;
+    font-size: 18px;
+}
+
+.overview__current-mode_ranked img.rank-logo-top500 {
+    transform: scale(1.3, 1.2);
+}
+
+.overview__current-mode_ranked .role-cell-layout li:has(img.rank-logo-top500) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -20px;
+}
+
+
+/* role-cell-layout */

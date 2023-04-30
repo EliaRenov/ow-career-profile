@@ -11,9 +11,17 @@ function App() {
     
     const data = { 
       rank: {
-        tank: 'grandmaster-1',
-        damage: 'bronze-1',
-        support: 'gold-4'
+        tank: 'top500',
+        damage: 'grandmaster1',
+        support: 'grandmaster1',
+        tankGamesWon: 526,
+        damageGamesWon: 174,
+        supportGamesWon: 146,
+      },
+      top500: {
+        tank: 36,
+        damage: null,
+        support: 242
       },
       timePlayedModesData:
           [{mode: 'competitive', hours: 3165}, {mode: 'unranked', hours: 175}, {mode: 'arcade', hours: 51}, {mode: 'gameBrowser', hours: 39}, {mode: 'experimental', hours: 28}],

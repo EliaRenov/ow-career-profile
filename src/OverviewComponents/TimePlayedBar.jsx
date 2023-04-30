@@ -36,7 +36,7 @@ const TimePlayedBar = (props) => {
             {props.mode === 'gameBrowser' ? 'GAME BROWSER' : props.mode.toUpperCase()}
             </p>
             <p className="overview_time-played-hours">
-            {props.hours} HRS
+            {props.hours.toLocaleString()} HRS
             </p>
             <div style={{width: fillWidth + '%'}} className={`overview_time-played-fill overview_time-played-fill-${props.mode}`}>
 
