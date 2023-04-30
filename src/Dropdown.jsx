@@ -25,8 +25,15 @@ const Dropdown = (props) => {
         setIsDropDownOpen(prev => !prev)
         if (!event.target.getAttribute('value')) return;
         if (event.target.getAttribute('value') === mode) return;
-        setMode(event.target.getAttribute('value'))
+        setMode(event.target.getAttribute('value'));
     }
+
+    document.querySelector('html').addEventListener('click', (event) => {
+        if (event.target.className === 'dropdown') return;
+        if (event.target.parentNode.className === 'dropdown') return;
+        setIsDropDownOpen(false)
+    } 
+    )
 
     const dropdownOptions = 
             <div className="dropdown-options">

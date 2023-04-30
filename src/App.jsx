@@ -11,7 +11,7 @@ function App() {
     
     const data = { 
       rank: {
-        tank: 'top500',
+        tank: 'grandmaster1',
         damage: 'grandmaster1',
         support: 'grandmaster1',
         tankGamesWon: 526,
@@ -19,7 +19,7 @@ function App() {
         supportGamesWon: 146,
       },
       top500: {
-        tank: 36,
+        tank: null,
         damage: null,
         support: 242
       },

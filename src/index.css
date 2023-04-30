@@ -1,14 +1,30 @@
+/* @font-face {
+  font-family: 'OverwatchFont';
+  src: url('./assets/fonts/address-sans-pro-cd-regular.otf');
+} */
+
+@font-face {
+  font-family: 'Overwatch';
+  src: url('./assets/fonts/big_noodle_titling.ttf');
+}
+
+@font-face {
+  font-family: 'Config';
+  src: local('Config Regular'), local('Config-Regular'),
+      url('./assets/fonts/Config-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Config-Regular.woff') format('woff'),
+      url('./assets/fonts/Config-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Schnaubelt, Arial, Helvetica, sans-serif;
+  font-family: 'Config';
 }
 
-font-face {
-  font-family: Schnaubelt;
-  src: url('./assets/fonts/Schnaubelt.otf');
-}
 
 body, html {
   height: 100%;
@@ -22,8 +38,8 @@ body, html {
   height: 100vh;
 }
 
-p, h1, h2, h3, h4, h5, h6, li {
-  transform: scale(1, 1.05)
+p, h1, h2, h3, h4, h5, h6 {
+  transform: scale(1, 1)
 }
 
 .navbar {

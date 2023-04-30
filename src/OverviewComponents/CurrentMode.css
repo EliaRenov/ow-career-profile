@@ -17,12 +17,12 @@
     text-shadow: 1px 1px rgb(135, 135, 135);
 }
 
-.overview__current-mode_most-played-heroes {
+.overview .current-mode .most-played-heroes {
     display: flex;
     gap: 18px;
 }
 
-.overview__current-mode_most-played-heroes-card {
+.overview .current-mode .most-played-heroes-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
 }
 
-.overview__current-mode_most-played-heroes-card-hero {
+.overview .current-mode .most-played-heroes-card-hero {
     font-size: 17px;
     font-weight: 600;
     color: black;
@@ -50,7 +50,7 @@
 
 }
 
-.overview__current-mode_most-played-heroes-card-hours {
+.overview .current-mode .most-played-heroes-card-hours {
     font-size: 22px;
     font-weight: 600;
     color: #ec6516;

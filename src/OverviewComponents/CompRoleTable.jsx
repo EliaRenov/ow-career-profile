@@ -44,11 +44,11 @@ const CompRoleTable = () => {
                         </li>
                         <li>
                             {tankRank ? <img className={`rank-logo ${tankRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[tankRank]} /> : '--'} 
-                            {tankRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
+                            {tankRank === 'top500' && <h5 className="rank-text-top500">#{tankTop500Pos}</h5>}
                         </li>
                         <li>
                             {tankRank ? <img className={`rank-logo ${tankRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[tankRank]} /> : '--'} 
-                            {tankRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
+                            {tankRank === 'top500' && <h5 className="rank-text-top500">#{tankTop500Pos}</h5>}
                         </li>
                         <li>
                             {tankGamesWon}
