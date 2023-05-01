@@ -1,8 +1,10 @@
 const HeroComparisonCell = (props) => {
     const Heroes = props.heroes;
     const data = props.data
-    const fillWidth = Math.ceil(
-        data === props.mostPlayed ? 100 : `${data.hours / props.mostPlayed.hours * 100}`)
+    let fillWidth = Math.ceil(
+        data === props.mostPlayed ? 100 : `${data.hours / props.mostPlayed.hours * 100 + 9}`)
+    
+    if (fillWidth < 9) fillWidth = 9;
     
     return (
         <div className="table-cell">

@@ -3,9 +3,15 @@ import PlayerLogo from './assets/icons/sf_shock_logo.png'
 import SocialLogo from './assets/icons/social_logo.png'
 import ChallengesLogo from './assets/icons/challenges_logo.png'
 import Endorsement4Logo from './assets/icons/endorsement_level_4.png'
+import { useContext } from 'react'
+import DataContext from './DataContext'
 
 
 const Navbar = () => {
+    const allData = useContext(DataContext)
+    const name = allData.name
+    const title = allData.title
+
     return (
         <nav className="navbar">
             <nav className="nav-links">
@@ -25,12 +31,12 @@ const Navbar = () => {
             <div className="small-player">
                 <img className="small-player-logo" src={PlayerLogo} alt="small-player-logo" height="62px"/>
                 <h4 className="small-player-name">
-                    SUPER
+                    {name}
                 </h4>
             </div>
                 <h4 className="small-player-hover">
                     <p className="small-player-hover-name">
-                        SUPER
+                        {name}
                     </p>
                     <p className="small-player-hover-btag-nums">
                         #00000
@@ -58,10 +64,10 @@ const Navbar = () => {
                 <img className="player-profile-logo" src={PlayerLogo} alt="player logo" height="140"/>
                 <div className="player-profile-name_and_title">
                     <h1 className="player-profile-name">
-                        SUPER
+                        {name}
                     </h1>
                     <h3 className="player-profile-title">
-                        TITAN
+                        {title}
                     </h3>
                 </div>
             <div className="endorsement-level">

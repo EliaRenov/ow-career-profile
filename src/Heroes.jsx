@@ -146,8 +146,12 @@ const Heroes = {
         color: '#da8685'
     },
     soldier76: {
-        logo: Ana,
+        logo: Soldier76,
         color: '#878ea1'
+    },
+    sombra: {
+        logo: Sombra,
+        color: '#8c83be'
     },
     symmetra: {
         logo: Symmetra,

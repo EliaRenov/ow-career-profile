@@ -7,7 +7,14 @@
     grid-template-rows: repeat(4, 1fr);
     padding: 3rem;
     padding-bottom: 2.3rem;
+    padding-top: 4.4vh;
     position: relative;
+}
+
+@media (max-height: 950px) {
+    nav.navbar {
+        padding-top: 2vh;
+    }
 }
 
 

@@ -25,25 +25,24 @@
 .hero-comparison-table::-webkit-scrollbar {
     width: 10px;
     border-radius: 10px;
-    background-color: #9dabc1;
-    
 }
 
 .hero-comparison-table::-webkit-scrollbar-track {
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
+    border-left: 3px solid #a7b6cd;
+    border-right: 3px solid #a7b6cd;
+    background-color: #9dabc1;
 }
 
 .hero-comparison-table::-webkit-scrollbar-thumb {
     width: 20px;
-    max-height: 20px;
     background-color: #d6dbe3;
     border-radius: 10px;
-    border: 1px solid gray;
+    transition: background-color 3s;
 }
 
-
-
+.hero-comparison-table::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}   
 
    
   /* body::-webkit-scrollbar-track {

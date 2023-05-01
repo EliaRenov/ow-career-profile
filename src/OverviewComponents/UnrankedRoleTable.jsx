@@ -45,10 +45,10 @@ const UnrankedRoleTable = () => {
                             TANK
                         </li>
                         <li>
-                            {tankHours ? tankHours + ' HRS' : '--'}
+                            {tankHours ? tankHours.toLocaleString() + ' HRS' : '--'}
                         </li>
                         <li>
-                            {tankGamesWon ? tankGamesWon : '--'}
+                            {tankGamesWon ? tankGamesWon.toLocaleString() : '--'}
                         </li>
                     </ul>
                 </li>
@@ -59,10 +59,10 @@ const UnrankedRoleTable = () => {
                             DAMAGE
                         </li>
                         <li>
-                            {damageHours ? damageHours + ' HRS' : '--'}
+                            {damageHours ? damageHours.toLocaleString() + ' HRS' : '--'}
                         </li>
                         <li>
-                            {damageGamesWon ? damageGamesWon : '--'}
+                            {damageGamesWon ? damageGamesWon.toLocaleString() : '--'}
                         </li>
                     </ul>
                 </li>
@@ -73,10 +73,10 @@ const UnrankedRoleTable = () => {
                             SUPPORT
                         </li>
                         <li>
-                            {supportHours ? supportHours : '--'}
+                            {supportHours ? supportHours.toLocaleString() + ' HRS' : '--'}
                         </li>
                         <li>
-                            {supportGamesWon ? supportGamesWon + ' HRS' : '--'}
+                            {supportGamesWon ? supportGamesWon.toLocaleString() : '--'}
                         </li>
                     </ul>
                 </li>
