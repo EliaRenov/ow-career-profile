@@ -32,6 +32,16 @@ function App() {
             {hero: 'winston', hours: 341, role: 'tank', gamesWon: 1392},
             {hero: 'reaper', hours: 482, role: 'damage', gamesWon: 823},
             {hero: 'roadhog', hours: 313, role: 'tank', gamesWon: 517},
+            {hero: 'mei', hours: 532, role: 'damage', gamesWon: 517},
+            {hero: 'genji', hours: 812, role: 'genji', gamesWon: 517},
+            {hero: 'lifeweaver', hours: 313, role: 'support', gamesWon: 517},
+            {hero: 'mercy', hours: 812, role: 'support', gamesWon: 517},
+            {hero: 'torbjorn', hours: 532, role: 'damage', gamesWon: 517},
+            {hero: 'ana', hours: 532, role: 'support', gamesWon: 517},
+            {hero: 'zarya', hours: 532, role: 'tank', gamesWon: 517},
+            // {hero: 'ramattra', hours: 313, role: 'tank', gamesWon: 517},
+            {hero: 'junkrat', hours: 532, role: 'damage', gamesWon: 517},
+            {hero: 'zenyatta', hours: 313, role: 'support', gamesWon: 517}
             ],
       
           competitive:

@@ -2,8 +2,8 @@ button.dropdown {
     text-align: left;
     padding: 6px 16px;
     padding-right: 6px;
-    /* font-weight: 700; */
-    font-size: 22px;
+    font-weight: 900;
+    font-size: 16px;
     border: none;
     grid-column: 2 / 3;
     background-color: #f3f5f8;
