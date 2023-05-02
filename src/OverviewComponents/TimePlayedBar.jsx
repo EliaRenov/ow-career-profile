@@ -31,7 +31,6 @@ const TimePlayedBar = (props) => {
 
     const fillWidth = Math.ceil(
     props.mode === props.mostPlayed.mode ? 100 : `${props.hours / props.mostPlayed.hours * 100}`)
-    
 
     return (
         <div className={`overview_time-played-bar`}>

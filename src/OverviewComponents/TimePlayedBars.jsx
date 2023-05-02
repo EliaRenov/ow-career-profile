@@ -26,7 +26,7 @@ const TimePlayedBars = () => {
         return b.hours - a.hours
     })
 
-    let mostPlayed = modes[0].hours;
+    let mostPlayed = modes[0];
 
     return (
         <div className='overview_time-played-bars'>
