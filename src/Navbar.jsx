@@ -2,15 +2,20 @@ import './Navbar.css'
 import PlayerLogo from './assets/icons/sf_shock_logo.png'
 import SocialLogo from './assets/icons/social_logo.png'
 import ChallengesLogo from './assets/icons/challenges_logo.png'
-import Endorsement4Logo from './assets/icons/endorsement_level_4.png'
+import SettingsLogo from './assets/icons/settings_icon.png'
 import { useContext } from 'react'
-import DataContext from './DataContext'
+
+import OverfastAPIContext from './OverfastAPIContext'
 
 
 const Navbar = () => {
-    const allData = useContext(DataContext)
-    const name = allData.name
-    const title = allData.title
+    const {data} = useContext(OverfastAPIContext)
+    
+    const username = data.summary.username.toUpperCase()
+    const title = data.summary.title.toUpperCase()
+    const avatar = data.summary.avatar
+    const endorsementLogo = data.summary.endorsement.frame
+    
 
     return (
         <nav className="navbar">
@@ -29,14 +34,14 @@ const Navbar = () => {
                 </li>
             </nav>
             <div className="small-player">
-                <img className="small-player-logo" src={PlayerLogo} alt="small-player-logo" height="62px"/>
+                <img className="small-player-logo" src={avatar} alt="small-player-logo" height="62px"/>
                 <h4 className="small-player-name">
-                    {name}
+                    {username}
                 </h4>
             </div>
                 <h4 className="small-player-hover">
                     <p className="small-player-hover-name">
-                        {name}
+                        {username}
                     </p>
                     <p className="small-player-hover-btag-nums">
                         #00000
@@ -52,26 +57,26 @@ const Navbar = () => {
                     SOCIAL
                 </h4>
 
-                <div className="challenges-logo">
-                <img src={ChallengesLogo} alt="challenges-logo" />
+                <div className="settings-logo">
+                <img src={SettingsLogo} alt="settings logo" />
                 </div>
-                <h4 className="challenges-logo-hover">
-                    CHALLENGES
+                <h4 className="settings-logo-hover">
+                    SETTINGS
                 </h4>
             </div>
 
-            <div className=" player-profile">
-                <img className="player-profile-logo" src={PlayerLogo} alt="player logo" height="140"/>
+            <div className="player-profile">
+                <img className="player-profile-logo" src={avatar} alt="player logo" height="140"/>
                 <div className="player-profile-name_and_title">
                     <h1 className="player-profile-name">
-                        {name}
+                        {username}
                     </h1>
                     <h3 className="player-profile-title">
                         {title}
                     </h3>
                 </div>
             <div className="endorsement-level">
-                <img src={Endorsement4Logo} alt="endorsement level" />
+                <img src={endorsementLogo} alt="endorsement level" />
             </div>
             <div className="player-profile_line" />
             <div className="player-profile_level">

@@ -3,8 +3,12 @@ import Unranked from '../assets/icons/unranked_icon.png'
 import Arcade from '../assets/icons/arcade_icon.png'
 import GameBrowser from '../assets/icons/gamebrowser_icon.png'
 import Experimental from '../assets/icons/experimental_icon.png'
+import OverfastAPIContext from '../OverfastAPIContext'
+import { useContext } from 'react'
 
 const TimePlayedBar = (props) => {
+    const {data} = useContext(OverfastAPIContext)
+
     let img;
 
     switch (props.mode) {

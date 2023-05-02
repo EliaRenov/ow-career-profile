@@ -56,11 +56,12 @@ li {
   list-style: none;
 }
 
-@media (max-width: 900px) {
-  * {
-    transform: scale(0.7);
-  }
-  .overview * {
-    transform: scale(1);
-  }
+.input-username, .submit-post {
+  position: fixed;
+  z-index: 20;
 }
+
+.submit-post {
+  left: 200px;
+}
+

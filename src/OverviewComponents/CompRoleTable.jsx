@@ -7,15 +7,27 @@ import Ranks from '../Ranks';
 
 const CompRoleTable = () => {
     const allData = useContext(DataContext);
-    const tankRank = allData.rank.tank
-    const tankGamesWon = allData.rank.tankGamesWon
-    const damageRank = allData.rank.damage
-    const damageGamesWon = allData.rank.damageGamesWon
-    const supportRank = allData.rank.support
-    const supportGamesWon = allData.rank.supportGamesWon
-    const tankTop500Pos = allData.top500.tank
-    const damageTop500Pos = allData.top500.damage
-    const supportTop500Pos = allData.top500.support
+    const ranks = allData.rank
+    const top500 = allData.top500
+
+    const tankRank = ranks.currentTank
+    const tankTop500Pos = top500.currentTank
+    const peakTankRank = ranks.peakTank
+    const peakTankTop500Pos = top500.peakTank
+
+    const damageRank = ranks.currentDamage
+    const damageTop500Pos = top500.currentDamage
+    const peakDamageRank = ranks.peakDamage
+    const peakDamageTop500Pos = top500.peakDamage
+
+    const supportRank = ranks.currentSupport
+    const supportTop500Pos = top500.currentSupport
+    const peakSupportRank = ranks.peakSupport
+    const peakSupportTop500Pos = top500.peakSupport
+
+    const tankGamesWon = ranks.tankGamesWon
+    const damageGamesWon = ranks.damageGamesWon
+    const supportGamesWon = ranks.supportGamesWon
 
     return (
         <ul className="overview__current-mode_ranked">
@@ -47,8 +59,8 @@ const CompRoleTable = () => {
                             {tankRank === 'top500' && <h5 className="rank-text-top500">#{tankTop500Pos}</h5>}
                         </li>
                         <li>
-                            {tankRank ? <img className={`rank-logo ${tankRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[tankRank]} /> : '--'} 
-                            {tankRank === 'top500' && <h5 className="rank-text-top500">#{tankTop500Pos}</h5>}
+                            {peakTankRank ? <img className={`rank-logo ${peakTankRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[peakTankRank]} /> : '--'} 
+                            {peakTankRank === 'top500' && <h5 className="rank-text-top500">#{peakTankTop500Pos}</h5>}
                         </li>
                         <li>
                             {tankGamesWon}
@@ -66,8 +78,8 @@ const CompRoleTable = () => {
                             {damageRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
                         </li>
                         <li>
-                            {damageRank ? <img className={`rank-logo ${damageRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[damageRank]} /> : '--'}
-                            {damageRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
+                            {peakDamageRank ? <img className={`rank-logo ${peakDamageRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[peakDamageRank]} /> : '--'} 
+                            {peakDamageRank === 'top500' && <h5 className="rank-text-top500">#{peakDamageTop500Pos}</h5>}
                         </li>
                         <li>
                             {damageGamesWon}
@@ -85,8 +97,8 @@ const CompRoleTable = () => {
                             {supportRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
                         </li>
                         <li>
-                            {supportRank ? <img className={`rank-logo ${supportRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[supportRank]} /> : '--'}
-                            {supportRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>}
+                            {peakSupportRank ? <img className={`rank-logo ${peakSupportRank === 'top500' && 'rank-logo-top500'}`} src={Ranks[peakSupportRank]} /> : '--'} 
+                            {peakSupportRank === 'top500' && <h5 className="rank-text-top500">#{peakSupportTop500Pos}</h5>}
                         </li>
                         <li>
                             {supportGamesWon}

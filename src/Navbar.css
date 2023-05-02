@@ -94,7 +94,7 @@ nav.navbar .nav-links {
     margin-left: 49px;
 }
 
-.navbar .social-logo, .navbar .challenges-logo {
+.navbar .social-logo, .navbar .settings-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,8 +107,9 @@ nav.navbar .nav-links {
     height: 50px;
 }
 
-.navbar .challenges-logo img {
-    height: 54px;
+.navbar .settings-logo img {
+    height: 40px;
+    filter: invert(1);
 }
 
 .navbar .social-logo {
@@ -116,12 +117,12 @@ nav.navbar .nav-links {
     margin-left: 8px;
 }
 
-.navbar .challenges-logo {
+.navbar .settings-logo {
     background-color: #e96321;
     margin-left: 5px;
 }
 
-.navbar .small-player-hover, .navbar .social-logo-hover, .navbar .challenges-logo-hover {
+.navbar .small-player-hover, .navbar .social-logo-hover, .navbar .settings-logo-hover {
     position: absolute;
     font-size: 1rem;
     background: #283049;
@@ -138,17 +139,17 @@ nav.navbar .nav-links {
     opacity: 0;
 }
 
-.navbar .social-logo-hover, .navbar .challenges-logo-hover {
+.navbar .social-logo-hover, .navbar .settings-logo-hover {
     color: white;
     display: none;
 }
 
-.navbar .social-logo:hover + .social-logo-hover, .challenges-logo:hover +
-.challenges-logo-hover {
+.navbar .social-logo:hover + .social-logo-hover, .settings-logo:hover +
+.settings-logo-hover {
     display: block;
 }
 
-.navbar .social-logo:hover, .navbar .challenges-logo:hover {
+.navbar .social-logo:hover, .navbar .settings-logo:hover {
     outline: 2px solid white;
     /* outline-offset: 1px; */
 }
@@ -159,7 +160,7 @@ nav.navbar .nav-links {
     right: 5rem;
 }
 
-.navbar .challenges-logo-hover {
+.navbar .settings-logo-hover {
     top: 7.2rem;
     right: 0.4rem;
 }
@@ -213,9 +214,14 @@ nav.navbar .nav-links {
     margin-top: -12px;
 }
 
-.navbar .player-profile-endorsement-level {
+.navbar .player-profile .endorsement-level {
     align-self: flex-start;
     margin-top: -8px;
+    
+}
+.navbar .player-profile .endorsement-level img {
+    height: 70px;
+    width: 70px;
 }
 
 .navbar .player-profile_line {
