@@ -4,15 +4,16 @@ import SocialLogo from './assets/icons/social_logo.png'
 import ChallengesLogo from './assets/icons/challenges_logo.png'
 import SettingsLogo from './assets/icons/settings_icon.png'
 import { useContext } from 'react'
-
 import OverfastAPIContext from './OverfastAPIContext'
 
 
 const Navbar = () => {
-    const {data} = useContext(OverfastAPIContext)
+    const { data } = useContext(OverfastAPIContext)
+    console.log(data.summary)
     
     const username = data.summary.username.toUpperCase()
-    const title = data.summary.title.toUpperCase()
+    const title = data.summary.title ? data.summary.title.toUpperCase() : ''
+
     const avatar = data.summary.avatar
     const endorsementLogo = data.summary.endorsement.frame
     

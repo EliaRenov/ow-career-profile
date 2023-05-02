@@ -1,15 +1,13 @@
 import { useContext, useState } from 'react'
-import DataContext from './DataContext'
 import DropdownIcon from './assets/dropdown-icon.png'
+import OverfastAPIContext from './OverfastAPIContext'
 import './Dropdown.css'
 
 
 const Dropdown = (props) => {
-    const [isDropdownOpen, setIsDropDownOpen] = useState(false)
+    const {currentMode, setCurrentMode} = useContext(OverfastAPIContext)
 
-    const allData = useContext(DataContext)
-    const mode = allData.states.current
-    const setMode = allData.states.setCurrent
+    const [isDropdownOpen, setIsDropDownOpen] = useState(false)
 
     const matchOptionToMsg = (option) => {
         if (option === 'all') {
@@ -24,8 +22,8 @@ const Dropdown = (props) => {
     const handleDropdownClick = (event) => {
         setIsDropDownOpen(prev => !prev)
         if (!event.target.getAttribute('value')) return;
-        if (event.target.getAttribute('value') === mode) return;
-        setMode(event.target.getAttribute('value'));
+        if (event.target.getAttribute('value') === currentMode) return;
+        setCurrentMode(event.target.getAttribute('value'));
     }
 
     document.querySelector('html').addEventListener('click', (event) => {
@@ -38,25 +36,18 @@ const Dropdown = (props) => {
     const dropdownOptions = 
             <div className="dropdown-options">
                 {props.options.map(option => {
-                    return <div key={option} value={option} className={`dropdown-option ${option === mode && 'dropdown-option-current'}`}>
+                    return <div key={option} value={option} className={`dropdown-option ${option === currentMode && 'dropdown-option-current'}`}>
                         {matchOptionToMsg(option)}
                     </div>
                 })}
-                
             </div>
-        
-
     return (
         <button onClick={handleDropdownClick} name={props.name} className="dropdown">
-            {matchOptionToMsg(mode)}
+            {matchOptionToMsg(currentMode)}
             <img className="dropdown-icon" src={DropdownIcon} />
             {isDropdownOpen && dropdownOptions}
         </button>
-
-       
-
-
     )
 }
-// style="display:block; padding:29px 0 0 0;"
+
 export default Dropdown

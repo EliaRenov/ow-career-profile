@@ -1,17 +1,16 @@
 import { useContext } from 'react'
 import DataContext from '../DataContext'
+import OverfastAPIContext from '../OverfastAPIContext'
 import UnrankedRoleTable from './UnrankedRoleTable'
 import CompRoleTable from './CompRoleTable'
 
 
 const RoleData = () => {
-    const allData = useContext(DataContext)
-    const mode = allData.states.current
-
+    const { currentMode } = useContext(OverfastAPIContext)
     return (
         <>
-       {mode !== 'competitive' && <UnrankedRoleTable />}
-       {mode === 'competitive' && <CompRoleTable />}
+       {currentMode !== 'competitive' && <UnrankedRoleTable />}
+       {currentMode === 'competitive' && <CompRoleTable />}
         </>
     )
 }

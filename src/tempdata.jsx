@@ -1,4 +1,4 @@
-const temp = {
+export const tempData = {
     "summary": {
         "username": "super",
         "avatar": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2a554a8b3c850588476a28b2f41bb0e240c8f083167f756a064eafa7e5400fb5.png",
