@@ -9,12 +9,15 @@ import { useContext } from 'react'
 
 const Overview = () => {
     const {data, platform, currentMode, setCurrentMode} = useContext(OverfastAPIContext)
+    let options = ['all', 'unranked']
+
+    if (data.summary.competitive && data.summary.competitive[platform]) {
+        options = ['all', 'unranked', 'competitive']
+    }
 
     return (
         <main className="overview">
-            <Dropdown state={currentMode} setState={setCurrentMode} options={
-                data.summary.competitive[platform] ? ['all', 'unranked', 'competitive'] : ['all', 'unranked']
-                } class="overview_mode_dropdown" />
+            <Dropdown state={currentMode} setState={setCurrentMode} options={options} class="overview_mode_dropdown" />
             <TimePlayed />
             <CurrentMode />
             <HeroComparison />

@@ -46,8 +46,7 @@ const Dropdown = (props) => {
         setIsDropDownOpen(false)
     } 
     )
-
-    console.log(props.state)
+    
     const dropdownOptions = 
             <div className="dropdown-options">
                 {props.options.map(option => {

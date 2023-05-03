@@ -177,7 +177,7 @@ function App() {
 }
 // 
   async function fetchData() {
-    const response = await fetch('https://overfast-api.tekrop.fr/players/super-12850')
+    const response = await fetch('https://overfast-api.tekrop.fr/players/Cat-1188')
     const data = await response.json()
     setData(data)
   }
