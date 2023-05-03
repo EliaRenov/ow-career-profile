@@ -95,7 +95,7 @@ const Heroes = {
         color: '#c0bb99',
         role: 'damage'
     },
-    junkerqueen: {
+    "junker-queen": {
         logo: Junkerqueen,
         color: '#8db5d8',
         role: 'tank'
@@ -145,7 +145,7 @@ const Heroes = {
         color: '#7b91cb',
         role: 'damage'
     },
-    ramatrra: {
+    ramattra: {
         logo: Ramatrra,
         color: '#a090d3',
         role: 'tank'
@@ -175,7 +175,7 @@ const Heroes = {
         color: '#da8685',
         role: 'damage'
     },
-    soldier76: {
+    "soldier-76": {
         logo: Soldier76,
         color: '#878ea1',
         role: 'damage'
@@ -210,7 +210,7 @@ const Heroes = {
         color: '#aaaec1',
         role: 'tank'
     },
-    wreckingball: {
+    "wrecking-ball": {
         logo: Wreckingball,
         color: '#7c9b82',
         role: 'tank'
