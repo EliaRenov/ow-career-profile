@@ -9,7 +9,6 @@ import OverfastAPIContext from './OverfastAPIContext'
 
 const Navbar = () => {
     const { data } = useContext(OverfastAPIContext)
-    console.log(data.summary)
     
     const username = data.summary.username.toUpperCase()
     const title = data.summary.title ? data.summary.title.toUpperCase() : ''
@@ -72,7 +71,7 @@ const Navbar = () => {
                     <h1 className="player-profile-name">
                         {username}
                     </h1>
-                    <h3 className="player-profile-title">
+                    <h3 className={title.length < 14 ? "player-profile-title" : "player-profile-title-small"}>
                         {title}
                     </h3>
                 </div>

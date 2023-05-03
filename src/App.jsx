@@ -8,8 +8,6 @@ import OverfastAPIContext from './OverfastAPIContext';
 import Form from './OverviewComponents/Form'
 import { tempData } from './tempdata';
 
-
-
 function App() {
 
   let modesHrs = {
@@ -18,13 +16,25 @@ function App() {
     experimentalHrs: 15
   }
 
-
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
   const [isFormOpen, setIsFormOpen] = useState(false) 
 
   const [data, setData] = useState(tempData)
 
+  const unrankedHeroComparison = structuredClone(data.stats[platform].quickplay.heroes_comparisons.time_played.values);
+  const compHeroComparison = structuredClone(data.stats[platform].competitive.heroes_comparisons.time_played.values);
+  let allHeroComparison = structuredClone(unrankedHeroComparison)
+
+  for (let hero of compHeroComparison) {
+    let element = allHeroComparison.find(playTimeHero => playTimeHero.hero === hero.hero);
+    if (element) {
+        element.value += hero.value
+    } else {
+        allHeroComparison.push(hero)
+    }
+} 
+  allHeroComparison = allHeroComparison.sort((a, b) => b.value - a.value)
 
   let oldData = { 
     name: 'SUPER',
@@ -179,7 +189,7 @@ function App() {
 }
 
   async function fetchData() {
-    const response = await fetch('https://overfast-api.tekrop.fr/players/smurf-13511')
+    const response = await fetch('https://overfast-api.tekrop.fr/players/super-12850')
     const data = await response.json()
     setData(data)
   }
@@ -190,12 +200,13 @@ function App() {
 
  
   return (
-    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode}}>
+    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode, unrankedHeroComparison, compHeroComparison, allHeroComparison}}>
     <DataContext.Provider value={oldData}>
     <div className="container">
       {isFormOpen && <Form />}
       <Navbar />
-      <Overview />
+      {data.summary.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
+      {data.summary.privacy === 'public' && <Overview />}
     </div>
     </DataContext.Provider>
     </OverfastAPIContext.Provider>

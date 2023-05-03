@@ -7,7 +7,7 @@ import OverfastAPIContext from '../OverfastAPIContext'
 import { useContext } from 'react'
 
 const TimePlayedBar = (props) => {
-    const {data} = useContext(OverfastAPIContext)
+    const { data } = useContext(OverfastAPIContext)
 
     let img;
 

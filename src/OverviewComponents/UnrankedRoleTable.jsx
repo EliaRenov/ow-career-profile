@@ -19,30 +19,32 @@ const UnrankedRoleTable = () => {
     const getRoleStats = () => {
 
         if (currentMode === 'all') {
-            let compTimePlayed = data.stats[platform].competitive.heroes_comparisons.time_played.values
+            let compTimePlayed = data.stats[platform].quickplay.heroes_comparisons.time_played
+            
 
-            compTimePlayed.forEach(item => {
-                if (Heroes.tank.includes(item.hero)) {
+            compTimePlayed && compTimePlayed.values.forEach(item => {
+                if (Heroes.tank.includes(item.hero) && item.value) {
                     tankHours += item.value
                 }
-                if (Heroes.damage.includes(item.hero)) {
+                if (Heroes.damage.includes(item.hero) && item.value) {
                     damageHours += item.value
                 }
-                if (Heroes.support.includes(item.hero)) {
+                if (Heroes.support.includes(item.hero) && item.value) {
                     supportHours += item.value
                 }
             })
     
-            let compGamesWon = data.stats[platform].competitive.heroes_comparisons.games_won.values
+
+            let compGamesWon = data.stats[platform].quickplay.heroes_comparisons.games_won
             
-            compGamesWon.forEach(item => {
-                if (Heroes.tank.includes(item.hero)) {
+            compGamesWon && compGamesWon.values.forEach(item => {
+                if (Heroes.tank.includes(item.hero) && item.value) {
                     tankGamesWon += item.value
                 }
-                if (Heroes.damage.includes(item.hero)) {
+                if (Heroes.damage.includes(item.hero) && item.value) {
                     damageGamesWon += item.value
                 }
-                if (Heroes.support.includes(item.hero)) {
+                if (Heroes.support.includes(item.hero) && item.value) {
                     supportGamesWon += item.value
                 }
             })

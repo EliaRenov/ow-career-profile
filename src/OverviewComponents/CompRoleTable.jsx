@@ -10,25 +10,31 @@ import Heroes from '../Heroes'
 const CompRoleTable = () => {
     const { data, platform } = useContext(OverfastAPIContext)
 
-    const {tank, damage, support} = (data.summary.competitive[platform])
-    console.log(tank, damage, support)
+    console.log(data.summary.competitive)
 
+    let tankRank;
+    let damageRank;
+    let supportRank;
 
     let tankGamesWon = 0;
     let damageGamesWon = 0;
     let supportGamesWon = 0;
 
-    let tankRank = tank.rank_icon
-    let damageRank = damage.rank_icon
-    let supportRank = support.rank_icon
+    if (data.summary.competitive) {
 
-
-    const getRoleStats = () => {
-
-        let gamesWon = data.stats[platform].competitive.heroes_comparisons.games_won.values
+        const {tank, damage, support} = (data.summary.competitive[platform])
         
-        gamesWon.forEach(item => {
-            if (Heroes.tank.includes(item.hero)) {
+        tankRank = tank && tank.rank_icon
+        damageRank = damage && damage.rank_icon
+        supportRank = support && support.rank_icon
+        
+
+        const getRoleStats = () => {
+            
+            let gamesWon = data.stats[platform].competitive.heroes_comparisons.games_won.values
+            
+            gamesWon.forEach(item => {
+                if (Heroes.tank.includes(item.hero)) {
                 tankGamesWon += item.value
             }
             if (Heroes.damage.includes(item.hero)) {
@@ -40,22 +46,25 @@ const CompRoleTable = () => {
         })
     }
     getRoleStats()
-
+    
     const allData = useContext(DataContext);
     const ranks = allData.rank
     const top500 = allData.top500
-
+    
     const tankTop500Pos = top500.currentTank
     const peakTankRank = ranks.peakTank
     const peakTankTop500Pos = top500.peakTank
-
+    
     const damageTop500Pos = top500.currentDamage
     const peakDamageRank = ranks.peakDamage
     const peakDamageTop500Pos = top500.peakDamage
-
+    
     const supportTop500Pos = top500.currentSupport
     const peakSupportRank = ranks.peakSupport
     const peakSupportTop500Pos = top500.peakSupport
+    
+    } else {
+    }
 
     return (
         <ul className="overview__current-mode_ranked">

@@ -1,4 +1,3 @@
-import DataContext from "../DataContext";
 import { useContext } from "react";
 import TimePlayedBars from "./TimePlayedBars";
 import './TimePlayed.css'
@@ -9,7 +8,7 @@ const TimePlayed = () => {
     const {data, modesHrs, platform} = useContext(OverfastAPIContext)
     const competitive = data.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
     const quickplay = data.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value
-    const hoursPlayed = Math.floor((competitive + quickplay + modesHrs.arcadeHrs + modesHrs.gamebrowserHrs + modesHrs.experimentalHrs) / 3600)
+    const hoursPlayed = Math.floor((competitive + quickplay) / 3600 + modesHrs.arcadeHrs + modesHrs.gamebrowserHrs + modesHrs.experimentalHrs)
 
     return (
         <div className="overview_time-played">
