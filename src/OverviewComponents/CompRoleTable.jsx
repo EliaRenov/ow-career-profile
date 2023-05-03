@@ -24,6 +24,7 @@ const CompRoleTable = () => {
 
         const {tank, damage, support} = (data.summary.competitive[platform])
         
+        
         tankRank = tank && tank.rank_icon
         damageRank = damage && damage.rank_icon
         supportRank = support && support.rank_icon

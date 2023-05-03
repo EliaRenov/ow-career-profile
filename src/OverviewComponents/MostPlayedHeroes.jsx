@@ -4,7 +4,21 @@ import Heroes from '../Heroes'
 import OverfastAPIContext from '../OverfastAPIContext'
 
 const MostPlayedHeroes = () => {
-    const {data, currentMode, platform, unrankedHeroComparison, compHeroComparison, allHeroComparison} = useContext(OverfastAPIContext)
+    const {data, currentMode, platform} = useContext(OverfastAPIContext)
+    const unrankedHeroComparison = structuredClone(data.stats[platform].quickplay.heroes_comparisons.time_played.values);
+    const compHeroComparison = structuredClone(data.stats[platform].competitive.heroes_comparisons.time_played.values);
+    let allHeroComparison = structuredClone(unrankedHeroComparison)
+
+    for (let hero of compHeroComparison) {
+        let element = allHeroComparison.find(playTimeHero =>                        playTimeHero.hero  === hero.hero);
+        if (element) {
+            element.value += hero.value
+        } else {
+            allHeroComparison.push(hero)
+        }
+    } 
+  allHeroComparison = allHeroComparison.sort((a, b) => b.value - a.value)
+
     let sortedPlayTime;
 
     if (currentMode === 'unranked') {
@@ -30,7 +44,7 @@ const MostPlayedHeroes = () => {
                             {card.hero.toUpperCase()}
                     </h4>
                     <h3 className="most-played-heroes-card-hours">
-                            {Math.floor(card.value / 3600)} HRS
+                            {Math.round(card.value / 3600)} HRS
                     </h3>
 
                 </div>

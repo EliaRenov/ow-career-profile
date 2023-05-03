@@ -202,7 +202,7 @@ const Heroes = {
     },
     widowmaker: {
         logo: Widowmaker,
-        color: '#907d83',
+        color: '#a888af',
         role: 'damage'
     },
     winston: {

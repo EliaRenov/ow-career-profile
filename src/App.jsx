@@ -22,19 +22,7 @@ function App() {
 
   const [data, setData] = useState(tempData)
 
-  const unrankedHeroComparison = structuredClone(data.stats[platform].quickplay.heroes_comparisons.time_played.values);
-  const compHeroComparison = structuredClone(data.stats[platform].competitive.heroes_comparisons.time_played.values);
-  let allHeroComparison = structuredClone(unrankedHeroComparison)
-
-  for (let hero of compHeroComparison) {
-    let element = allHeroComparison.find(playTimeHero => playTimeHero.hero === hero.hero);
-    if (element) {
-        element.value += hero.value
-    } else {
-        allHeroComparison.push(hero)
-    }
-} 
-  allHeroComparison = allHeroComparison.sort((a, b) => b.value - a.value)
+  
 
   let oldData = { 
     name: 'SUPER',
@@ -187,7 +175,7 @@ function App() {
       setIsFormOpen
     }
 }
-
+// 
   async function fetchData() {
     const response = await fetch('https://overfast-api.tekrop.fr/players/super-12850')
     const data = await response.json()
@@ -200,7 +188,7 @@ function App() {
 
  
   return (
-    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode, unrankedHeroComparison, compHeroComparison, allHeroComparison}}>
+    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode}}>
     <DataContext.Provider value={oldData}>
     <div className="container">
       {isFormOpen && <Form />}

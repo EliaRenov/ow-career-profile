@@ -19,7 +19,7 @@ const UnrankedRoleTable = () => {
     const getRoleStats = () => {
 
         if (currentMode === 'all') {
-            let compTimePlayed = data.stats[platform].quickplay.heroes_comparisons.time_played
+            let compTimePlayed = data.stats[platform].competitive.heroes_comparisons.time_played
             
 
             compTimePlayed && compTimePlayed.values.forEach(item => {
@@ -35,7 +35,7 @@ const UnrankedRoleTable = () => {
             })
     
 
-            let compGamesWon = data.stats[platform].quickplay.heroes_comparisons.games_won
+            let compGamesWon = data.stats[platform].competitive.heroes_comparisons.games_won
             
             compGamesWon && compGamesWon.values.forEach(item => {
                 if (Heroes.tank.includes(item.hero) && item.value) {

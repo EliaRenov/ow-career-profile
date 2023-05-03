@@ -17,6 +17,7 @@ button.dropdown {
 
     transition: background-color 0.5s ease;
     position: relative;
+    z-index: 10;
 }
 
 button.dropdown:hover {
