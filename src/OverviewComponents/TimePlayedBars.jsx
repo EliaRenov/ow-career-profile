@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import TimePlayedBar from "./TimePlayedBar";
-import DataContext from '../DataContext'
 import OverfastAPIContext from '../OverfastAPIContext'
 
 const TimePlayedBars = () => {

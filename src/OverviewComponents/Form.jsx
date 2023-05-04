@@ -14,7 +14,7 @@ const Form = () => {
     const handleSubmit = (event) => {
         event.preventDefault()
 
-        setUsername(userInput.current.value)
+        setUsername(userInput.current.value.replace('#', '-'))
         setIsFormOpen(false)
     }
 

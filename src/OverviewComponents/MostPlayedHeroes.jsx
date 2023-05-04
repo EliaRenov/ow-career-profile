@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import DataContext from '../DataContext'
 import Heroes from '../Heroes'
 import OverfastAPIContext from '../OverfastAPIContext'
 
@@ -31,9 +30,6 @@ const MostPlayedHeroes = () => {
 
 
     const mostPlayed = [sortedPlayTime[0], sortedPlayTime[1], sortedPlayTime[2]]
-
-    const allData = useContext(DataContext);
-    const oldData = allData.timePlayedHeroesData[allData.states.current];
     
     return (
         <div className="most-played-heroes">

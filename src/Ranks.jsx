@@ -35,9 +35,6 @@ import grandmaster4 from './assets/ranks/grandmaster-4.png'
 import grandmaster5 from './assets/ranks/grandmaster-5.png'
 import top500 from './assets/ranks/top500.png'
 
-
-
-
 const Ranks = {
     bronze1,
     bronze2,

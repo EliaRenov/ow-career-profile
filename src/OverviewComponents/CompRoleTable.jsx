@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import OverfastAPIContext from '../OverfastAPIContext'
-import DataContext from '../DataContext';
 import TankLogo from '../assets/icons/overview_tank-icon.png';
 import DamageLogo from '../assets/icons/overview_damage-icon.png';
 import SupportLogo from '../assets/icons/overview_support-icon.png';
@@ -48,7 +47,6 @@ const CompRoleTable = () => {
     }
     getRoleStats()
     
-    const allData = useContext(DataContext);
     const ranks = allData.rank
     const top500 = allData.top500
     

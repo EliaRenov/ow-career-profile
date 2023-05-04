@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import DataContext from '../DataContext'
 import OverfastAPIContext from '../OverfastAPIContext'
 import UnrankedRoleTable from './UnrankedRoleTable'
 import CompRoleTable from './CompRoleTable'
