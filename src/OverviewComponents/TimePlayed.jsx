@@ -7,8 +7,9 @@ const TimePlayed = () => {
     
     const {data, modesHrs, platform} = useContext(OverfastAPIContext)
     const competitive = data.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
+    const compHrs = platform === 'pc' ?  Math.floor(competitive / 3600) : competitive
     const quickplay = data.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value
-    const hoursPlayed = Math.floor((competitive + quickplay) / 3600 + modesHrs.arcadeHrs + modesHrs.gamebrowserHrs + modesHrs.experimentalHrs)
+    const hoursPlayed = Math.floor((quickplay) / 3600 + compHrs + modesHrs.arcadeHrs + modesHrs.gamebrowserHrs + modesHrs.experimentalHrs)
 
     return (
         <div className="overview_time-played">

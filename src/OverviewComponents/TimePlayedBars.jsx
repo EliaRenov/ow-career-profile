@@ -3,13 +3,13 @@ import TimePlayedBar from "./TimePlayedBar";
 import OverfastAPIContext from '../OverfastAPIContext'
 
 const TimePlayedBars = () => {
-    const {data, modesHrs} = useContext(OverfastAPIContext)
+    const {data, modesHrs, platform} = useContext(OverfastAPIContext)
     
-    const competitive = data.stats.pc.competitive.career_stats['all-heroes'][2].stats[1].value
-    const quickplay = data.stats.pc.quickplay.career_stats['all-heroes'][2].stats[0].value
+    const competitive = data.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
+    const quickplay = data.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value
 
     let modes = [
-        {mode: 'competitive', hours: Math.floor(competitive / 3600)
+        {mode: 'competitive', hours: platform === 'pc' ?  Math.floor(competitive / 3600) : competitive
         },
         {mode: 'unranked', hours: Math.floor(quickplay / 3600)
         },
