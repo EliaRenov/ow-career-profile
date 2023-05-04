@@ -46,21 +46,7 @@ const CompRoleTable = () => {
         })
     }
     getRoleStats()
-    
-    const ranks = allData.rank
-    const top500 = allData.top500
-    
-    const tankTop500Pos = top500.currentTank
-    const peakTankRank = ranks.peakTank
-    const peakTankTop500Pos = top500.peakTank
-    
-    const damageTop500Pos = top500.currentDamage
-    const peakDamageRank = ranks.peakDamage
-    const peakDamageTop500Pos = top500.peakDamage
-    
-    const supportTop500Pos = top500.currentSupport
-    const peakSupportRank = ranks.peakSupport
-    const peakSupportTop500Pos = top500.peakSupport
+
     
     } else {
     }
