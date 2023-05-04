@@ -11,18 +11,17 @@ import { tempData } from './tempdata';
 function App() {
 
   let modesHrs = {
-    arcadeHrs: 33,
-    gamebrowserHrs: 22,
-    experimentalHrs: 15
+    arcadeHrs: 0,
+    gamebrowserHrs: 0,
+    experimentalHrs: 0
   }
 
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
   const [isFormOpen, setIsFormOpen] = useState(false) 
+  const [username, setUsername] = useState('super-12850') 
 
   const [data, setData] = useState(tempData)
-
-  
 
   let oldData = { 
     name: 'SUPER',
@@ -175,20 +174,24 @@ function App() {
       setIsFormOpen
     }
 }
-// 
+
   async function fetchData() {
-    const response = await fetch('https://overfast-api.tekrop.fr/players/Cat-1188')
-    const data = await response.json()
-    setData(data)
+    try {
+      const response = await fetch(`https://overfast-api.tekrop.fr/players/${username}`)
+      const data = await response.json()
+      setData(data)
+    } catch (error) {
+      alert('PLAYER NOT FOUND')
+    }
   }
 
   useEffect(() => {
     fetchData()
-  }, [])
+  }, [username])
 
  
   return (
-    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode}}>
+    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername}}>
     <DataContext.Provider value={oldData}>
     <div className="container">
       {isFormOpen && <Form />}

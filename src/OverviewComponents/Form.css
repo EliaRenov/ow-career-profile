@@ -1,0 +1,55 @@
+.form-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 60;
+    margin-top: -25px;
+    margin-left: -150px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.form input {
+    height: 50px;
+    width: 300px;
+    appearance: none;
+    outline: none;
+    border: 1px solid white;
+    background-color: black;
+    color: rgb(185, 183, 183);
+    font-size: 26px;
+    text-align: center;
+    cursor: inherit;
+}
+
+.form ::placeholder {
+    color: rgba(185, 183, 183, 0.447);
+    font-size: 20px;
+}
+
+.form .submit-btn {
+    background-color: #ea6a36;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    appearance: none;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form .submit-btn:hover {
+    border: 2px solid white;
+    cursor: inherit;
+}

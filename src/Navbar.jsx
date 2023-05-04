@@ -6,9 +6,8 @@ import SettingsLogo from './assets/icons/settings_icon.png'
 import { useContext } from 'react'
 import OverfastAPIContext from './OverfastAPIContext'
 
-
 const Navbar = () => {
-    const { data } = useContext(OverfastAPIContext)
+    const { data, setIsFormOpen } = useContext(OverfastAPIContext)
     
     const username = data.summary.username.toUpperCase()
     const title = data.summary.title ? data.summary.title.toUpperCase() : ''
@@ -57,7 +56,7 @@ const Navbar = () => {
                     SOCIAL
                 </h4>
 
-                <div className="settings-logo">
+                <div className="settings-logo" onClick={() => setIsFormOpen(prev => !prev)}>
                 <img src={SettingsLogo} alt="settings logo" />
                 </div>
                 <h4 className="settings-logo-hover">

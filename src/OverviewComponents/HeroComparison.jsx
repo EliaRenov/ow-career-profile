@@ -8,7 +8,7 @@ import { useContext, useState } from 'react'
 const HeroComparison = () => {
 
     const {data, platform } = useContext(OverfastAPIContext)
-    const [stat, setStat] = useState('objective_kills')
+    const [stat, setStat] = useState('time_played')
     const options = ['time_played', 'games_won', 'objective_kills', 'multikill_best', 'eliminations_per_life', 'critical_hit_accuracy', 'weapon_accuracy', 'win_percentage'].filter(option => {
         return data.stats[platform].quickplay.heroes_comparisons[option] && data.stats[platform].competitive.heroes_comparisons[option]
     }
