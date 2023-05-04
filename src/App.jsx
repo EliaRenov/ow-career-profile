@@ -18,7 +18,7 @@ function App() {
 
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
-  const [isFormOpen, setIsFormOpen] = useState(false) 
+  const [isFormOpen, setIsFormOpen] = useState(true) 
   const [username, setUsername] = useState('super-12850') 
 
   const [data, setData] = useState(tempData)
