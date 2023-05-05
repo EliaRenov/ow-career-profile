@@ -8,9 +8,6 @@ import Heroes from '../Heroes'
 
 const CompRoleTable = () => {
     const { data, platform } = useContext(OverfastAPIContext)
-
-    console.log(data.summary.competitive)
-
     let tankRank;
     let damageRank;
     let supportRank;

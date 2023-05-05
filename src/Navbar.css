@@ -11,12 +11,6 @@
     position: relative;
 }
 
-@media (max-height: 950px) {
-    nav.navbar {
-        padding-top: 2vh;
-    }
-}
-
 
 nav.navbar .nav-links {
     grid-row: 1 / 2;
@@ -255,3 +249,26 @@ nav.navbar .nav-links {
 }
 
 
+/* @media (max-height: 950px) {
+    nav.navbar {
+        padding-top: 2vh;
+    }
+} */
+
+/* @media (max-width: 1280px) {
+    .navbar .small-player {
+        grid-column: 4 / -1;
+        transform: scale(0.9);
+
+    }
+    .navbar .top-right_icons {
+        grid-column: 9 / 13;
+        transform: scale(0.9);
+    }
+
+    nav.navbar .nav-links {
+        transform: scale(0.8);
+        margin-left: -100px;
+
+    }
+} */
