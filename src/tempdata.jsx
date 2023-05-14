@@ -1167,14 +1167,14 @@ export const tempData = {
                                     "value": 8156
                                 },
                                 {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 18.08
-                                },
-                                {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
                                     "value": 8.72
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 18.08
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
@@ -1264,14 +1264,14 @@ export const tempData = {
                                     "value": 992039
                                 },
                                 {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 18436
-                                },
-                                {
                                     "key": "deaths",
                                     "label": "Deaths",
                                     "value": 8892
+                                },
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 18436
                                 },
                                 {
                                     "key": "objective_kills",
@@ -1429,11 +1429,6 @@ export const tempData = {
                                     "value": 33.45
                                 },
                                 {
-                                    "key": "enemies_slept_avg_per_10_min",
-                                    "label": "Enemies Slept - Avg per 10 Min",
-                                    "value": 5.64
-                                },
-                                {
                                     "key": "nano_boost_assists_avg_per_10_min",
                                     "label": "Nano Boost Assists - Avg per 10 Min",
                                     "value": 5.15
@@ -1442,6 +1437,11 @@ export const tempData = {
                                     "key": "biotic_grenade_kills_avg_per_10_min",
                                     "label": "Biotic Grenade Kills - Avg per 10 Min",
                                     "value": 1.55
+                                },
+                                {
+                                    "key": "enemies_slept_avg_per_10_min",
+                                    "label": "Enemies Slept - Avg per 10 Min",
+                                    "value": 5.64
                                 },
                                 {
                                     "key": "unscoped_accuracy",
@@ -2065,14 +2065,14 @@ export const tempData = {
                                     "value": 3
                                 },
                                 {
-                                    "key": "artillery_kills_avg_per_10_min",
-                                    "label": "Artillery Kills - Avg per 10 Min",
-                                    "value": 0.08
-                                },
-                                {
                                     "key": "tactical_grenade_kills_avg_per_10_min",
                                     "label": "Tactical Grenade Kills - Avg per 10 Min",
                                     "value": 7.06
+                                },
+                                {
+                                    "key": "artillery_kills_avg_per_10_min",
+                                    "label": "Artillery Kills - Avg per 10 Min",
+                                    "value": 0.08
                                 },
                                 {
                                     "key": "assault_kills_avg_per_10_min",
@@ -2439,14 +2439,14 @@ export const tempData = {
                                     "value": 76
                                 },
                                 {
-                                    "key": "overhealth_provided_avg_per_10_min",
-                                    "label": "Overhealth Provided - Avg per 10 Min",
-                                    "value": 732
-                                },
-                                {
                                     "key": "whipshot_accuracy",
                                     "label": "Whipshot Accuracy",
                                     "value": 72
+                                },
+                                {
+                                    "key": "overhealth_provided_avg_per_10_min",
+                                    "label": "Overhealth Provided - Avg per 10 Min",
+                                    "value": 732
                                 },
                                 {
                                     "key": "players_knocked_back_avg_per_10_min_nyi",
@@ -3419,11 +3419,6 @@ export const tempData = {
                                     "value": 6
                                 },
                                 {
-                                    "key": "rocket_punch_kills_avg_per_10_min",
-                                    "label": "Rocket Punch Kills - Avg per 10 Min",
-                                    "value": 11.87
-                                },
-                                {
                                     "key": "seismic_slam_kills_avg_per_10_min",
                                     "label": "Seismic Slam Kills - Avg per 10 Min",
                                     "value": 9.5
@@ -3432,6 +3427,11 @@ export const tempData = {
                                     "key": "overhealth_created_avg_per_10_min",
                                     "label": "Overhealth Created - Avg per 10 Min",
                                     "value": 2115
+                                },
+                                {
+                                    "key": "rocket_punch_kills_avg_per_10_min",
+                                    "label": "Rocket Punch Kills - Avg per 10 Min",
+                                    "value": 11.87
                                 },
                                 {
                                     "key": "meteor_strike_kills_avg_per_10_min",
@@ -3808,19 +3808,19 @@ export const tempData = {
                                     "value": 31
                                 },
                                 {
-                                    "key": "focusing_beam_accuracy",
-                                    "label": "Focusing Beam Accuracy",
-                                    "value": 39
-                                },
-                                {
                                     "key": "focusing_beam_kills_avg_per_10_min",
                                     "label": "Focusing Beam Kills - Avg per 10 Min",
                                     "value": 6.13
                                 },
                                 {
-                                    "key": "sticky_bombs_direct_hit_accuracy",
-                                    "label": "Sticky Bombs Direct Hit Accuracy",
-                                    "value": 25
+                                    "key": "duplicate_kills_avg_per_10_min",
+                                    "label": "Duplicate Kills - Avg per 10 Min",
+                                    "value": 4.09
+                                },
+                                {
+                                    "key": "focusing_beam_accuracy",
+                                    "label": "Focusing Beam Accuracy",
+                                    "value": 39
                                 },
                                 {
                                     "key": "sticky_bombs_kills_avg_per_10_min",
@@ -3828,9 +3828,9 @@ export const tempData = {
                                     "value": 6.13
                                 },
                                 {
-                                    "key": "duplicate_kills_avg_per_10_min",
-                                    "label": "Duplicate Kills - Avg per 10 Min",
-                                    "value": 4.09
+                                    "key": "sticky_bombs_direct_hit_accuracy",
+                                    "label": "Sticky Bombs Direct Hit Accuracy",
+                                    "value": 25
                                 },
                                 {
                                     "key": "sticky_bombs_direct_hits_avg_per_10_min",
@@ -4742,11 +4742,6 @@ export const tempData = {
                                     "value": 37
                                 },
                                 {
-                                    "key": "carnage_kills_avg_per_10_min",
-                                    "label": "Carnage Kills - Avg per 10 Min",
-                                    "value": 10.39
-                                },
-                                {
                                     "key": "rampage_kills_avg_per_10_min",
                                     "label": "Rampage Kills - Avg per 10 Min",
                                     "value": 3.35
@@ -4755,6 +4750,11 @@ export const tempData = {
                                     "key": "wound_uptime_percentage",
                                     "label": "Wound Uptime Percentage",
                                     "value": 19
+                                },
+                                {
+                                    "key": "carnage_kills_avg_per_10_min",
+                                    "label": "Carnage Kills - Avg per 10 Min",
+                                    "value": 10.39
                                 },
                                 {
                                     "key": "jagged_blade_kills_avg_per_10_min",
@@ -5085,11 +5085,6 @@ export const tempData = {
                                     "value": 8
                                 },
                                 {
-                                    "key": "concussion_mine_kills_avg_per_10_min",
-                                    "label": "Concussion Mine Kills - Avg per 10 Min",
-                                    "value": 0.23
-                                },
-                                {
                                     "key": "rip_tire_kills_avg_per_10_min",
                                     "label": "RIP-Tire Kills - Avg per 10 Min",
                                     "value": 2.81
@@ -5098,6 +5093,11 @@ export const tempData = {
                                     "key": "direct_hit_accuracy",
                                     "label": "Direct Hit Accuracy",
                                     "value": 2
+                                },
+                                {
+                                    "key": "concussion_mine_kills_avg_per_10_min",
+                                    "label": "Concussion Mine Kills - Avg per 10 Min",
+                                    "value": 0.23
                                 },
                                 {
                                     "key": "enemies_trapped_avg_per_10_min",
@@ -5394,14 +5394,14 @@ export const tempData = {
                                     "value": 27
                                 },
                                 {
-                                    "key": "kunai_kills_avg_per_10_min",
-                                    "label": "Kunai Kills - Avg per 10 Min",
-                                    "value": 16.36
-                                },
-                                {
                                     "key": "negative_effects_cleansed_avg_per_10_min",
                                     "label": "Negative Effects Cleansed - Avg per 10 Min",
                                     "value": 5.06
+                                },
+                                {
+                                    "key": "kunai_kills_avg_per_10_min",
+                                    "label": "Kunai Kills - Avg per 10 Min",
+                                    "value": 16.36
                                 },
                                 {
                                     "key": "kitsune_rush_assists_avg_per_10_min",
@@ -5807,14 +5807,14 @@ export const tempData = {
                                     "value": 12
                                 },
                                 {
-                                    "key": "thorn_volley_kills_avg_per_10_min",
-                                    "label": "Thorn Volley Kills - Avg per 10 Min",
-                                    "value": 8.81
-                                },
-                                {
                                     "key": "life_grip_deaths_prevented_avg_per_10_min",
                                     "label": "Life Grip Deaths Prevented - Avg per 10 Min",
                                     "value": 1.68
+                                },
+                                {
+                                    "key": "thorn_volley_kills_avg_per_10_min",
+                                    "label": "Thorn Volley Kills - Avg per 10 Min",
+                                    "value": 8.81
                                 },
                                 {
                                     "key": "self_healing_avg_per_10_min",
@@ -6963,14 +6963,14 @@ export const tempData = {
                                     "value": 804
                                 },
                                 {
-                                    "key": "blaster_kills_avg_per_10_min",
-                                    "label": "Blaster Kills - Avg per 10 Min",
-                                    "value": 3.08
-                                },
-                                {
                                     "key": "players_resurrected_avg_per_10_min",
                                     "label": "Players Resurrected - Avg per 10 Min",
                                     "value": 6.58
+                                },
+                                {
+                                    "key": "blaster_kills_avg_per_10_min",
+                                    "label": "Blaster Kills - Avg per 10 Min",
+                                    "value": 3.08
                                 },
                                 {
                                     "key": "self_healing_avg_per_10_min",
@@ -7520,14 +7520,14 @@ export const tempData = {
                                     "value": 8
                                 },
                                 {
-                                    "key": "javelin_spin_kills_avg_per_10_min",
-                                    "label": "Javelin Spin Kills - Avg per 10 Min",
-                                    "value": 0
-                                },
-                                {
                                     "key": "terra_surge_kills_avg_per_10_min",
                                     "label": "Terra Surge Kills - Avg per 10 Min",
                                     "value": 6.17
+                                },
+                                {
+                                    "key": "javelin_spin_kills_avg_per_10_min",
+                                    "label": "Javelin Spin Kills - Avg per 10 Min",
+                                    "value": 0
                                 },
                                 {
                                     "key": "energy_javelin_kills_avg_per_10_min",
@@ -7843,14 +7843,14 @@ export const tempData = {
                                     "value": 11
                                 },
                                 {
-                                    "key": "barrage_kills_avg_per_10_min",
-                                    "label": "Barrage Kills - Avg per 10 Min",
-                                    "value": 3.97
-                                },
-                                {
                                     "key": "airtime_percentage",
                                     "label": "Airtime Percentage",
                                     "value": 66
+                                },
+                                {
+                                    "key": "barrage_kills_avg_per_10_min",
+                                    "label": "Barrage Kills - Avg per 10 Min",
+                                    "value": 3.97
                                 },
                                 {
                                     "key": "direct_hit_accuracy",
@@ -8912,14 +8912,14 @@ export const tempData = {
                                     "value": 2.42
                                 },
                                 {
-                                    "key": "earthshatter_direct_hits_avg_per_10_min",
-                                    "label": "Earthshatter Direct Hits - Avg per 10 Min",
-                                    "value": 1.92
-                                },
-                                {
                                     "key": "fire_strike_kills_avg_per_10_min",
                                     "label": "Fire Strike Kills - Avg per 10 Min",
                                     "value": 4.57
+                                },
+                                {
+                                    "key": "earthshatter_direct_hits_avg_per_10_min",
+                                    "label": "Earthshatter Direct Hits - Avg per 10 Min",
+                                    "value": 1.92
                                 },
                                 {
                                     "key": "earthshatter_kills_avg_per_10_min",
@@ -9610,11 +9610,6 @@ export const tempData = {
                                     "value": 1
                                 },
                                 {
-                                    "key": "charged_shot_kills_avg_per_10_min",
-                                    "label": "Charged Shot Kills - Avg per 10 Min",
-                                    "value": 5.82
-                                },
-                                {
                                     "key": "charged_shot_critical_accuracy",
                                     "label": "Charged Shot Critical Accuracy",
                                     "value": 11
@@ -9623,6 +9618,11 @@ export const tempData = {
                                     "key": "overclock_kills_avg_per_10_min",
                                     "label": "Overclock Kills - Avg per 10 Min",
                                     "value": 0.97
+                                },
+                                {
+                                    "key": "charged_shot_kills_avg_per_10_min",
+                                    "label": "Charged Shot Kills - Avg per 10 Min",
+                                    "value": 5.82
                                 },
                                 {
                                     "key": "disruptor_shot_kills_avg_per_10_min",
@@ -10631,11 +10631,6 @@ export const tempData = {
                                     "value": 11.62
                                 },
                                 {
-                                    "key": "secondary_fire_accuracy",
-                                    "label": "Secondary Fire Accuracy",
-                                    "value": 60
-                                },
-                                {
                                     "key": "primary_fire_accuracy",
                                     "label": "Primary Fire Accuracy",
                                     "value": 50
@@ -10644,6 +10639,11 @@ export const tempData = {
                                     "key": "sentry_turret_kills_avg_per_10_min",
                                     "label": "Sentry Turret Kills - Avg per 10 Min",
                                     "value": 7.05
+                                },
+                                {
+                                    "key": "secondary_fire_accuracy",
+                                    "label": "Secondary Fire Accuracy",
+                                    "value": 60
                                 },
                                 {
                                     "key": "average_damage_multiplier",
@@ -11960,11 +11960,6 @@ export const tempData = {
                                     "value": 36
                                 },
                                 {
-                                    "key": "primary_fire_accuracy",
-                                    "label": "Primary Fire Accuracy",
-                                    "value": 78
-                                },
-                                {
                                     "key": "primal_rage_kills__avg_per_10_min",
                                     "label": "Primal Rage Kills  - Avg per 10 Min",
                                     "value": 2.5
@@ -11973,6 +11968,11 @@ export const tempData = {
                                     "key": "jump_pack_kills_avg_per_10_min",
                                     "label": "Jump Pack Kills - Avg per 10 Min",
                                     "value": 5.36
+                                },
+                                {
+                                    "key": "primary_fire_accuracy",
+                                    "label": "Primary Fire Accuracy",
+                                    "value": 78
                                 },
                                 {
                                     "key": "secondary_fire_accuracy",
@@ -12314,14 +12314,14 @@ export const tempData = {
                                     "value": 9
                                 },
                                 {
-                                    "key": "grappling_claw_kills_avg_per_10_min",
-                                    "label": "Grappling Claw Kills - Avg per 10 Min",
-                                    "value": 15.54
-                                },
-                                {
                                     "key": "piledriver_kills_avg_per_10_min",
                                     "label": "Piledriver Kills - Avg per 10 Min",
                                     "value": 12.3
+                                },
+                                {
+                                    "key": "grappling_claw_kills_avg_per_10_min",
+                                    "label": "Grappling Claw Kills - Avg per 10 Min",
+                                    "value": 15.54
                                 },
                                 {
                                     "key": "minefield_kills_avg_per_10_min",
@@ -12668,11 +12668,6 @@ export const tempData = {
                                     "value": 4.79
                                 },
                                 {
-                                    "key": "secondary_fire_accuracy",
-                                    "label": "Secondary Fire Accuracy",
-                                    "value": 55
-                                },
-                                {
                                     "key": "high_energy_kills_avg_per_10_min",
                                     "label": "High Energy Kills - Avg per 10 Min",
                                     "value": 9
@@ -12681,6 +12676,11 @@ export const tempData = {
                                     "key": "primary_fire_accuracy",
                                     "label": "Primary Fire Accuracy",
                                     "value": 58
+                                },
+                                {
+                                    "key": "secondary_fire_accuracy",
+                                    "label": "Secondary Fire Accuracy",
+                                    "value": 55
                                 },
                                 {
                                     "key": "average_energy",
@@ -13440,136 +13440,76 @@ export const tempData = {
                         "label": "Time Played",
                         "values": [
                             {
+                                "hero": "junker-queen",
+                                "value": 57010
+                            },
+                            {
                                 "hero": "reinhardt",
-                                "value": 99640
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 44071
-                            },
-                            {
-                                "hero": "doomfist",
-                                "value": 41216
-                            },
-                            {
-                                "hero": "cassidy",
-                                "value": 38954
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 38556
-                            },
-                            {
-                                "hero": "sigma",
-                                "value": 23853
+                                "value": 27067
                             },
                             {
                                 "hero": "winston",
-                                "value": 19823
+                                "value": 23617
                             },
                             {
-                                "hero": "tracer",
-                                "value": 12508
+                                "hero": "sigma",
+                                "value": 18393
                             },
                             {
-                                "hero": "junker-queen",
-                                "value": 11649
-                            },
-                            {
-                                "hero": "ana",
-                                "value": 9957
-                            },
-                            {
-                                "hero": "ashe",
-                                "value": 8689
-                            },
-                            {
-                                "hero": "dva",
-                                "value": 5734
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 4994
-                            },
-                            {
-                                "hero": "wrecking-ball",
-                                "value": 4237
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 3908
-                            },
-                            {
-                                "hero": "pharah",
-                                "value": 3374
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 3372
-                            },
-                            {
-                                "hero": "junkrat",
-                                "value": 2979
-                            },
-                            {
-                                "hero": "soldier-76",
-                                "value": 2765
-                            },
-                            {
-                                "hero": "roadhog",
-                                "value": 2360
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 1320
-                            },
-                            {
-                                "hero": "zenyatta",
-                                "value": 1290
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 1191
-                            },
-                            {
-                                "hero": "ramattra",
-                                "value": 1008
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 995
-                            },
-                            {
-                                "hero": "mercy",
-                                "value": 963
-                            },
-                            {
-                                "hero": "sojourn",
-                                "value": 949
+                                "hero": "doomfist",
+                                "value": 13486
                             },
                             {
                                 "hero": "zarya",
-                                "value": 832
+                                "value": 8387
+                            },
+                            {
+                                "hero": "dva",
+                                "value": 6386
+                            },
+                            {
+                                "hero": "wrecking-ball",
+                                "value": 5689
+                            },
+                            {
+                                "hero": "ramattra",
+                                "value": 2809
+                            },
+                            {
+                                "hero": "hanzo",
+                                "value": 2383
+                            },
+                            {
+                                "hero": "genji",
+                                "value": 1648
+                            },
+                            {
+                                "hero": "tracer",
+                                "value": 1344
+                            },
+                            {
+                                "hero": "cassidy",
+                                "value": 940
+                            },
+                            {
+                                "hero": "pharah",
+                                "value": 278
+                            },
+                            {
+                                "hero": "roadhog",
+                                "value": 196
+                            },
+                            {
+                                "hero": "torbjorn",
+                                "value": 88
+                            },
+                            {
+                                "hero": "ashe",
+                                "value": 66
                             },
                             {
                                 "hero": "orisa",
-                                "value": 425
-                            },
-                            {
-                                "hero": "reaper",
-                                "value": 224
-                            },
-                            {
-                                "hero": "lucio",
-                                "value": 173
-                            },
-                            {
-                                "hero": "moira",
-                                "value": 10
-                            },
-                            {
-                                "hero": "sombra",
-                                "value": 5
+                                "value": 44
                             }
                         ]
                     },
@@ -13577,135 +13517,75 @@ export const tempData = {
                         "label": "Games Won",
                         "values": [
                             {
+                                "hero": "junker-queen",
+                                "value": 46
+                            },
+                            {
                                 "hero": "reinhardt",
-                                "value": 94
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 36
-                            },
-                            {
-                                "hero": "doomfist",
-                                "value": 36
-                            },
-                            {
-                                "hero": "cassidy",
-                                "value": 33
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 26
-                            },
-                            {
-                                "hero": "sigma",
-                                "value": 18
+                                "value": 19
                             },
                             {
                                 "hero": "winston",
-                                "value": 14
+                                "value": 17
                             },
                             {
-                                "hero": "tracer",
-                                "value": 9
+                                "hero": "sigma",
+                                "value": 12
                             },
                             {
-                                "hero": "junker-queen",
-                                "value": 7
+                                "hero": "doomfist",
+                                "value": 11
                             },
                             {
-                                "hero": "ana",
-                                "value": 6
-                            },
-                            {
-                                "hero": "ashe",
-                                "value": 5
-                            },
-                            {
-                                "hero": "pharah",
-                                "value": 5
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 4
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 4
+                                "hero": "zarya",
+                                "value": 8
                             },
                             {
                                 "hero": "dva",
-                                "value": 3
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 3
+                                "value": 4
                             },
                             {
                                 "hero": "wrecking-ball",
                                 "value": 3
                             },
                             {
-                                "hero": "soldier-76",
+                                "hero": "ramattra",
+                                "value": 3
+                            },
+                            {
+                                "hero": "hanzo",
                                 "value": 2
                             },
                             {
-                                "hero": "zenyatta",
-                                "value": 2
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 2
-                            },
-                            {
-                                "hero": "junkrat",
+                                "hero": "genji",
                                 "value": 1
                             },
                             {
-                                "hero": "mercy",
+                                "hero": "tracer",
                                 "value": 1
                             },
                             {
-                                "hero": "zarya",
+                                "hero": "cassidy",
                                 "value": 1
+                            },
+                            {
+                                "hero": "pharah",
+                                "value": 0
                             },
                             {
                                 "hero": "roadhog",
-                                "value": 1
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 1
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 1
-                            },
-                            {
-                                "hero": "ramattra",
                                 "value": 0
                             },
                             {
-                                "hero": "lucio",
+                                "hero": "ashe",
                                 "value": 0
                             },
                             {
-                                "hero": "reaper",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sombra",
+                                "hero": "torbjorn",
                                 "value": 0
                             },
                             {
                                 "hero": "orisa",
-                                "value": 0
-                            },
-                            {
-                                "hero": "moira",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sojourn",
                                 "value": 0
                             }
                         ]
@@ -13719,130 +13599,70 @@ export const tempData = {
                             },
                             {
                                 "hero": "sigma",
-                                "value": 59
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 56
-                            },
-                            {
-                                "hero": "zarya",
-                                "value": 54
-                            },
-                            {
-                                "hero": "ashe",
-                                "value": 52
+                                "value": 57
                             },
                             {
                                 "hero": "cassidy",
-                                "value": 49
+                                "value": 48
+                            },
+                            {
+                                "hero": "zarya",
+                                "value": 47
                             },
                             {
                                 "hero": "wrecking-ball",
-                                "value": 48
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 48
-                            },
-                            {
-                                "hero": "junker-queen",
                                 "value": 46
                             },
                             {
-                                "hero": "zenyatta",
+                                "hero": "ashe",
                                 "value": 45
                             },
                             {
-                                "hero": "soldier-76",
-                                "value": 43
-                            },
-                            {
-                                "hero": "pharah",
-                                "value": 42
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 42
+                                "hero": "junker-queen",
+                                "value": 40
                             },
                             {
                                 "hero": "tracer",
-                                "value": 40
+                                "value": 38
                             },
                             {
                                 "hero": "hanzo",
-                                "value": 40
+                                "value": 38
                             },
                             {
                                 "hero": "dva",
-                                "value": 38
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 38
-                            },
-                            {
-                                "hero": "doomfist",
                                 "value": 37
-                            },
-                            {
-                                "hero": "lucio",
-                                "value": 37
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 34
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 33
-                            },
-                            {
-                                "hero": "sojourn",
-                                "value": 32
-                            },
-                            {
-                                "hero": "reaper",
-                                "value": 31
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 30
-                            },
-                            {
-                                "hero": "junkrat",
-                                "value": 28
                             },
                             {
                                 "hero": "roadhog",
-                                "value": 27
+                                "value": 35
                             },
                             {
-                                "hero": "ramattra",
-                                "value": 25
+                                "hero": "doomfist",
+                                "value": 33
+                            },
+                            {
+                                "hero": "genji",
+                                "value": 33
                             },
                             {
                                 "hero": "orisa",
+                                "value": 32
+                            },
+                            {
+                                "hero": "ramattra",
+                                "value": 28
+                            },
+                            {
+                                "hero": "pharah",
+                                "value": 25
+                            },
+                            {
+                                "hero": "torbjorn",
                                 "value": 22
                             },
                             {
-                                "hero": "ana",
-                                "value": 20
-                            },
-                            {
-                                "hero": "mercy",
-                                "value": 20
-                            },
-                            {
                                 "hero": "reinhardt",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sombra",
-                                "value": 0
-                            },
-                            {
-                                "hero": "moira",
                                 "value": 0
                             }
                         ]
@@ -13851,135 +13671,75 @@ export const tempData = {
                         "label": "Win Percentage",
                         "values": [
                             {
-                                "hero": "zenyatta",
+                                "hero": "hanzo",
                                 "value": 100
                             },
                             {
-                                "hero": "symmetra",
-                                "value": 95
-                            },
-                            {
-                                "hero": "lucio",
-                                "value": 86
-                            },
-                            {
-                                "hero": "mercy",
-                                "value": 83
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 79
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 76
-                            },
-                            {
                                 "hero": "pharah",
-                                "value": 73
-                            },
-                            {
-                                "hero": "zarya",
-                                "value": 71
-                            },
-                            {
-                                "hero": "reinhardt",
-                                "value": 65
-                            },
-                            {
-                                "hero": "winston",
-                                "value": 63
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 62
-                            },
-                            {
-                                "hero": "sigma",
-                                "value": 59
-                            },
-                            {
-                                "hero": "doomfist",
-                                "value": 58
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 57
-                            },
-                            {
-                                "hero": "cassidy",
-                                "value": 56
-                            },
-                            {
-                                "hero": "reaper",
-                                "value": 54
-                            },
-                            {
-                                "hero": "soldier-76",
-                                "value": 52
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 52
-                            },
-                            {
-                                "hero": "tracer",
-                                "value": 50
-                            },
-                            {
-                                "hero": "dva",
-                                "value": 48
-                            },
-                            {
-                                "hero": "wrecking-ball",
-                                "value": 46
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 43
-                            },
-                            {
-                                "hero": "ana",
-                                "value": 43
-                            },
-                            {
-                                "hero": "junker-queen",
-                                "value": 42
-                            },
-                            {
-                                "hero": "ramattra",
-                                "value": 37
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 37
+                                "value": 100
                             },
                             {
                                 "hero": "ashe",
-                                "value": 35
+                                "value": 100
                             },
                             {
-                                "hero": "junkrat",
-                                "value": 35
+                                "hero": "cassidy",
+                                "value": 72
+                            },
+                            {
+                                "hero": "genji",
+                                "value": 70
                             },
                             {
                                 "hero": "roadhog",
-                                "value": 20
+                                "value": 69
                             },
                             {
-                                "hero": "sombra",
+                                "hero": "ramattra",
+                                "value": 64
+                            },
+                            {
+                                "hero": "zarya",
+                                "value": 64
+                            },
+                            {
+                                "hero": "junker-queen",
+                                "value": 61
+                            },
+                            {
+                                "hero": "winston",
+                                "value": 56
+                            },
+                            {
+                                "hero": "sigma",
+                                "value": 54
+                            },
+                            {
+                                "hero": "tracer",
+                                "value": 49
+                            },
+                            {
+                                "hero": "reinhardt",
+                                "value": 49
+                            },
+                            {
+                                "hero": "doomfist",
+                                "value": 48
+                            },
+                            {
+                                "hero": "dva",
+                                "value": 44
+                            },
+                            {
+                                "hero": "wrecking-ball",
+                                "value": 38
+                            },
+                            {
+                                "hero": "torbjorn",
                                 "value": 0
                             },
                             {
                                 "hero": "orisa",
-                                "value": 0
-                            },
-                            {
-                                "hero": "moira",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sojourn",
                                 "value": 0
                             }
                         ]
@@ -13988,135 +13748,75 @@ export const tempData = {
                         "label": "Eliminations per Life",
                         "values": [
                             {
-                                "hero": "zarya",
-                                "value": 3.78
-                            },
-                            {
-                                "hero": "zenyatta",
-                                "value": 3.73
-                            },
-                            {
                                 "hero": "winston",
-                                "value": 3.46
-                            },
-                            {
-                                "hero": "wrecking-ball",
-                                "value": 3.37
-                            },
-                            {
-                                "hero": "dva",
-                                "value": 3.26
-                            },
-                            {
-                                "hero": "junker-queen",
-                                "value": 3.2
-                            },
-                            {
-                                "hero": "pharah",
-                                "value": 3.1
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 3.06
-                            },
-                            {
-                                "hero": "roadhog",
-                                "value": 3
-                            },
-                            {
-                                "hero": "lucio",
-                                "value": 3
-                            },
-                            {
-                                "hero": "sigma",
-                                "value": 2.93
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 2.8
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 2.7
-                            },
-                            {
-                                "hero": "reinhardt",
-                                "value": 2.67
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 2.47
+                                "value": 3.48
                             },
                             {
                                 "hero": "genji",
-                                "value": 2.42
+                                "value": 3.4
                             },
                             {
-                                "hero": "soldier-76",
-                                "value": 2.41
+                                "hero": "zarya",
+                                "value": 3.36
                             },
                             {
-                                "hero": "doomfist",
-                                "value": 2.4
+                                "hero": "junker-queen",
+                                "value": 3.22
                             },
                             {
-                                "hero": "tracer",
-                                "value": 2.34
+                                "hero": "dva",
+                                "value": 2.9
                             },
                             {
-                                "hero": "ramattra",
-                                "value": 2.1
+                                "hero": "sigma",
+                                "value": 2.77
                             },
                             {
                                 "hero": "hanzo",
-                                "value": 1.97
+                                "value": 2.67
+                            },
+                            {
+                                "hero": "roadhog",
+                                "value": 2.5
+                            },
+                            {
+                                "hero": "wrecking-ball",
+                                "value": 2.42
+                            },
+                            {
+                                "hero": "doomfist",
+                                "value": 2.39
+                            },
+                            {
+                                "hero": "pharah",
+                                "value": 2.33
+                            },
+                            {
+                                "hero": "tracer",
+                                "value": 2.31
+                            },
+                            {
+                                "hero": "ramattra",
+                                "value": 2.13
+                            },
+                            {
+                                "hero": "reinhardt",
+                                "value": 1.9
                             },
                             {
                                 "hero": "cassidy",
-                                "value": 1.93
+                                "value": 1.13
                             },
                             {
-                                "hero": "ashe",
-                                "value": 1.62
-                            },
-                            {
-                                "hero": "junkrat",
-                                "value": 1.31
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 1.18
-                            },
-                            {
-                                "hero": "ana",
-                                "value": 1.16
-                            },
-                            {
-                                "hero": "orisa",
-                                "value": 1
-                            },
-                            {
-                                "hero": "sojourn",
-                                "value": 1
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 0.87
-                            },
-                            {
-                                "hero": "reaper",
-                                "value": 0.8
-                            },
-                            {
-                                "hero": "mercy",
-                                "value": 0.2
-                            },
-                            {
-                                "hero": "sombra",
+                                "hero": "torbjorn",
                                 "value": 0
                             },
                             {
-                                "hero": "moira",
+                                "hero": "orisa",
+                                "value": 0
+                            },
+                            {
+                                "hero": "ashe",
                                 "value": 0
                             }
                         ]
@@ -14125,47 +13825,27 @@ export const tempData = {
                         "label": "Critical Hit Accuracy",
                         "values": [
                             {
-                                "hero": "lucio",
-                                "value": 12
+                                "hero": "ashe",
+                                "value": 15
                             },
                             {
                                 "hero": "roadhog",
-                                "value": 11
-                            },
-                            {
-                                "hero": "kiriko",
-                                "value": 11
-                            },
-                            {
-                                "hero": "ashe",
-                                "value": 10
-                            },
-                            {
-                                "hero": "ramattra",
-                                "value": 10
-                            },
-                            {
-                                "hero": "reaper",
-                                "value": 10
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 9
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 9
+                                "value": 12
                             },
                             {
                                 "hero": "doomfist",
                                 "value": 9
                             },
                             {
-                                "hero": "wrecking-ball",
+                                "hero": "ramattra",
                                 "value": 9
                             },
                             {
                                 "hero": "dva",
+                                "value": 9
+                            },
+                            {
+                                "hero": "hanzo",
                                 "value": 8
                             },
                             {
@@ -14173,19 +13853,11 @@ export const tempData = {
                                 "value": 8
                             },
                             {
-                                "hero": "widowmaker",
-                                "value": 7
-                            },
-                            {
-                                "hero": "mercy",
-                                "value": 7
-                            },
-                            {
                                 "hero": "tracer",
-                                "value": 6
+                                "value": 8
                             },
                             {
-                                "hero": "zenyatta",
+                                "hero": "wrecking-ball",
                                 "value": 6
                             },
                             {
@@ -14193,12 +13865,8 @@ export const tempData = {
                                 "value": 6
                             },
                             {
-                                "hero": "soldier-76",
+                                "hero": "genji",
                                 "value": 5
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 1
                             },
                             {
                                 "hero": "reinhardt",
@@ -14213,39 +13881,11 @@ export const tempData = {
                                 "value": 0
                             },
                             {
-                                "hero": "symmetra",
-                                "value": 0
-                            },
-                            {
-                                "hero": "junkrat",
-                                "value": 0
-                            },
-                            {
                                 "hero": "zarya",
                                 "value": 0
                             },
                             {
-                                "hero": "mei",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sombra",
-                                "value": 0
-                            },
-                            {
-                                "hero": "ana",
-                                "value": 0
-                            },
-                            {
                                 "hero": "orisa",
-                                "value": 0
-                            },
-                            {
-                                "hero": "moira",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sojourn",
                                 "value": 0
                             },
                             {
@@ -14262,27 +13902,11 @@ export const tempData = {
                         "label": "Multikill - Best",
                         "values": [
                             {
-                                "hero": "hanzo",
+                                "hero": "winston",
                                 "value": 4
                             },
                             {
-                                "hero": "reinhardt",
-                                "value": 4
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 4
-                            },
-                            {
-                                "hero": "cassidy",
-                                "value": 4
-                            },
-                            {
-                                "hero": "dva",
-                                "value": 4
-                            },
-                            {
-                                "hero": "doomfist",
+                                "hero": "zarya",
                                 "value": 4
                             },
                             {
@@ -14290,51 +13914,27 @@ export const tempData = {
                                 "value": 4
                             },
                             {
-                                "hero": "sigma",
-                                "value": 4
+                                "hero": "hanzo",
+                                "value": 3
+                            },
+                            {
+                                "hero": "reinhardt",
+                                "value": 3
+                            },
+                            {
+                                "hero": "genji",
+                                "value": 3
+                            },
+                            {
+                                "hero": "doomfist",
+                                "value": 3
                             },
                             {
                                 "hero": "tracer",
-                                "value": 3
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 3
-                            },
-                            {
-                                "hero": "winston",
-                                "value": 3
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 3
-                            },
-                            {
-                                "hero": "zenyatta",
-                                "value": 3
-                            },
-                            {
-                                "hero": "zarya",
-                                "value": 3
-                            },
-                            {
-                                "hero": "soldier-76",
-                                "value": 3
-                            },
-                            {
-                                "hero": "mei",
-                                "value": 3
-                            },
-                            {
-                                "hero": "wrecking-ball",
-                                "value": 3
-                            },
-                            {
-                                "hero": "reaper",
                                 "value": 0
                             },
                             {
-                                "hero": "mercy",
+                                "hero": "torbjorn",
                                 "value": 0
                             },
                             {
@@ -14342,31 +13942,15 @@ export const tempData = {
                                 "value": 0
                             },
                             {
-                                "hero": "widowmaker",
-                                "value": 0
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 0
-                            },
-                            {
                                 "hero": "roadhog",
                                 "value": 0
                             },
                             {
-                                "hero": "junkrat",
+                                "hero": "cassidy",
                                 "value": 0
                             },
                             {
-                                "hero": "lucio",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sombra",
-                                "value": 0
-                            },
-                            {
-                                "hero": "ana",
+                                "hero": "dva",
                                 "value": 0
                             },
                             {
@@ -14374,11 +13958,7 @@ export const tempData = {
                                 "value": 0
                             },
                             {
-                                "hero": "moira",
-                                "value": 0
-                            },
-                            {
-                                "hero": "sojourn",
+                                "hero": "wrecking-ball",
                                 "value": 0
                             },
                             {
@@ -14386,7 +13966,7 @@ export const tempData = {
                                 "value": 0
                             },
                             {
-                                "hero": "kiriko",
+                                "hero": "sigma",
                                 "value": 0
                             },
                             {
@@ -14399,135 +13979,75 @@ export const tempData = {
                         "label": "Objective Kills",
                         "values": [
                             {
+                                "hero": "junker-queen",
+                                "value": 731
+                            },
+                            {
                                 "hero": "reinhardt",
-                                "value": 983
-                            },
-                            {
-                                "hero": "cassidy",
-                                "value": 416
-                            },
-                            {
-                                "hero": "doomfist",
-                                "value": 407
-                            },
-                            {
-                                "hero": "genji",
-                                "value": 393
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 321
-                            },
-                            {
-                                "hero": "sigma",
-                                "value": 243
+                                "value": 205
                             },
                             {
                                 "hero": "winston",
-                                "value": 149
+                                "value": 184
                             },
                             {
-                                "hero": "tracer",
-                                "value": 137
+                                "hero": "sigma",
+                                "value": 155
                             },
                             {
-                                "hero": "junker-queen",
-                                "value": 99
-                            },
-                            {
-                                "hero": "ashe",
-                                "value": 74
-                            },
-                            {
-                                "hero": "bastion",
-                                "value": 56
-                            },
-                            {
-                                "hero": "ana",
-                                "value": 53
-                            },
-                            {
-                                "hero": "dva",
-                                "value": 50
-                            },
-                            {
-                                "hero": "torbjorn",
-                                "value": 43
-                            },
-                            {
-                                "hero": "pharah",
-                                "value": 36
-                            },
-                            {
-                                "hero": "soldier-76",
-                                "value": 36
-                            },
-                            {
-                                "hero": "wrecking-ball",
-                                "value": 35
-                            },
-                            {
-                                "hero": "roadhog",
-                                "value": 30
-                            },
-                            {
-                                "hero": "symmetra",
-                                "value": 28
-                            },
-                            {
-                                "hero": "widowmaker",
-                                "value": 27
-                            },
-                            {
-                                "hero": "zenyatta",
-                                "value": 22
+                                "hero": "doomfist",
+                                "value": 129
                             },
                             {
                                 "hero": "zarya",
-                                "value": 15
+                                "value": 120
                             },
                             {
-                                "hero": "junkrat",
-                                "value": 13
+                                "hero": "wrecking-ball",
+                                "value": 56
                             },
                             {
-                                "hero": "mei",
-                                "value": 13
-                            },
-                            {
-                                "hero": "sojourn",
-                                "value": 8
+                                "hero": "hanzo",
+                                "value": 34
                             },
                             {
                                 "hero": "ramattra",
-                                "value": 6
+                                "value": 26
                             },
                             {
-                                "hero": "kiriko",
-                                "value": 5
+                                "hero": "dva",
+                                "value": 24
                             },
                             {
-                                "hero": "lucio",
-                                "value": 4
+                                "hero": "tracer",
+                                "value": 21
                             },
                             {
-                                "hero": "orisa",
+                                "hero": "genji",
+                                "value": 15
+                            },
+                            {
+                                "hero": "roadhog",
                                 "value": 3
                             },
                             {
-                                "hero": "reaper",
-                                "value": 2
+                                "hero": "cassidy",
+                                "value": 3
                             },
                             {
-                                "hero": "mercy",
-                                "value": 2
+                                "hero": "pharah",
+                                "value": 1
                             },
                             {
-                                "hero": "sombra",
+                                "hero": "torbjorn",
                                 "value": 0
                             },
                             {
-                                "hero": "moira",
+                                "hero": "orisa",
+                                "value": 0
+                            },
+                            {
+                                "hero": "ashe",
                                 "value": 0
                             }
                         ]
@@ -14542,27 +14062,27 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 45
+                                    "value": 49
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
                                     "label": "Final Blows - Most in Game",
-                                    "value": 30
+                                    "value": 34
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 39109
+                                    "value": 42477
                                 },
                                 {
                                     "key": "healing_done_most_in_game",
                                     "label": "Healing Done - Most in Game",
-                                    "value": 17162
+                                    "value": 6331
                                 },
                                 {
                                     "key": "defensive_assists_most_in_game",
                                     "label": "Defensive Assists - Most in Game",
-                                    "value": 29
+                                    "value": 7
                                 },
                                 {
                                     "key": "offensive_assists_most_in_game",
@@ -14572,12 +14092,12 @@ export const tempData = {
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 23
+                                    "value": 27
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 555
+                                    "value": 665
                                 },
                                 {
                                     "key": "multikill_best",
@@ -14587,17 +14107,17 @@ export const tempData = {
                                 {
                                     "key": "solo_kills_most_in_game",
                                     "label": "Solo Kills - Most in Game",
-                                    "value": 30
+                                    "value": 34
                                 },
                                 {
                                     "key": "time_spent_on_fire_most_in_game",
                                     "label": "Time Spent on Fire - Most in Game",
-                                    "value": 579
+                                    "value": 500
                                 },
                                 {
                                     "key": "melee_final_blows_most_in_game",
                                     "label": "Melee Final Blows - Most in Game",
-                                    "value": 6
+                                    "value": 10
                                 },
                                 {
                                     "key": "environmental_kills_most_in_game",
@@ -14607,32 +14127,32 @@ export const tempData = {
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 22
+                                    "value": 19
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 26501
+                                    "value": 26946
                                 },
                                 {
                                     "key": "barrier_damage_done_most_in_game",
                                     "label": "Barrier Damage Done - Most in Game",
-                                    "value": 15653
+                                    "value": 12085
                                 },
                                 {
                                     "key": "assists_most_in_game",
                                     "label": "Assists - Most in Game",
-                                    "value": 27
+                                    "value": 22
                                 },
                                 {
                                     "key": "objective_contest_time_most_in_game",
                                     "label": "Objective Contest Time - Most in Game",
-                                    "value": 313
+                                    "value": 297
                                 },
                                 {
                                     "key": "recon_assists_most_in_game",
                                     "label": "Recon Assists - Most in Game",
-                                    "value": 11
+                                    "value": 8
                                 }
                             ]
                         },
@@ -14643,52 +14163,52 @@ export const tempData = {
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9077
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 15.96
+                                    "value": 9896
                                 },
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.77
+                                    "value": 6
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 16.81
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 2.68
+                                    "value": 4.06
                                 },
                                 {
                                     "key": "healing_done_avg_per_10_min",
                                     "label": "Healing Done - Avg per 10 Min",
-                                    "value": 388
+                                    "value": 664
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.68
+                                    "value": 6.03
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 112
+                                    "value": 130
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.61
+                                    "value": 8.24
                                 },
                                 {
                                     "key": "objective_contest_time_avg_per_10_min",
                                     "label": "Objective Contest Time - Avg per 10 Min",
-                                    "value": 57
+                                    "value": 67
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.82
+                                    "value": 0.61
                                 }
                             ]
                         },
@@ -14697,34 +14217,34 @@ export const tempData = {
                             "label": "Game",
                             "stats": [
                                 {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 3
-                                },
-                                {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 392024
+                                    "value": 169829
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 556
+                                    "value": 231
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 317
+                                    "value": 128
+                                },
+                                {
+                                    "key": "game_tied",
+                                    "label": "Game Tied",
+                                    "value": 1
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 236
+                                    "value": 102
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 317
+                                    "value": 128
                                 }
                             ]
                         },
@@ -14733,64 +14253,64 @@ export const tempData = {
                             "label": "Combat",
                             "stats": [
                                 {
-                                    "key": "environmental_kills",
-                                    "label": "Environmental Kills",
-                                    "value": 91
-                                },
-                                {
                                     "key": "damage_done",
                                     "label": "Damage Done",
-                                    "value": 5930411
+                                    "value": 2801180
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 5930411
-                                },
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 10429
+                                    "value": 2801180
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 4421
+                                    "value": 1699
+                                },
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 4757
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 3709
+                                    "value": 1707
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 5626
+                                    "value": 2333
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 72996
+                                    "value": 36703
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 115
+                                    "value": 48
+                                },
+                                {
+                                    "key": "environmental_kills",
+                                    "label": "Environmental Kills",
+                                    "value": 22
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 305
+                                    "value": 290
                                 },
                                 {
                                     "key": "objective_contest_time",
                                     "label": "Objective Contest Time",
-                                    "value": 37045
+                                    "value": 18969
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 537
+                                    "value": 172
                                 }
                             ]
                         },
@@ -14801,450 +14321,27 @@ export const tempData = {
                                 {
                                     "key": "recon_assists",
                                     "label": "Recon Assists",
-                                    "value": 276
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 1753
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 253384
+                                    "value": 16
                                 },
                                 {
                                     "key": "defensive_assists",
                                     "label": "Defensive Assists",
-                                    "value": 277
+                                    "value": 24
                                 },
                                 {
                                     "key": "offensive_assists",
                                     "label": "Offensive Assists",
-                                    "value": 652
-                                }
-                            ]
-                        }
-                    ],
-                    "ana": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "scoped_accuracy_best_in_game",
-                                    "label": "Scoped Accuracy - Best in Game",
-                                    "value": 76
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 8082
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 1113
-                                },
-                                {
-                                    "key": "enemies_slept",
-                                    "label": "Enemies Slept",
-                                    "value": 123
-                                },
-                                {
-                                    "key": "nano_boost_assists",
-                                    "label": "Nano Boost Assists",
-                                    "value": 49
-                                },
-                                {
-                                    "key": "unscoped_accuracy_best_in_game",
-                                    "label": "Unscoped Accuracy - Best in Game",
-                                    "value": 67
-                                },
-                                {
-                                    "key": "enemies_slept_most_in_game",
-                                    "label": "Enemies Slept - Most in Game",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "nano_boost_assists_most_in_game",
-                                    "label": "Nano Boost Assists - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "biotic_grenade_kills",
-                                    "label": "Biotic Grenade Kills",
-                                    "value": 83
-                                },
-                                {
-                                    "key": "damage_amplified",
-                                    "label": "Damage Amplified",
-                                    "value": 9348
-                                },
-                                {
-                                    "key": "damage_amplified_most_in_game",
-                                    "label": "Damage Amplified - Most in Game",
-                                    "value": 1315
-                                },
-                                {
-                                    "key": "healing_amplified",
-                                    "label": "Healing Amplified",
-                                    "value": 9209
-                                },
-                                {
-                                    "key": "healing_amplified_most_in_game",
-                                    "label": "Healing Amplified - Most in Game",
-                                    "value": 1016
-                                },
-                                {
-                                    "key": "healing_amplified_avg_per_10_min",
-                                    "label": "Healing Amplified - Avg per 10 Min",
-                                    "value": 555
-                                },
-                                {
-                                    "key": "enemies_slept_avg_per_10_min",
-                                    "label": "Enemies Slept - Avg per 10 Min",
-                                    "value": 7.41
-                                },
-                                {
-                                    "key": "nano_boost_assists_avg_per_10_min",
-                                    "label": "Nano Boost Assists - Avg per 10 Min",
-                                    "value": 2.95
-                                },
-                                {
-                                    "key": "biotic_grenade_kills_avg_per_10_min",
-                                    "label": "Biotic Grenade Kills - Avg per 10 Min",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "unscoped_accuracy",
-                                    "label": "Unscoped Accuracy",
-                                    "value": 54
-                                },
-                                {
-                                    "key": "scoped_accuracy",
-                                    "label": "Scoped Accuracy",
-                                    "value": 62
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 487
-                                },
-                                {
-                                    "key": "damage_amplified_avg_per_10_min",
-                                    "label": "Damage Amplified - Avg per 10 Min",
-                                    "value": 563
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 1794
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 6381
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 20
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 248
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 5360
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 1794
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 141
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 9517
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.95
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 9.22
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 2807
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 12.29
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.3
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 80
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 3839
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 1.16
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 3.19
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.12
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 2.41
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 9957
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 8
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 153
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 132
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 63715
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 53
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 1322
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 46591
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 443
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 20
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 125
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 164
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 157933
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 15390
+                                    "value": 176
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 204
+                                    "value": 1150
                                 },
                                 {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 9.88
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 7.53
+                                    "key": "healing_done",
+                                    "label": "Healing Done",
+                                    "value": 188074
                                 }
                             ]
                         }
@@ -15257,107 +14354,32 @@ export const tempData = {
                                 {
                                     "key": "scoped_critical_hits",
                                     "label": "Scoped Critical Hits",
-                                    "value": 123
+                                    "value": 2
                                 },
                                 {
                                     "key": "scoped_critical_hits_most_in_game",
                                     "label": "Scoped Critical Hits - Most in Game",
-                                    "value": 16
+                                    "value": 2
                                 },
                                 {
                                     "key": "scoped_accuracy_best_in_game",
                                     "label": "Scoped Accuracy - Best in Game",
-                                    "value": 62
-                                },
-                                {
-                                    "key": "dynamite_kills",
-                                    "label": "Dynamite Kills",
-                                    "value": 56
-                                },
-                                {
-                                    "key": "dynamite_kills_most_in_game",
-                                    "label": "Dynamite Kills - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "coach_gun_kills",
-                                    "label": "Coach Gun Kills",
-                                    "value": 20
-                                },
-                                {
-                                    "key": "coach_gun_kills_most_in_game",
-                                    "label": "Coach Gun Kills - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "bob_kills",
-                                    "label": "Bob Kills",
-                                    "value": 32
-                                },
-                                {
-                                    "key": "bob_kills_most_in_game",
-                                    "label": "Bob Kills - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "scoped_critical_hit_kills",
-                                    "label": "Scoped Critical Hit Kills",
-                                    "value": 31
-                                },
-                                {
-                                    "key": "scoped_critical_hits_most_in_game",
-                                    "label": "Scoped Critical Hits - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "long_range_final_blows",
-                                    "label": "Long Range Final Blows",
                                     "value": 29
-                                },
-                                {
-                                    "key": "long_range_final_blows_most_in_game",
-                                    "label": "Long Range Final Blows - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "bob_kills_avg_per_10_min",
-                                    "label": "Bob Kills - Avg per 10 Min",
-                                    "value": 2.21
-                                },
-                                {
-                                    "key": "dynamite_kills_avg_per_10_min",
-                                    "label": "Dynamite Kills - Avg per 10 Min",
-                                    "value": 3.87
-                                },
-                                {
-                                    "key": "coach_gun_kills_avg_per_10_min",
-                                    "label": "Coach Gun Kills - Avg per 10 Min",
-                                    "value": 1.38
                                 },
                                 {
                                     "key": "scoped_critical_hits_avg_per_10_min",
                                     "label": "Scoped Critical Hits - Avg per 10 Min",
-                                    "value": 8.49
+                                    "value": 18.31
                                 },
                                 {
                                     "key": "scoped_accuracy",
                                     "label": "Scoped Accuracy",
-                                    "value": 47
-                                },
-                                {
-                                    "key": "scoped_critical_hit_kills_avg_per_10_min",
-                                    "label": "Scoped Critical Hit Kills - Avg per 10 Min",
-                                    "value": 2.14
-                                },
-                                {
-                                    "key": "long_range_final_blows_avg_per_10_min",
-                                    "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 2
+                                    "value": 29
                                 },
                                 {
                                     "key": "scoped_critical_hit_accuracy",
                                     "label": "Scoped Critical Hit Accuracy",
-                                    "value": 13
+                                    "value": 40
                                 }
                             ]
                         },
@@ -15366,543 +14388,65 @@ export const tempData = {
                             "label": "Best",
                             "stats": [
                                 {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 9
-                                },
-                                {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 6786
+                                    "value": 1134
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 68
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 16699
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 92
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 14407
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4958
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 92
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 9.05
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 14.64
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9882
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 0.83
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 2.21
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.21
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 46
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12578
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 12.98
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 1.62
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.11
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 34
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.83
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.94
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 8689
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 9
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 212
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 131
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 115
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 182147
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 74
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 661
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 188
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 143102
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 32
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 494
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 52
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 12
-                                }
-                            ]
-                        }
-                    ],
-                    "bastion": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "artillery_kills",
-                                    "label": "Artillery Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "artillery_kills_most_in_game",
-                                    "label": "Artillery Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "recon_kills",
-                                    "label": "Recon Kills",
-                                    "value": 64
-                                },
-                                {
-                                    "key": "recon_kills_most_in_game",
-                                    "label": "Recon Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "assault_kills",
-                                    "label": "Assault Kills",
-                                    "value": 67
-                                },
-                                {
-                                    "key": "tank_kills_most_in_game",
-                                    "label": "Tank Kills - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "tactical_grenade_kills",
-                                    "label": "Tactical Grenade Kills",
-                                    "value": 46
-                                },
-                                {
-                                    "key": "tactical_grenade_kills_most_in_game",
-                                    "label": "Tactical Grenade Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "artillery_kills_avg_per_10_min",
-                                    "label": "Artillery Kills - Avg per 10 Min",
-                                    "value": 0.92
-                                },
-                                {
-                                    "key": "tactical_grenade_kills_avg_per_10_min",
-                                    "label": "Tactical Grenade Kills - Avg per 10 Min",
-                                    "value": 7.06
-                                },
-                                {
-                                    "key": "assault_kills_avg_per_10_min",
-                                    "label": "Assault Kills - Avg per 10 Min",
-                                    "value": 10.29
-                                },
-                                {
-                                    "key": "recon_kills_avg_per_10_min",
-                                    "label": "Recon Kills - Avg per 10 Min",
-                                    "value": 9.83
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 9791
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 20109
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 128
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 14308
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4720
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 108
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.14
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.19
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 11143
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 2.61
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.15
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.31
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 95
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 17157
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 6.75
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.8
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 8.6
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
                                     "value": 45
                                 },
                                 {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.77
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 1134
                                 },
                                 {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.21
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 811
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 811
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 9.16
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 7429
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 10380
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 18.31
                                 }
                             ]
                         },
@@ -15913,42 +14457,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 3908
+                                    "value": 66
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 5
+                                    "value": 0
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 4
+                                    "value": 0
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 4
+                                    "value": 0
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 4
+                                    "value": 0
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 4
+                                    "value": 0
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 76
+                                    "value": 100
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 1
+                                    "value": 0
                                 }
                             ]
                         },
@@ -15957,85 +14501,34 @@ export const tempData = {
                             "label": "Combat",
                             "stats": [
                                 {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 112
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 60
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 5
+                                    "key": "death",
+                                    "label": "Death",
+                                    "value": 1
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 111757
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 56
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 617
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 2
+                                    "value": 1134
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 44
+                                    "value": 2
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 72581
-                                },
-                                {
-                                    "key": "critical_hit_kill",
-                                    "label": "Critical Hit Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 290
+                                    "value": 811
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
                                     "label": "Critical Hit Accuracy",
-                                    "value": 1
+                                    "value": 15
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 30
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 17
+                                    "value": 45
                                 }
                             ]
                         }
@@ -16048,62 +14541,62 @@ export const tempData = {
                                 {
                                     "key": "deadeye_kills",
                                     "label": "Deadeye Kills",
-                                    "value": 85
+                                    "value": 3
                                 },
                                 {
                                     "key": "deadeye_kills_most_in_game",
                                     "label": "Deadeye Kills - Most in Game",
-                                    "value": 4
+                                    "value": 3
                                 },
                                 {
                                     "key": "fan_the_hammer_kills",
                                     "label": "Fan the Hammer Kills",
-                                    "value": 152
+                                    "value": 4
                                 },
                                 {
                                     "key": "fan_the_hammer_kills_most_in_game",
                                     "label": "Fan the Hammer Kills - Most in Game",
-                                    "value": 10
+                                    "value": 2
                                 },
                                 {
                                     "key": "magnetic_grenade_kills",
                                     "label": "Magnetic Grenade Kills",
-                                    "value": 346
+                                    "value": 6
                                 },
                                 {
                                     "key": "magnetic_grenade_kills_most_in_game",
                                     "label": "Magnetic Grenade Kills - Most in Game",
-                                    "value": 13
+                                    "value": 5
                                 },
                                 {
                                     "key": "long_range_final_blows",
                                     "label": "Long Range Final Blows",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "deadeye_kills_avg_per_10_min",
-                                    "label": "Deadeye Kills - Avg per 10 Min",
-                                    "value": 1.31
+                                    "value": 2
                                 },
                                 {
                                     "key": "magnetic_grenade_kills_avg_per_10_min",
                                     "label": "Magnetic Grenade Kills - Avg per 10 Min",
-                                    "value": 5.33
+                                    "value": 3.83
+                                },
+                                {
+                                    "key": "deadeye_kills_avg_per_10_min",
+                                    "label": "Deadeye Kills - Avg per 10 Min",
+                                    "value": 1.92
                                 },
                                 {
                                     "key": "magnetic_grenade_attach_rate",
                                     "label": "Magnetic Grenade Attach Rate",
-                                    "value": 65
+                                    "value": 80
                                 },
                                 {
                                     "key": "fan_the_hammer_kills_avg_per_10_min",
                                     "label": "Fan the Hammer Kills - Avg per 10 Min",
-                                    "value": 2.34
+                                    "value": 2.55
                                 },
                                 {
                                     "key": "long_range_final_blows_avg_per_10_min",
                                     "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 0.54
+                                    "value": 1.28
                                 }
                             ]
                         },
@@ -16114,92 +14607,77 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 13
+                                    "value": 5
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 7967
+                                    "value": 2940
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 73
+                                    "value": 53
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 13
+                                    "value": 5
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 27139
+                                    "value": 10396
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 27
+                                    "value": 11
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
                                     "label": "Final Blows - Most in Game",
-                                    "value": 18
+                                    "value": 8
                                 },
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 16
+                                    "value": 3
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 209
+                                    "value": 27
                                 },
                                 {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 5
+                                    "key": "solo_kill_most_in_game",
+                                    "label": "Solo Kill - Most in Game",
+                                    "value": 1
                                 },
                                 {
                                     "key": "critical_hits_most_in_game",
                                     "label": "Critical Hits - Most in Game",
-                                    "value": 24
+                                    "value": 4
                                 },
                                 {
                                     "key": "critical_hits_most_in_life",
                                     "label": "Critical Hits - Most in Life",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
                                     "value": 2
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 18176
+                                    "value": 6918
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 6073
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 7
+                                    "value": 2083
                                 },
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 209
+                                    "value": 27
                                 }
                             ]
                         },
@@ -16210,67 +14688,57 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 8.02
+                                    "value": 9.58
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 15.45
+                                    "value": 10.86
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9754
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 1.31
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.39
+                                    "value": 7175
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 74
+                                    "value": 21
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12525
+                                    "value": 10182
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 7.67
+                                    "value": 5.75
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 1.93
+                                    "value": 1.13
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.41
+                                    "value": 1.92
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 43
+                                    "value": 21
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.75
+                                    "value": 0.64
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.01
+                                    "value": 6.39
                                 }
                             ]
                         },
@@ -16281,42 +14749,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 38954
+                                    "value": 940
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 58
+                                    "value": 1
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 33
+                                    "value": 1
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 33
+                                    "value": 1
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 33
+                                    "value": 1
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 33
+                                    "value": 1
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 56
+                                    "value": 72
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 26
+                                    "value": 0
                                 }
                             ]
                         },
@@ -16327,67 +14795,52 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 1003
+                                    "value": 17
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 521
+                                    "value": 15
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 585
+                                    "value": 10
                                 },
                                 {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 49
+                                    "key": "solo_kill",
+                                    "label": "Solo Kill",
+                                    "value": 1
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 813142
+                                    "value": 15945
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 416
+                                    "value": 3
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 4785
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 25
+                                    "value": 33
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 498
+                                    "value": 9
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 633268
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 85
+                                    "value": 11236
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 2783
+                                    "value": 33
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
@@ -16397,7 +14850,7 @@ export const tempData = {
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 49
+                                    "value": 48
                                 }
                             ]
                         }
@@ -16420,7 +14873,7 @@ export const tempData = {
                                 {
                                     "key": "micro_missile_kills",
                                     "label": "Micro Missile Kills",
-                                    "value": 80
+                                    "value": 71
                                 },
                                 {
                                     "key": "call_mech_kill",
@@ -16430,7 +14883,7 @@ export const tempData = {
                                 {
                                     "key": "micro_missile_kills_most_in_game",
                                     "label": "Micro Missile Kills - Most in Game",
-                                    "value": 12
+                                    "value": 11
                                 },
                                 {
                                     "key": "call_mech_kill_most_in_game",
@@ -16440,17 +14893,17 @@ export const tempData = {
                                 {
                                     "key": "self_destruct_kills_avg_per_10_min",
                                     "label": "Self-Destruct Kills - Avg per 10 Min",
-                                    "value": 0.94
+                                    "value": 0.85
                                 },
                                 {
                                     "key": "call_mech_kills_avg_per_10_min",
                                     "label": "Call Mech Kills - Avg per 10 Min",
-                                    "value": 0.94
+                                    "value": 0.85
                                 },
                                 {
                                     "key": "micro_missile_kills_avg_per_10_min",
                                     "label": "Micro Missile Kills - Avg per 10 Min",
-                                    "value": 8.37
+                                    "value": 6.67
                                 }
                             ]
                         },
@@ -16461,67 +14914,62 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 11
+                                    "value": 12
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 5999
+                                    "value": 7029
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 68
+                                    "value": 48
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 11
+                                    "value": 12
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 15836
+                                    "value": 15141
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 20
+                                    "value": 23
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
                                     "label": "Final Blows - Most in Game",
-                                    "value": 11
+                                    "value": 15
                                 },
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 6
+                                    "value": 5
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 330
+                                    "value": 170
                                 },
                                 {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 3
                                 },
                                 {
                                     "key": "critical_hits_most_in_game",
                                     "label": "Critical Hits - Most in Game",
-                                    "value": 557
+                                    "value": 639
                                 },
                                 {
                                     "key": "critical_hits_most_in_life",
                                     "label": "Critical Hits - Most in Life",
-                                    "value": 243
+                                    "value": 279
                                 },
                                 {
                                     "key": "melee_final_blows_most_in_game",
@@ -16531,27 +14979,27 @@ export const tempData = {
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 12387
+                                    "value": 12279
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 4767
+                                    "value": 5582
                                 },
                                 {
                                     "key": "assists_most_in_game",
                                     "label": "Assists - Most in Game",
-                                    "value": 11
+                                    "value": 13
                                 },
                                 {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
+                                    "key": "critical_hit_kills_most_in_game",
+                                    "label": "Critical Hit Kills - Most in Game",
+                                    "value": 5
                                 },
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 229
+                                    "value": 108
                                 }
                             ]
                         },
@@ -16562,72 +15010,72 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 4.81
+                                    "value": 4.79
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 15.7
+                                    "value": 13.91
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10268
+                                    "value": 9779
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 5.13
+                                    "value": 5.45
                                 },
                                 {
                                     "key": "critical_hit_kills_avg_per_10_min",
                                     "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.52
+                                    "value": 1.13
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.73
+                                    "value": 0.85
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 230
+                                    "value": 145
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11523
+                                    "value": 11996
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 339
+                                    "value": 384
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.26
+                                    "value": 2.9
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.23
+                                    "value": 2.25
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 135
+                                    "value": 67
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.52
+                                    "value": 0.56
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.12
+                                    "value": 6.86
                                 }
                             ]
                         },
@@ -16638,47 +15086,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 5734
+                                    "value": 6386
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 7
+                                    "value": 8
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 0
+                                    "value": 4
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 48
+                                    "value": 44
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 4
+                                    "value": 5
                                 }
                             ]
                         },
@@ -16689,77 +15132,72 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 150
+                                    "value": 148
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 46
+                                    "value": 51
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 68
+                                    "value": 73
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 5
+                                    "value": 6
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 110117
+                                    "value": 127675
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 50
+                                    "value": 24
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 2198
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 2
+                                    "value": 1541
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 7
+                                    "value": 9
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 3238
+                                    "value": 4091
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 98120
+                                    "value": 104075
                                 },
                                 {
                                     "key": "critical_hit_kills",
                                     "label": "Critical Hit Kills",
-                                    "value": 5
+                                    "value": 12
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 1291
+                                    "value": 715
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
                                     "label": "Critical Hit Accuracy",
-                                    "value": 8
+                                    "value": 9
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 38
+                                    "value": 37
                                 }
                             ]
                         },
@@ -16770,7 +15208,7 @@ export const tempData = {
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 49
+                                    "value": 58
                                 }
                             ]
                         }
@@ -16783,842 +15221,61 @@ export const tempData = {
                                 {
                                     "key": "meteor_strike_kills",
                                     "label": "Meteor Strike Kills",
-                                    "value": 95
+                                    "value": 29
                                 },
                                 {
                                     "key": "meteor_strike_kills_most_in_game",
                                     "label": "Meteor Strike Kills - Most in Game",
-                                    "value": 6
+                                    "value": 4
                                 },
                                 {
                                     "key": "overhealth_created",
                                     "label": "Overhealth Created",
-                                    "value": 185939
+                                    "value": 59325
                                 },
                                 {
                                     "key": "overhealth_created_most_in_game",
                                     "label": "Overhealth Created - Most in Game",
-                                    "value": 5350
+                                    "value": 4230
                                 },
                                 {
                                     "key": "rocket_punch_kills",
                                     "label": "Rocket Punch Kills",
-                                    "value": 700
+                                    "value": 201
                                 },
                                 {
                                     "key": "seismic_slam_kills",
                                     "label": "Seismic Slam Kills",
-                                    "value": 558
+                                    "value": 186
                                 },
                                 {
                                     "key": "seismic_slam_kills_most_in_game",
                                     "label": "Seismic Slam Kills - Most in Game",
-                                    "value": 27
+                                    "value": 15
                                 },
                                 {
                                     "key": "rocket_punch_kills_most_in_game",
                                     "label": "Rocket Punch Kills - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "rocket_punch_kills_avg_per_10_min",
-                                    "label": "Rocket Punch Kills - Avg per 10 Min",
-                                    "value": 10.19
+                                    "value": 15
                                 },
                                 {
                                     "key": "seismic_slam_kills_avg_per_10_min",
                                     "label": "Seismic Slam Kills - Avg per 10 Min",
-                                    "value": 8.12
+                                    "value": 8.28
                                 },
                                 {
                                     "key": "overhealth_created_avg_per_10_min",
                                     "label": "Overhealth Created - Avg per 10 Min",
-                                    "value": 2707
+                                    "value": 2639
+                                },
+                                {
+                                    "key": "rocket_punch_kills_avg_per_10_min",
+                                    "label": "Rocket Punch Kills - Avg per 10 Min",
+                                    "value": 8.94
                                 },
                                 {
                                     "key": "meteor_strike_kills_avg_per_10_min",
                                     "label": "Meteor Strike Kills - Avg per 10 Min",
-                                    "value": 1.38
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 6815
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 70
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 17529
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 272
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 269
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 96
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 16134
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 6815
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "environmental_kills_most_in_game",
-                                    "label": "Environmental Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 210
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 16.77
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9032
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 4.24
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 1.19
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.93
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 108
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10308
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 95.4
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.4
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.92
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 72
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.14
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.08
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 41216
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 62
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 58
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 26
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 1152
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 481
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 555
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 78
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 708070
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 407
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 7404
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "environmental_kills",
-                                    "label": "Environmental Kills",
-                                    "value": 31
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 64
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 6553
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 620427
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 82
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 4955
-                                },
-                                {
-                                    "key": "environmental_kills_avg_per_10_min",
-                                    "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 0.45
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 37
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 291
-                                }
-                            ]
-                        }
-                    ],
-                    "genji": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "dragonblade_kills",
-                                    "label": "Dragonblade Kills",
-                                    "value": 341
-                                },
-                                {
-                                    "key": "dragonblade_kills_most_in_game",
-                                    "label": "Dragonblade Kills - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "damage_reflected",
-                                    "label": "Damage Reflected",
-                                    "value": 133820
-                                },
-                                {
-                                    "key": "damage_reflected_most_in_game",
-                                    "label": "Damage Reflected - Most in Game",
-                                    "value": 4886
-                                },
-                                {
-                                    "key": "swift_strike_resets",
-                                    "label": "Swift Strike Resets",
-                                    "value": 1215
-                                },
-                                {
-                                    "key": "swift_strike_resets_most_in_game",
-                                    "label": "Swift Strike Resets - Most in Game",
-                                    "value": 1215
-                                },
-                                {
-                                    "key": "ultimate_reflected",
-                                    "label": "Ultimate Reflected",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "ultimate_reflected_most_in_game_nyi",
-                                    "label": "Ultimate Reflected - Most in Game NYI",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "dragonblade_kills_avg_per_10_min",
-                                    "label": "Dragonblade Kills - Avg per 10 Min",
-                                    "value": 4.64
-                                },
-                                {
-                                    "key": "damage_reflected_avg_per_10_min",
-                                    "label": "Damage Reflected - Avg per 10 Min",
-                                    "value": 1822
-                                },
-                                {
-                                    "key": "ultimates_reflected_avg_per_10_min_nyi",
-                                    "label": "Ultimates Reflected - Avg per 10 Min NYI",
-                                    "value": 0.01
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 6741
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 73
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 23352
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 265
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 54
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 15775
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4830
-                                },
-                                {
-                                    "key": "assist_most_in_game",
-                                    "label": "Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 265
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1.46
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.23
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.49
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8442
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 0.01
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.79
-                                },
-                                {
-                                    "key": "swift_strike_resets_avg_per_10_min_nyi",
-                                    "label": "Swift Strike Resets - Avg per 10 Min NYI",
-                                    "value": 16.54
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.68
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 95
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10599
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 19.51
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.42
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.35
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.72
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 10.59
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 44071
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 64
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 57
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 27
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 1285
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 531
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 778
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 53
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 778513
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 393
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 6953
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 1433
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 620105
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 58
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 3333
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 34
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assist",
-                                    "label": "Assist",
-                                    "value": 1
-                                }
-                            ]
-                        }
-                    ],
-                    "hanzo": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "dragonstrike_kills",
-                                    "label": "Dragonstrike Kills",
-                                    "value": 78
-                                },
-                                {
-                                    "key": "dragonstrike_kills_most_in_game",
-                                    "label": "Dragonstrike Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "storm_arrow_kills",
-                                    "label": "Storm Arrow Kills",
-                                    "value": 369
-                                },
-                                {
-                                    "key": "storm_arrow_kills_most_in_game",
-                                    "label": "Storm Arrow Kills - Most in Game",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "long_range_final_blows",
-                                    "label": "Long Range Final Blows",
-                                    "value": 83
-                                },
-                                {
-                                    "key": "long_range_final_blows_most_in_game",
-                                    "label": "Long Range Final Blows - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "dragonstrike_kills_avg_per_10_min",
-                                    "label": "Dragonstrike Kills - Avg per 10 Min",
-                                    "value": 1.21
-                                },
-                                {
-                                    "key": "storm_arrow_kills_avg_per_10_min",
-                                    "label": "Storm Arrow Kills - Avg per 10 Min",
-                                    "value": 5.74
-                                },
-                                {
-                                    "key": "long_range_final_blows_avg_per_10_min",
-                                    "label": "Long Range Final Blows - Avg per 10 Min",
                                     "value": 1.29
                                 }
                             ]
@@ -17630,1166 +15287,102 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 16
+                                    "value": 12
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 10228
+                                    "value": 4881
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 72
+                                    "value": 75
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 16
+                                    "value": 12
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 31075
+                                    "value": 15332
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 40
+                                    "value": 24
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
                                     "label": "Final Blows - Most in Game",
-                                    "value": 29
+                                    "value": 16
                                 },
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 15
+                                    "value": 11
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 235
+                                    "value": 131
                                 },
                                 {
                                     "key": "multikill_best",
                                     "label": "Multikill - Best",
-                                    "value": 4
+                                    "value": 3
                                 },
                                 {
                                     "key": "solo_kills_most_in_game",
                                     "label": "Solo Kills - Most in Game",
-                                    "value": 5
+                                    "value": 2
                                 },
                                 {
                                     "key": "critical_hits_most_in_game",
                                     "label": "Critical Hits - Most in Game",
-                                    "value": 21
+                                    "value": 176
                                 },
                                 {
                                     "key": "critical_hits_most_in_life",
                                     "label": "Critical Hits - Most in Life",
-                                    "value": 7
+                                    "value": 70
                                 },
                                 {
                                     "key": "melee_final_blows_most_in_game",
                                     "label": "Melee Final Blows - Most in Game",
-                                    "value": 2
+                                    "value": 5
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 20250
+                                    "value": 14514
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 8024
+                                    "value": 4266
                                 },
                                 {
                                     "key": "assists_most_in_game",
                                     "label": "Assists - Most in Game",
-                                    "value": 13
+                                    "value": 6
+                                },
+                                {
+                                    "key": "environmental_kills_most_in_game",
+                                    "label": "Environmental Kills - Most in Game",
+                                    "value": 4
                                 },
                                 {
                                     "key": "critical_hit_kills_most_in_game",
                                     "label": "Critical Hit Kills - Most in Game",
-                                    "value": 11
+                                    "value": 4
                                 },
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 70
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.72
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 15.23
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8368
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 4.96
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 3.11
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.25
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 66
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11637
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 7.45
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 1.97
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.6
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.73
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 38556
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 52
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 24
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 979
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 496
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 625
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 103
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 747800
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 321
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 4214
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 479
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 537745
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 200
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 875
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 40
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "recon_assists",
-                                    "label": "Recon Assists",
-                                    "value": 256
-                                },
-                                {
-                                    "key": "recon_assists_most_in_game",
-                                    "label": "Recon Assists - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 319
-                                },
-                                {
-                                    "key": "recon_assists_avg_per_10_min",
-                                    "label": "Recon Assists - Avg per 10 Min",
-                                    "value": 3.98
-                                }
-                            ]
-                        }
-                    ],
-                    "junker-queen": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 22352
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 2056
-                                },
-                                {
-                                    "key": "jagged_blade_kills",
-                                    "label": "Jagged Blade Kills",
-                                    "value": 101
-                                },
-                                {
-                                    "key": "jagged_blade_kills_most_in_game",
-                                    "label": "Jagged Blade Kills - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "jagged_blade_accuracy_best_in_game",
-                                    "label": "Jagged Blade Accuracy - Best in Game",
-                                    "value": 67
-                                },
-                                {
-                                    "key": "carnage_kills",
-                                    "label": "Carnage Kills",
-                                    "value": 125
-                                },
-                                {
-                                    "key": "carnage_kills_most_in_game",
-                                    "label": "Carnage Kills - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "rampage_kills",
-                                    "label": "Rampage Kills",
-                                    "value": 81
-                                },
-                                {
-                                    "key": "rampage_kills_most_in_game",
-                                    "label": "Rampage Kills - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "jagged_blade_accuracy",
-                                    "label": "Jagged Blade Accuracy",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "carnage_kills_avg_per_10_min",
-                                    "label": "Carnage Kills - Avg per 10 Min",
-                                    "value": 6.44
-                                },
-                                {
-                                    "key": "rampage_kills_avg_per_10_min",
-                                    "label": "Rampage Kills - Avg per 10 Min",
-                                    "value": 4.17
-                                },
-                                {
-                                    "key": "wound_uptime_percentage",
-                                    "label": "Wound Uptime Percentage",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "jagged_blade_kills_avg_per_10_min",
-                                    "label": "Jagged Blade Kills - Avg per 10 Min",
-                                    "value": 5.2
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 1151
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 6303
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 59
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 18625
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 20
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 273
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 18625
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 5407
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "environmental_kill_most_in_game",
-                                    "label": "Environmental Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 219
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1363
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.61
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.98
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10625
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 6.23
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.18
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 139
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11380
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 3.2
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.1
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 82
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.52
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.07
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 11649
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 42
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 10
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 349
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 109
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 176
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 220940
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 99
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 2694
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "environmental_kill",
-                                    "label": "Environmental Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 23
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 206283
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 1588
-                                },
-                                {
-                                    "key": "environmental_kills_avg_per_10_min",
-                                    "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 0.05
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 46
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 121
-                                }
-                            ]
-                        }
-                    ],
-                    "junkrat": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "enemies_trapped_most_in_game",
-                                    "label": "Enemies Trapped - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "enemies_trapped",
-                                    "label": "Enemies Trapped",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "rip_tire_kills_most_in_game",
-                                    "label": "RIP-Tire Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "rip_tire_kills",
-                                    "label": "RIP-Tire Kills",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "concussion_mine_kills",
-                                    "label": "Concussion Mine Kills",
-                                    "value": 25
-                                },
-                                {
-                                    "key": "concussion_mine_kills_most_in_game",
-                                    "label": "Concussion Mine Kills - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "concussion_mine_kills_avg_per_10_min",
-                                    "label": "Concussion Mine Kills - Avg per 10 Min",
-                                    "value": 5.04
-                                },
-                                {
-                                    "key": "rip_tire_kills_avg_per_10_min",
-                                    "label": "RIP-Tire Kills - Avg per 10 Min",
-                                    "value": 2.42
-                                },
-                                {
-                                    "key": "direct_hit_accuracy",
-                                    "label": "Direct Hit Accuracy",
-                                    "value": 21
-                                },
-                                {
-                                    "key": "enemies_trapped_avg_per_10_min",
-                                    "label": "Enemies Trapped - Avg per 10 Min",
-                                    "value": 2.42
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 2671
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 67
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 8134
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 7282
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 2657
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 13
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 9.87
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 12.89
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8351
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 2.01
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10453
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 1.31
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 2.62
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.61
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.85
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 2979
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 64
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 49
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 51902
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 55
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 41463
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 38
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 28
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 2.01
-                                }
-                            ]
-                        }
-                    ],
-                    "kiriko": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "negative_effects_cleansed_most_in_game",
-                                    "label": "Negative Effects Cleansed - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "kitsune_rush_assists",
-                                    "label": "Kitsune Rush Assists",
-                                    "value": 47
-                                },
-                                {
-                                    "key": "kitsune_rush_assists_most_in_game",
-                                    "label": "Kitsune Rush Assists - Most in Game",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "kunai_kills",
-                                    "label": "Kunai Kills",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "kunai_kills_most_in_game",
-                                    "label": "Kunai Kills - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "kunai_kills_avg_per_10_min",
-                                    "label": "Kunai Kills - Avg per 10 Min",
-                                    "value": 7.84
-                                },
-                                {
-                                    "key": "negative_effects_cleansed_avg_per_10_min",
-                                    "label": "Negative Effects Cleansed - Avg per 10 Min",
-                                    "value": 3.62
-                                },
-                                {
-                                    "key": "kitsune_rush_assists_avg_per_10_min",
-                                    "label": "Kitsune Rush Assists - Avg per 10 Min",
-                                    "value": 28.35
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 1679
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 4700
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
                                     "value": 113
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 3656
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 1589
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 12
                                 }
                             ]
                         },
@@ -18798,2904 +15391,64 @@ export const tempData = {
                             "label": "Average",
                             "stats": [
                                 {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 7499
-                                },
-                                {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.63
+                                    "value": 6.81
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 7.84
+                                    "value": 16.24
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 3631
+                                    "value": 8774
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 15.08
+                                    "value": 3.56
                                 },
                                 {
                                     "key": "critical_hit_kills_avg_per_10_min",
                                     "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.6
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 75
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 4346
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 9.65
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 1.18
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 3.02
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 3.62
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 995
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 62
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 7205
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 125
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 6021
-                                },
-                                {
-                                    "key": "critical_hit_kill",
-                                    "label": "Critical Hit Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 38
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 12434
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 9993
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 25
-                                },
-                                {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 14.47
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 6.63
-                                }
-                            ]
-                        }
-                    ],
-                    "lucio": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "sound_barriers_provided",
-                                    "label": "Sound Barriers Provided",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "sound_barriers_provided_most_in_game",
-                                    "label": "Sound Barriers Provided - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 852
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 613
-                                },
-                                {
-                                    "key": "players_knocked_back_most_in_game",
-                                    "label": "Players Knocked Back - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "players_knocked_back_avg_per_10_min",
-                                    "label": "Players Knocked Back - Avg per 10 Min",
-                                    "value": 62.49
-                                },
-                                {
-                                    "key": "sound_barriers_provided_avg_per_10_min",
-                                    "label": "Sound Barriers Provided - Avg per 10 Min",
-                                    "value": 10.42
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 2958
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 1624
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 53
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 1624
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 30
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 1331
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 1331
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 30
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 9695
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.94
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 20.83
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 6138
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 20.83
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 3.47
+                                    "value": 0.98
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 3.47
+                                    "value": 0.98
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 165
+                                    "value": 100
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 7830
+                                    "value": 10037
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 31.25
+                                    "value": 99.17
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3
+                                    "value": 2.39
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 13.89
+                                    "value": 5.74
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 165
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 6.94
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 173
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 86
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 2255
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 47
-                                },
-                                {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 1768
-                                },
-                                {
-                                    "key": "critical_hit_kill",
-                                    "label": "Critical Hit Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 47
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 37
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 2792
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 2169
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 20.83
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 10.42
-                                }
-                            ]
-                        }
-                    ],
-                    "mei": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "enemies_frozen",
-                                    "label": "Enemies Frozen",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "enemies_frozen_most_in_game",
-                                    "label": "Enemies Frozen - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "blizzard_kills_most_in_game",
-                                    "label": "Blizzard Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "blizzard_kills",
-                                    "label": "Blizzard Kills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 2805
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 725
-                                },
-                                {
-                                    "key": "icicle_critical_accuracy",
-                                    "label": "Icicle Critical Accuracy",
-                                    "value": 20
-                                },
-                                {
-                                    "key": "blizzard_kills_avg_per_10_min",
-                                    "label": "Blizzard Kills - Avg per 10 Min",
-                                    "value": 2.52
-                                },
-                                {
-                                    "key": "icicle_accuracy",
-                                    "label": "Icicle Accuracy",
-                                    "value": 28
-                                },
-                                {
-                                    "key": "enemies_frozen_avg_per_10_min",
-                                    "label": "Enemies Frozen - Avg per 10 Min",
-                                    "value": 3.02
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 1413
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 10998
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 63
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 21216
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 89
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 4487
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 3061
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 37
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1413
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.56
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 18.64
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8084
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 8.06
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.5
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 88
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 32120
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.47
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.55
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.5
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.56
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 1191
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 37
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 37
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "solo_kill",
-                                    "label": "Solo Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 63750
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 175
-                                },
-                                {
-                                    "key": "multikill",
-                                    "label": "Multikill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 16045
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 99
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 56
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 8.06
-                                }
-                            ]
-                        }
-                    ],
-                    "mercy": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "blaster_kills",
-                                    "label": "Blaster Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "blaster_kills_most_in_game",
-                                    "label": "Blaster Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "players_resurrected",
-                                    "label": "Players Resurrected",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "players_resurrected_most_in_game",
-                                    "label": "Players Resurrected - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 781
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 533
-                                },
-                                {
-                                    "key": "damage_amplified",
-                                    "label": "Damage Amplified",
-                                    "value": 1437
-                                },
-                                {
-                                    "key": "damage_amplified_most_in_game",
-                                    "label": "Damage Amplified - Most in Game",
-                                    "value": 936
-                                },
-                                {
-                                    "key": "blaster_kills_avg_per_10_min",
-                                    "label": "Blaster Kills - Avg per 10 Min",
-                                    "value": 1.25
-                                },
-                                {
-                                    "key": "players_resurrected_avg_per_10_min",
-                                    "label": "Players Resurrected - Avg per 10 Min",
-                                    "value": 7.47
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 486
-                                },
-                                {
-                                    "key": "damage_amplified_avg_per_10_min",
-                                    "label": "Damage Amplified - Avg per 10 Min",
-                                    "value": 895
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "final_blow_most_in_game",
-                                    "label": "Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "critical_hit_most_in_game",
-                                    "label": "Critical Hit - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hit_most_in_life",
-                                    "label": "Critical Hit - Most in Life",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 50
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 7070
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.23
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 1.25
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 193
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 21.17
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.62
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 193
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 0.62
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 0.2
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 1.25
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 0.62
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 963
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 83
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "final_blow",
-                                    "label": "Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 57
-                                },
-                                {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hit",
-                                    "label": "Critical Hit",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 310
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 57
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 20
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 29
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 11353
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 6732
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 34
-                                },
-                                {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 18.06
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 8.72
-                                }
-                            ]
-                        }
-                    ],
-                    "moira": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "secondary_fire_accuracy",
-                                    "label": "Secondary Fire Accuracy",
-                                    "value": 50
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 2
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 149
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 149
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 2
-                                }
-                            ]
-                        }
-                    ],
-                    "orisa": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "energy_javelin_kill",
-                                    "label": "Energy Javelin Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "javelin_spin_kill",
-                                    "label": "Javelin Spin Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "energy_javelin_kill_nyi",
-                                    "label": "Energy Javelin Kill NYI",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "javelin_spin_kill_nyi",
-                                    "label": "Javelin Spin Kill NYI",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "javelin_spin_kills_avg_per_10_min",
-                                    "label": "Javelin Spin Kills - Avg per 10 Min",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "energy_javelin_kills_avg_per_10_min",
-                                    "label": "Energy Javelin Kills - Avg per 10 Min",
-                                    "value": 1.41
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 3386
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 6754
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "final_blow_most_in_game",
-                                    "label": "Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 190
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 4678
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 2246
-                                },
-                                {
-                                    "key": "assist_most_in_game",
-                                    "label": "Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 12
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.07
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 7.07
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 6612
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 1.41
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 268
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 9546
-                                },
-                                {
-                                    "key": "elimination_per_life",
-                                    "label": "Elimination per Life",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 4.24
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 1.41
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 425
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "final_blow",
-                                    "label": "Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 6754
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 190
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 4678
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 22
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assist",
-                                    "label": "Offensive Assist",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "offensive_assist_most_in_game",
-                                    "label": "Offensive Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "assist",
-                                    "label": "Assist",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 1.41
-                                }
-                            ]
-                        }
-                    ],
-                    "pharah": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "rocket_direct_hits",
-                                    "label": "Rocket Direct Hits",
-                                    "value": 229
-                                },
-                                {
-                                    "key": "barrage_kills",
-                                    "label": "Barrage Kills",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "rocket_direct_hits_most_in_game",
-                                    "label": "Rocket Direct Hits - Most in Game",
-                                    "value": 61
-                                },
-                                {
-                                    "key": "barrage_kills_most_in_game",
-                                    "label": "Barrage Kills - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "long_range_final_blows",
-                                    "label": "Long Range Final Blows",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "long_range_final_blow_most_in_game",
-                                    "label": "Long Range Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "barrage_kills_avg_per_10_min",
-                                    "label": "Barrage Kills - Avg per 10 Min",
-                                    "value": 3.02
-                                },
-                                {
-                                    "key": "airtime_percentage",
-                                    "label": "Airtime Percentage",
-                                    "value": 69
-                                },
-                                {
-                                    "key": "direct_hit_accuracy",
-                                    "label": "Direct Hit Accuracy",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "rocket_direct_hits_avg_per_10_min",
-                                    "label": "Rocket Direct Hits - Avg per 10 Min",
-                                    "value": 40.72
-                                },
-                                {
-                                    "key": "long_range_final_blows_avg_per_10_min",
-                                    "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 1.07
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 4983
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 56
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 15077
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 55
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 12493
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4230
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "environmental_kills_most_in_game",
-                                    "label": "Environmental Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 49
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.11
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 22.05
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10144
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 1.6
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 32
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12668
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 3.1
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.4
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 21
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.07
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 13.51
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 3374
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 73
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 2
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 124
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 76
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 71240
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 182
-                                },
-                                {
-                                    "key": "environmental_kills",
-                                    "label": "Environmental Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 57047
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 118
-                                },
-                                {
-                                    "key": "environmental_kills_avg_per_10_min",
-                                    "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 1.07
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 42
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 9
-                                }
-                            ]
-                        }
-                    ],
-                    "ramattra": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "pummel_kills",
-                                    "label": "Pummel Kills",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "pummel_kills_most_in_game",
-                                    "label": "Pummel Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "ravenous_vortex_kills",
-                                    "label": "Ravenous Vortex Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "ravenous_vortex_kills_most_in_game",
-                                    "label": "Ravenous Vortex Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "annihilation_kills",
-                                    "label": "Annihilation Kills",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "annihilation_kills_most_in_game",
-                                    "label": "Annihilation Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "ravenous_vortex_kills_avg_per_10_min",
-                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
-                                    "value": 3.57
-                                },
-                                {
-                                    "key": "pummel_kills_avg_per_10_min",
-                                    "label": "Pummel Kills - Avg per 10 Min",
-                                    "value": 10.11
-                                },
-                                {
-                                    "key": "annihilation_kills_avg_per_10_min",
-                                    "label": "Annihilation Kills - Avg per 10 Min",
-                                    "value": 1.78
-                                },
-                                {
-                                    "key": "pummel_accuracy",
-                                    "label": "Pummel Accuracy",
-                                    "value": 63
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 4850
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 5103
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 46
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 42
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 5098
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4214
-                                },
-                                {
-                                    "key": "assist_most_in_game",
-                                    "label": "Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 46
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.95
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 12.49
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8798
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 0.59
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 1.19
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.19
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 59
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 9263
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 85.08
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.1
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 3.57
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 59
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.19
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.14
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 1008
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 37
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 21
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 15568
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 99
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 143
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 14787
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 99
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 25
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assist",
-                                    "label": "Offensive Assist",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "offensive_assist_most_in_game",
-                                    "label": "Offensive Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "assist",
-                                    "label": "Assist",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 0.59
-                                }
-                            ]
-                        }
-                    ],
-                    "reaper": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "death_blossom_kills",
-                                    "label": "Death Blossom Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "death_blossom_kills_most_in_game",
-                                    "label": "Death Blossom Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 555
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 404
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 1486
-                                },
-                                {
-                                    "key": "death_blossom_kills_avg_per_10_min",
-                                    "label": "Death Blossom Kills - Avg per 10 Min",
-                                    "value": 5.36
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 1476
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 2702
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 28
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 2223
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 1298
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1486
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 13.4
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 10.72
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 7850
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11390
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 118
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 0.8
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.36
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.04
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 224
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 54
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 4250
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 44
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 2929
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 31
-                                }
-                            ]
-                        }
-                    ],
-                    "reinhardt": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "charge_kills",
-                                    "label": "Charge Kills",
-                                    "value": 470
-                                },
-                                {
-                                    "key": "charge_kills_most_in_game",
-                                    "label": "Charge Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "fire_strike_kills",
-                                    "label": "Fire Strike Kills",
-                                    "value": 1389
-                                },
-                                {
-                                    "key": "fire_strike_kills_most_in_game",
-                                    "label": "Fire Strike Kills - Most in Game",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "earthshatter_kills",
-                                    "label": "Earthshatter Kills",
-                                    "value": 522
-                                },
-                                {
-                                    "key": "earthshatter_kills_most_in_game",
-                                    "label": "Earthshatter Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "earthshatter_direct_hits",
-                                    "label": "Earthshatter Direct Hits",
-                                    "value": 129
-                                },
-                                {
-                                    "key": "earthshatter_direct_hits",
-                                    "label": "Earthshatter Direct Hits",
-                                    "value": 129
-                                },
-                                {
-                                    "key": "charge_kills_avg_per_10_min",
-                                    "label": "Charge Kills - Avg per 10 Min",
-                                    "value": 2.83
-                                },
-                                {
-                                    "key": "earthshatter_direct_hits_avg_per_10_min",
-                                    "label": "Earthshatter Direct Hits - Avg per 10 Min",
-                                    "value": 0.78
-                                },
-                                {
-                                    "key": "fire_strike_kills_avg_per_10_min",
-                                    "label": "Fire Strike Kills - Avg per 10 Min",
-                                    "value": 8.36
-                                },
-                                {
-                                    "key": "earthshatter_kills_avg_per_10_min",
-                                    "label": "Earthshatter Kills - Avg per 10 Min",
-                                    "value": 3.14
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 9661
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 29343
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 30
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 555
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 24121
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 8228
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "environmental_kills_most_in_game",
-                                    "label": "Environmental Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 313
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.96
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 15.9
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9420
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 1.99
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 156
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11986
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.67
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.92
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 82
+                                    "value": 65
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
@@ -21705,7 +15458,7 @@ export const tempData = {
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.74
+                                    "value": 7.16
                                 }
                             ]
                         },
@@ -21716,1091 +15469,17 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 99640
+                                    "value": 13486
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 144
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 94
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 94
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 94
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 94
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 65
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 50
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 2640
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 990
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 1452
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 112
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 1990405
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 983
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 25940
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 48
-                                },
-                                {
-                                    "key": "environmental_kills",
-                                    "label": "Environmental Kills",
-                                    "value": 46
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 1564294
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 13590
-                                },
-                                {
-                                    "key": "environmental_kills_avg_per_10_min",
-                                    "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 0.28
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 330
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 330
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 1.99
-                                }
-                            ]
-                        }
-                    ],
-                    "roadhog": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "whole_hog_kills_most_in_game",
-                                    "label": "Whole Hog Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "whole_hog_kills",
-                                    "label": "Whole Hog Kills",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "chain_hook_accuracy_best_in_game",
-                                    "label": "Chain Hook Accuracy - Best in Game",
-                                    "value": 100
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 21257
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 3890
-                                },
-                                {
-                                    "key": "chain_hook_kills",
-                                    "label": "Chain Hook Kills",
-                                    "value": 38
-                                },
-                                {
-                                    "key": "whole_hog_kills_avg_per_10_min",
-                                    "label": "Whole Hog Kills - Avg per 10 Min",
-                                    "value": 2.03
-                                },
-                                {
-                                    "key": "chain_hook_kills_avg_per_10_min",
-                                    "label": "Chain Hook Kills - Avg per 10 Min",
-                                    "value": 9.66
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 5406
-                                },
-                                {
-                                    "key": "chain_hook_accuracy",
-                                    "label": "Chain Hook Accuracy",
-                                    "value": 52
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 5126
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 7736
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 73
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 104
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 49
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 4721
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 3131
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "environmental_kills_most_in_game",
-                                    "label": "Environmental Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 73
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 5406
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.59
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 16.78
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 7676
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 3.31
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 1.78
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.76
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 84
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10365
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 123
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 7.63
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 65
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 2.29
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.66
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 2360
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 20
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 3
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 66
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 38
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 40762
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 30
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 332
-                                },
-                                {
-                                    "key": "environmental_kills",
-                                    "label": "Environmental Kills",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 482
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 30186
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 254
-                                },
-                                {
-                                    "key": "environmental_kills_avg_per_10_min",
-                                    "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 1.53
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 27
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "offensive_assists_most_in_game",
-                                    "label": "Offensive Assists - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 3.31
-                                }
-                            ]
-                        }
-                    ],
-                    "sigma": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "accretion_kills_most_in_game",
-                                    "label": "Accretion Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "accretion_kills",
-                                    "label": "Accretion Kills",
-                                    "value": 193
-                                },
-                                {
-                                    "key": "gravitic_flux_kills",
-                                    "label": "Gravitic Flux Kills",
-                                    "value": 101
-                                },
-                                {
-                                    "key": "gravitic_flux_kills_most_in_game",
-                                    "label": "Gravitic Flux Kills - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "overhealth_created",
-                                    "label": "Overhealth Created",
-                                    "value": 60314
-                                },
-                                {
-                                    "key": "overhealth_created_most_in_game",
-                                    "label": "Overhealth Created - Most in Game",
-                                    "value": 5296
-                                },
-                                {
-                                    "key": "gravitic_flux_kills_avg_per_10_min",
-                                    "label": "Gravitic Flux Kills - Avg per 10 Min",
-                                    "value": 2.54
-                                },
-                                {
-                                    "key": "accretion_kills_avg_per_10_min",
-                                    "label": "Accretion Kills - Avg per 10 Min",
-                                    "value": 4.85
-                                },
-                                {
-                                    "key": "overhealth_created_avg_per_10_min",
-                                    "label": "Overhealth Created - Avg per 10 Min",
-                                    "value": 1517
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 9614
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 77
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 36936
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 21
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
                                     "value": 23
                                 },
                                 {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 397
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 26501
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 6877
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 176
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.11
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 14.94
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 11442
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 2.47
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.68
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 154
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 16053
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.93
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.11
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 57
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.45
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.07
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 23853
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 31
-                                },
-                                {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 59
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 13
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 594
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 203
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 281
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 638185
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 243
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 6128
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 454895
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 2254
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 59
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 98
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 98
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 2.47
-                                }
-                            ]
-                        }
-                    ],
-                    "sojourn": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "charged_shot_kills_most_in_game",
-                                    "label": "Charged Shot Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "charged_shot_kills",
-                                    "label": "Charged Shot Kills",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "charged_shot_accuracy_best_in_game",
-                                    "label": "Charged Shot Accuracy - Best in Game",
-                                    "value": 100
-                                },
-                                {
-                                    "key": "overclock_kill_most_in_game",
-                                    "label": "Overclock Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "overclock_kills",
-                                    "label": "Overclock Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "disruptor_shot_kills",
-                                    "label": "Disruptor Shot Kills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "disruptor_shot_kills_most_in_game",
-                                    "label": "Disruptor Shot Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "charged_shot_kills_avg_per_10_min",
-                                    "label": "Charged Shot Kills - Avg per 10 Min",
-                                    "value": 5.69
-                                },
-                                {
-                                    "key": "charged_shot_critical_accuracy",
-                                    "label": "Charged Shot Critical Accuracy",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "overclock_kills_avg_per_10_min",
-                                    "label": "Overclock Kills - Avg per 10 Min",
-                                    "value": 1.26
-                                },
-                                {
-                                    "key": "disruptor_shot_kills_avg_per_10_min",
-                                    "label": "Disruptor Shot Kills - Avg per 10 Min",
-                                    "value": 3.16
-                                },
-                                {
-                                    "key": "charged_shot_accuracy",
-                                    "label": "Charged Shot Accuracy",
-                                    "value": 63
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 4098
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 6870
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 6650
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 3221
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 50
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 10.74
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 10.74
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10207
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 1.9
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 51
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 13052
-                                },
-                                {
-                                    "key": "elimination_per_life",
-                                    "label": "Elimination per Life",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.06
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.63
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 5.06
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 949
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 1
+                                    "value": 11
                                 },
                                 {
                                     "key": "games_tied",
@@ -22808,1478 +15487,29 @@ export const tempData = {
                                     "value": 0
                                 },
                                 {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "solo_kill",
-                                    "label": "Solo Kill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 20655
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 81
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 16152
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 72
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 32
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 3
-                                }
-                            ]
-                        }
-                    ],
-                    "soldier-76": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "helix_rocket_kills_most_in_game",
-                                    "label": "Helix Rocket Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "helix_rocket_kills",
-                                    "label": "Helix Rocket Kills",
-                                    "value": 33
-                                },
-                                {
-                                    "key": "tactical_visor_kills",
-                                    "label": "Tactical Visor Kills",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "tactical_visor_kills_most_in_game",
-                                    "label": "Tactical Visor Kills - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 3688
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 976
-                                },
-                                {
-                                    "key": "long_range_final_blows",
-                                    "label": "Long Range Final Blows",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "long_range_final_blow_most_in_game",
-                                    "label": "Long Range Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "tactical_visor_kills_avg_per_10_min",
-                                    "label": "Tactical Visor Kills - Avg per 10 Min",
-                                    "value": 1.95
-                                },
-                                {
-                                    "key": "helix_rocket_accuracy",
-                                    "label": "Helix Rocket Accuracy",
-                                    "value": 58
-                                },
-                                {
-                                    "key": "helix_rocket_kills_avg_per_10_min",
-                                    "label": "Helix Rocket Kills - Avg per 10 Min",
-                                    "value": 7.16
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 800
-                                },
-                                {
-                                    "key": "long_range_final_blows_avg_per_10_min",
-                                    "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 0.87
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 8299
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 53
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 19356
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
+                                    "key": "games_won",
+                                    "label": "Games Won",
                                     "value": 11
                                 },
                                 {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 12
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 11
                                 },
                                 {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 176
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 11
                                 },
                                 {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
                                     "value": 48
                                 },
                                 {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 25
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 11674
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4879
-                                },
-                                {
-                                    "key": "assist_most_in_game",
-                                    "label": "Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 176
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1097
-                                },
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.38
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.8
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10331
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 0.43
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.65
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.65
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 77
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12875
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 22.14
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.41
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 7.81
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 51
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.43
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.81
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 2765
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 52
-                                },
-                                {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 2
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 82
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 34
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 59327
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 36
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 356
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "melee_final_blows",
-                                    "label": "Melee Final Blows",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 102
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 47607
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 234
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 43
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 5056
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 1294
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 1.74
-                                }
-                            ]
-                        }
-                    ],
-                    "sombra": [
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        }
-                    ],
-                    "symmetra": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "sentry_turret_kills",
-                                    "label": "Sentry Turret Kills",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "sentry_turret_kills_most_in_game",
-                                    "label": "Sentry Turret Kills - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "players_teleported",
-                                    "label": "Players Teleported",
-                                    "value": 30
-                                },
-                                {
-                                    "key": "players_teleported_most_in_game",
-                                    "label": "Players Teleported - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "players_teleported_avg_per_10_min",
-                                    "label": "Players Teleported - Avg per 10 Min",
-                                    "value": 13.64
-                                },
-                                {
-                                    "key": "secondary_fire_accuracy",
-                                    "label": "Secondary Fire Accuracy",
-                                    "value": 42
-                                },
-                                {
-                                    "key": "primary_fire_accuracy",
-                                    "label": "Primary Fire Accuracy",
-                                    "value": 54
-                                },
-                                {
-                                    "key": "sentry_turret_kills_avg_per_10_min",
-                                    "label": "Sentry Turret Kills - Avg per 10 Min",
-                                    "value": 6.36
-                                },
-                                {
-                                    "key": "average_damage_multiplier",
-                                    "label": "Average Damage Multiplier",
-                                    "value": 2.51
-                                },
-                                {
-                                    "key": "secondary_direct_hits_avg_per_10_min",
-                                    "label": "Secondary Direct Hits - Avg per 10 Min",
-                                    "value": 53.18
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 5947
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 100
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 19874
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 157
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 16075
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4796
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 157
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.27
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 22.27
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 13688
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 3.18
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 127
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 17861
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 3.06
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 12.73
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 85
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.91
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 11.82
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 1320
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 95
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 49
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 16
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 39297
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 28
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 279
-                                },
-                                {
-                                    "key": "multikill",
-                                    "label": "Multikill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 30116
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 186
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 42
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 7
-                                }
-                            ]
-                        }
-                    ],
-                    "torbjorn": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "turret_kills",
-                                    "label": "Turret Kills",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "turret_kills_most_in_game",
-                                    "label": "Turret Kills - Most in Game",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "molten_core_kills",
-                                    "label": "Molten Core Kills",
-                                    "value": 17
-                                },
-                                {
-                                    "key": "molten_core_kills_most_in_game",
-                                    "label": "Molten Core Kills - Most in Game",
-                                    "value": 6
-                                },
-                                {
-                                    "key": "hammer_kills",
-                                    "label": "Hammer Kills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "hammer_kill_most_in_game",
-                                    "label": "Hammer Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "overload_kills",
-                                    "label": "Overload Kills",
-                                    "value": 39
-                                },
-                                {
-                                    "key": "overload_kills_most_in_game",
-                                    "label": "Overload Kills - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "molten_core_kills_avg_per_10_min",
-                                    "label": "Molten Core Kills - Avg per 10 Min",
-                                    "value": 3.02
-                                },
-                                {
-                                    "key": "turret_kills_avg_per_10_min",
-                                    "label": "Turret Kills - Avg per 10 Min",
-                                    "value": 8.01
-                                },
-                                {
-                                    "key": "hammer_kills_avg_per_10_min",
-                                    "label": "Hammer Kills - Avg per 10 Min",
-                                    "value": 0.36
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
                                     "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 7343
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 21274
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 125
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 42
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 11587
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4163
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 44
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.12
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 19.22
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9297
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.89
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.18
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 64
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 14788
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 24.37
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.7
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 7.65
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 24
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.53
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.9
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 3372
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 79
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 1
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 108
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 40
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "solo_kills",
-                                    "label": "Solo Kills",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 83115
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 43
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 362
-                                },
-                                {
-                                    "key": "multikills",
-                                    "label": "Multikills",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 137
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 52252
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 134
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 8
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 33
-                                }
-                            ]
-                        }
-                    ],
-                    "tracer": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "pulse_bomb_kills",
-                                    "label": "Pulse Bomb Kills",
-                                    "value": 35
-                                },
-                                {
-                                    "key": "pulse_bomb_kills_most_in_game",
-                                    "label": "Pulse Bomb Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "pulse_bombs_attached_most_in_game",
-                                    "label": "Pulse Bombs Attached - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "pulse_bombs_attached",
-                                    "label": "Pulse Bombs Attached",
-                                    "value": 41
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 21337
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 1340
-                                },
-                                {
-                                    "key": "low_health_recalls",
-                                    "label": "Low Health Recalls",
-                                    "value": 109
-                                },
-                                {
-                                    "key": "low_health_recalls_most_in_game",
-                                    "label": "Low Health Recalls - Most in Game",
-                                    "value": 109
-                                },
-                                {
-                                    "key": "low_health_recalls_avg_per_10_min",
-                                    "label": "Low Health Recalls - Avg per 10 Min",
-                                    "value": 5.23
-                                },
-                                {
-                                    "key": "pulse_bomb_kills_avg_per_10_min",
-                                    "label": "Pulse Bomb Kills - Avg per 10 Min",
-                                    "value": 1.68
-                                },
-                                {
-                                    "key": "pulse_bombs_attached_avg_per_10_min",
-                                    "label": "Pulse Bombs Attached - Avg per 10 Min",
-                                    "value": 1.97
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 1023
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 5456
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 78
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 13740
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 28
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 195
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 164
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 89
-                                },
-                                {
-                                    "key": "melee_final_blows_most_in_game",
-                                    "label": "Melee Final Blows - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 12739
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4213
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 195
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 7.48
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.51
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8356
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.77
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.82
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 93
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10141
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 100
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 2.34
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.57
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 55
-                                },
-                                {
-                                    "key": "solo_kills_avg_per_10_min",
-                                    "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.86
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.63
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 12508
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 19
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 0
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 50
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 9
                                 }
                             ]
                         },
@@ -24295,150 +15525,141 @@ export const tempData = {
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 156
+                                    "value": 153
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 159
+                                    "value": 161
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 18
+                                    "value": 15
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 211420
+                                    "value": 225596
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 137
+                                    "value": 129
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 1940
+                                    "value": 2248
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 2
+                                    "value": 6
+                                },
+                                {
+                                    "key": "environmental_kills",
+                                    "label": "Environmental Kills",
+                                    "value": 13
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 17
+                                    "value": 22
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 2088
+                                    "value": 2229
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 174197
+                                    "value": 197200
                                 },
                                 {
                                     "key": "critical_hit_kills",
                                     "label": "Critical Hit Kills",
-                                    "value": 16
+                                    "value": 22
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 1154
+                                    "value": 1467
+                                },
+                                {
+                                    "key": "environmental_kills_avg_per_10_min",
+                                    "label": "Environmental Kills - Avg per 10 Min",
+                                    "value": 0.58
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
                                     "label": "Critical Hit Accuracy",
-                                    "value": 6
+                                    "value": 9
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 40
+                                    "value": 33
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 80
                                 }
                             ]
                         }
                     ],
-                    "widowmaker": [
+                    "genji": [
                         {
                             "category": "hero_specific",
                             "label": "Hero Specific",
                             "stats": [
                                 {
-                                    "key": "venom_mine_kill",
-                                    "label": "Venom Mine Kill",
-                                    "value": 1
+                                    "key": "dragonblade_kills",
+                                    "label": "Dragonblade Kills",
+                                    "value": 13
                                 },
                                 {
-                                    "key": "scoped_critical_hits",
-                                    "label": "Scoped Critical Hits",
-                                    "value": 55
+                                    "key": "dragonblade_kills_most_in_game",
+                                    "label": "Dragonblade Kills - Most in Game",
+                                    "value": 5
                                 },
                                 {
-                                    "key": "scoped_critical_hits_most_in_game",
-                                    "label": "Scoped Critical Hits - Most in Game",
-                                    "value": 8
+                                    "key": "damage_reflected",
+                                    "label": "Damage Reflected",
+                                    "value": 3347
                                 },
                                 {
-                                    "key": "venom_mine_kill_most_in_game",
-                                    "label": "Venom Mine Kill - Most in Game",
-                                    "value": 1
+                                    "key": "damage_reflected_most_in_game",
+                                    "label": "Damage Reflected - Most in Game",
+                                    "value": 904
                                 },
                                 {
-                                    "key": "scoped_accuracy_best_in_game",
-                                    "label": "Scoped Accuracy - Best in Game",
-                                    "value": 67
+                                    "key": "swift_strike_resets",
+                                    "label": "Swift Strike Resets",
+                                    "value": 51
                                 },
                                 {
-                                    "key": "scoped_critical_hit_kills",
-                                    "label": "Scoped Critical Hit Kills",
-                                    "value": 25
+                                    "key": "swift_strike_resets_most_in_game",
+                                    "label": "Swift Strike Resets - Most in Game",
+                                    "value": 51
                                 },
                                 {
-                                    "key": "scoped_critical_hits_most_in_game",
-                                    "label": "Scoped Critical Hits - Most in Game",
-                                    "value": 4
+                                    "key": "dragonblade_kills_avg_per_10_min",
+                                    "label": "Dragonblade Kills - Avg per 10 Min",
+                                    "value": 4.73
                                 },
                                 {
-                                    "key": "long_range_final_blows",
-                                    "label": "Long Range Final Blows",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "scoped_critical_hits_avg_per_10_min",
-                                    "label": "Scoped Critical Hits - Avg per 10 Min",
-                                    "value": 6.61
-                                },
-                                {
-                                    "key": "venom_mine_kills_avg_per_10_min",
-                                    "label": "Venom Mine Kills - Avg per 10 Min",
-                                    "value": 0.12
-                                },
-                                {
-                                    "key": "scoped_accuracy",
-                                    "label": "Scoped Accuracy",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "scoped_critical_hit_kills_avg_per_10_min",
-                                    "label": "Scoped Critical Hit Kills - Avg per 10 Min",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "long_range_final_blows_avg_per_10_min",
-                                    "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 3.24
-                                },
-                                {
-                                    "key": "scoped_critical_hit_accuracy",
-                                    "label": "Scoped Critical Hit Accuracy",
-                                    "value": 15
+                                    "key": "damage_reflected_avg_per_10_min",
+                                    "label": "Damage Reflected - Avg per 10 Min",
+                                    "value": 1218
                                 }
                             ]
                         },
@@ -24449,32 +15670,32 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 7
+                                    "value": 11
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 3066
+                                    "value": 4577
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 67
+                                    "value": 37
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 7
+                                    "value": 11
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 10027
+                                    "value": 9110
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 18
+                                    "value": 21
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
@@ -24484,22 +15705,27 @@ export const tempData = {
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 8
+                                    "value": 7
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 132
+                                    "value": 116
                                 },
                                 {
-                                    "key": "solo_kills_most_in_game",
-                                    "label": "Solo Kills - Most in Game",
-                                    "value": 2
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "solo_kill_most_in_game",
+                                    "label": "Solo Kill - Most in Game",
+                                    "value": 1
                                 },
                                 {
                                     "key": "critical_hits_most_in_game",
                                     "label": "Critical Hits - Most in Game",
-                                    "value": 9
+                                    "value": 11
                                 },
                                 {
                                     "key": "critical_hits_most_in_life",
@@ -24507,29 +15733,24 @@ export const tempData = {
                                     "value": 6
                                 },
                                 {
+                                    "key": "melee_final_blow_most_in_game",
+                                    "label": "Melee Final Blow - Most in Game",
+                                    "value": 1
+                                },
+                                {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 9976
+                                    "value": 7409
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 2980
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "critical_hit_kills_most_in_game",
-                                    "label": "Critical Hit Kills - Most in Game",
-                                    "value": 4
+                                    "value": 3478
                                 },
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 17
+                                    "value": 99
                                 }
                             ]
                         },
@@ -24540,67 +15761,67 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 10.93
+                                    "value": 5.46
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 9.49
+                                    "value": 18.56
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 5801
+                                    "value": 8460
                                 },
                                 {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 2.04
+                                    "key": "swift_strike_resets_avg_per_10_min_nyi",
+                                    "label": "Swift Strike Resets - Avg per 10 Min NYI",
+                                    "value": 18.56
                                 },
                                 {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 3
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 0.36
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 54
+                                    "value": 126
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 6854
+                                    "value": 10244
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 7.93
+                                    "value": 12.74
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 0.87
+                                    "value": 3.4
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 3.24
+                                    "value": 5.46
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 6
+                                    "value": 59
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.72
+                                    "value": 0.73
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 6.13
+                                    "value": 9.46
                                 }
                             ]
                         },
@@ -24611,12 +15832,1518 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 4994
+                                    "value": 1648
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 70
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 51
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 28144
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 346
+                                },
+                                {
+                                    "key": "multikill",
+                                    "label": "Multikill",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "melee_final_blow",
+                                    "label": "Melee Final Blow",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 35
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 23244
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 162
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 33
+                                }
+                            ]
+                        }
+                    ],
+                    "hanzo": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "dragonstrike_kills",
+                                    "label": "Dragonstrike Kills",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "dragonstrike_kills_most_in_game",
+                                    "label": "Dragonstrike Kills - Most in Game",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "storm_arrow_kills",
+                                    "label": "Storm Arrow Kills",
+                                    "value": 32
+                                },
+                                {
+                                    "key": "storm_arrow_kills_most_in_game",
+                                    "label": "Storm Arrow Kills - Most in Game",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "long_range_final_blow",
+                                    "label": "Long Range Final Blow",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "long_range_final_blow_most_in_game",
+                                    "label": "Long Range Final Blow - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "dragonstrike_kills_avg_per_10_min",
+                                    "label": "Dragonstrike Kills - Avg per 10 Min",
+                                    "value": 2.01
+                                },
+                                {
+                                    "key": "storm_arrow_kills_avg_per_10_min",
+                                    "label": "Storm Arrow Kills - Avg per 10 Min",
+                                    "value": 8.06
+                                },
+                                {
+                                    "key": "long_range_final_blows_avg_per_10_min",
+                                    "label": "Long Range Final Blows - Avg per 10 Min",
+                                    "value": 0.25
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 5949
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 40
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 21930
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 38
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 18
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 135
+                                },
+                                {
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 14
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "melee_final_blow_most_in_game",
+                                    "label": "Melee Final Blow - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 15499
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 4830
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 13
+                                },
+                                {
+                                    "key": "critical_hit_kills_most_in_game",
+                                    "label": "Critical Hit Kills - Most in Game",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 28
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.8
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 18.13
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 8806
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 5.04
+                                },
+                                {
+                                    "key": "critical_hit_kills_avg_per_10_min",
+                                    "label": "Critical Hit Kills - Avg per 10 Min",
+                                    "value": 3.27
+                                },
+                                {
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 0.25
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 69
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 12245
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 7.81
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.67
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 8.56
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.76
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 12.09
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 2383
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 100
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 72
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 27
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 48
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 48628
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 34
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 275
+                                },
+                                {
+                                    "key": "multikill",
+                                    "label": "Multikill",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "melee_final_blow",
+                                    "label": "Melee Final Blow",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 31
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 34972
+                                },
+                                {
+                                    "key": "critical_hit_kills",
+                                    "label": "Critical Hit Kills",
+                                    "value": 13
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 75
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 38
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "recon_assists",
+                                    "label": "Recon Assists",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "recon_assists_most_in_game",
+                                    "label": "Recon Assists - Most in Game",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "recon_assists_avg_per_10_min",
+                                    "label": "Recon Assists - Avg per 10 Min",
+                                    "value": 4.03
+                                }
+                            ]
+                        }
+                    ],
+                    "junker-queen": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "self_healing",
+                                    "label": "Self Healing",
+                                    "value": 184114
+                                },
+                                {
+                                    "key": "self_healing_most_in_game",
+                                    "label": "Self Healing - Most in Game",
+                                    "value": 6331
+                                },
+                                {
+                                    "key": "jagged_blade_kills",
+                                    "label": "Jagged Blade Kills",
+                                    "value": 622
+                                },
+                                {
+                                    "key": "jagged_blade_kills_most_in_game",
+                                    "label": "Jagged Blade Kills - Most in Game",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "jagged_blade_accuracy_best_in_game",
+                                    "label": "Jagged Blade Accuracy - Best in Game",
+                                    "value": 100
+                                },
+                                {
+                                    "key": "carnage_kills",
+                                    "label": "Carnage Kills",
+                                    "value": 776
+                                },
+                                {
+                                    "key": "carnage_kills_most_in_game",
+                                    "label": "Carnage Kills - Most in Game",
+                                    "value": 28
+                                },
+                                {
+                                    "key": "rampage_kills",
+                                    "label": "Rampage Kills",
+                                    "value": 418
+                                },
+                                {
+                                    "key": "rampage_kills_most_in_game",
+                                    "label": "Rampage Kills - Most in Game",
+                                    "value": 13
+                                },
+                                {
+                                    "key": "jagged_blade_accuracy",
+                                    "label": "Jagged Blade Accuracy",
+                                    "value": 38
+                                },
+                                {
+                                    "key": "rampage_kills_avg_per_10_min",
+                                    "label": "Rampage Kills - Avg per 10 Min",
+                                    "value": 4.4
+                                },
+                                {
+                                    "key": "wound_uptime_percentage",
+                                    "label": "Wound Uptime Percentage",
+                                    "value": 21
+                                },
+                                {
+                                    "key": "carnage_kills_avg_per_10_min",
+                                    "label": "Carnage Kills - Avg per 10 Min",
+                                    "value": 8.17
+                                },
+                                {
+                                    "key": "jagged_blade_kills_avg_per_10_min",
+                                    "label": "Jagged Blade Kills - Avg per 10 Min",
+                                    "value": 6.55
+                                },
+                                {
+                                    "key": "self_healing_avg_per_10_min",
+                                    "label": "Self Healing - Avg per 10 Min",
+                                    "value": 1938
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 8318
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 68
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 33283
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 49
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 34
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 27
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 330
+                                },
+                                {
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "melee_final_blows_most_in_game",
+                                    "label": "Melee Final Blows - Most in Game",
+                                    "value": 10
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 24971
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 7098
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 22
+                                },
+                                {
+                                    "key": "environmental_kill_most_in_game",
+                                    "label": "Environmental Kill - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 297
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "healing_done_avg_per_10_min",
+                                    "label": "Healing Done - Avg per 10 Min",
+                                    "value": 1938
+                                },
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.05
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 19.46
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 11170
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 6.62
+                                },
+                                {
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 1.4
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 134
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 12662
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 3.22
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 7.69
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 75
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.54
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 9.38
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 57010
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 74
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 46
+                                },
+                                {
+                                    "key": "games_tied",
+                                    "label": "Games Tied",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 46
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 46
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 46
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 61
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 29
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 1849
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 575
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 891
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 51
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 1203126
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 731
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 12757
+                                },
+                                {
+                                    "key": "multikills",
+                                    "label": "Multikills",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "environmental_kill",
+                                    "label": "Environmental Kill",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "melee_final_blows",
+                                    "label": "Melee Final Blows",
+                                    "value": 133
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 1061295
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 7131
+                                },
+                                {
+                                    "key": "environmental_kills_avg_per_10_min",
+                                    "label": "Environmental Kills - Avg per 10 Min",
+                                    "value": 0.01
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 40
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 629
+                                }
+                            ]
+                        }
+                    ],
+                    "orisa": [
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 32
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 13.6
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 7875
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 31
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 7875
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 31
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 44
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "death",
+                                    "label": "Death",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 579
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 32
+                                }
+                            ]
+                        }
+                    ],
+                    "pharah": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "rocket_direct_hits",
+                                    "label": "Rocket Direct Hits",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "barrage_kills",
+                                    "label": "Barrage Kills",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "rocket_direct_hits_most_in_game",
+                                    "label": "Rocket Direct Hits - Most in Game",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "barrage_kills_most_in_game",
+                                    "label": "Barrage Kills - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "airtime_percentage",
+                                    "label": "Airtime Percentage",
+                                    "value": 79
+                                },
+                                {
+                                    "key": "barrage_kills_avg_per_10_min",
+                                    "label": "Barrage Kills - Avg per 10 Min",
+                                    "value": 4.31
+                                },
+                                {
+                                    "key": "direct_hit_accuracy",
+                                    "label": "Direct Hit Accuracy",
+                                    "value": 17
+                                },
+                                {
+                                    "key": "rocket_direct_hits_avg_per_10_min",
+                                    "label": "Rocket Direct Hits - Avg per 10 Min",
+                                    "value": 43.13
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 1415
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 25
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 3160
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
                                     "value": 7
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "objective_kill_most_in_game",
+                                    "label": "Objective Kill - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 3160
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 1415
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 3
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.47
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 15.1
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 6814
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 14
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 6814
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.33
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 2.16
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 10.78
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 278
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 100
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 3160
+                                },
+                                {
+                                    "key": "objective_kill",
+                                    "label": "Objective Kill",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 3160
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 25
+                                }
+                            ]
+                        }
+                    ],
+                    "ramattra": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "pummel_kills",
+                                    "label": "Pummel Kills",
+                                    "value": 51
+                                },
+                                {
+                                    "key": "pummel_kills_most_in_game",
+                                    "label": "Pummel Kills - Most in Game",
+                                    "value": 18
+                                },
+                                {
+                                    "key": "ravenous_vortex_kills",
+                                    "label": "Ravenous Vortex Kills",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "ravenous_vortex_kills_most_in_game",
+                                    "label": "Ravenous Vortex Kills - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "annihilation_kills",
+                                    "label": "Annihilation Kills",
+                                    "value": 10
+                                },
+                                {
+                                    "key": "annihilation_kills_most_in_game",
+                                    "label": "Annihilation Kills - Most in Game",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "ravenous_vortex_kills_avg_per_10_min",
+                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
+                                    "value": 4.27
+                                },
+                                {
+                                    "key": "pummel_kills_avg_per_10_min",
+                                    "label": "Pummel Kills - Avg per 10 Min",
+                                    "value": 10.89
+                                },
+                                {
+                                    "key": "annihilation_kills_avg_per_10_min",
+                                    "label": "Annihilation Kills - Avg per 10 Min",
+                                    "value": 2.14
+                                },
+                                {
+                                    "key": "pummel_accuracy",
+                                    "label": "Pummel Accuracy",
+                                    "value": 74
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 7448
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 34
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 19693
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 27
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 14
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 124
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 114
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 36
+                                },
+                                {
+                                    "key": "melee_final_blows_most_in_game",
+                                    "label": "Melee Final Blows - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 14010
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 4926
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 56
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "healing_done_avg_per_10_min",
+                                    "label": "Healing Done - Avg per 10 Min",
+                                    "value": 267
+                                },
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.84
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 14.53
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 9538
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 1.92
+                                },
+                                {
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 1.07
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 87
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 13212
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 73.91
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.13
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 5.55
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 58
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.85
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 8.12
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 2809
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 4
                                 },
                                 {
                                     "key": "games_won",
@@ -24641,12 +17368,12 @@ export const tempData = {
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 43
+                                    "value": 64
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 4
+                                    "value": 1
                                 }
                             ]
                         },
@@ -24657,67 +17384,67 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 79
+                                    "value": 68
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 91
+                                    "value": 32
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 51
+                                    "value": 38
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 6
+                                    "value": 4
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 57041
+                                    "value": 61848
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 27
+                                    "value": 26
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 450
+                                    "value": 406
+                                },
+                                {
+                                    "key": "melee_final_blows",
+                                    "label": "Melee Final Blows",
+                                    "value": 5
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 66
+                                    "value": 346
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 48280
-                                },
-                                {
-                                    "key": "critical_hit_kills",
-                                    "label": "Critical Hit Kills",
-                                    "value": 25
+                                    "value": 44651
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 53
+                                    "value": 274
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
                                     "label": "Critical Hit Accuracy",
-                                    "value": 7
+                                    "value": 9
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 48
+                                    "value": 28
                                 }
                             ]
                         },
@@ -24726,24 +17453,1506 @@ export const tempData = {
                             "label": "Assists",
                             "stats": [
                                 {
-                                    "key": "recon_assists",
-                                    "label": "Recon Assists",
-                                    "value": 20
+                                    "key": "offensive_assists",
+                                    "label": "Offensive Assists",
+                                    "value": 9
                                 },
                                 {
-                                    "key": "recon_assists_most_in_game",
-                                    "label": "Recon Assists - Most in Game",
-                                    "value": 7
+                                    "key": "offensive_assists_most_in_game",
+                                    "label": "Offensive Assists - Most in Game",
+                                    "value": 4
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "offensive_assists_avg_per_10_min",
+                                    "label": "Offensive Assists - Avg per 10 Min",
+                                    "value": 1.92
+                                }
+                            ]
+                        }
+                    ],
+                    "reinhardt": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "charge_kills",
+                                    "label": "Charge Kills",
+                                    "value": 118
+                                },
+                                {
+                                    "key": "charge_kills_most_in_game",
+                                    "label": "Charge Kills - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "fire_strike_kills",
+                                    "label": "Fire Strike Kills",
+                                    "value": 304
+                                },
+                                {
+                                    "key": "fire_strike_kills_most_in_game",
+                                    "label": "Fire Strike Kills - Most in Game",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "earthshatter_kills",
+                                    "label": "Earthshatter Kills",
+                                    "value": 100
+                                },
+                                {
+                                    "key": "earthshatter_kills_most_in_game",
+                                    "label": "Earthshatter Kills - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "earthshatter_direct_hits",
+                                    "label": "Earthshatter Direct Hits",
+                                    "value": 31
+                                },
+                                {
+                                    "key": "earthshatter_direct_hits",
+                                    "label": "Earthshatter Direct Hits",
+                                    "value": 31
+                                },
+                                {
+                                    "key": "charge_kills_avg_per_10_min",
+                                    "label": "Charge Kills - Avg per 10 Min",
+                                    "value": 2.62
+                                },
+                                {
+                                    "key": "fire_strike_kills_avg_per_10_min",
+                                    "label": "Fire Strike Kills - Avg per 10 Min",
+                                    "value": 6.74
+                                },
+                                {
+                                    "key": "earthshatter_direct_hits_avg_per_10_min",
+                                    "label": "Earthshatter Direct Hits - Avg per 10 Min",
+                                    "value": 0.69
+                                },
+                                {
+                                    "key": "earthshatter_kills_avg_per_10_min",
+                                    "label": "Earthshatter Kills - Avg per 10 Min",
+                                    "value": 2.22
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 11621
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 32394
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 30
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 24
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 14
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 619
+                                },
+                                {
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 22103
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 7876
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "environmental_kills_most_in_game",
+                                    "label": "Environmental Kills - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 226
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.83
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 12.97
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 7813
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 1.44
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 146
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 10242
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 1.9
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 4.54
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 73
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.53
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 7.29
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 27067
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 39
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "games_tied",
+                                    "label": "Games Tied",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 49
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 585
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 308
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 329
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 24
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 462045
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 205
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 6590
+                                },
+                                {
+                                    "key": "multikills",
+                                    "label": "Multikills",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "environmental_kills",
+                                    "label": "Environmental Kills",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 352451
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 3294
+                                },
+                                {
+                                    "key": "environmental_kills_avg_per_10_min",
+                                    "label": "Environmental Kills - Avg per 10 Min",
+                                    "value": 0.11
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "offensive_assists",
+                                    "label": "Offensive Assists",
+                                    "value": 65
+                                },
+                                {
+                                    "key": "offensive_assists_most_in_game",
+                                    "label": "Offensive Assists - Most in Game",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 65
+                                },
+                                {
+                                    "key": "offensive_assists_avg_per_10_min",
+                                    "label": "Offensive Assists - Avg per 10 Min",
+                                    "value": 1.44
+                                }
+                            ]
+                        }
+                    ],
+                    "roadhog": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "chain_hook_accuracy_best_in_game",
+                                    "label": "Chain Hook Accuracy - Best in Game",
+                                    "value": 73
+                                },
+                                {
+                                    "key": "self_healing",
+                                    "label": "Self Healing",
+                                    "value": 2709
+                                },
+                                {
+                                    "key": "self_healing_most_in_game",
+                                    "label": "Self Healing - Most in Game",
+                                    "value": 2557
+                                },
+                                {
+                                    "key": "chain_hook_kills",
+                                    "label": "Chain Hook Kills",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "chain_hook_kills_avg_per_10_min",
+                                    "label": "Chain Hook Kills - Avg per 10 Min",
+                                    "value": 9.18
+                                },
+                                {
+                                    "key": "self_healing_avg_per_10_min",
+                                    "label": "Self Healing - Avg per 10 Min",
+                                    "value": 8286
+                                },
+                                {
+                                    "key": "chain_hook_accuracy",
+                                    "label": "Chain Hook Accuracy",
+                                    "value": 67
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 3198
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 40
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 3198
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 112
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 53
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 53
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 2940
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 2940
+                                },
+                                {
+                                    "key": "assist_most_in_game",
+                                    "label": "Assist - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 25
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "healing_done_avg_per_10_min",
+                                    "label": "Healing Done - Avg per 10 Min",
+                                    "value": 8286
+                                },
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.12
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 15.3
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 10369
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 3.06
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 347
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 11159
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 205
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.5
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 9.18
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 79
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 6.12
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 196
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 69
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 3648
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 113
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 67
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 3390
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 35
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "offensive_assist",
+                                    "label": "Offensive Assist",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "offensive_assist_most_in_game",
+                                    "label": "Offensive Assist - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "assist",
+                                    "label": "Assist",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "offensive_assists_avg_per_10_min",
+                                    "label": "Offensive Assists - Avg per 10 Min",
+                                    "value": 3.06
+                                }
+                            ]
+                        }
+                    ],
+                    "sigma": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "accretion_kills_most_in_game",
+                                    "label": "Accretion Kills - Most in Game",
+                                    "value": 11
+                                },
+                                {
+                                    "key": "accretion_kills",
+                                    "label": "Accretion Kills",
+                                    "value": 143
+                                },
+                                {
+                                    "key": "gravitic_flux_kills",
+                                    "label": "Gravitic Flux Kills",
+                                    "value": 55
+                                },
+                                {
+                                    "key": "gravitic_flux_kills_most_in_game",
+                                    "label": "Gravitic Flux Kills - Most in Game",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "overhealth_created",
+                                    "label": "Overhealth Created",
+                                    "value": 41585
+                                },
+                                {
+                                    "key": "overhealth_created_most_in_game",
+                                    "label": "Overhealth Created - Most in Game",
+                                    "value": 3484
+                                },
+                                {
+                                    "key": "accretion_kills_avg_per_10_min",
+                                    "label": "Accretion Kills - Avg per 10 Min",
+                                    "value": 4.66
+                                },
+                                {
+                                    "key": "gravitic_flux_kills_avg_per_10_min",
+                                    "label": "Gravitic Flux Kills - Avg per 10 Min",
+                                    "value": 1.79
+                                },
+                                {
+                                    "key": "overhealth_created_avg_per_10_min",
+                                    "label": "Overhealth Created - Avg per 10 Min",
+                                    "value": 1357
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
                                     "value": 17
                                 },
                                 {
-                                    "key": "recon_assists_avg_per_10_min",
-                                    "label": "Recon Assists - Avg per 10 Min",
-                                    "value": 2.4
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 10487
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 65
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 17
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 25044
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 31
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 18
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 18
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 385
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "melee_final_blows_most_in_game",
+                                    "label": "Melee Final Blows - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 18262
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 8857
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 148
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 5.22
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 14.45
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 10766
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 2.25
+                                },
+                                {
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 1.08
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 137
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 14538
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.77
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 5.06
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 51
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.62
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 6.52
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 18393
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 23
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 54
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 11
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 443
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 160
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 200
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 19
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 445687
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 155
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 4192
+                                },
+                                {
+                                    "key": "melee_final_blows",
+                                    "label": "Melee Final Blows",
+                                    "value": 33
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 330052
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 1574
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 57
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "offensive_assists",
+                                    "label": "Offensive Assists",
+                                    "value": 69
+                                },
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 69
+                                },
+                                {
+                                    "key": "offensive_assists_avg_per_10_min",
+                                    "label": "Offensive Assists - Avg per 10 Min",
+                                    "value": 2.25
+                                }
+                            ]
+                        }
+                    ],
+                    "torbjorn": [
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 1439
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 22
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 1509
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 1509
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 1439
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 9
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 6.85
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 10343
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 62
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 10343
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 13.71
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 62
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 88
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "death",
+                                    "label": "Death",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 1509
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 1509
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 22
+                                }
+                            ]
+                        }
+                    ],
+                    "tracer": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "pulse_bomb_kills",
+                                    "label": "Pulse Bomb Kills",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "pulse_bomb_kill_most_in_game",
+                                    "label": "Pulse Bomb Kill - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "pulse_bombs_attached_most_in_game",
+                                    "label": "Pulse Bombs Attached - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "pulse_bombs_attached",
+                                    "label": "Pulse Bombs Attached",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "self_healing",
+                                    "label": "Self Healing",
+                                    "value": 2172
+                                },
+                                {
+                                    "key": "self_healing_most_in_game",
+                                    "label": "Self Healing - Most in Game",
+                                    "value": 1018
+                                },
+                                {
+                                    "key": "low_health_recalls",
+                                    "label": "Low Health Recalls",
+                                    "value": 10
+                                },
+                                {
+                                    "key": "low_health_recalls_most_in_game",
+                                    "label": "Low Health Recalls - Most in Game",
+                                    "value": 10
+                                },
+                                {
+                                    "key": "low_health_recalls_avg_per_10_min",
+                                    "label": "Low Health Recalls - Avg per 10 Min",
+                                    "value": 4.46
+                                },
+                                {
+                                    "key": "pulse_bomb_kills_avg_per_10_min",
+                                    "label": "Pulse Bomb Kills - Avg per 10 Min",
+                                    "value": 1.34
+                                },
+                                {
+                                    "key": "pulse_bombs_attached_avg_per_10_min",
+                                    "label": "Pulse Bombs Attached - Avg per 10 Min",
+                                    "value": 2.68
+                                },
+                                {
+                                    "key": "self_healing_avg_per_10_min",
+                                    "label": "Self Healing - Avg per 10 Min",
+                                    "value": 969
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 2994
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 60
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 8686
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 13
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 11
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 137
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 98
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 37
+                                },
+                                {
+                                    "key": "melee_final_blow_most_in_game",
+                                    "label": "Melee Final Blow - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 6893
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 2258
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 137
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 7.14
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 16.52
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 7600
+                                },
+                                {
+                                    "key": "melee_final_blows_avg_per_10_min",
+                                    "label": "Melee Final Blows - Avg per 10 Min",
+                                    "value": 0.45
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 115
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 10014
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 109
+                                },
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2.31
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 9.37
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 102
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 5.36
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 1344
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "games_won",
+                                    "label": "Games Won",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "hero_wins",
+                                    "label": "Hero Wins",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "win_percentage",
+                                    "label": "Win Percentage",
+                                    "value": 49
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 37
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 22433
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 21
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 257
+                                },
+                                {
+                                    "key": "melee_final_blow",
+                                    "label": "Melee Final Blow",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 244
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 17025
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 229
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 38
                                 }
                             ]
                         }
@@ -24756,52 +18965,52 @@ export const tempData = {
                                 {
                                     "key": "jump_pack_kills",
                                     "label": "Jump Pack Kills",
-                                    "value": 260
+                                    "value": 323
                                 },
                                 {
                                     "key": "jump_pack_kills_most_in_game",
                                     "label": "Jump Pack Kills - Most in Game",
-                                    "value": 18
+                                    "value": 20
                                 },
                                 {
                                     "key": "primal_rage_kills",
                                     "label": "Primal Rage Kills",
-                                    "value": 102
+                                    "value": 100
                                 },
                                 {
                                     "key": "primal_rage_kills_most_in_game",
                                     "label": "Primal Rage Kills - Most in Game",
-                                    "value": 8
+                                    "value": 9
                                 },
                                 {
                                     "key": "melee_kills",
                                     "label": "Melee Kills",
-                                    "value": 280
+                                    "value": 343
                                 },
                                 {
                                     "key": "jump_kills",
                                     "label": "Jump Kills",
-                                    "value": 260
+                                    "value": 323
                                 },
                                 {
                                     "key": "weapon_kills",
                                     "label": "Weapon Kills",
-                                    "value": 508
+                                    "value": 632
+                                },
+                                {
+                                    "key": "primal_rage_kills__avg_per_10_min",
+                                    "label": "Primal Rage Kills  - Avg per 10 Min",
+                                    "value": 2.54
+                                },
+                                {
+                                    "key": "jump_pack_kills_avg_per_10_min",
+                                    "label": "Jump Pack Kills - Avg per 10 Min",
+                                    "value": 8.21
                                 },
                                 {
                                     "key": "primary_fire_accuracy",
                                     "label": "Primary Fire Accuracy",
                                     "value": 70
-                                },
-                                {
-                                    "key": "primal_rage_kills__avg_per_10_min",
-                                    "label": "Primal Rage Kills  - Avg per 10 Min",
-                                    "value": 3.09
-                                },
-                                {
-                                    "key": "jump_pack_kills_avg_per_10_min",
-                                    "label": "Jump Pack Kills - Avg per 10 Min",
-                                    "value": 7.87
                                 },
                                 {
                                     "key": "secondary_fire_accuracy",
@@ -24817,32 +19026,32 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 16
+                                    "value": 19
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 6957
+                                    "value": 7756
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 82
+                                    "value": 100
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 16
+                                    "value": 19
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 24261
+                                    "value": 21722
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 43
+                                    "value": 39
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
@@ -24857,37 +19066,37 @@ export const tempData = {
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 311
+                                    "value": 522
                                 },
                                 {
                                     "key": "multikill_best",
                                     "label": "Multikill - Best",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 {
                                     "key": "solo_kills_most_in_game",
                                     "label": "Solo Kills - Most in Game",
-                                    "value": 4
+                                    "value": 5
                                 },
                                 {
                                     "key": "melee_final_blows_most_in_game",
                                     "label": "Melee Final Blows - Most in Game",
-                                    "value": 4
+                                    "value": 7
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 20150
+                                    "value": 18338
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 6306
+                                    "value": 6795
                                 },
                                 {
                                     "key": "assists_most_in_game",
                                     "label": "Assists - Most in Game",
-                                    "value": 7
+                                    "value": 12
                                 },
                                 {
                                     "key": "environmental_kill_most_in_game",
@@ -24897,7 +19106,7 @@ export const tempData = {
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 122
+                                    "value": 159
                                 }
                             ]
                         },
@@ -24908,62 +19117,62 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.08
+                                    "value": 5.26
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 17.62
+                                    "value": 18.29
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9098
+                                    "value": 9566
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 2.72
+                                    "value": 3.07
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.3
+                                    "value": 1.88
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 120
+                                    "value": 124
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10196
+                                    "value": 11129
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.46
+                                    "value": 3.48
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 4.51
+                                    "value": 4.67
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 55
+                                    "value": 52
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.91
+                                    "value": 1.02
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.69
+                                    "value": 8.92
                                 }
                             ]
                         },
@@ -24974,47 +19183,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 19823
+                                    "value": 23617
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 22
+                                    "value": 30
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "games_tied",
-                                    "label": "Games Tied",
-                                    "value": 1
+                                    "value": 17
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 14
+                                    "value": 17
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 14
+                                    "value": 17
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 14
+                                    "value": 17
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 63
+                                    "value": 56
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 8
+                                    "value": 13
                                 }
                             ]
                         },
@@ -25025,42 +19229,42 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 582
+                                    "value": 720
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 168
+                                    "value": 207
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 287
+                                    "value": 351
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 30
+                                    "value": 40
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 336877
+                                    "value": 438082
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 149
+                                    "value": 184
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 3967
+                                    "value": 4882
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 4
+                                    "value": 6
                                 },
                                 {
                                     "key": "environmental_kill",
@@ -25070,17 +19274,17 @@ export const tempData = {
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 43
+                                    "value": 74
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 300573
+                                    "value": 376546
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 1811
+                                    "value": 2041
                                 },
                                 {
                                     "key": "environmental_kills_avg_per_10_min",
@@ -25101,7 +19305,7 @@ export const tempData = {
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 90
+                                    "value": 121
                                 }
                             ]
                         }
@@ -25114,47 +19318,47 @@ export const tempData = {
                                 {
                                     "key": "piledriver_kills",
                                     "label": "Piledriver Kills",
-                                    "value": 46
+                                    "value": 61
                                 },
                                 {
                                     "key": "grappling_claw_kills",
                                     "label": "Grappling Claw Kills",
-                                    "value": 38
+                                    "value": 61
                                 },
                                 {
                                     "key": "minefield_kills",
                                     "label": "Minefield Kills",
-                                    "value": 8
+                                    "value": 9
                                 },
                                 {
                                     "key": "grappling_claw_kills_most_in_game",
                                     "label": "Grappling Claw Kills - Most in Game",
-                                    "value": 13
+                                    "value": 11
                                 },
                                 {
                                     "key": "minefield_kills_most_in_game",
                                     "label": "Minefield Kills - Most in Game",
-                                    "value": 4
+                                    "value": 3
                                 },
                                 {
                                     "key": "piledriver_kills_most_in_game",
                                     "label": "Piledriver Kills - Most in Game",
-                                    "value": 14
-                                },
-                                {
-                                    "key": "grappling_claw_kills_avg_per_10_min",
-                                    "label": "Grappling Claw Kills - Avg per 10 Min",
-                                    "value": 5.38
+                                    "value": 16
                                 },
                                 {
                                     "key": "piledriver_kills_avg_per_10_min",
                                     "label": "Piledriver Kills - Avg per 10 Min",
-                                    "value": 6.51
+                                    "value": 6.43
+                                },
+                                {
+                                    "key": "grappling_claw_kills_avg_per_10_min",
+                                    "label": "Grappling Claw Kills - Avg per 10 Min",
+                                    "value": 6.43
                                 },
                                 {
                                     "key": "minefield_kills_avg_per_10_min",
                                     "label": "Minefield Kills - Avg per 10 Min",
-                                    "value": 1.13
+                                    "value": 0.95
                                 }
                             ]
                         },
@@ -25165,87 +19369,87 @@ export const tempData = {
                                 {
                                     "key": "eliminations_most_in_life",
                                     "label": "Eliminations - Most in Life",
-                                    "value": 18
+                                    "value": 14
                                 },
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 9263
+                                    "value": 5009
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 90
+                                    "value": 67
                                 },
                                 {
                                     "key": "kill_streak_best",
                                     "label": "Kill Streak - Best",
-                                    "value": 18
+                                    "value": 14
                                 },
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 18266
+                                    "value": 16795
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 29
+                                    "value": 31
                                 },
                                 {
                                     "key": "final_blows_most_in_game",
                                     "label": "Final Blows - Most in Game",
-                                    "value": 18
+                                    "value": 10
                                 },
                                 {
                                     "key": "objective_kills_most_in_game",
                                     "label": "Objective Kills - Most in Game",
-                                    "value": 11
+                                    "value": 13
                                 },
                                 {
                                     "key": "objective_time_most_in_game",
                                     "label": "Objective Time - Most in Game",
-                                    "value": 217
+                                    "value": 120
                                 },
                                 {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "solo_kill_most_in_game",
-                                    "label": "Solo Kill - Most in Game",
-                                    "value": 1
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 2
                                 },
                                 {
                                     "key": "critical_hits_most_in_game",
                                     "label": "Critical Hits - Most in Game",
-                                    "value": 104
+                                    "value": 72
                                 },
                                 {
                                     "key": "critical_hits_most_in_life",
                                     "label": "Critical Hits - Most in Life",
-                                    "value": 54
+                                    "value": 47
                                 },
                                 {
                                     "key": "melee_final_blows_most_in_game",
                                     "label": "Melee Final Blows - Most in Game",
-                                    "value": 3
+                                    "value": 4
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_game",
                                     "label": "Hero Damage Done - Most in Game",
-                                    "value": 13391
+                                    "value": 14066
                                 },
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 6469
+                                    "value": 4512
                                 },
                                 {
                                     "key": "assists_most_in_game",
                                     "label": "Assists - Most in Game",
-                                    "value": 8
+                                    "value": 12
+                                },
+                                {
+                                    "key": "environmental_kills_most_in_game",
+                                    "label": "Environmental Kills - Most in Game",
+                                    "value": 2
                                 },
                                 {
                                     "key": "critical_hit_kill_most_in_game",
@@ -25255,7 +19459,7 @@ export const tempData = {
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 90
+                                    "value": 92
                                 }
                             ]
                         },
@@ -25266,72 +19470,72 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 4.25
+                                    "value": 6.01
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 14.3
+                                    "value": 14.55
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8154
+                                    "value": 7909
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 4.25
+                                    "value": 4.54
                                 },
                                 {
                                     "key": "critical_hit_kills_avg_per_10_min",
                                     "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.42
+                                    "value": 0.21
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.27
+                                    "value": 0.84
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 122
+                                    "value": 102
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 9683
+                                    "value": 9521
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 67.69
+                                    "value": 55.26
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.37
+                                    "value": 2.42
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 4.96
+                                    "value": 5.91
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 64
+                                    "value": 68
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.28
+                                    "value": 0.53
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 6.23
+                                    "value": 6.54
                                 }
                             ]
                         },
@@ -25342,12 +19546,12 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 4237
+                                    "value": 5689
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 6
+                                    "value": 9
                                 },
                                 {
                                     "key": "games_won",
@@ -25372,12 +19576,12 @@ export const tempData = {
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 46
+                                    "value": 38
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 3
+                                    "value": 5
                                 }
                             ]
                         },
@@ -25388,77 +19592,82 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 101
+                                    "value": 138
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 30
+                                    "value": 57
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 44
+                                    "value": 62
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 2
+                                    "value": 5
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 68383
+                                    "value": 90272
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 35
+                                    "value": 56
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 860
+                                    "value": 964
                                 },
                                 {
-                                    "key": "multikill",
-                                    "label": "Multikill",
-                                    "value": 1
+                                    "key": "environmental_kills",
+                                    "label": "Environmental Kills",
+                                    "value": 2
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 9
+                                    "value": 8
                                 },
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 478
+                                    "value": 524
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 57583
+                                    "value": 74993
                                 },
                                 {
                                     "key": "critical_hit_kills",
                                     "label": "Critical Hit Kills",
-                                    "value": 3
+                                    "value": 2
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 453
+                                    "value": 647
+                                },
+                                {
+                                    "key": "environmental_kills_avg_per_10_min",
+                                    "label": "Environmental Kills - Avg per 10 Min",
+                                    "value": 0.21
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
                                     "label": "Critical Hit Accuracy",
-                                    "value": 9
+                                    "value": 6
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 48
+                                    "value": 46
                                 }
                             ]
                         },
@@ -25469,7 +19678,7 @@ export const tempData = {
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 30
+                                    "value": 43
                                 }
                             ]
                         }
@@ -25482,52 +19691,52 @@ export const tempData = {
                                 {
                                     "key": "graviton_surge_kills",
                                     "label": "Graviton Surge Kills",
-                                    "value": 5
+                                    "value": 54
                                 },
                                 {
                                     "key": "graviton_surge_kills_most_in_game",
                                     "label": "Graviton Surge Kills - Most in Game",
-                                    "value": 4
+                                    "value": 6
                                 },
                                 {
                                     "key": "high_energy_kills_most_in_game",
                                     "label": "High Energy Kills - Most in Game",
-                                    "value": 9
+                                    "value": 23
                                 },
                                 {
                                     "key": "high_energy_kills",
                                     "label": "High Energy Kills",
-                                    "value": 17
+                                    "value": 225
                                 },
                                 {
                                     "key": "average_energy_best_in_game",
                                     "label": "Average Energy - Best in Game",
-                                    "value": 67
+                                    "value": 76
                                 },
                                 {
                                     "key": "graviton_surge_kills_avg_per_10_min",
                                     "label": "Graviton Surge Kills - Avg per 10 Min",
-                                    "value": 3.6
-                                },
-                                {
-                                    "key": "secondary_fire_accuracy",
-                                    "label": "Secondary Fire Accuracy",
-                                    "value": 50
+                                    "value": 3.86
                                 },
                                 {
                                     "key": "high_energy_kills_avg_per_10_min",
                                     "label": "High Energy Kills - Avg per 10 Min",
-                                    "value": 12.26
+                                    "value": 16.1
                                 },
                                 {
                                     "key": "primary_fire_accuracy",
                                     "label": "Primary Fire Accuracy",
-                                    "value": 61
+                                    "value": 51
+                                },
+                                {
+                                    "key": "secondary_fire_accuracy",
+                                    "label": "Secondary Fire Accuracy",
+                                    "value": 47
                                 },
                                 {
                                     "key": "average_energy",
                                     "label": "Average Energy",
-                                    "value": 34
+                                    "value": 51
                                 }
                             ]
                         },
@@ -25543,12 +19752,12 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 5482
+                                    "value": 10164
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 63
+                                    "value": 72
                                 },
                                 {
                                     "key": "kill_streak_best",
@@ -25558,430 +19767,62 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done_most_in_game",
                                     "label": "All Damage Done - Most in Game",
-                                    "value": 9873
+                                    "value": 20271
                                 },
                                 {
                                     "key": "eliminations_most_in_game",
                                     "label": "Eliminations - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 13
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 141
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 8541
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 4962
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
-                                    "value": 4
-                                },
-                                {
-                                    "key": "obj_contest_time_most_in_game",
-                                    "label": "Obj Contest Time - Most in Game",
-                                    "value": 141
-                                }
-                            ]
-                        },
-                        {
-                            "category": "average",
-                            "label": "Average",
-                            "stats": [
-                                {
-                                    "key": "deaths_avg_per_10_min",
-                                    "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.49
-                                },
-                                {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 24.51
-                                },
-                                {
-                                    "key": "hero_damage_done_avg_per_10_min",
-                                    "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 11665
-                                },
-                                {
-                                    "key": "assists_avg_per_10_min",
-                                    "label": "Assists - Avg per 10 min",
-                                    "value": 3.6
-                                },
-                                {
-                                    "key": "melee_final_blows_avg_per_10_min",
-                                    "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.72
-                                },
-                                {
-                                    "key": "objective_time_avg_per_10_min",
-                                    "label": "Objective Time - Avg per 10 Min",
-                                    "value": 196
-                                },
-                                {
-                                    "key": "all_damage_done_avg_per_10_min",
-                                    "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12763
-                                },
-                                {
-                                    "key": "eliminations_per_life",
-                                    "label": "Eliminations per Life",
-                                    "value": 3.78
-                                },
-                                {
-                                    "key": "objective_kills_avg_per_10_min",
-                                    "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 10.81
-                                },
-                                {
-                                    "key": "obj_contest_time_avg_per_10_min",
-                                    "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 173
-                                },
-                                {
-                                    "key": "final_blows_avg_per_10_min",
-                                    "label": "Final Blows - Avg per 10 Min",
-                                    "value": 12.98
-                                }
-                            ]
-                        },
-                        {
-                            "category": "game",
-                            "label": "Game",
-                            "stats": [
-                                {
-                                    "key": "time_played",
-                                    "label": "Time Played",
-                                    "value": 832
-                                },
-                                {
-                                    "key": "games_played",
-                                    "label": "Games Played",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "games_won",
-                                    "label": "Games Won",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_wins",
-                                    "label": "Hero Wins",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "win_percentage",
-                                    "label": "Win Percentage",
-                                    "value": 71
-                                },
-                                {
-                                    "key": "games_lost",
-                                    "label": "Games Lost",
-                                    "value": 0
-                                }
-                            ]
-                        },
-                        {
-                            "category": "combat",
-                            "label": "Combat",
-                            "stats": [
-                                {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 34
-                                },
-                                {
-                                    "key": "deaths",
-                                    "label": "Deaths",
-                                    "value": 9
-                                },
-                                {
-                                    "key": "final_blows",
-                                    "label": "Final Blows",
-                                    "value": 18
-                                },
-                                {
-                                    "key": "all_damage_done",
-                                    "label": "All Damage Done",
-                                    "value": 17705
-                                },
-                                {
-                                    "key": "objective_kills",
-                                    "label": "Objective Kills",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_time",
-                                    "label": "Objective Time",
-                                    "value": 271
-                                },
-                                {
-                                    "key": "multikill",
-                                    "label": "Multikill",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done",
-                                    "label": "Hero Damage Done",
-                                    "value": 16181
-                                },
-                                {
-                                    "key": "obj_contest_time",
-                                    "label": "Obj Contest Time",
-                                    "value": 240
-                                },
-                                {
-                                    "key": "weapon_accuracy",
-                                    "label": "Weapon Accuracy",
-                                    "value": 54
-                                }
-                            ]
-                        },
-                        {
-                            "category": "assists",
-                            "label": "Assists",
-                            "stats": [
-                                {
-                                    "key": "offensive_assists",
-                                    "label": "Offensive Assists",
-                                    "value": 2
-                                },
-                                {
-                                    "key": "offensive_assist_most_in_game",
-                                    "label": "Offensive Assist - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "defensive_assists",
-                                    "label": "Defensive Assists",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "defensive_assists_most_in_game",
-                                    "label": "Defensive Assists - Most in Game",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "assists",
-                                    "label": "Assists",
-                                    "value": 5
-                                },
-                                {
-                                    "key": "defensive_assists_avg_per_10_min",
-                                    "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 2.16
-                                },
-                                {
-                                    "key": "offensive_assists_avg_per_10_min",
-                                    "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 1.44
-                                }
-                            ]
-                        }
-                    ],
-                    "zenyatta": [
-                        {
-                            "category": "hero_specific",
-                            "label": "Hero Specific",
-                            "stats": [
-                                {
-                                    "key": "transcendence_healing_most_in_game",
-                                    "label": "Transcendence Healing - Most in Game",
-                                    "value": 1282
-                                },
-                                {
-                                    "key": "transcendence_healing",
-                                    "label": "Transcendence Healing",
-                                    "value": 4162
-                                },
-                                {
-                                    "key": "self_healing",
-                                    "label": "Self Healing",
-                                    "value": 222
-                                },
-                                {
-                                    "key": "self_healing_most_in_game",
-                                    "label": "Self Healing - Most in Game",
-                                    "value": 112
-                                },
-                                {
-                                    "key": "damage_amplified",
-                                    "label": "Damage Amplified",
-                                    "value": 4910
-                                },
-                                {
-                                    "key": "damage_amplified_most_in_game",
-                                    "label": "Damage Amplified - Most in Game",
-                                    "value": 3268
-                                },
-                                {
-                                    "key": "charged_volley_kills",
-                                    "label": "Charged Volley Kills",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "charged_volley_kills_most_in_game",
-                                    "label": "Charged Volley Kills - Most in Game",
-                                    "value": 11
-                                },
-                                {
-                                    "key": "charged_volley_kills_avg_per_10_min",
-                                    "label": "Charged Volley Kills - Avg per 10 Min",
-                                    "value": 6.98
-                                },
-                                {
-                                    "key": "charged_volley_accuracy",
-                                    "label": "Charged Volley Accuracy",
-                                    "value": 22
-                                },
-                                {
-                                    "key": "self_healing_avg_per_10_min",
-                                    "label": "Self Healing - Avg per 10 Min",
-                                    "value": 103
-                                },
-                                {
-                                    "key": "damage_amplified_avg_per_10_min",
-                                    "label": "Damage Amplified - Avg per 10 Min",
-                                    "value": 2283
-                                }
-                            ]
-                        },
-                        {
-                            "category": "best",
-                            "label": "Best",
-                            "stats": [
-                                {
-                                    "key": "eliminations_most_in_life",
-                                    "label": "Eliminations - Most in Life",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_life",
-                                    "label": "All Damage Done - Most in Life",
-                                    "value": 5400
-                                },
-                                {
-                                    "key": "weapon_accuracy_best_in_game",
-                                    "label": "Weapon Accuracy - Best in Game",
-                                    "value": 45
-                                },
-                                {
-                                    "key": "kill_streak_best",
-                                    "label": "Kill Streak - Best",
-                                    "value": 10
-                                },
-                                {
-                                    "key": "all_damage_done_most_in_game",
-                                    "label": "All Damage Done - Most in Game",
-                                    "value": 14056
-                                },
-                                {
-                                    "key": "eliminations_most_in_game",
-                                    "label": "Eliminations - Most in Game",
-                                    "value": 27
-                                },
-                                {
-                                    "key": "final_blows_most_in_game",
-                                    "label": "Final Blows - Most in Game",
-                                    "value": 12
-                                },
-                                {
-                                    "key": "objective_kills_most_in_game",
-                                    "label": "Objective Kills - Most in Game",
-                                    "value": 15
-                                },
-                                {
-                                    "key": "objective_time_most_in_game",
-                                    "label": "Objective Time - Most in Game",
-                                    "value": 159
-                                },
-                                {
-                                    "key": "multikill_best",
-                                    "label": "Multikill - Best",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "critical_hits_most_in_game",
-                                    "label": "Critical Hits - Most in Game",
-                                    "value": 7
-                                },
-                                {
-                                    "key": "critical_hits_most_in_life",
-                                    "label": "Critical Hits - Most in Life",
-                                    "value": 3
-                                },
-                                {
-                                    "key": "melee_final_blow_most_in_game",
-                                    "label": "Melee Final Blow - Most in Game",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_game",
-                                    "label": "Hero Damage Done - Most in Game",
-                                    "value": 10467
-                                },
-                                {
-                                    "key": "hero_damage_done_most_in_life",
-                                    "label": "Hero Damage Done - Most in Life",
-                                    "value": 3511
-                                },
-                                {
-                                    "key": "assists_most_in_game",
-                                    "label": "Assists - Most in Game",
                                     "value": 25
                                 },
                                 {
-                                    "key": "critical_hit_kill_most_in_game",
-                                    "label": "Critical Hit Kill - Most in Game",
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 11
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 13
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 274
+                                },
+                                {
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "solo_kill_most_in_game",
+                                    "label": "Solo Kill - Most in Game",
                                     "value": 1
+                                },
+                                {
+                                    "key": "melee_final_blow_most_in_game",
+                                    "label": "Melee Final Blow - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 15301
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 7689
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 7
                                 },
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 43
+                                    "value": 274
                                 }
                             ]
                         },
@@ -25990,74 +19831,64 @@ export const tempData = {
                             "label": "Average",
                             "stats": [
                                 {
-                                    "key": "healing_done_avg_per_10_min",
-                                    "label": "Healing Done - Avg per 10 Min",
-                                    "value": 5874
-                                },
-                                {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.12
+                                    "value": 5.37
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 19.07
+                                    "value": 18.03
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 6894
+                                    "value": 11732
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 19.53
-                                },
-                                {
-                                    "key": "critical_hit_kills_avg_per_10_min",
-                                    "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 0.47
+                                    "value": 3.93
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.47
+                                    "value": 0.21
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 114
+                                    "value": 149
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 9496
-                                },
-                                {
-                                    "key": "critical_hits_avg_per_10_min",
-                                    "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 4.65
+                                    "value": 14878
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.73
+                                    "value": 3.36
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 10.23
+                                    "value": 8.59
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 29
+                                    "value": 92
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.14
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.84
+                                    "value": 8.94
                                 }
                             ]
                         },
@@ -26068,42 +19899,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 1290
+                                    "value": 8387
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 2
+                                    "value": 12
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 8
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 8
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 8
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 2
+                                    "value": 8
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 100
+                                    "value": 64
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 0
+                                    "value": 4
                                 }
                             ]
                         },
@@ -26114,72 +19945,62 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 41
+                                    "value": 252
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 11
+                                    "value": 75
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 19
+                                    "value": 125
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 2
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 20421
+                                    "value": 207963
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 22
+                                    "value": 120
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 245
+                                    "value": 2081
                                 },
                                 {
-                                    "key": "multikill",
-                                    "label": "Multikill",
-                                    "value": 1
+                                    "key": "multikills",
+                                    "label": "Multikills",
+                                    "value": 2
                                 },
                                 {
-                                    "key": "melee_final_blow",
-                                    "label": "Melee Final Blow",
-                                    "value": 1
-                                },
-                                {
-                                    "key": "critical_hits",
-                                    "label": "Critical Hits",
-                                    "value": 10
+                                    "key": "melee_final_blows",
+                                    "label": "Melee Final Blows",
+                                    "value": 3
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 14824
-                                },
-                                {
-                                    "key": "critical_hit_kill",
-                                    "label": "Critical Hit Kill",
-                                    "value": 1
+                                    "value": 163993
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 62
-                                },
-                                {
-                                    "key": "critical_hit_accuracy",
-                                    "label": "Critical Hit Accuracy",
-                                    "value": 6
+                                    "value": 1286
                                 },
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 45
+                                    "value": 47
                                 }
                             ]
                         },
@@ -26190,55 +20011,60 @@ export const tempData = {
                                 {
                                     "key": "offensive_assists",
                                     "label": "Offensive Assists",
-                                    "value": 28
+                                    "value": 32
                                 },
                                 {
                                     "key": "offensive_assists_most_in_game",
                                     "label": "Offensive Assists - Most in Game",
-                                    "value": 21
+                                    "value": 5
                                 },
                                 {
                                     "key": "defensive_assists",
                                     "label": "Defensive Assists",
-                                    "value": 43
+                                    "value": 24
                                 },
                                 {
                                     "key": "defensive_assists_most_in_game",
                                     "label": "Defensive Assists - Most in Game",
-                                    "value": 26
-                                },
-                                {
-                                    "key": "healing_done",
-                                    "label": "Healing Done",
-                                    "value": 12632
-                                },
-                                {
-                                    "key": "healing_done_most_in_game",
-                                    "label": "Healing Done - Most in Game",
-                                    "value": 8588
+                                    "value": 7
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 42
+                                    "value": 55
                                 },
                                 {
                                     "key": "defensive_assists_avg_per_10_min",
                                     "label": "Defensive Assists - Avg per 10 Min",
-                                    "value": 20
+                                    "value": 1.72
                                 },
                                 {
                                     "key": "offensive_assists_avg_per_10_min",
                                     "label": "Offensive Assists - Avg per 10 Min",
-                                    "value": 13.02
+                                    "value": 2.29
                                 }
                             ]
                         }
                     ],
+                    "ana": null,
                     "baptiste": null,
+                    "bastion": null,
                     "brigitte": null,
                     "echo": null,
-                    "lifeweaver": null
+                    "junkrat": null,
+                    "kiriko": null,
+                    "lifeweaver": null,
+                    "lucio": null,
+                    "mei": null,
+                    "mercy": null,
+                    "moira": null,
+                    "reaper": null,
+                    "sojourn": null,
+                    "soldier-76": null,
+                    "sombra": null,
+                    "symmetra": null,
+                    "widowmaker": null,
+                    "zenyatta": null
                 }
             }
         },
@@ -26432,14 +20258,14 @@ export const tempData = {
                                     "value": 1753
                                 },
                                 {
-                                    "key": "eliminations_avg_per_10_min",
-                                    "label": "Eliminations - Avg per 10 Min",
-                                    "value": 2.7
-                                },
-                                {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
                                     "value": 8.78
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 2.7
                                 },
                                 {
                                     "key": "healing_done_avg_per_10_min",
@@ -26499,14 +20325,14 @@ export const tempData = {
                                     "value": 2595
                                 },
                                 {
-                                    "key": "eliminations",
-                                    "label": "Eliminations",
-                                    "value": 4
-                                },
-                                {
                                     "key": "deaths",
                                     "label": "Deaths",
                                     "value": 13
+                                },
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 4
                                 },
                                 {
                                     "key": "objective_kills",
@@ -26598,14 +20424,14 @@ export const tempData = {
                                     "value": 200
                                 },
                                 {
-                                    "key": "enemies_slept_avg_per_10_min",
-                                    "label": "Enemies Slept - Avg per 10 Min",
-                                    "value": 8.92
-                                },
-                                {
                                     "key": "nano_boost_assists_avg_per_10_min",
                                     "label": "Nano Boost Assists - Avg per 10 Min",
                                     "value": 2.23
+                                },
+                                {
+                                    "key": "enemies_slept_avg_per_10_min",
+                                    "label": "Enemies Slept - Avg per 10 Min",
+                                    "value": 8.92
                                 },
                                 {
                                     "key": "unscoped_accuracy",
@@ -27298,5 +21124,10 @@ export const tempData = {
             },
             "competitive": null
         }
+    },
+    "timePlayedGamemodes": {
+        "timePlayedCompetitive": 231,
+        "timePlayedQuickplay": 170,
+        "timePlayedOverall": 401
     }
 }

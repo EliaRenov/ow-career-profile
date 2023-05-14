@@ -5,11 +5,9 @@ import OverfastAPIContext from '../OverfastAPIContext'
 
 const TimePlayed = () => {
     
-    const {data, modesHrs, platform} = useContext(OverfastAPIContext)
-    const competitive = data.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
-    const compHrs = Math.floor(competitive / 3600) !== 0 ? Math.floor(competitive / 3600) : competitive
-    const quickplay = data.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value
-    const hoursPlayed = Math.floor((quickplay) / 3600 + compHrs + modesHrs.arcadeHrs + modesHrs.gamebrowserHrs + modesHrs.experimentalHrs)
+    const {data} = useContext(OverfastAPIContext)
+
+    const hoursPlayed = data.timePlayedGamemodes?.timePlayedOverall.toLocaleString()
 
     return (
         <div className="overview_time-played">
@@ -18,7 +16,7 @@ const TimePlayed = () => {
                         TIME PLAYED
                     </h5>
                     <h3 className="overview_overall-hours">
-                    {hoursPlayed.toLocaleString()} HRS
+                    {hoursPlayed} HRS
                     </h3>
                 </div>
                 <TimePlayedBars />

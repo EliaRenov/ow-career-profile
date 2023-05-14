@@ -7,9 +7,12 @@ import SelectHeroMenu from './StatisticsComponents/SelectHeroMenu';
 
 
 const Statistics = () => {
-    const {data, platform, currentHero, setCurrentHero} = useContext(OverfastAPIContext);
+    const {data, platform, currentHero, setCurrentHero, currentMode} = useContext(OverfastAPIContext);
 
     const [selectHeroOpen, setSelectHeroOpen] = useState(false)
+
+    console.log(currentMode)
+    console.log(data.stats[platform])
     
     return (
         <main className="statistics">

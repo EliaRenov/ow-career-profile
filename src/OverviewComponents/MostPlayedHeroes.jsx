@@ -37,7 +37,7 @@ const MostPlayedHeroes = () => {
                 return <div style={{
                     backgroundImage: `url(${Heroes[card.hero].logo})`}} key={card.hero} className="most-played-heroes-card">
                     <h4 className="most-played-heroes-card-hero">
-                            {card.hero.toUpperCase()}
+                            {card.hero.toUpperCase().replace('-', ' ').replace('DVA', 'D.VA')}
                     </h4>
                     <h3 className="most-played-heroes-card-hours">
                             {Math.round(card.value / 3600)} HRS

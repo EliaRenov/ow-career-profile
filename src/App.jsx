@@ -7,6 +7,8 @@ import Statistics from './Statistics';
 import OverfastAPIContext from './OverfastAPIContext';
 import Form from './OverviewComponents/Form'
 import { tempData } from './tempdata';
+import dataHandler from './dataHandler'
+
 
 function App() {
 
@@ -29,13 +31,15 @@ function App() {
     try {
       const response = await fetch(`https://overfast-api.tekrop.fr/players/${username}`)
       const data = await response.json()
+
       if (data.stats.pc) {
         setPlatform('pc')
       } else if (data.stats.console) {
         setPlatform('console')
       }
-      setData(data)
+      setData({...data, ...dataHandler(data, platform, currentMode)})
     } catch (error) {
+      console.log(error)
       alert('PLAYER NOT FOUND')
     }
   }
