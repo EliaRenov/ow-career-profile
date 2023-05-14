@@ -6,6 +6,8 @@ import OverfastAPIContext from '../OverfastAPIContext';
 const HeroComparisonTable = ({stat}) => {
     const {data, currentMode, platform} = useContext(OverfastAPIContext)
 
+    // console.log(stat)
+
     const unrankedHeroComparison = structuredClone(data.stats[platform].quickplay.heroes_comparisons[stat].values);
   const compHeroComparison = structuredClone(data.stats[platform].competitive.heroes_comparisons[stat].values);
   let allHeroComparison = structuredClone(unrankedHeroComparison)
@@ -35,6 +37,7 @@ const HeroComparisonTable = ({stat}) => {
 
 } 
   allHeroComparison = allHeroComparison.sort((a, b) => b.value - a.value)
+//   console.log(allHeroComparison)
 
     let sortedComparison;
 

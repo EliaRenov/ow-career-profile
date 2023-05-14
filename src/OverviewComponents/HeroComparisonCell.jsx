@@ -5,7 +5,7 @@ const HeroComparisonCell = (props) => {
         data === props.mostPlayed ? 100 : `${data.value / props.mostPlayed.value * 100}`)
     
     if (fillWidth < 9) fillWidth = 9;
-    const heroName = data.hero.toUpperCase().replace("DV", "D.V").replace("GB", "G B")
+    const heroName = data.hero.toUpperCase().replace("DV", "D.V").replace("GB", "G B").replace("r7", "r-7")
 
     let stat;
 
@@ -22,6 +22,8 @@ const HeroComparisonCell = (props) => {
     } else if (props.type === 'time_played') {
         stat = Math.round(data.value / 3600).toLocaleString() + ' HRS'
     } 
+    console.log(data.hero)
+    console.log(Heroes[data.hero])
     
     return (
         <div className="table-cell">
