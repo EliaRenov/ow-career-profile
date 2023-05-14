@@ -7,7 +7,7 @@ import { useContext } from 'react'
 import OverfastAPIContext from './OverfastAPIContext'
 
 const Navbar = () => {
-    const { data, setIsFormOpen } = useContext(OverfastAPIContext)
+    const { data, setIsFormOpen, currentTab, setCurrentTab } = useContext(OverfastAPIContext)
     
     const username = data.summary.username.toUpperCase()
     const title = data.summary.title ? data.summary.title.toUpperCase() : ''
@@ -19,10 +19,10 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <nav className="nav-links">
-                <li className="current-tab">
+                <li className={`${currentTab === 'overview' && 'current-tab'}`} onClick={() => setCurrentTab('overview')}>
                     OVERVIEW
                 </li>
-                <li>
+                <li className={`${currentTab === 'statistics' && 'current-tab'}`} onClick={() => setCurrentTab('statistics')}> 
                     STATISTICS
                 </li>
                 <li>

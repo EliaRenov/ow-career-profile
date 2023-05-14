@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import './index.css';
 import Overview from './Overview';
+import Statistics from './Statistics';
 import OverfastAPIContext from './OverfastAPIContext';
 import Form from './OverviewComponents/Form'
 import { tempData } from './tempdata';
@@ -20,6 +21,8 @@ function App() {
   const [currentMode, setCurrentMode] = useState('all') 
   const [isFormOpen, setIsFormOpen] = useState(true) 
   const [username, setUsername] = useState('super-12850') 
+  const [currentTab, setCurrentTab] = useState('overview')
+  const [currentHero, setCurrentHero] = useState('ramattra')
 
 
   async function fetchData() {
@@ -31,7 +34,6 @@ function App() {
       } else if (data.stats.console) {
         setPlatform('console')
       }
-      console.log(data)
       setData(data)
     } catch (error) {
       alert('PLAYER NOT FOUND')
@@ -45,12 +47,14 @@ function App() {
 
  
   return (
-    <OverfastAPIContext.Provider value={{data, modesHrs, platform, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, setPlatform}}>
+    <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero}}>
     <div className="container">
       {isFormOpen && <Form />}
       <Navbar />
       {data.summary.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
-      {data.summary.privacy === 'public' && <Overview />}
+      {data.summary.privacy === 'public' && currentTab === 'overview' && <Overview />}
+      {data.summary.privacy === 'public' && currentTab === 'statistics' && <Statistics />}
+
     </div>
     </OverfastAPIContext.Provider>
   )

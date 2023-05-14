@@ -1,0 +1,62 @@
+.statistics {
+    display: grid;
+    grid-template-columns: 2fr 5fr 7fr;
+    grid-template-rows: 1fr 15fr;
+    padding: 2.5%;
+}
+
+.statistics .hero-select {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border: 1px solid black;
+}
+
+.statistics .hero-logo {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.statistics .select-hero-menu {
+    position: fixed;
+    z-index: 10;
+    top: 3.3%;
+    bottom: 3.3%;
+    left: 0;
+    right: 0;
+    
+    background-color: #5a6984;
+    display: grid;
+    justify-content: center;
+}
+
+.statistics .select-hero-menu .title {
+    grid-row: 1;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.statistics .select-hero-menu .hero-roles {
+    gap: 10%;
+}
+
+.statistics .select-hero-menu .role-title {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.statistics .select-hero-menu .role.tank {
+    
+}
+
+.statistics .select-hero-menu .hero-roles {
+    display: flex;
+}
+
+.statistics .select-hero-menu .hero-roles .role .hero-card img {
+    width: 65%;
+} 
