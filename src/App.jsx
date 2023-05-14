@@ -31,6 +31,7 @@ function App() {
       } else if (data.stats.console) {
         setPlatform('console')
       }
+      console.log(data)
       setData(data)
     } catch (error) {
       alert('PLAYER NOT FOUND')

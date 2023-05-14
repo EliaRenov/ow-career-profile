@@ -42,7 +42,7 @@ const Dropdown = (props) => {
 
     document.querySelector('html').addEventListener('click', (event) => {
         if (event.target.className.includes('dropdown')) return;
-        if (event.target.parentNode.className.includes('dropdown')) return;
+        if (event.target?.parentNode?.className.includes('dropdown')) return;
         setIsDropDownOpen(false)
     } 
     )

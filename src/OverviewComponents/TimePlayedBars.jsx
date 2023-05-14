@@ -9,17 +9,19 @@ const TimePlayedBars = () => {
     const quickplay = data.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value
 
     let modes = [
-        {mode: 'competitive', hours: platform === 'pc' ?  Math.floor(competitive / 3600) : competitive
+        {mode: 'competitive', hours: competitive
         },
         {mode: 'unranked', hours: Math.floor(quickplay / 3600)
         },
-        {mode: 'arcade', hours: modesHrs.arcadeHrs
-        },
-        {mode: 'gameBrowser', hours: modesHrs.gamebrowserHrs
-        },
-        {mode: 'experimental', hours: modesHrs.experimentalHrs
-        },
+        // Data is not provided by API:
+        // {mode: 'arcade', hours: modesHrs.arcadeHrs
+        // },
+        // {mode: 'gameBrowser', hours: modesHrs.gamebrowserHrs
+        // },
+        // {mode: 'experimental', hours: modesHrs.experimentalHrs
+        // },
     ]
+
 
     modes.sort((a, b) => {
         return b.hours - a.hours
