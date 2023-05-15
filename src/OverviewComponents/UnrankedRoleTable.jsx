@@ -6,84 +6,14 @@ import OverfastAPIContext from '../OverfastAPIContext'
 import Heroes from '../Heroes'
 
 const UnrankedRoleTable = () => {
-    const {data, platform, currentMode} = useContext(OverfastAPIContext)
+    const {data, currentMode} = useContext(OverfastAPIContext)
 
-    let tankHours = 0;
-    let tankGamesWon = 0;
-    let damageHours = 0;
-    let damageGamesWon = 0;
-    let supportHours = 0;
-    let supportGamesWon = 0;
-
-    const getRoleStats = () => {
-
-        if (currentMode === 'all') {
-            let compTimePlayed = data.stats[platform].competitive.heroes_comparisons.time_played
-            
-
-            compTimePlayed && compTimePlayed.values.forEach(item => {
-                if (Heroes.tank.includes(item.hero) && item.value) {
-                    tankHours += item.value
-                }
-                if (Heroes.damage.includes(item.hero) && item.value) {
-                    damageHours += item.value
-                }
-                if (Heroes.support.includes(item.hero) && item.value) {
-                    supportHours += item.value
-                }
-            })
-    
-
-            let compGamesWon = data.stats[platform].competitive.heroes_comparisons.games_won
-            
-            compGamesWon && compGamesWon.values.forEach(item => {
-                if (Heroes.tank.includes(item.hero) && item.value) {
-                    tankGamesWon += item.value
-                }
-                if (Heroes.damage.includes(item.hero) && item.value) {
-                    damageGamesWon += item.value
-                }
-                if (Heroes.support.includes(item.hero) && item.value) {
-                    supportGamesWon += item.value
-                }
-            })
-        }
-
-        let unrankedTimePlayed = data.stats[platform].quickplay.heroes_comparisons.time_played.values
-
-        unrankedTimePlayed.forEach(item => {
-            if (Heroes.tank.includes(item.hero)) {
-                tankHours += item.value
-            }
-            if (Heroes.damage.includes(item.hero)) {
-                damageHours += item.value
-            }
-            if (Heroes.support.includes(item.hero)) {
-                supportHours += item.value
-            }
-        })
-
-        let unrankedGamesWon = data.stats[platform].quickplay.heroes_comparisons.games_won.values
-        
-        unrankedGamesWon.forEach(item => {
-            if (Heroes.tank.includes(item.hero)) {
-                tankGamesWon += item.value
-            }
-            if (Heroes.damage.includes(item.hero)) {
-                damageGamesWon += item.value
-            }
-            if (Heroes.support.includes(item.hero)) {
-                supportGamesWon += item.value
-            }
-        })
-    }
-
-    getRoleStats()
-
-    tankHours = Math.floor(tankHours / 3600)
-    damageHours = Math.floor(damageHours / 3600)
-    supportHours = Math.floor(supportHours / 3600)
-    
+    const tankHours = data.roleHours[currentMode].tank;
+    const tankGamesWon = data.roleGamesWon[currentMode].tank;
+    const damageHours = data.roleHours[currentMode].damage;
+    const damageGamesWon = data.roleGamesWon[currentMode].damage;
+    const supportHours = data.roleHours[currentMode].support;
+    const supportGamesWon = data.roleGamesWon[currentMode].support;
 
     return (
         <ul className="overview__current-mode_unranked">

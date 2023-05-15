@@ -1,14 +1,4 @@
 export default function dataHandler(rawData, platform) {
-    const heroes = ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya', 'ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta', 'ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier-76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker']
-
-    // API sometimes sends time played in seconds and sometimes in hours. Decide if there is a need to divide.
-    const compUntested = rawData.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
-
-    // 
-
-    const timePlayedCompetitive = Math.round(compUntested / 3600) !== 0 ? Math.round(compUntested / 3600) : compUntested;
-    const timePlayedQuickplay = Math.round(rawData.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value / 3600);
-    const timePlayedOverall = timePlayedCompetitive + timePlayedQuickplay;
 
     function combineModesHeroComparisonStats(stat, x, y) {
         if (stat === 'time_played' || stat === 'objective_kills' || stat === 'games_won') return x.value += y.value
@@ -35,6 +25,48 @@ export default function dataHandler(rawData, platform) {
         return {competitive: statHeroesCompetitive, quickplay: statHeroesQuickplay, all: statHeroesAllModes}
     }
 
+    function roleValuesPerMode(mode, stat) {
+        let tank = 0;
+        let damage = 0;
+        let support = 0;
+
+        getHeroComparisonStats(stat)[mode].forEach(item => {
+            if (heroesPerRoles.tank.includes(item.hero)) tank += item.value
+            if (heroesPerRoles.damage.includes(item.hero)) damage += item.value
+            if (heroesPerRoles.support.includes(item.hero)) support += item.value
+         })
+
+         let roleValues;
+
+         if (stat === 'time_played') {
+            return {
+                tank: Math.round(tank / 3600),
+                damage: Math.round(damage / 3600),
+                support: Math.round(support / 3600),
+            }
+         } else if (stat === 'games_won') {
+            return {
+                tank,
+                damage,
+                support,
+            }
+         }
+
+         return roleValues
+     }
+
+    const heroes = ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya', 'ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta', 'ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier-76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker'];
+
+    // API sometimes sends time played in seconds and sometimes in hours. Decide if there is a need to divide.
+    const compUntested = rawData.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
+
+    // 
+
+    const timePlayedCompetitive = Math.round(compUntested / 3600) !== 0 ? Math.round(compUntested / 3600) : compUntested;
+    const timePlayedQuickplay = Math.round(rawData.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value / 3600);
+    const timePlayedOverall = timePlayedCompetitive + timePlayedQuickplay;
+
+
     const timePlayedHeroComparison = getHeroComparisonStats('time_played')
     const gamesWonHeroComparison = getHeroComparisonStats('games_won')
     const objectiveKillsHeroComparison = getHeroComparisonStats('objective_kills')
@@ -43,9 +75,42 @@ export default function dataHandler(rawData, platform) {
     const critHitAccHeroComparison = getHeroComparisonStats('critical_hit_accuracy')
     const weaponAccHeroComparison = getHeroComparisonStats('weapon_accuracy')
 
+    const heroesPerRoles = {
+        tank: ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya'],
+        support: ['ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta'],
+        damage: ['ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker']
+    }
+
+    const quickplayRoleHours = roleValuesPerMode('quickplay', 'time_played')
+    const competitiveRoleHours = roleValuesPerMode('competitive', 'time_played')
+    const allRoleHours = roleValuesPerMode('all', 'time_played')
+    const quickplayRoleGamesWon = roleValuesPerMode('quickplay', 'games_won')
+    const competitiveRoleGamesWon = roleValuesPerMode('competitive', 'games_won')
+    const allRoleGamesWon = roleValuesPerMode('all', 'games_won')
+
+    const tankRank = rawData.summary.competitive[platform].tank?.rank_icon
+    const damageRank = rawData.summary.competitive[platform].damage?.rank_icon
+    const supportRank = rawData.summary.competitive[platform].support?.rank_icon
+    
+    
 
 
     return {
+            roleRank: {
+                tank: tankRank,
+                damage: damageRank,
+                support: supportRank,
+            },
+            roleHours: {
+                quickplay: quickplayRoleHours,
+                competitive: competitiveRoleHours,
+                all: allRoleHours,
+            },
+            roleGamesWon: {
+                quickplay: quickplayRoleGamesWon,
+                competitive: competitiveRoleGamesWon,
+                all: allRoleGamesWon,
+            },
             timePlayedGamemodes: {
                 timePlayedCompetitive,
                 timePlayedQuickplay,

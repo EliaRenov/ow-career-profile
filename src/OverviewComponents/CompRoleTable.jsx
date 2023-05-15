@@ -8,45 +8,15 @@ import Heroes from '../Heroes'
 
 const CompRoleTable = () => {
     const { data, platform } = useContext(OverfastAPIContext)
-    let tankRank;
-    let damageRank;
-    let supportRank;
 
-    let tankGamesWon = 0;
-    let damageGamesWon = 0;
-    let supportGamesWon = 0;
+    const tankRank = data.roleRank.tank;
+    const damageRank = data.roleRank.damage;
+    const supportRank = data.roleRank.support;
 
-    if (data.summary.competitive) {
+    const tankGamesWon = data.roleGamesWon.competitive.tank;
+    const damageGamesWon = data.roleGamesWon.competitive.damage;
+    const supportGamesWon = data.roleGamesWon.competitive.support;
 
-        const {tank, damage, support} = (data.summary.competitive[platform])
-        
-        
-        tankRank = tank && tank.rank_icon
-        damageRank = damage && damage.rank_icon
-        supportRank = support && support.rank_icon
-        
-
-        const getRoleStats = () => {
-            
-            let gamesWon = data.stats[platform].competitive.heroes_comparisons.games_won.values
-            
-            gamesWon.forEach(item => {
-                if (Heroes.tank.includes(item.hero)) {
-                tankGamesWon += item.value
-            }
-            if (Heroes.damage.includes(item.hero)) {
-                damageGamesWon += item.value
-            }
-            if (Heroes.support.includes(item.hero)) {
-                supportGamesWon += item.value
-            }
-        })
-    }
-    getRoleStats()
-
-    
-    } else {
-    }
 
     return (
         <ul className="overview__current-mode_ranked">
@@ -74,12 +44,14 @@ const CompRoleTable = () => {
                             TANK
                         </li>
                         <li>
-                            {tankRank ? <img className={`rank-logo ${tankRank === 'top500' && 'rank-logo-top500'}`} src={tankRank} /> : '--'} 
-                            {/* {tankRank === 'top500' && <h5 className="rank-text-top500">#{tankTop500Pos}</h5>} */}
+                            {tankRank ? <img className={`rank-logo`} src={tankRank} /> : '--'} 
+
+                            
                         </li>
                         <li>
-                            {tankRank ? <img className={`rank-logo ${tankRank === 'top500' && 'rank-logo-top500'}`} src={tankRank} /> : '--'} 
-                            {/* {peakTankRank === 'top500' && <h5 className="rank-text-top500">#{peakTankTop500Pos}</h5>} */}
+                            {tankRank ? <img className={`rank-logo`} src={tankRank} /> : '--'} 
+
+                            
                         </li>
                         <li>
                             {tankGamesWon}
@@ -93,12 +65,10 @@ const CompRoleTable = () => {
                             DAMAGE
                         </li>
                         <li>
-                            {damageRank ? <img className={`rank-logo ${damageRank === 'top500' && 'rank-logo-top500'}`} src={damageRank} /> : '--'} 
-                            {/* {damageRank === 'top500' && <h5 className="rank-text-top500">#{damageTop500Pos}</h5>} */}
+                            {damageRank ? <img className={`rank-logo`} src={damageRank} /> : '--'} 
                         </li>
                         <li>
-                            {damageRank ? <img className={`rank-logo ${damageRank === 'top500' && 'rank-logo-top500'}`} src={damageRank} /> : '--'} 
-                            {/* {peakDamageRank === 'top500' && <h5 className="rank-text-top500">#{peakDamageTop500Pos}</h5>} */}
+                            {damageRank ? <img className={`rank-logo`} src={damageRank} /> : '--'} 
                         </li>
                         <li>
                             {damageGamesWon}
@@ -112,12 +82,12 @@ const CompRoleTable = () => {
                             SUPPORT
                         </li>
                         <li>
-                            {supportRank ? <img className={`rank-logo ${supportRank === 'top500' && 'rank-logo-top500'}`} src={supportRank} /> : '--'}
-                            {/* {supportRank === 'top500' && <h5 className="rank-text-top500">#{supportTop500Pos}</h5>} */}
+                        {supportRank ? <img className={`rank-logo`} src={supportRank} /> : '--'} 
+                            
                         </li>
                         <li>
-                            {supportRank ? <img className={`rank-logo ${supportRank === 'top500' && 'rank-logo-top500'}`} src={supportRank} /> : '--'} 
-                            {/* {peakSupportRank === 'top500' && <h5 className="rank-text-top500">#{peakSupportTop500Pos}</h5>} */}
+                            {supportRank ? <img className={`rank-logo`} src={supportRank} /> : '--'} 
+                            
                         </li>
                         <li>
                             {supportGamesWon}
