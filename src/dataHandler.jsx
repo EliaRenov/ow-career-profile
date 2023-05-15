@@ -44,13 +44,6 @@ export default function dataHandler(rawData, platform) {
     const weaponAccHeroComparison = getHeroComparisonStats('weapon_accuracy')
 
 
-    // API does not provide win percentage:
-    // const [winPercentageComparisonCompetitive, winPercentageComparisonQuickplay, winPercentageComparisonAll] = getHeroComparisonStats('win_percentage')
-
-
-
-    
-
 
     return {
             timePlayedGamemodes: {
@@ -66,6 +59,11 @@ export default function dataHandler(rawData, platform) {
                 multikill_best: multikillBestHeroComparison,
                 critical_hit_accuracy: critHitAccHeroComparison,
                 weapon_accuracy: weaponAccHeroComparison,
+            },
+            mostPlayedHeroes: {
+                competitive: timePlayedHeroComparison.competitive.slice(0, 3),
+                quickplay: timePlayedHeroComparison.quickplay.slice(0, 3),
+                all: timePlayedHeroComparison.all.slice(0, 3)
             }
         }
 }

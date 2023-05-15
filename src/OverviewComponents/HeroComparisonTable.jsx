@@ -6,7 +6,7 @@ import OverfastAPIContext from '../OverfastAPIContext';
 const HeroComparisonTable = ({stat}) => {
     const {data, currentMode, platform} = useContext(OverfastAPIContext)
 
-    const comparison = data.heroComparisonStats[stat][currentMode === 'unranked' ? 'quickplay' : currentMode]
+    const comparison = data.heroComparisonStats[stat][currentMode]
 
     const mostPlayed = comparison[0]
 

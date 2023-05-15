@@ -22008,27 +22008,27 @@ export const tempData = {
             "quickplay": [
                 {
                     "hero": "roadhog",
-                    "value": 55056
+                    "value": 54860
                 },
                 {
                     "hero": "cassidy",
-                    "value": 46797
+                    "value": 45857
                 },
                 {
                     "hero": "tracer",
-                    "value": 46770
+                    "value": 45426
                 },
                 {
                     "hero": "reinhardt",
-                    "value": 72107
+                    "value": 45040
                 },
                 {
                     "hero": "hanzo",
-                    "value": 47872
+                    "value": 44859
                 },
                 {
                     "hero": "genji",
-                    "value": 39977
+                    "value": 38329
                 },
                 {
                     "hero": "lucio",
@@ -22044,7 +22044,7 @@ export const tempData = {
                 },
                 {
                     "hero": "zarya",
-                    "value": 34450
+                    "value": 26063
                 },
                 {
                     "hero": "widowmaker",
@@ -22052,7 +22052,7 @@ export const tempData = {
                 },
                 {
                     "hero": "pharah",
-                    "value": 23707
+                    "value": 23429
                 },
                 {
                     "hero": "zenyatta",
@@ -22060,11 +22060,11 @@ export const tempData = {
                 },
                 {
                     "hero": "ana",
-                    "value": 21047
+                    "value": 19694
                 },
                 {
                     "hero": "dva",
-                    "value": 26017
+                    "value": 19631
                 },
                 {
                     "hero": "reaper",
@@ -22072,11 +22072,11 @@ export const tempData = {
                 },
                 {
                     "hero": "torbjorn",
-                    "value": 14990
+                    "value": 14902
                 },
                 {
                     "hero": "winston",
-                    "value": 36514
+                    "value": 11747
                 },
                 {
                     "hero": "mei",
@@ -22092,15 +22092,15 @@ export const tempData = {
                 },
                 {
                     "hero": "kiriko",
-                    "value": 7710
+                    "value": 7590
                 },
                 {
                     "hero": "ramattra",
-                    "value": 9885
+                    "value": 7076
                 },
                 {
                     "hero": "doomfist",
-                    "value": 19421
+                    "value": 5918
                 },
                 {
                     "hero": "symmetra",
@@ -22112,7 +22112,7 @@ export const tempData = {
                 },
                 {
                     "hero": "junker-queen",
-                    "value": 62438
+                    "value": 1791
                 },
                 {
                     "hero": "sombra",
@@ -22124,11 +22124,11 @@ export const tempData = {
                 },
                 {
                     "hero": "wrecking-ball",
-                    "value": 6616
+                    "value": 927
                 },
                 {
                     "hero": "orisa",
-                    "value": 822
+                    "value": 778
                 },
                 {
                     "hero": "sojourn",
@@ -22140,7 +22140,7 @@ export const tempData = {
                 },
                 {
                     "hero": "ashe",
-                    "value": 239
+                    "value": 173
                 },
                 {
                     "hero": "moira",
@@ -22148,7 +22148,7 @@ export const tempData = {
                 },
                 {
                     "hero": "sigma",
-                    "value": 20787
+                    "value": 0
                 },
                 {
                     "hero": "baptiste",
@@ -22464,19 +22464,19 @@ export const tempData = {
                 },
                 {
                     "hero": "hanzo",
-                    "value": 61
-                },
-                {
-                    "hero": "genji",
-                    "value": 59
-                },
-                {
-                    "hero": "tracer",
                     "value": 58
                 },
                 {
+                    "hero": "genji",
+                    "value": 58
+                },
+                {
+                    "hero": "tracer",
+                    "value": 57
+                },
+                {
                     "hero": "reinhardt",
-                    "value": 75
+                    "value": 56
                 },
                 {
                     "hero": "lucio",
@@ -22484,7 +22484,7 @@ export const tempData = {
                 },
                 {
                     "hero": "cassidy",
-                    "value": 48
+                    "value": 47
                 },
                 {
                     "hero": "junkrat",
@@ -22496,7 +22496,7 @@ export const tempData = {
                 },
                 {
                     "hero": "zarya",
-                    "value": 41
+                    "value": 33
                 },
                 {
                     "hero": "pharah",
@@ -22504,7 +22504,7 @@ export const tempData = {
                 },
                 {
                     "hero": "dva",
-                    "value": 32
+                    "value": 28
                 },
                 {
                     "hero": "zenyatta",
@@ -22528,7 +22528,7 @@ export const tempData = {
                 },
                 {
                     "hero": "winston",
-                    "value": 30
+                    "value": 13
                 },
                 {
                     "hero": "mercy",
@@ -22540,11 +22540,11 @@ export const tempData = {
                 },
                 {
                     "hero": "doomfist",
-                    "value": 19
+                    "value": 8
                 },
                 {
                     "hero": "ramattra",
-                    "value": 11
+                    "value": 8
                 },
                 {
                     "hero": "bastion",
@@ -22560,7 +22560,7 @@ export const tempData = {
                 },
                 {
                     "hero": "junker-queen",
-                    "value": 50
+                    "value": 2
                 },
                 {
                     "hero": "symmetra",
@@ -22572,7 +22572,7 @@ export const tempData = {
                 },
                 {
                     "hero": "wrecking-ball",
-                    "value": 4
+                    "value": 1
                 },
                 {
                     "hero": "orisa",
@@ -22600,7 +22600,7 @@ export const tempData = {
                 },
                 {
                     "hero": "sigma",
-                    "value": 13
+                    "value": 0
                 },
                 {
                     "hero": "baptiste",
@@ -22912,15 +22912,15 @@ export const tempData = {
             "quickplay": [
                 {
                     "hero": "roadhog",
-                    "value": 574
+                    "value": 571
                 },
                 {
                     "hero": "tracer",
-                    "value": 557
+                    "value": 536
                 },
                 {
                     "hero": "hanzo",
-                    "value": 458
+                    "value": 418
                 },
                 {
                     "hero": "lucio",
@@ -22928,15 +22928,15 @@ export const tempData = {
                 },
                 {
                     "hero": "genji",
-                    "value": 412
+                    "value": 397
                 },
                 {
                     "hero": "zarya",
-                    "value": 498
+                    "value": 378
                 },
                 {
                     "hero": "cassidy",
-                    "value": 359
+                    "value": 356
                 },
                 {
                     "hero": "soldier-76",
@@ -22944,7 +22944,7 @@ export const tempData = {
                 },
                 {
                     "hero": "reinhardt",
-                    "value": 513
+                    "value": 308
                 },
                 {
                     "hero": "junkrat",
@@ -22952,7 +22952,7 @@ export const tempData = {
                 },
                 {
                     "hero": "pharah",
-                    "value": 243
+                    "value": 242
                 },
                 {
                     "hero": "reaper",
@@ -22960,7 +22960,7 @@ export const tempData = {
                 },
                 {
                     "hero": "dva",
-                    "value": 247
+                    "value": 223
                 },
                 {
                     "hero": "widowmaker",
@@ -22968,7 +22968,7 @@ export const tempData = {
                 },
                 {
                     "hero": "winston",
-                    "value": 338
+                    "value": 150
                 },
                 {
                     "hero": "torbjorn",
@@ -22984,7 +22984,7 @@ export const tempData = {
                 },
                 {
                     "hero": "ana",
-                    "value": 123
+                    "value": 114
                 },
                 {
                     "hero": "bastion",
@@ -22996,15 +22996,15 @@ export const tempData = {
                 },
                 {
                     "hero": "ramattra",
-                    "value": 95
+                    "value": 69
                 },
                 {
                     "hero": "doomfist",
-                    "value": 187
+                    "value": 58
                 },
                 {
                     "hero": "junker-queen",
-                    "value": 813
+                    "value": 22
                 },
                 {
                     "hero": "mercy",
@@ -23028,7 +23028,7 @@ export const tempData = {
                 },
                 {
                     "hero": "wrecking-ball",
-                    "value": 63
+                    "value": 7
                 },
                 {
                     "hero": "sojourn",
@@ -23052,7 +23052,7 @@ export const tempData = {
                 },
                 {
                     "hero": "sigma",
-                    "value": 176
+                    "value": 0
                 },
                 {
                     "hero": "baptiste",
@@ -25018,5 +25018,49 @@ export const tempData = {
                 }
             ]
         }
+    },
+    "mostPlayedHeroes": {
+        "comp": [
+            {
+                "hero": "reinhardt",
+                "value": 27067
+            },
+            {
+                "hero": "winston",
+                "value": 24767
+            },
+            {
+                "hero": "sigma",
+                "value": 20787
+            }
+        ],
+        "quickplay": [
+            {
+                "hero": "cassidy",
+                "value": 45857
+            },
+            {
+                "hero": "tracer",
+                "value": 45426
+            },
+            {
+                "hero": "reinhardt",
+                "value": 45040
+            }
+        ],
+        "all": [
+            {
+                "hero": "junker-queen",
+                "value": 62438
+            },
+            {
+                "hero": "roadhog",
+                "value": 55056
+            },
+            {
+                "hero": "hanzo",
+                "value": 47872
+            }
+        ]
     }
 }

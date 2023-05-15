@@ -18,7 +18,7 @@ function App() {
     experimentalHrs: 0
   }
 
-  const [data, setData] = useState(tempData)
+  const [data, setData] = useState(undefined)
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
   const [isFormOpen, setIsFormOpen] = useState(true) 
@@ -52,14 +52,14 @@ function App() {
  
   return (
     <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero}}>
-    <div className="container">
+    {data && <div className="container">
       {isFormOpen && <Form />}
       <Navbar />
       {data.summary.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
       {data.summary.privacy === 'public' && currentTab === 'overview' && <Overview />}
       {data.summary.privacy === 'public' && currentTab === 'statistics' && <Statistics />}
 
-    </div>
+    </div>}
     </OverfastAPIContext.Provider>
   )
 }

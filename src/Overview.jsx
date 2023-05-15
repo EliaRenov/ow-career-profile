@@ -9,10 +9,10 @@ import { useContext } from 'react'
 
 const Overview = () => {
     const {data, platform, currentMode, setCurrentMode} = useContext(OverfastAPIContext)
-    let options = ['all', 'unranked']
+    let options = ['all', 'quickplay']
 
     if (data.summary.competitive && data.summary.competitive[platform]) {
-        options = ['all', 'unranked', 'competitive']
+        options = ['all', 'quickplay', 'competitive']
     }
 
     return (
