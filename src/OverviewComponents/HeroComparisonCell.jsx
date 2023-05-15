@@ -1,6 +1,7 @@
 const HeroComparisonCell = (props) => {
     const Heroes = props.heroes;
     const data = props.data
+
     let fillWidth = Math.ceil(
         data === props.mostPlayed ? 100 : `${data.value / props.mostPlayed.value * 100}`)
     
@@ -20,10 +21,8 @@ const HeroComparisonCell = (props) => {
                 || props.type === 'win_percentage') {
         stat = data.value + '%'
     } else if (props.type === 'time_played') {
-        stat = Math.round(data.value / 3600).toLocaleString() + ' HRS'
+        stat = Math.ceil(data.value / 3600).toLocaleString() + ' HRS'
     } 
-    console.log(data.hero)
-    console.log(Heroes[data.hero])
     
     return (
         <div className="table-cell">

@@ -1424,14 +1424,14 @@ export const tempData = {
                                     "value": 354
                                 },
                                 {
-                                    "key": "healing_amplified_avg_per_10_min",
-                                    "label": "Healing Amplified - Avg per 10 Min",
-                                    "value": 33.45
-                                },
-                                {
                                     "key": "nano_boost_assists_avg_per_10_min",
                                     "label": "Nano Boost Assists - Avg per 10 Min",
                                     "value": 5.15
+                                },
+                                {
+                                    "key": "healing_amplified_avg_per_10_min",
+                                    "label": "Healing Amplified - Avg per 10 Min",
+                                    "value": 33.45
                                 },
                                 {
                                     "key": "biotic_grenade_kills_avg_per_10_min",
@@ -2070,14 +2070,14 @@ export const tempData = {
                                     "value": 7.06
                                 },
                                 {
-                                    "key": "artillery_kills_avg_per_10_min",
-                                    "label": "Artillery Kills - Avg per 10 Min",
-                                    "value": 0.08
-                                },
-                                {
                                     "key": "assault_kills_avg_per_10_min",
                                     "label": "Assault Kills - Avg per 10 Min",
                                     "value": 18.82
+                                },
+                                {
+                                    "key": "artillery_kills_avg_per_10_min",
+                                    "label": "Artillery Kills - Avg per 10 Min",
+                                    "value": 0.08
                                 },
                                 {
                                     "key": "recon_kills_avg_per_10_min",
@@ -3111,13 +3111,13 @@ export const tempData = {
                                     "value": 3
                                 },
                                 {
-                                    "key": "self_destruct_kills_avg_per_10_min",
-                                    "label": "Self-Destruct Kills - Avg per 10 Min",
+                                    "key": "call_mech_kills_avg_per_10_min",
+                                    "label": "Call Mech Kills - Avg per 10 Min",
                                     "value": 1.07
                                 },
                                 {
-                                    "key": "call_mech_kills_avg_per_10_min",
-                                    "label": "Call Mech Kills - Avg per 10 Min",
+                                    "key": "self_destruct_kills_avg_per_10_min",
+                                    "label": "Self-Destruct Kills - Avg per 10 Min",
                                     "value": 1.07
                                 }
                             ]
@@ -3808,14 +3808,14 @@ export const tempData = {
                                     "value": 31
                                 },
                                 {
-                                    "key": "focusing_beam_kills_avg_per_10_min",
-                                    "label": "Focusing Beam Kills - Avg per 10 Min",
-                                    "value": 6.13
-                                },
-                                {
                                     "key": "duplicate_kills_avg_per_10_min",
                                     "label": "Duplicate Kills - Avg per 10 Min",
                                     "value": 4.09
+                                },
+                                {
+                                    "key": "focusing_beam_kills_avg_per_10_min",
+                                    "label": "Focusing Beam Kills - Avg per 10 Min",
+                                    "value": 6.13
                                 },
                                 {
                                     "key": "focusing_beam_accuracy",
@@ -4737,14 +4737,14 @@ export const tempData = {
                                     "value": 6
                                 },
                                 {
-                                    "key": "jagged_blade_accuracy",
-                                    "label": "Jagged Blade Accuracy",
-                                    "value": 37
-                                },
-                                {
                                     "key": "rampage_kills_avg_per_10_min",
                                     "label": "Rampage Kills - Avg per 10 Min",
                                     "value": 3.35
+                                },
+                                {
+                                    "key": "jagged_blade_accuracy",
+                                    "label": "Jagged Blade Accuracy",
+                                    "value": 37
                                 },
                                 {
                                     "key": "wound_uptime_percentage",
@@ -5807,14 +5807,14 @@ export const tempData = {
                                     "value": 12
                                 },
                                 {
-                                    "key": "life_grip_deaths_prevented_avg_per_10_min",
-                                    "label": "Life Grip Deaths Prevented - Avg per 10 Min",
-                                    "value": 1.68
-                                },
-                                {
                                     "key": "thorn_volley_kills_avg_per_10_min",
                                     "label": "Thorn Volley Kills - Avg per 10 Min",
                                     "value": 8.81
+                                },
+                                {
+                                    "key": "life_grip_deaths_prevented_avg_per_10_min",
+                                    "label": "Life Grip Deaths Prevented - Avg per 10 Min",
+                                    "value": 1.68
                                 },
                                 {
                                     "key": "self_healing_avg_per_10_min",
@@ -8176,14 +8176,14 @@ export const tempData = {
                                     "value": 16
                                 },
                                 {
-                                    "key": "ravenous_vortex_kills_avg_per_10_min",
-                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
-                                    "value": 4.66
-                                },
-                                {
                                     "key": "pummel_kills_avg_per_10_min",
                                     "label": "Pummel Kills - Avg per 10 Min",
                                     "value": 14.33
+                                },
+                                {
+                                    "key": "ravenous_vortex_kills_avg_per_10_min",
+                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
+                                    "value": 4.66
                                 },
                                 {
                                     "key": "annihilation_kills_avg_per_10_min",
@@ -8907,14 +8907,14 @@ export const tempData = {
                                     "value": 1
                                 },
                                 {
-                                    "key": "charge_kills_avg_per_10_min",
-                                    "label": "Charge Kills - Avg per 10 Min",
-                                    "value": 2.42
-                                },
-                                {
                                     "key": "fire_strike_kills_avg_per_10_min",
                                     "label": "Fire Strike Kills - Avg per 10 Min",
                                     "value": 4.57
+                                },
+                                {
+                                    "key": "charge_kills_avg_per_10_min",
+                                    "label": "Charge Kills - Avg per 10 Min",
+                                    "value": 2.42
                                 },
                                 {
                                     "key": "earthshatter_direct_hits_avg_per_10_min",
@@ -9948,14 +9948,14 @@ export const tempData = {
                                     "value": 1
                                 },
                                 {
-                                    "key": "tactical_visor_kills_avg_per_10_min",
-                                    "label": "Tactical Visor Kills - Avg per 10 Min",
-                                    "value": 4.16
-                                },
-                                {
                                     "key": "helix_rocket_accuracy",
                                     "label": "Helix Rocket Accuracy",
                                     "value": 70
+                                },
+                                {
+                                    "key": "tactical_visor_kills_avg_per_10_min",
+                                    "label": "Tactical Visor Kills - Avg per 10 Min",
+                                    "value": 4.16
                                 },
                                 {
                                     "key": "helix_rocket_kills_avg_per_10_min",
@@ -10626,14 +10626,14 @@ export const tempData = {
                                     "value": 11
                                 },
                                 {
-                                    "key": "players_teleported_avg_per_10_min",
-                                    "label": "Players Teleported - Avg per 10 Min",
-                                    "value": 11.62
-                                },
-                                {
                                     "key": "primary_fire_accuracy",
                                     "label": "Primary Fire Accuracy",
                                     "value": 50
+                                },
+                                {
+                                    "key": "players_teleported_avg_per_10_min",
+                                    "label": "Players Teleported - Avg per 10 Min",
+                                    "value": 11.62
                                 },
                                 {
                                     "key": "sentry_turret_kills_avg_per_10_min",
@@ -10940,14 +10940,14 @@ export const tempData = {
                                     "value": 7
                                 },
                                 {
-                                    "key": "molten_core_kills_avg_per_10_min",
-                                    "label": "Molten Core Kills - Avg per 10 Min",
-                                    "value": 3.46
-                                },
-                                {
                                     "key": "turret_kills_avg_per_10_min",
                                     "label": "Turret Kills - Avg per 10 Min",
                                     "value": 13.93
+                                },
+                                {
+                                    "key": "molten_core_kills_avg_per_10_min",
+                                    "label": "Molten Core Kills - Avg per 10 Min",
+                                    "value": 3.46
                                 }
                             ]
                         },
@@ -11258,14 +11258,14 @@ export const tempData = {
                                     "value": 1
                                 },
                                 {
-                                    "key": "low_health_recalls_avg_per_10_min",
-                                    "label": "Low Health Recalls - Avg per 10 Min",
-                                    "value": 2
-                                },
-                                {
                                     "key": "pulse_bomb_kills_avg_per_10_min",
                                     "label": "Pulse Bomb Kills - Avg per 10 Min",
                                     "value": 2.87
+                                },
+                                {
+                                    "key": "low_health_recalls_avg_per_10_min",
+                                    "label": "Low Health Recalls - Avg per 10 Min",
+                                    "value": 2
                                 },
                                 {
                                     "key": "pulse_bombs_attached_avg_per_10_min",
@@ -12319,14 +12319,14 @@ export const tempData = {
                                     "value": 12.3
                                 },
                                 {
-                                    "key": "grappling_claw_kills_avg_per_10_min",
-                                    "label": "Grappling Claw Kills - Avg per 10 Min",
-                                    "value": 15.54
-                                },
-                                {
                                     "key": "minefield_kills_avg_per_10_min",
                                     "label": "Minefield Kills - Avg per 10 Min",
                                     "value": 3.88
+                                },
+                                {
+                                    "key": "grappling_claw_kills_avg_per_10_min",
+                                    "label": "Grappling Claw Kills - Avg per 10 Min",
+                                    "value": 15.54
                                 }
                             ]
                         },
@@ -12663,14 +12663,14 @@ export const tempData = {
                                     "value": 78
                                 },
                                 {
-                                    "key": "graviton_surge_kills_avg_per_10_min",
-                                    "label": "Graviton Surge Kills - Avg per 10 Min",
-                                    "value": 4.79
-                                },
-                                {
                                     "key": "high_energy_kills_avg_per_10_min",
                                     "label": "High Energy Kills - Avg per 10 Min",
                                     "value": 9
+                                },
+                                {
+                                    "key": "graviton_surge_kills_avg_per_10_min",
+                                    "label": "Graviton Surge Kills - Avg per 10 Min",
+                                    "value": 4.79
                                 },
                                 {
                                     "key": "primary_fire_accuracy",
@@ -13441,7 +13441,7 @@ export const tempData = {
                         "values": [
                             {
                                 "hero": "junker-queen",
-                                "value": 57010
+                                "value": 60647
                             },
                             {
                                 "hero": "reinhardt",
@@ -13449,15 +13449,15 @@ export const tempData = {
                             },
                             {
                                 "hero": "winston",
-                                "value": 23617
+                                "value": 24767
                             },
                             {
                                 "hero": "sigma",
-                                "value": 18393
+                                "value": 20787
                             },
                             {
                                 "hero": "doomfist",
-                                "value": 13486
+                                "value": 13503
                             },
                             {
                                 "hero": "zarya",
@@ -13472,16 +13472,20 @@ export const tempData = {
                                 "value": 5689
                             },
                             {
+                                "hero": "hanzo",
+                                "value": 3013
+                            },
+                            {
                                 "hero": "ramattra",
                                 "value": 2809
                             },
                             {
-                                "hero": "hanzo",
-                                "value": 2383
-                            },
-                            {
                                 "hero": "genji",
                                 "value": 1648
+                            },
+                            {
+                                "hero": "ana",
+                                "value": 1353
                             },
                             {
                                 "hero": "tracer",
@@ -13498,6 +13502,10 @@ export const tempData = {
                             {
                                 "hero": "roadhog",
                                 "value": 196
+                            },
+                            {
+                                "hero": "kiriko",
+                                "value": 120
                             },
                             {
                                 "hero": "torbjorn",
@@ -13518,7 +13526,7 @@ export const tempData = {
                         "values": [
                             {
                                 "hero": "junker-queen",
-                                "value": 46
+                                "value": 48
                             },
                             {
                                 "hero": "reinhardt",
@@ -13530,7 +13538,7 @@ export const tempData = {
                             },
                             {
                                 "hero": "sigma",
-                                "value": 12
+                                "value": 13
                             },
                             {
                                 "hero": "doomfist",
@@ -13545,16 +13553,16 @@ export const tempData = {
                                 "value": 4
                             },
                             {
+                                "hero": "hanzo",
+                                "value": 3
+                            },
+                            {
                                 "hero": "wrecking-ball",
                                 "value": 3
                             },
                             {
                                 "hero": "ramattra",
                                 "value": 3
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 2
                             },
                             {
                                 "hero": "genji",
@@ -13585,7 +13593,15 @@ export const tempData = {
                                 "value": 0
                             },
                             {
+                                "hero": "ana",
+                                "value": 0
+                            },
+                            {
                                 "hero": "orisa",
+                                "value": 0
+                            },
+                            {
+                                "hero": "kiriko",
                                 "value": 0
                             }
                         ]
@@ -13622,11 +13638,11 @@ export const tempData = {
                                 "value": 40
                             },
                             {
-                                "hero": "tracer",
-                                "value": 38
+                                "hero": "hanzo",
+                                "value": 39
                             },
                             {
-                                "hero": "hanzo",
+                                "hero": "tracer",
                                 "value": 38
                             },
                             {
@@ -13650,6 +13666,10 @@ export const tempData = {
                                 "value": 32
                             },
                             {
+                                "hero": "kiriko",
+                                "value": 30
+                            },
+                            {
                                 "hero": "ramattra",
                                 "value": 28
                             },
@@ -13660,6 +13680,10 @@ export const tempData = {
                             {
                                 "hero": "torbjorn",
                                 "value": 22
+                            },
+                            {
+                                "hero": "ana",
+                                "value": 17
                             },
                             {
                                 "hero": "reinhardt",
@@ -13704,15 +13728,15 @@ export const tempData = {
                             },
                             {
                                 "hero": "junker-queen",
-                                "value": 61
+                                "value": 60
                             },
                             {
                                 "hero": "winston",
-                                "value": 56
+                                "value": 55
                             },
                             {
                                 "hero": "sigma",
-                                "value": 54
+                                "value": 52
                             },
                             {
                                 "hero": "tracer",
@@ -13739,7 +13763,15 @@ export const tempData = {
                                 "value": 0
                             },
                             {
+                                "hero": "ana",
+                                "value": 0
+                            },
+                            {
                                 "hero": "orisa",
+                                "value": 0
+                            },
+                            {
+                                "hero": "kiriko",
                                 "value": 0
                             }
                         ]
@@ -13748,11 +13780,11 @@ export const tempData = {
                         "label": "Eliminations per Life",
                         "values": [
                             {
-                                "hero": "winston",
-                                "value": 3.48
+                                "hero": "genji",
+                                "value": 3.4
                             },
                             {
-                                "hero": "genji",
+                                "hero": "winston",
                                 "value": 3.4
                             },
                             {
@@ -13761,7 +13793,11 @@ export const tempData = {
                             },
                             {
                                 "hero": "junker-queen",
-                                "value": 3.22
+                                "value": 3.24
+                            },
+                            {
+                                "hero": "hanzo",
+                                "value": 3.19
                             },
                             {
                                 "hero": "dva",
@@ -13769,11 +13805,7 @@ export const tempData = {
                             },
                             {
                                 "hero": "sigma",
-                                "value": 2.77
-                            },
-                            {
-                                "hero": "hanzo",
-                                "value": 2.67
+                                "value": 2.66
                             },
                             {
                                 "hero": "roadhog",
@@ -13785,7 +13817,7 @@ export const tempData = {
                             },
                             {
                                 "hero": "doomfist",
-                                "value": 2.39
+                                "value": 2.37
                             },
                             {
                                 "hero": "pharah",
@@ -13800,8 +13832,16 @@ export const tempData = {
                                 "value": 2.13
                             },
                             {
+                                "hero": "kiriko",
+                                "value": 2
+                            },
+                            {
                                 "hero": "reinhardt",
                                 "value": 1.9
+                            },
+                            {
+                                "hero": "ana",
+                                "value": 1.26
                             },
                             {
                                 "hero": "cassidy",
@@ -13824,6 +13864,10 @@ export const tempData = {
                     "critical_hit_accuracy": {
                         "label": "Critical Hit Accuracy",
                         "values": [
+                            {
+                                "hero": "kiriko",
+                                "value": 24
+                            },
                             {
                                 "hero": "ashe",
                                 "value": 15
@@ -13885,6 +13929,10 @@ export const tempData = {
                                 "value": 0
                             },
                             {
+                                "hero": "ana",
+                                "value": 0
+                            },
+                            {
                                 "hero": "orisa",
                                 "value": 0
                             },
@@ -13930,6 +13978,10 @@ export const tempData = {
                                 "value": 3
                             },
                             {
+                                "hero": "sigma",
+                                "value": 3
+                            },
+                            {
                                 "hero": "tracer",
                                 "value": 0
                             },
@@ -13954,6 +14006,10 @@ export const tempData = {
                                 "value": 0
                             },
                             {
+                                "hero": "ana",
+                                "value": 0
+                            },
+                            {
                                 "hero": "orisa",
                                 "value": 0
                             },
@@ -13966,7 +14022,7 @@ export const tempData = {
                                 "value": 0
                             },
                             {
-                                "hero": "sigma",
+                                "hero": "kiriko",
                                 "value": 0
                             },
                             {
@@ -13980,7 +14036,7 @@ export const tempData = {
                         "values": [
                             {
                                 "hero": "junker-queen",
-                                "value": 731
+                                "value": 791
                             },
                             {
                                 "hero": "reinhardt",
@@ -13988,11 +14044,11 @@ export const tempData = {
                             },
                             {
                                 "hero": "winston",
-                                "value": 184
+                                "value": 188
                             },
                             {
                                 "hero": "sigma",
-                                "value": 155
+                                "value": 176
                             },
                             {
                                 "hero": "doomfist",
@@ -14008,7 +14064,7 @@ export const tempData = {
                             },
                             {
                                 "hero": "hanzo",
-                                "value": 34
+                                "value": 40
                             },
                             {
                                 "hero": "ramattra",
@@ -14025,6 +14081,10 @@ export const tempData = {
                             {
                                 "hero": "genji",
                                 "value": 15
+                            },
+                            {
+                                "hero": "ana",
+                                "value": 9
                             },
                             {
                                 "hero": "roadhog",
@@ -14048,6 +14108,10 @@ export const tempData = {
                             },
                             {
                                 "hero": "ashe",
+                                "value": 0
+                            },
+                            {
+                                "hero": "kiriko",
                                 "value": 0
                             }
                         ]
@@ -14077,12 +14141,12 @@ export const tempData = {
                                 {
                                     "key": "healing_done_most_in_game",
                                     "label": "Healing Done - Most in Game",
-                                    "value": 6331
+                                    "value": 11354
                                 },
                                 {
                                     "key": "defensive_assists_most_in_game",
                                     "label": "Defensive Assists - Most in Game",
-                                    "value": 7
+                                    "value": 12
                                 },
                                 {
                                     "key": "offensive_assists_most_in_game",
@@ -14147,12 +14211,12 @@ export const tempData = {
                                 {
                                     "key": "objective_contest_time_most_in_game",
                                     "label": "Objective Contest Time - Most in Game",
-                                    "value": 297
+                                    "value": 322
                                 },
                                 {
                                     "key": "recon_assists_most_in_game",
                                     "label": "Recon Assists - Most in Game",
-                                    "value": 8
+                                    "value": 12
                                 }
                             ]
                         },
@@ -14163,42 +14227,42 @@ export const tempData = {
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9896
+                                    "value": 9886
                                 },
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6
+                                    "value": 6.03
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 16.81
+                                    "value": 16.8
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 4.06
+                                    "value": 4.13
                                 },
                                 {
                                     "key": "healing_done_avg_per_10_min",
                                     "label": "Healing Done - Avg per 10 Min",
-                                    "value": 664
+                                    "value": 744
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 6.03
+                                    "value": 6.05
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 130
+                                    "value": 129
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.24
+                                    "value": 8.23
                                 },
                                 {
                                     "key": "objective_contest_time_avg_per_10_min",
@@ -14219,17 +14283,17 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 169829
+                                    "value": 179130
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 231
+                                    "value": 244
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 128
+                                    "value": 133
                                 },
                                 {
                                     "key": "game_tied",
@@ -14239,12 +14303,12 @@ export const tempData = {
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 102
+                                    "value": 110
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 128
+                                    "value": 133
                                 }
                             ]
                         },
@@ -14255,62 +14319,62 @@ export const tempData = {
                                 {
                                     "key": "damage_done",
                                     "label": "Damage Done",
-                                    "value": 2801180
+                                    "value": 2951582
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 2801180
+                                    "value": 2951582
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 1699
+                                    "value": 1800
                                 },
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 4757
+                                    "value": 5016
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 1707
+                                    "value": 1807
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 2333
+                                    "value": 2456
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 36703
+                                    "value": 38609
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 48
+                                    "value": 52
                                 },
                                 {
                                     "key": "environmental_kills",
                                     "label": "Environmental Kills",
-                                    "value": 22
+                                    "value": 23
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 290
+                                    "value": 302
                                 },
                                 {
                                     "key": "objective_contest_time",
                                     "label": "Objective Contest Time",
-                                    "value": 18969
+                                    "value": 20040
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 172
+                                    "value": 182
                                 }
                             ]
                         },
@@ -14321,27 +14385,410 @@ export const tempData = {
                                 {
                                     "key": "recon_assists",
                                     "label": "Recon Assists",
-                                    "value": 16
+                                    "value": 28
                                 },
                                 {
                                     "key": "defensive_assists",
                                     "label": "Defensive Assists",
-                                    "value": 24
+                                    "value": 46
                                 },
                                 {
                                     "key": "offensive_assists",
                                     "label": "Offensive Assists",
-                                    "value": 176
+                                    "value": 202
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 1150
+                                    "value": 1233
                                 },
                                 {
                                     "key": "healing_done",
                                     "label": "Healing Done",
-                                    "value": 188074
+                                    "value": 222236
+                                }
+                            ]
+                        }
+                    ],
+                    "ana": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "self_healing_most_in_game",
+                                    "label": "Self Healing - Most in Game",
+                                    "value": 460
+                                },
+                                {
+                                    "key": "healing_amplified_most_in_game",
+                                    "label": "Healing Amplified - Most in Game",
+                                    "value": 587
+                                },
+                                {
+                                    "key": "self_healing",
+                                    "label": "Self Healing",
+                                    "value": 878
+                                },
+                                {
+                                    "key": "biotic_grenade_kills",
+                                    "label": "Biotic Grenade Kills",
+                                    "value": 16
+                                },
+                                {
+                                    "key": "healing_amplified",
+                                    "label": "Healing Amplified",
+                                    "value": 1075
+                                },
+                                {
+                                    "key": "damage_amplified_most_in_game",
+                                    "label": "Damage Amplified - Most in Game",
+                                    "value": 596
+                                },
+                                {
+                                    "key": "damage_amplified",
+                                    "label": "Damage Amplified",
+                                    "value": 1021
+                                },
+                                {
+                                    "key": "nano_boost_assists_most_in_game",
+                                    "label": "Nano Boost Assists - Most in Game",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "nano_boost_assists",
+                                    "label": "Nano Boost Assists",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "enemies_slept_most_in_game",
+                                    "label": "Enemies Slept - Most in Game",
+                                    "value": 6
+                                },
+                                {
+                                    "key": "enemies_slept",
+                                    "label": "Enemies Slept",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "scoped_accuracy_best_in_game",
+                                    "label": "Scoped Accuracy - Best in Game",
+                                    "value": 59
+                                },
+                                {
+                                    "key": "unscoped_accuracy_best_in_game",
+                                    "label": "Unscoped Accuracy - Best in Game",
+                                    "value": 49
+                                },
+                                {
+                                    "key": "scoped_accuracy",
+                                    "label": "Scoped Accuracy",
+                                    "value": 54
+                                },
+                                {
+                                    "key": "self_healing_avg_per_10_min",
+                                    "label": "Self Healing - Avg per 10 Min",
+                                    "value": 390
+                                },
+                                {
+                                    "key": "unscoped_accuracy",
+                                    "label": "Unscoped Accuracy",
+                                    "value": 44
+                                },
+                                {
+                                    "key": "biotic_grenade_kills_avg_per_10_min",
+                                    "label": "Biotic Grenade Kills - Avg per 10 Min",
+                                    "value": 7.1
+                                },
+                                {
+                                    "key": "healing_amplified_avg_per_10_min",
+                                    "label": "Healing Amplified - Avg per 10 Min",
+                                    "value": 477
+                                },
+                                {
+                                    "key": "damage_amplified_avg_per_10_min",
+                                    "label": "Damage Amplified - Avg per 10 Min",
+                                    "value": 453
+                                },
+                                {
+                                    "key": "nano_boost_assists_avg_per_10_min",
+                                    "label": "Nano Boost Assists - Avg per 10 Min",
+                                    "value": 2.66
+                                },
+                                {
+                                    "key": "enemies_slept_avg_per_10_min",
+                                    "label": "Enemies Slept - Avg per 10 Min",
+                                    "value": 5.32
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 5
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 991
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 991
+                                },
+                                {
+                                    "key": "final_blows_most_in_game",
+                                    "label": "Final Blows - Most in Game",
+                                    "value": 8
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 4288
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 3972
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 14
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 34
+                                },
+                                {
+                                    "key": "objective_kills_most_in_game",
+                                    "label": "Objective Kills - Most in Game",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 15
+                                },
+                                {
+                                    "key": "solo_kills_most_in_game",
+                                    "label": "Solo Kills - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 20
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 1.26
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 3062
+                                },
+                                {
+                                    "key": "final_blows_avg_per_10_min",
+                                    "label": "Final Blows - Avg per 10 Min",
+                                    "value": 4.88
+                                },
+                                {
+                                    "key": "healing_done_avg_per_10_min",
+                                    "label": "Healing Done - Avg per 10 Min",
+                                    "value": 7820
+                                },
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 10.2
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 12.86
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 2922
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 11.53
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "objective_kills_avg_per_10_min",
+                                    "label": "Objective Kills - Avg per 10 Min",
+                                    "value": 3.99
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 7
+                                },
+                                {
+                                    "key": "solo_kills_avg_per_10_min",
+                                    "label": "Solo Kills - Avg per 10 Min",
+                                    "value": 0.89
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 1353
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "final_blows",
+                                    "label": "Final Blows",
+                                    "value": 11
+                                },
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 29
+                                },
+                                {
+                                    "key": "deaths",
+                                    "label": "Deaths",
+                                    "value": 23
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 6903
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 6587
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 58
+                                },
+                                {
+                                    "key": "objective_kills",
+                                    "label": "Objective Kills",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 17
+                                },
+                                {
+                                    "key": "solo_kills",
+                                    "label": "Solo Kills",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 17
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "healing_done_most_in_game",
+                                    "label": "Healing Done - Most in Game",
+                                    "value": 9907
+                                },
+                                {
+                                    "key": "healing_done",
+                                    "label": "Healing Done",
+                                    "value": 17630
+                                },
+                                {
+                                    "key": "defensive_assists_most_in_game",
+                                    "label": "Defensive Assists - Most in Game",
+                                    "value": 12
+                                },
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 26
+                                },
+                                {
+                                    "key": "defensive_assists",
+                                    "label": "Defensive Assists",
+                                    "value": 20
+                                },
+                                {
+                                    "key": "offensive_assists_most_in_game",
+                                    "label": "Offensive Assists - Most in Game",
+                                    "value": 9
+                                },
+                                {
+                                    "key": "offensive_assists",
+                                    "label": "Offensive Assists",
+                                    "value": 17
+                                },
+                                {
+                                    "key": "defensive_assists_avg_per_10_min",
+                                    "label": "Defensive Assists - Avg per 10 Min",
+                                    "value": 8.87
+                                },
+                                {
+                                    "key": "offensive_assists_avg_per_10_min",
+                                    "label": "Offensive Assists - Avg per 10 Min",
+                                    "value": 7.54
                                 }
                             ]
                         }
@@ -14891,13 +15338,13 @@ export const tempData = {
                                     "value": 1
                                 },
                                 {
-                                    "key": "self_destruct_kills_avg_per_10_min",
-                                    "label": "Self-Destruct Kills - Avg per 10 Min",
+                                    "key": "call_mech_kills_avg_per_10_min",
+                                    "label": "Call Mech Kills - Avg per 10 Min",
                                     "value": 0.85
                                 },
                                 {
-                                    "key": "call_mech_kills_avg_per_10_min",
-                                    "label": "Call Mech Kills - Avg per 10 Min",
+                                    "key": "self_destruct_kills_avg_per_10_min",
+                                    "label": "Self-Destruct Kills - Avg per 10 Min",
                                     "value": 0.85
                                 },
                                 {
@@ -15231,7 +15678,7 @@ export const tempData = {
                                 {
                                     "key": "overhealth_created",
                                     "label": "Overhealth Created",
-                                    "value": 59325
+                                    "value": 59360
                                 },
                                 {
                                     "key": "overhealth_created_most_in_game",
@@ -15261,17 +15708,17 @@ export const tempData = {
                                 {
                                     "key": "seismic_slam_kills_avg_per_10_min",
                                     "label": "Seismic Slam Kills - Avg per 10 Min",
-                                    "value": 8.28
+                                    "value": 8.27
                                 },
                                 {
                                     "key": "overhealth_created_avg_per_10_min",
                                     "label": "Overhealth Created - Avg per 10 Min",
-                                    "value": 2639
+                                    "value": 2638
                                 },
                                 {
                                     "key": "rocket_punch_kills_avg_per_10_min",
                                     "label": "Rocket Punch Kills - Avg per 10 Min",
-                                    "value": 8.94
+                                    "value": 8.93
                                 },
                                 {
                                     "key": "meteor_strike_kills_avg_per_10_min",
@@ -15393,22 +15840,22 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.81
+                                    "value": 6.84
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 16.24
+                                    "value": 16.22
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8774
+                                    "value": 8767
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 3.56
+                                    "value": 3.55
                                 },
                                 {
                                     "key": "critical_hit_kills_avg_per_10_min",
@@ -15428,22 +15875,22 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 10037
+                                    "value": 10029
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 99.17
+                                    "value": 99.09
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 2.39
+                                    "value": 2.37
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.74
+                                    "value": 5.73
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
@@ -15458,7 +15905,7 @@ export const tempData = {
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 7.16
+                                    "value": 7.15
                                 }
                             ]
                         },
@@ -15469,7 +15916,7 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 13486
+                                    "value": 13503
                                 },
                                 {
                                     "key": "games_played",
@@ -15525,7 +15972,7 @@ export const tempData = {
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 153
+                                    "value": 154
                                 },
                                 {
                                     "key": "final_blows",
@@ -15540,7 +15987,7 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 225596
+                                    "value": 225696
                                 },
                                 {
                                     "key": "objective_kills",
@@ -15570,12 +16017,12 @@ export const tempData = {
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 2229
+                                    "value": 2230
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 197200
+                                    "value": 197300
                                 },
                                 {
                                     "key": "critical_hit_kills",
@@ -15956,7 +16403,7 @@ export const tempData = {
                                 {
                                     "key": "dragonstrike_kills",
                                     "label": "Dragonstrike Kills",
-                                    "value": 8
+                                    "value": 9
                                 },
                                 {
                                     "key": "dragonstrike_kills_most_in_game",
@@ -15966,7 +16413,7 @@ export const tempData = {
                                 {
                                     "key": "storm_arrow_kills",
                                     "label": "Storm Arrow Kills",
-                                    "value": 32
+                                    "value": 43
                                 },
                                 {
                                     "key": "storm_arrow_kills_most_in_game",
@@ -15974,9 +16421,9 @@ export const tempData = {
                                     "value": 15
                                 },
                                 {
-                                    "key": "long_range_final_blow",
-                                    "label": "Long Range Final Blow",
-                                    "value": 1
+                                    "key": "long_range_final_blows",
+                                    "label": "Long Range Final Blows",
+                                    "value": 2
                                 },
                                 {
                                     "key": "long_range_final_blow_most_in_game",
@@ -15986,17 +16433,17 @@ export const tempData = {
                                 {
                                     "key": "dragonstrike_kills_avg_per_10_min",
                                     "label": "Dragonstrike Kills - Avg per 10 Min",
-                                    "value": 2.01
+                                    "value": 1.79
                                 },
                                 {
                                     "key": "storm_arrow_kills_avg_per_10_min",
                                     "label": "Storm Arrow Kills - Avg per 10 Min",
-                                    "value": 8.06
+                                    "value": 8.56
                                 },
                                 {
                                     "key": "long_range_final_blows_avg_per_10_min",
                                     "label": "Long Range Final Blows - Avg per 10 Min",
-                                    "value": 0.25
+                                    "value": 0.4
                                 }
                             ]
                         },
@@ -16012,12 +16459,12 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 5949
+                                    "value": 7373
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 40
+                                    "value": 100
                                 },
                                 {
                                     "key": "kill_streak_best",
@@ -16067,7 +16514,7 @@ export const tempData = {
                                 {
                                     "key": "critical_hits_most_in_life",
                                     "label": "Critical Hits - Most in Life",
-                                    "value": 4
+                                    "value": 5
                                 },
                                 {
                                     "key": "melee_final_blow_most_in_game",
@@ -16108,57 +16555,57 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.8
+                                    "value": 6.17
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 18.13
+                                    "value": 19.71
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 8806
+                                    "value": 9112
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 5.04
+                                    "value": 5.77
                                 },
                                 {
                                     "key": "critical_hit_kills_avg_per_10_min",
                                     "label": "Critical Hit Kills - Avg per 10 Min",
-                                    "value": 3.27
+                                    "value": 3.19
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 0.25
+                                    "value": 0.2
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 69
+                                    "value": 61
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12245
+                                    "value": 13518
                                 },
                                 {
                                     "key": "critical_hits_avg_per_10_min",
                                     "label": "Critical Hits - Avg per 10 Min",
-                                    "value": 7.81
+                                    "value": 7.77
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 2.67
+                                    "value": 3.19
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 8.56
+                                    "value": 7.96
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
@@ -16168,12 +16615,12 @@ export const tempData = {
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.76
+                                    "value": 0.6
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 12.09
+                                    "value": 12.35
                                 }
                             ]
                         },
@@ -16184,32 +16631,32 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 2383
+                                    "value": 3013
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 2
+                                    "value": 3
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 3
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 3
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 2
+                                    "value": 3
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 2
+                                    "value": 3
                                 },
                                 {
                                     "key": "win_percentage",
@@ -16230,17 +16677,17 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 72
+                                    "value": 99
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 27
+                                    "value": 31
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 48
+                                    "value": 62
                                 },
                                 {
                                     "key": "solo_kills",
@@ -16250,17 +16697,17 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 48628
+                                    "value": 67890
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 34
+                                    "value": 40
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 275
+                                    "value": 308
                                 },
                                 {
                                     "key": "multikill",
@@ -16275,22 +16722,22 @@ export const tempData = {
                                 {
                                     "key": "critical_hits",
                                     "label": "Critical Hits",
-                                    "value": 31
+                                    "value": 39
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 34972
+                                    "value": 45762
                                 },
                                 {
                                     "key": "critical_hit_kills",
                                     "label": "Critical Hit Kills",
-                                    "value": 13
+                                    "value": 16
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 75
+                                    "value": 93
                                 },
                                 {
                                     "key": "critical_hit_accuracy",
@@ -16300,7 +16747,7 @@ export const tempData = {
                                 {
                                     "key": "weapon_accuracy",
                                     "label": "Weapon Accuracy",
-                                    "value": 38
+                                    "value": 39
                                 }
                             ]
                         },
@@ -16311,22 +16758,22 @@ export const tempData = {
                                 {
                                     "key": "recon_assists",
                                     "label": "Recon Assists",
-                                    "value": 16
+                                    "value": 28
                                 },
                                 {
                                     "key": "recon_assists_most_in_game",
                                     "label": "Recon Assists - Most in Game",
-                                    "value": 8
+                                    "value": 12
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 20
+                                    "value": 29
                                 },
                                 {
                                     "key": "recon_assists_avg_per_10_min",
                                     "label": "Recon Assists - Avg per 10 Min",
-                                    "value": 4.03
+                                    "value": 5.58
                                 }
                             ]
                         }
@@ -16339,7 +16786,7 @@ export const tempData = {
                                 {
                                     "key": "self_healing",
                                     "label": "Self Healing",
-                                    "value": 184114
+                                    "value": 199198
                                 },
                                 {
                                     "key": "self_healing_most_in_game",
@@ -16349,7 +16796,7 @@ export const tempData = {
                                 {
                                     "key": "jagged_blade_kills",
                                     "label": "Jagged Blade Kills",
-                                    "value": 622
+                                    "value": 659
                                 },
                                 {
                                     "key": "jagged_blade_kills_most_in_game",
@@ -16364,7 +16811,7 @@ export const tempData = {
                                 {
                                     "key": "carnage_kills",
                                     "label": "Carnage Kills",
-                                    "value": 776
+                                    "value": 820
                                 },
                                 {
                                     "key": "carnage_kills_most_in_game",
@@ -16374,7 +16821,7 @@ export const tempData = {
                                 {
                                     "key": "rampage_kills",
                                     "label": "Rampage Kills",
-                                    "value": 418
+                                    "value": 445
                                 },
                                 {
                                     "key": "rampage_kills_most_in_game",
@@ -16382,14 +16829,14 @@ export const tempData = {
                                     "value": 13
                                 },
                                 {
-                                    "key": "jagged_blade_accuracy",
-                                    "label": "Jagged Blade Accuracy",
-                                    "value": 38
-                                },
-                                {
                                     "key": "rampage_kills_avg_per_10_min",
                                     "label": "Rampage Kills - Avg per 10 Min",
                                     "value": 4.4
+                                },
+                                {
+                                    "key": "jagged_blade_accuracy",
+                                    "label": "Jagged Blade Accuracy",
+                                    "value": 38
                                 },
                                 {
                                     "key": "wound_uptime_percentage",
@@ -16399,17 +16846,17 @@ export const tempData = {
                                 {
                                     "key": "carnage_kills_avg_per_10_min",
                                     "label": "Carnage Kills - Avg per 10 Min",
-                                    "value": 8.17
+                                    "value": 8.11
                                 },
                                 {
                                     "key": "jagged_blade_kills_avg_per_10_min",
                                     "label": "Jagged Blade Kills - Avg per 10 Min",
-                                    "value": 6.55
+                                    "value": 6.52
                                 },
                                 {
                                     "key": "self_healing_avg_per_10_min",
                                     "label": "Self Healing - Avg per 10 Min",
-                                    "value": 1938
+                                    "value": 1971
                                 }
                             ]
                         },
@@ -16425,12 +16872,12 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done_most_in_life",
                                     "label": "All Damage Done - Most in Life",
-                                    "value": 8318
+                                    "value": 9092
                                 },
                                 {
                                     "key": "weapon_accuracy_best_in_game",
                                     "label": "Weapon Accuracy - Best in Game",
-                                    "value": 68
+                                    "value": 70
                                 },
                                 {
                                     "key": "kill_streak_best",
@@ -16485,7 +16932,7 @@ export const tempData = {
                                 {
                                     "key": "hero_damage_done_most_in_life",
                                     "label": "Hero Damage Done - Most in Life",
-                                    "value": 7098
+                                    "value": 7817
                                 },
                                 {
                                     "key": "assists_most_in_game",
@@ -16500,7 +16947,7 @@ export const tempData = {
                                 {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
-                                    "value": 297
+                                    "value": 322
                                 }
                             ]
                         },
@@ -16511,67 +16958,67 @@ export const tempData = {
                                 {
                                     "key": "healing_done_avg_per_10_min",
                                     "label": "Healing Done - Avg per 10 Min",
-                                    "value": 1938
+                                    "value": 1971
                                 },
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 6.05
+                                    "value": 6.02
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 19.46
+                                    "value": 19.48
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 11170
+                                    "value": 11214
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 6.62
+                                    "value": 6.54
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.4
+                                    "value": 1.39
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 134
+                                    "value": 137
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 12662
+                                    "value": 12705
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.22
+                                    "value": 3.24
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 7.69
+                                    "value": 7.83
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
                                     "label": "Obj Contest Time - Avg per 10 Min",
-                                    "value": 75
+                                    "value": 78
                                 },
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.54
+                                    "value": 0.53
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 9.38
+                                    "value": 9.36
                                 }
                             ]
                         },
@@ -16582,17 +17029,17 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 57010
+                                    "value": 60647
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 74
+                                    "value": 80
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 46
+                                    "value": 48
                                 },
                                 {
                                     "key": "games_tied",
@@ -16602,27 +17049,27 @@ export const tempData = {
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 46
+                                    "value": 48
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 46
+                                    "value": 48
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 46
+                                    "value": 48
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 61
+                                    "value": 60
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 29
+                                    "value": 32
                                 }
                             ]
                         },
@@ -16633,42 +17080,42 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 1849
+                                    "value": 1969
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 575
+                                    "value": 608
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 891
+                                    "value": 946
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 51
+                                    "value": 54
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 1203126
+                                    "value": 1284196
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 731
+                                    "value": 791
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 12757
+                                    "value": 13819
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 26
+                                    "value": 28
                                 },
                                 {
                                     "key": "environmental_kill",
@@ -16678,17 +17125,17 @@ export const tempData = {
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 133
+                                    "value": 141
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 1061295
+                                    "value": 1133467
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 7131
+                                    "value": 7873
                                 },
                                 {
                                     "key": "environmental_kills_avg_per_10_min",
@@ -16709,7 +17156,275 @@ export const tempData = {
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 629
+                                    "value": 661
+                                }
+                            ]
+                        }
+                    ],
+                    "kiriko": [
+                        {
+                            "category": "hero_specific",
+                            "label": "Hero Specific",
+                            "stats": [
+                                {
+                                    "key": "negative_effect_cleansed_most_in_game",
+                                    "label": "Negative Effect Cleansed - Most in Game",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "kunai_kills_most_in_game",
+                                    "label": "Kunai Kills - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "kunai_kills",
+                                    "label": "Kunai Kills",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "negative_effects_cleansed_avg_per_10_min",
+                                    "label": "Negative Effects Cleansed - Avg per 10 Min",
+                                    "value": 5.02
+                                },
+                                {
+                                    "key": "kunai_kills_avg_per_10_min",
+                                    "label": "Kunai Kills - Avg per 10 Min",
+                                    "value": 10.03
+                                }
+                            ]
+                        },
+                        {
+                            "category": "best",
+                            "label": "Best",
+                            "stats": [
+                                {
+                                    "key": "eliminations_most_in_life",
+                                    "label": "Eliminations - Most in Life",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "kill_streak_best",
+                                    "label": "Kill Streak - Best",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_life",
+                                    "label": "All Damage Done - Most in Life",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_life",
+                                    "label": "Hero Damage Done - Most in Life",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "critical_hits_most_in_life",
+                                    "label": "Critical Hits - Most in Life",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "eliminations_most_in_game",
+                                    "label": "Eliminations - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "all_damage_done_most_in_game",
+                                    "label": "All Damage Done - Most in Game",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "objective_time_most_in_game",
+                                    "label": "Objective Time - Most in Game",
+                                    "value": 35
+                                },
+                                {
+                                    "key": "hero_damage_done_most_in_game",
+                                    "label": "Hero Damage Done - Most in Game",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "assists_most_in_game",
+                                    "label": "Assists - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "obj_contest_time_most_in_game",
+                                    "label": "Obj Contest Time - Most in Game",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "critical_hits_most_in_game",
+                                    "label": "Critical Hits - Most in Game",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "weapon_accuracy_best_in_game",
+                                    "label": "Weapon Accuracy - Best in Game",
+                                    "value": 30
+                                }
+                            ]
+                        },
+                        {
+                            "category": "average",
+                            "label": "Average",
+                            "stats": [
+                                {
+                                    "key": "eliminations_per_life",
+                                    "label": "Eliminations per Life",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "all_damage_done_avg_per_10_min",
+                                    "label": "All Damage Done - Avg per 10 Min",
+                                    "value": 5016
+                                },
+                                {
+                                    "key": "healing_done_avg_per_10_min",
+                                    "label": "Healing Done - Avg per 10 Min",
+                                    "value": 7259
+                                },
+                                {
+                                    "key": "deaths_avg_per_10_min",
+                                    "label": "Deaths - Avg per 10 Min",
+                                    "value": 5.02
+                                },
+                                {
+                                    "key": "eliminations_avg_per_10_min",
+                                    "label": "Eliminations - Avg per 10 Min",
+                                    "value": 10.03
+                                },
+                                {
+                                    "key": "objective_time_avg_per_10_min",
+                                    "label": "Objective Time - Avg per 10 Min",
+                                    "value": 178
+                                },
+                                {
+                                    "key": "hero_damage_done_avg_per_10_min",
+                                    "label": "Hero Damage Done - Avg per 10 Min",
+                                    "value": 5016
+                                },
+                                {
+                                    "key": "assists_avg_per_10_min",
+                                    "label": "Assists - Avg per 10 min",
+                                    "value": 10.03
+                                },
+                                {
+                                    "key": "obj_contest_time_avg_per_10_min",
+                                    "label": "Obj Contest Time - Avg per 10 Min",
+                                    "value": 17
+                                },
+                                {
+                                    "key": "critical_hits_avg_per_10_min",
+                                    "label": "Critical Hits - Avg per 10 Min",
+                                    "value": 20.06
+                                }
+                            ]
+                        },
+                        {
+                            "category": "game",
+                            "label": "Game",
+                            "stats": [
+                                {
+                                    "key": "time_played",
+                                    "label": "Time Played",
+                                    "value": 120
+                                },
+                                {
+                                    "key": "games_played",
+                                    "label": "Games Played",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "games_lost",
+                                    "label": "Games Lost",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        {
+                            "category": "combat",
+                            "label": "Combat",
+                            "stats": [
+                                {
+                                    "key": "eliminations",
+                                    "label": "Eliminations",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "death",
+                                    "label": "Death",
+                                    "value": 1
+                                },
+                                {
+                                    "key": "all_damage_done",
+                                    "label": "All Damage Done",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "objective_time",
+                                    "label": "Objective Time",
+                                    "value": 35
+                                },
+                                {
+                                    "key": "hero_damage_done",
+                                    "label": "Hero Damage Done",
+                                    "value": 1000
+                                },
+                                {
+                                    "key": "obj_contest_time",
+                                    "label": "Obj Contest Time",
+                                    "value": 3
+                                },
+                                {
+                                    "key": "critical_hits",
+                                    "label": "Critical Hits",
+                                    "value": 4
+                                },
+                                {
+                                    "key": "weapon_accuracy",
+                                    "label": "Weapon Accuracy",
+                                    "value": 30
+                                },
+                                {
+                                    "key": "critical_hit_accuracy",
+                                    "label": "Critical Hit Accuracy",
+                                    "value": 24
+                                }
+                            ]
+                        },
+                        {
+                            "category": "assists",
+                            "label": "Assists",
+                            "stats": [
+                                {
+                                    "key": "defensive_assists_most_in_game",
+                                    "label": "Defensive Assists - Most in Game",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "healing_done_most_in_game",
+                                    "label": "Healing Done - Most in Game",
+                                    "value": 1447
+                                },
+                                {
+                                    "key": "assists",
+                                    "label": "Assists",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "defensive_assists",
+                                    "label": "Defensive Assists",
+                                    "value": 2
+                                },
+                                {
+                                    "key": "healing_done",
+                                    "label": "Healing Done",
+                                    "value": 1447
+                                },
+                                {
+                                    "key": "defensive_assists_avg_per_10_min",
+                                    "label": "Defensive Assists - Avg per 10 Min",
+                                    "value": 10.03
                                 }
                             ]
                         }
@@ -17143,14 +17858,14 @@ export const tempData = {
                                     "value": 4
                                 },
                                 {
-                                    "key": "ravenous_vortex_kills_avg_per_10_min",
-                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
-                                    "value": 4.27
-                                },
-                                {
                                     "key": "pummel_kills_avg_per_10_min",
                                     "label": "Pummel Kills - Avg per 10 Min",
                                     "value": 10.89
+                                },
+                                {
+                                    "key": "ravenous_vortex_kills_avg_per_10_min",
+                                    "label": "Ravenous Vortex Kills - Avg per 10 Min",
+                                    "value": 4.27
                                 },
                                 {
                                     "key": "annihilation_kills_avg_per_10_min",
@@ -17521,14 +18236,14 @@ export const tempData = {
                                     "value": 31
                                 },
                                 {
-                                    "key": "charge_kills_avg_per_10_min",
-                                    "label": "Charge Kills - Avg per 10 Min",
-                                    "value": 2.62
-                                },
-                                {
                                     "key": "fire_strike_kills_avg_per_10_min",
                                     "label": "Fire Strike Kills - Avg per 10 Min",
                                     "value": 6.74
+                                },
+                                {
+                                    "key": "charge_kills_avg_per_10_min",
+                                    "label": "Charge Kills - Avg per 10 Min",
+                                    "value": 2.62
                                 },
                                 {
                                     "key": "earthshatter_direct_hits_avg_per_10_min",
@@ -18164,12 +18879,12 @@ export const tempData = {
                                 {
                                     "key": "accretion_kills",
                                     "label": "Accretion Kills",
-                                    "value": 143
+                                    "value": 162
                                 },
                                 {
                                     "key": "gravitic_flux_kills",
                                     "label": "Gravitic Flux Kills",
-                                    "value": 55
+                                    "value": 64
                                 },
                                 {
                                     "key": "gravitic_flux_kills_most_in_game",
@@ -18179,7 +18894,7 @@ export const tempData = {
                                 {
                                     "key": "overhealth_created",
                                     "label": "Overhealth Created",
-                                    "value": 41585
+                                    "value": 47370
                                 },
                                 {
                                     "key": "overhealth_created_most_in_game",
@@ -18189,17 +18904,17 @@ export const tempData = {
                                 {
                                     "key": "accretion_kills_avg_per_10_min",
                                     "label": "Accretion Kills - Avg per 10 Min",
-                                    "value": 4.66
+                                    "value": 4.68
                                 },
                                 {
                                     "key": "gravitic_flux_kills_avg_per_10_min",
                                     "label": "Gravitic Flux Kills - Avg per 10 Min",
-                                    "value": 1.79
+                                    "value": 1.85
                                 },
                                 {
                                     "key": "overhealth_created_avg_per_10_min",
                                     "label": "Overhealth Created - Avg per 10 Min",
-                                    "value": 1357
+                                    "value": 1367
                                 }
                             ]
                         },
@@ -18281,6 +18996,11 @@ export const tempData = {
                                     "key": "obj_contest_time_most_in_game",
                                     "label": "Obj Contest Time - Most in Game",
                                     "value": 148
+                                },
+                                {
+                                    "key": "multikill_best",
+                                    "label": "Multikill - Best",
+                                    "value": 3
                                 }
                             ]
                         },
@@ -18291,17 +19011,17 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.22
+                                    "value": 5.34
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 14.45
+                                    "value": 14.23
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 10766
+                                    "value": 10699
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
@@ -18311,27 +19031,27 @@ export const tempData = {
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.08
+                                    "value": 1.04
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 137
+                                    "value": 136
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 14538
+                                    "value": 14559
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 2.77
+                                    "value": 2.66
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 5.06
+                                    "value": 5.08
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
@@ -18341,12 +19061,12 @@ export const tempData = {
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 0.62
+                                    "value": 0.55
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 6.52
+                                    "value": 6.47
                                 }
                             ]
                         },
@@ -18357,42 +19077,42 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 18393
+                                    "value": 20787
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 23
+                                    "value": 26
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 12
+                                    "value": 13
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 12
+                                    "value": 13
                                 },
                                 {
                                     "key": "games_won",
                                     "label": "Games Won",
-                                    "value": 12
+                                    "value": 13
                                 },
                                 {
                                     "key": "hero_wins",
                                     "label": "Hero Wins",
-                                    "value": 12
+                                    "value": 13
                                 },
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 54
+                                    "value": 52
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 11
+                                    "value": 13
                                 }
                             ]
                         },
@@ -18403,17 +19123,17 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 443
+                                    "value": 493
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 160
+                                    "value": 185
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 200
+                                    "value": 224
                                 },
                                 {
                                     "key": "solo_kills",
@@ -18423,32 +19143,37 @@ export const tempData = {
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 445687
+                                    "value": 504398
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 155
+                                    "value": 176
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 4192
+                                    "value": 4723
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 33
+                                    "value": 36
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 330052
+                                    "value": 370664
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 1574
+                                    "value": 1773
+                                },
+                                {
+                                    "key": "multikill",
+                                    "label": "Multikill",
+                                    "value": 1
                                 },
                                 {
                                     "key": "weapon_accuracy",
@@ -18464,12 +19189,12 @@ export const tempData = {
                                 {
                                     "key": "offensive_assists",
                                     "label": "Offensive Assists",
-                                    "value": 69
+                                    "value": 78
                                 },
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 69
+                                    "value": 78
                                 },
                                 {
                                     "key": "offensive_assists_avg_per_10_min",
@@ -18681,14 +19406,14 @@ export const tempData = {
                                     "value": 10
                                 },
                                 {
-                                    "key": "low_health_recalls_avg_per_10_min",
-                                    "label": "Low Health Recalls - Avg per 10 Min",
-                                    "value": 4.46
-                                },
-                                {
                                     "key": "pulse_bomb_kills_avg_per_10_min",
                                     "label": "Pulse Bomb Kills - Avg per 10 Min",
                                     "value": 1.34
+                                },
+                                {
+                                    "key": "low_health_recalls_avg_per_10_min",
+                                    "label": "Low Health Recalls - Avg per 10 Min",
+                                    "value": 4.46
                                 },
                                 {
                                     "key": "pulse_bombs_attached_avg_per_10_min",
@@ -18965,7 +19690,7 @@ export const tempData = {
                                 {
                                     "key": "jump_pack_kills",
                                     "label": "Jump Pack Kills",
-                                    "value": 323
+                                    "value": 333
                                 },
                                 {
                                     "key": "jump_pack_kills_most_in_game",
@@ -18975,7 +19700,7 @@ export const tempData = {
                                 {
                                     "key": "primal_rage_kills",
                                     "label": "Primal Rage Kills",
-                                    "value": 100
+                                    "value": 108
                                 },
                                 {
                                     "key": "primal_rage_kills_most_in_game",
@@ -18985,27 +19710,27 @@ export const tempData = {
                                 {
                                     "key": "melee_kills",
                                     "label": "Melee Kills",
-                                    "value": 343
+                                    "value": 361
                                 },
                                 {
                                     "key": "jump_kills",
                                     "label": "Jump Kills",
-                                    "value": 323
+                                    "value": 333
                                 },
                                 {
                                     "key": "weapon_kills",
                                     "label": "Weapon Kills",
-                                    "value": 632
+                                    "value": 653
                                 },
                                 {
                                     "key": "primal_rage_kills__avg_per_10_min",
                                     "label": "Primal Rage Kills  - Avg per 10 Min",
-                                    "value": 2.54
+                                    "value": 2.62
                                 },
                                 {
                                     "key": "jump_pack_kills_avg_per_10_min",
                                     "label": "Jump Pack Kills - Avg per 10 Min",
-                                    "value": 8.21
+                                    "value": 8.07
                                 },
                                 {
                                     "key": "primary_fire_accuracy",
@@ -19117,47 +19842,47 @@ export const tempData = {
                                 {
                                     "key": "deaths_avg_per_10_min",
                                     "label": "Deaths - Avg per 10 Min",
-                                    "value": 5.26
+                                    "value": 5.35
                                 },
                                 {
                                     "key": "eliminations_avg_per_10_min",
                                     "label": "Eliminations - Avg per 10 Min",
-                                    "value": 18.29
+                                    "value": 18.19
                                 },
                                 {
                                     "key": "hero_damage_done_avg_per_10_min",
                                     "label": "Hero Damage Done - Avg per 10 Min",
-                                    "value": 9566
+                                    "value": 9586
                                 },
                                 {
                                     "key": "assists_avg_per_10_min",
                                     "label": "Assists - Avg per 10 min",
-                                    "value": 3.07
+                                    "value": 3.05
                                 },
                                 {
                                     "key": "melee_final_blows_avg_per_10_min",
                                     "label": "Melee Final Blows - Avg per 10 Min",
-                                    "value": 1.88
+                                    "value": 1.82
                                 },
                                 {
                                     "key": "objective_time_avg_per_10_min",
                                     "label": "Objective Time - Avg per 10 Min",
-                                    "value": 124
+                                    "value": 123
                                 },
                                 {
                                     "key": "all_damage_done_avg_per_10_min",
                                     "label": "All Damage Done - Avg per 10 Min",
-                                    "value": 11129
+                                    "value": 11160
                                 },
                                 {
                                     "key": "eliminations_per_life",
                                     "label": "Eliminations per Life",
-                                    "value": 3.48
+                                    "value": 3.4
                                 },
                                 {
                                     "key": "objective_kills_avg_per_10_min",
                                     "label": "Objective Kills - Avg per 10 Min",
-                                    "value": 4.67
+                                    "value": 4.55
                                 },
                                 {
                                     "key": "obj_contest_time_avg_per_10_min",
@@ -19167,12 +19892,12 @@ export const tempData = {
                                 {
                                     "key": "solo_kills_avg_per_10_min",
                                     "label": "Solo Kills - Avg per 10 Min",
-                                    "value": 1.02
+                                    "value": 1.09
                                 },
                                 {
                                     "key": "final_blows_avg_per_10_min",
                                     "label": "Final Blows - Avg per 10 Min",
-                                    "value": 8.92
+                                    "value": 8.96
                                 }
                             ]
                         },
@@ -19183,12 +19908,12 @@ export const tempData = {
                                 {
                                     "key": "time_played",
                                     "label": "Time Played",
-                                    "value": 23617
+                                    "value": 24767
                                 },
                                 {
                                     "key": "games_played",
                                     "label": "Games Played",
-                                    "value": 30
+                                    "value": 32
                                 },
                                 {
                                     "key": "games_won",
@@ -19213,12 +19938,12 @@ export const tempData = {
                                 {
                                     "key": "win_percentage",
                                     "label": "Win Percentage",
-                                    "value": 56
+                                    "value": 55
                                 },
                                 {
                                     "key": "games_lost",
                                     "label": "Games Lost",
-                                    "value": 13
+                                    "value": 14
                                 }
                             ]
                         },
@@ -19229,67 +19954,67 @@ export const tempData = {
                                 {
                                     "key": "eliminations",
                                     "label": "Eliminations",
-                                    "value": 720
+                                    "value": 751
                                 },
                                 {
                                     "key": "deaths",
                                     "label": "Deaths",
-                                    "value": 207
+                                    "value": 221
                                 },
                                 {
                                     "key": "final_blows",
                                     "label": "Final Blows",
-                                    "value": 351
+                                    "value": 370
                                 },
                                 {
                                     "key": "solo_kills",
                                     "label": "Solo Kills",
-                                    "value": 40
+                                    "value": 45
                                 },
                                 {
                                     "key": "all_damage_done",
                                     "label": "All Damage Done",
-                                    "value": 438082
+                                    "value": 460677
                                 },
                                 {
                                     "key": "objective_kills",
                                     "label": "Objective Kills",
-                                    "value": 184
+                                    "value": 188
                                 },
                                 {
                                     "key": "objective_time",
                                     "label": "Objective Time",
-                                    "value": 4882
+                                    "value": 5069
                                 },
                                 {
                                     "key": "multikills",
                                     "label": "Multikills",
-                                    "value": 6
+                                    "value": 7
                                 },
                                 {
-                                    "key": "environmental_kill",
-                                    "label": "Environmental Kill",
-                                    "value": 1
+                                    "key": "environmental_kills",
+                                    "label": "Environmental Kills",
+                                    "value": 2
                                 },
                                 {
                                     "key": "melee_final_blows",
                                     "label": "Melee Final Blows",
-                                    "value": 74
+                                    "value": 75
                                 },
                                 {
                                     "key": "hero_damage_done",
                                     "label": "Hero Damage Done",
-                                    "value": 376546
+                                    "value": 395688
                                 },
                                 {
                                     "key": "obj_contest_time",
                                     "label": "Obj Contest Time",
-                                    "value": 2041
+                                    "value": 2134
                                 },
                                 {
                                     "key": "environmental_kills_avg_per_10_min",
                                     "label": "Environmental Kills - Avg per 10 Min",
-                                    "value": 0.03
+                                    "value": 0.05
                                 },
                                 {
                                     "key": "weapon_accuracy",
@@ -19305,7 +20030,7 @@ export const tempData = {
                                 {
                                     "key": "assists",
                                     "label": "Assists",
-                                    "value": 121
+                                    "value": 126
                                 }
                             ]
                         }
@@ -19351,14 +20076,14 @@ export const tempData = {
                                     "value": 6.43
                                 },
                                 {
-                                    "key": "grappling_claw_kills_avg_per_10_min",
-                                    "label": "Grappling Claw Kills - Avg per 10 Min",
-                                    "value": 6.43
-                                },
-                                {
                                     "key": "minefield_kills_avg_per_10_min",
                                     "label": "Minefield Kills - Avg per 10 Min",
                                     "value": 0.95
+                                },
+                                {
+                                    "key": "grappling_claw_kills_avg_per_10_min",
+                                    "label": "Grappling Claw Kills - Avg per 10 Min",
+                                    "value": 6.43
                                 }
                             ]
                         },
@@ -19714,14 +20439,14 @@ export const tempData = {
                                     "value": 76
                                 },
                                 {
-                                    "key": "graviton_surge_kills_avg_per_10_min",
-                                    "label": "Graviton Surge Kills - Avg per 10 Min",
-                                    "value": 3.86
-                                },
-                                {
                                     "key": "high_energy_kills_avg_per_10_min",
                                     "label": "High Energy Kills - Avg per 10 Min",
                                     "value": 16.1
+                                },
+                                {
+                                    "key": "graviton_surge_kills_avg_per_10_min",
+                                    "label": "Graviton Surge Kills - Avg per 10 Min",
+                                    "value": 3.86
                                 },
                                 {
                                     "key": "primary_fire_accuracy",
@@ -20046,13 +20771,11 @@ export const tempData = {
                             ]
                         }
                     ],
-                    "ana": null,
                     "baptiste": null,
                     "bastion": null,
                     "brigitte": null,
                     "echo": null,
                     "junkrat": null,
-                    "kiriko": null,
                     "lifeweaver": null,
                     "lucio": null,
                     "mei": null,
@@ -20419,14 +21142,14 @@ export const tempData = {
                                     "value": 89
                                 },
                                 {
-                                    "key": "healing_amplified_avg_per_10_min",
-                                    "label": "Healing Amplified - Avg per 10 Min",
-                                    "value": 200
-                                },
-                                {
                                     "key": "nano_boost_assists_avg_per_10_min",
                                     "label": "Nano Boost Assists - Avg per 10 Min",
                                     "value": 2.23
+                                },
+                                {
+                                    "key": "healing_amplified_avg_per_10_min",
+                                    "label": "Healing Amplified - Avg per 10 Min",
+                                    "value": 200
                                 },
                                 {
                                     "key": "enemies_slept_avg_per_10_min",
@@ -21126,8 +21849,3174 @@ export const tempData = {
         }
     },
     "timePlayedGamemodes": {
-        "timePlayedCompetitive": 231,
+        "timePlayedCompetitive": 244,
         "timePlayedQuickplay": 170,
-        "timePlayedOverall": 401
+        "timePlayedOverall": 414
+    },
+    "heroComparisonStats": {
+        "time_played": {
+            "competitive": [
+                {
+                    "hero": "junker-queen",
+                    "value": 60647
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 27067
+                },
+                {
+                    "hero": "winston",
+                    "value": 24767
+                },
+                {
+                    "hero": "sigma",
+                    "value": 20787
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 13503
+                },
+                {
+                    "hero": "zarya",
+                    "value": 8387
+                },
+                {
+                    "hero": "dva",
+                    "value": 6386
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 5689
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 3013
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 2809
+                },
+                {
+                    "hero": "genji",
+                    "value": 1648
+                },
+                {
+                    "hero": "ana",
+                    "value": 1353
+                },
+                {
+                    "hero": "tracer",
+                    "value": 1344
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 940
+                },
+                {
+                    "hero": "pharah",
+                    "value": 278
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 196
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 120
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 88
+                },
+                {
+                    "hero": "ashe",
+                    "value": 66
+                },
+                {
+                    "hero": "orisa",
+                    "value": 44
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "roadhog",
+                    "value": 55056
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 46797
+                },
+                {
+                    "hero": "tracer",
+                    "value": 46770
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 72107
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 47872
+                },
+                {
+                    "hero": "genji",
+                    "value": 39977
+                },
+                {
+                    "hero": "lucio",
+                    "value": 36581
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 33344
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 26940
+                },
+                {
+                    "hero": "zarya",
+                    "value": 34450
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 23710
+                },
+                {
+                    "hero": "pharah",
+                    "value": 23707
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 20743
+                },
+                {
+                    "hero": "ana",
+                    "value": 21047
+                },
+                {
+                    "hero": "dva",
+                    "value": 26017
+                },
+                {
+                    "hero": "reaper",
+                    "value": 18877
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 14990
+                },
+                {
+                    "hero": "winston",
+                    "value": 36514
+                },
+                {
+                    "hero": "mei",
+                    "value": 10406
+                },
+                {
+                    "hero": "mercy",
+                    "value": 10309
+                },
+                {
+                    "hero": "bastion",
+                    "value": 7726
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 7710
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 9885
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 19421
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 2892
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 2861
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 62438
+                },
+                {
+                    "hero": "sombra",
+                    "value": 1322
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 1128
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 6616
+                },
+                {
+                    "hero": "orisa",
+                    "value": 822
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 619
+                },
+                {
+                    "hero": "echo",
+                    "value": 293
+                },
+                {
+                    "hero": "ashe",
+                    "value": 239
+                },
+                {
+                    "hero": "moira",
+                    "value": 69
+                },
+                {
+                    "hero": "sigma",
+                    "value": 20787
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "reinhardt",
+                    "value": 72107
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 62438
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 55056
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 47872
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 46797
+                },
+                {
+                    "hero": "tracer",
+                    "value": 46770
+                },
+                {
+                    "hero": "genji",
+                    "value": 39977
+                },
+                {
+                    "hero": "lucio",
+                    "value": 36581
+                },
+                {
+                    "hero": "winston",
+                    "value": 36514
+                },
+                {
+                    "hero": "zarya",
+                    "value": 34450
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 33344
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 26940
+                },
+                {
+                    "hero": "dva",
+                    "value": 26017
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 23710
+                },
+                {
+                    "hero": "pharah",
+                    "value": 23707
+                },
+                {
+                    "hero": "ana",
+                    "value": 21047
+                },
+                {
+                    "hero": "sigma",
+                    "value": 20787
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 20743
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 19421
+                },
+                {
+                    "hero": "reaper",
+                    "value": 18877
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 14990
+                },
+                {
+                    "hero": "mei",
+                    "value": 10406
+                },
+                {
+                    "hero": "mercy",
+                    "value": 10309
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 9885
+                },
+                {
+                    "hero": "bastion",
+                    "value": 7726
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 7710
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 6616
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 2892
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 2861
+                },
+                {
+                    "hero": "sombra",
+                    "value": 1322
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 1128
+                },
+                {
+                    "hero": "orisa",
+                    "value": 822
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 619
+                },
+                {
+                    "hero": "echo",
+                    "value": 293
+                },
+                {
+                    "hero": "ashe",
+                    "value": 239
+                },
+                {
+                    "hero": "moira",
+                    "value": 69
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "games_won": {
+            "competitive": [
+                {
+                    "hero": "junker-queen",
+                    "value": 48
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 19
+                },
+                {
+                    "hero": "winston",
+                    "value": 17
+                },
+                {
+                    "hero": "sigma",
+                    "value": 13
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 11
+                },
+                {
+                    "hero": "zarya",
+                    "value": 8
+                },
+                {
+                    "hero": "dva",
+                    "value": 4
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 3
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 3
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 3
+                },
+                {
+                    "hero": "genji",
+                    "value": 1
+                },
+                {
+                    "hero": "tracer",
+                    "value": 1
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 1
+                },
+                {
+                    "hero": "pharah",
+                    "value": 0
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "roadhog",
+                    "value": 62
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 61
+                },
+                {
+                    "hero": "genji",
+                    "value": 59
+                },
+                {
+                    "hero": "tracer",
+                    "value": 58
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 75
+                },
+                {
+                    "hero": "lucio",
+                    "value": 47
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 48
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 36
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 34
+                },
+                {
+                    "hero": "zarya",
+                    "value": 41
+                },
+                {
+                    "hero": "pharah",
+                    "value": 29
+                },
+                {
+                    "hero": "dva",
+                    "value": 32
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 27
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 24
+                },
+                {
+                    "hero": "reaper",
+                    "value": 20
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 20
+                },
+                {
+                    "hero": "ana",
+                    "value": 18
+                },
+                {
+                    "hero": "winston",
+                    "value": 30
+                },
+                {
+                    "hero": "mercy",
+                    "value": 12
+                },
+                {
+                    "hero": "mei",
+                    "value": 9
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 19
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 11
+                },
+                {
+                    "hero": "bastion",
+                    "value": 7
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 7
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 3
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 50
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 2
+                },
+                {
+                    "hero": "sombra",
+                    "value": 2
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 4
+                },
+                {
+                    "hero": "orisa",
+                    "value": 1
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 1
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 1
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 13
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "reinhardt",
+                    "value": 75
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 62
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 61
+                },
+                {
+                    "hero": "genji",
+                    "value": 59
+                },
+                {
+                    "hero": "tracer",
+                    "value": 58
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 50
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 48
+                },
+                {
+                    "hero": "lucio",
+                    "value": 47
+                },
+                {
+                    "hero": "zarya",
+                    "value": 41
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 36
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 34
+                },
+                {
+                    "hero": "dva",
+                    "value": 32
+                },
+                {
+                    "hero": "winston",
+                    "value": 30
+                },
+                {
+                    "hero": "pharah",
+                    "value": 29
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 27
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 24
+                },
+                {
+                    "hero": "reaper",
+                    "value": 20
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 20
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 19
+                },
+                {
+                    "hero": "ana",
+                    "value": 18
+                },
+                {
+                    "hero": "sigma",
+                    "value": 13
+                },
+                {
+                    "hero": "mercy",
+                    "value": 12
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 11
+                },
+                {
+                    "hero": "mei",
+                    "value": 9
+                },
+                {
+                    "hero": "bastion",
+                    "value": 7
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 7
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 4
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 3
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 2
+                },
+                {
+                    "hero": "sombra",
+                    "value": 2
+                },
+                {
+                    "hero": "orisa",
+                    "value": 1
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 1
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 1
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "objective_kills": {
+            "competitive": [
+                {
+                    "hero": "junker-queen",
+                    "value": 791
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 205
+                },
+                {
+                    "hero": "winston",
+                    "value": 188
+                },
+                {
+                    "hero": "sigma",
+                    "value": 176
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 129
+                },
+                {
+                    "hero": "zarya",
+                    "value": 120
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 56
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 40
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 26
+                },
+                {
+                    "hero": "dva",
+                    "value": 24
+                },
+                {
+                    "hero": "tracer",
+                    "value": 21
+                },
+                {
+                    "hero": "genji",
+                    "value": 15
+                },
+                {
+                    "hero": "ana",
+                    "value": 9
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 3
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 3
+                },
+                {
+                    "hero": "pharah",
+                    "value": 1
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "roadhog",
+                    "value": 574
+                },
+                {
+                    "hero": "tracer",
+                    "value": 557
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 458
+                },
+                {
+                    "hero": "lucio",
+                    "value": 418
+                },
+                {
+                    "hero": "genji",
+                    "value": 412
+                },
+                {
+                    "hero": "zarya",
+                    "value": 498
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 359
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 329
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 513
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 286
+                },
+                {
+                    "hero": "pharah",
+                    "value": 243
+                },
+                {
+                    "hero": "reaper",
+                    "value": 225
+                },
+                {
+                    "hero": "dva",
+                    "value": 247
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 165
+                },
+                {
+                    "hero": "winston",
+                    "value": 338
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 146
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 125
+                },
+                {
+                    "hero": "mei",
+                    "value": 117
+                },
+                {
+                    "hero": "ana",
+                    "value": 123
+                },
+                {
+                    "hero": "bastion",
+                    "value": 99
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 78
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 95
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 187
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 813
+                },
+                {
+                    "hero": "mercy",
+                    "value": 18
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 18
+                },
+                {
+                    "hero": "sombra",
+                    "value": 16
+                },
+                {
+                    "hero": "orisa",
+                    "value": 11
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 10
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 63
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 4
+                },
+                {
+                    "hero": "echo",
+                    "value": 4
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 3
+                },
+                {
+                    "hero": "ashe",
+                    "value": 1
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 176
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "junker-queen",
+                    "value": 813
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 574
+                },
+                {
+                    "hero": "tracer",
+                    "value": 557
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 513
+                },
+                {
+                    "hero": "zarya",
+                    "value": 498
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 458
+                },
+                {
+                    "hero": "lucio",
+                    "value": 418
+                },
+                {
+                    "hero": "genji",
+                    "value": 412
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 359
+                },
+                {
+                    "hero": "winston",
+                    "value": 338
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 329
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 286
+                },
+                {
+                    "hero": "dva",
+                    "value": 247
+                },
+                {
+                    "hero": "pharah",
+                    "value": 243
+                },
+                {
+                    "hero": "reaper",
+                    "value": 225
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 187
+                },
+                {
+                    "hero": "sigma",
+                    "value": 176
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 165
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 146
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 125
+                },
+                {
+                    "hero": "ana",
+                    "value": 123
+                },
+                {
+                    "hero": "mei",
+                    "value": 117
+                },
+                {
+                    "hero": "bastion",
+                    "value": 99
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 95
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 78
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 63
+                },
+                {
+                    "hero": "mercy",
+                    "value": 18
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 18
+                },
+                {
+                    "hero": "sombra",
+                    "value": 16
+                },
+                {
+                    "hero": "orisa",
+                    "value": 11
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 10
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 4
+                },
+                {
+                    "hero": "echo",
+                    "value": 4
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 3
+                },
+                {
+                    "hero": "ashe",
+                    "value": 1
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "eliminations_per_life": {
+            "competitive": [
+                {
+                    "hero": "genji",
+                    "value": 3.4
+                },
+                {
+                    "hero": "winston",
+                    "value": 3.4
+                },
+                {
+                    "hero": "zarya",
+                    "value": 3.36
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 3.24
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 3.19
+                },
+                {
+                    "hero": "dva",
+                    "value": 2.9
+                },
+                {
+                    "hero": "sigma",
+                    "value": 2.66
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 2.5
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 2.42
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 2.37
+                },
+                {
+                    "hero": "pharah",
+                    "value": 2.33
+                },
+                {
+                    "hero": "tracer",
+                    "value": 2.31
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 2.13
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 2
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 1.9
+                },
+                {
+                    "hero": "ana",
+                    "value": 1.26
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 1.13
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "junker-queen",
+                    "value": 5.21
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 4.67
+                },
+                {
+                    "hero": "sombra",
+                    "value": 3.87
+                },
+                {
+                    "hero": "orisa",
+                    "value": 3.86
+                },
+                {
+                    "hero": "dva",
+                    "value": 3.59
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 2.82
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 2.82
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 2.76
+                },
+                {
+                    "hero": "mei",
+                    "value": 2.75
+                },
+                {
+                    "hero": "zarya",
+                    "value": 2.71
+                },
+                {
+                    "hero": "echo",
+                    "value": 2.67
+                },
+                {
+                    "hero": "reaper",
+                    "value": 2.51
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 2.39
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 2.39
+                },
+                {
+                    "hero": "genji",
+                    "value": 2.35
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 2.23
+                },
+                {
+                    "hero": "bastion",
+                    "value": 2.22
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 2.15
+                },
+                {
+                    "hero": "winston",
+                    "value": 2.12
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 2.1
+                },
+                {
+                    "hero": "tracer",
+                    "value": 2.08
+                },
+                {
+                    "hero": "pharah",
+                    "value": 1.83
+                },
+                {
+                    "hero": "lucio",
+                    "value": 1.76
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 1.75
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 1.73
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 1.65
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 1.64
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 1.47
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 1.46
+                },
+                {
+                    "hero": "ana",
+                    "value": 1.35
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 1.17
+                },
+                {
+                    "hero": "moira",
+                    "value": 1
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0.92
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0.38
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0.25
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "junker-queen",
+                    "value": 4.225
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 3.545
+                },
+                {
+                    "hero": "dva",
+                    "value": 3.245
+                },
+                {
+                    "hero": "zarya",
+                    "value": 3.035
+                },
+                {
+                    "hero": "genji",
+                    "value": 2.875
+                },
+                {
+                    "hero": "winston",
+                    "value": 2.76
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 2.67
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 2.565
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 2.4749999999999996
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 2.4450000000000003
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 2.1950000000000003
+                },
+                {
+                    "hero": "tracer",
+                    "value": 2.1950000000000003
+                },
+                {
+                    "hero": "pharah",
+                    "value": 2.08
+                },
+                {
+                    "hero": "sombra",
+                    "value": 1.935
+                },
+                {
+                    "hero": "orisa",
+                    "value": 1.93
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 1.775
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 1.41
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 1.3849999999999998
+                },
+                {
+                    "hero": "mei",
+                    "value": 1.375
+                },
+                {
+                    "hero": "echo",
+                    "value": 1.335
+                },
+                {
+                    "hero": "sigma",
+                    "value": 1.33
+                },
+                {
+                    "hero": "ana",
+                    "value": 1.3050000000000002
+                },
+                {
+                    "hero": "reaper",
+                    "value": 1.255
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 1.115
+                },
+                {
+                    "hero": "bastion",
+                    "value": 1.11
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 1.05
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0.88
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0.875
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0.865
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0.735
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0.73
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0.585
+                },
+                {
+                    "hero": "moira",
+                    "value": 0.5
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0.46
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0.19
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0.125
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "multikill_best": {
+            "competitive": [
+                {
+                    "hero": "winston",
+                    "value": 4
+                },
+                {
+                    "hero": "zarya",
+                    "value": 4
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 4
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 3
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 3
+                },
+                {
+                    "hero": "genji",
+                    "value": 3
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 3
+                },
+                {
+                    "hero": "sigma",
+                    "value": 3
+                },
+                {
+                    "hero": "tracer",
+                    "value": 0
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 0
+                },
+                {
+                    "hero": "pharah",
+                    "value": 0
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 0
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 0
+                },
+                {
+                    "hero": "dva",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 0
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "winston",
+                    "value": 5
+                },
+                {
+                    "hero": "genji",
+                    "value": 5
+                },
+                {
+                    "hero": "zarya",
+                    "value": 5
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 5
+                },
+                {
+                    "hero": "reaper",
+                    "value": 4
+                },
+                {
+                    "hero": "tracer",
+                    "value": 4
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 4
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 4
+                },
+                {
+                    "hero": "pharah",
+                    "value": 4
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 4
+                },
+                {
+                    "hero": "dva",
+                    "value": 4
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 4
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 3
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 3
+                },
+                {
+                    "hero": "bastion",
+                    "value": 3
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 3
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 3
+                },
+                {
+                    "hero": "lucio",
+                    "value": 3
+                },
+                {
+                    "hero": "mei",
+                    "value": 3
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 3
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 3
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 3
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 3
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "winston",
+                    "value": 5
+                },
+                {
+                    "hero": "genji",
+                    "value": 5
+                },
+                {
+                    "hero": "zarya",
+                    "value": 5
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 5
+                },
+                {
+                    "hero": "reaper",
+                    "value": 4
+                },
+                {
+                    "hero": "tracer",
+                    "value": 4
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 4
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 4
+                },
+                {
+                    "hero": "pharah",
+                    "value": 4
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 4
+                },
+                {
+                    "hero": "dva",
+                    "value": 4
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 4
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 4
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 3
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 3
+                },
+                {
+                    "hero": "bastion",
+                    "value": 3
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 3
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 3
+                },
+                {
+                    "hero": "lucio",
+                    "value": 3
+                },
+                {
+                    "hero": "mei",
+                    "value": 3
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 3
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 3
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 3
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 3
+                },
+                {
+                    "hero": "sigma",
+                    "value": 3
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 0
+                },
+                {
+                    "hero": "ashe",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "critical_hit_accuracy": {
+            "competitive": [
+                {
+                    "hero": "kiriko",
+                    "value": 24
+                },
+                {
+                    "hero": "ashe",
+                    "value": 15
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 12
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 9
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 9
+                },
+                {
+                    "hero": "dva",
+                    "value": 9
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 8
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 8
+                },
+                {
+                    "hero": "tracer",
+                    "value": 8
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 6
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 6
+                },
+                {
+                    "hero": "genji",
+                    "value": 5
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "pharah",
+                    "value": 0
+                },
+                {
+                    "hero": "winston",
+                    "value": 0
+                },
+                {
+                    "hero": "zarya",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "mei",
+                    "value": 19
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 17
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 15
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 14
+                },
+                {
+                    "hero": "mercy",
+                    "value": 14
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 11
+                },
+                {
+                    "hero": "echo",
+                    "value": 10
+                },
+                {
+                    "hero": "dva",
+                    "value": 10
+                },
+                {
+                    "hero": "lucio",
+                    "value": 10
+                },
+                {
+                    "hero": "genji",
+                    "value": 9
+                },
+                {
+                    "hero": "reaper",
+                    "value": 9
+                },
+                {
+                    "hero": "bastion",
+                    "value": 8
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 8
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 8
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 8
+                },
+                {
+                    "hero": "tracer",
+                    "value": 7
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 7
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 6
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 6
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 5
+                },
+                {
+                    "hero": "ashe",
+                    "value": 4
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 2
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "pharah",
+                    "value": 0
+                },
+                {
+                    "hero": "winston",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "zarya",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "kiriko",
+                    "value": 19.5
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 13
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 10
+                },
+                {
+                    "hero": "mei",
+                    "value": 9.5
+                },
+                {
+                    "hero": "dva",
+                    "value": 9.5
+                },
+                {
+                    "hero": "ashe",
+                    "value": 9.5
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 8.5
+                },
+                {
+                    "hero": "tracer",
+                    "value": 7.5
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 7.5
+                },
+                {
+                    "hero": "mercy",
+                    "value": 7
+                },
+                {
+                    "hero": "genji",
+                    "value": 7
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 7
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 7
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 7
+                },
+                {
+                    "hero": "echo",
+                    "value": 5
+                },
+                {
+                    "hero": "lucio",
+                    "value": 5
+                },
+                {
+                    "hero": "reaper",
+                    "value": 4.5
+                },
+                {
+                    "hero": "bastion",
+                    "value": 4
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 4
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 4
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 4
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 3
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "pharah",
+                    "value": 0
+                },
+                {
+                    "hero": "winston",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "zarya",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "ana",
+                    "value": 0
+                },
+                {
+                    "hero": "orisa",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        },
+        "weapon_accuracy": {
+            "competitive": [
+                {
+                    "hero": "winston",
+                    "value": 64
+                },
+                {
+                    "hero": "sigma",
+                    "value": 57
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 48
+                },
+                {
+                    "hero": "zarya",
+                    "value": 47
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 46
+                },
+                {
+                    "hero": "ashe",
+                    "value": 45
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 40
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 39
+                },
+                {
+                    "hero": "tracer",
+                    "value": 38
+                },
+                {
+                    "hero": "dva",
+                    "value": 37
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 35
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 33
+                },
+                {
+                    "hero": "genji",
+                    "value": 33
+                },
+                {
+                    "hero": "orisa",
+                    "value": 32
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 30
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 28
+                },
+                {
+                    "hero": "pharah",
+                    "value": 25
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 22
+                },
+                {
+                    "hero": "ana",
+                    "value": 17
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 0
+                },
+                {
+                    "hero": "lucio",
+                    "value": 0
+                },
+                {
+                    "hero": "mercy",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 0
+                },
+                {
+                    "hero": "bastion",
+                    "value": 0
+                },
+                {
+                    "hero": "echo",
+                    "value": 0
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 0
+                },
+                {
+                    "hero": "mei",
+                    "value": 0
+                },
+                {
+                    "hero": "reaper",
+                    "value": 0
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 0
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 0
+                },
+                {
+                    "hero": "sombra",
+                    "value": 0
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 0
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 0
+                }
+            ],
+            "quickplay": [
+                {
+                    "hero": "winston",
+                    "value": 62
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 60
+                },
+                {
+                    "hero": "ashe",
+                    "value": 57
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 54
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 49
+                },
+                {
+                    "hero": "pharah",
+                    "value": 49
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 46
+                },
+                {
+                    "hero": "zarya",
+                    "value": 43
+                },
+                {
+                    "hero": "sombra",
+                    "value": 42
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 42
+                },
+                {
+                    "hero": "orisa",
+                    "value": 40
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 39
+                },
+                {
+                    "hero": "echo",
+                    "value": 38
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 38
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 38
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 37
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 37
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 35
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 35
+                },
+                {
+                    "hero": "genji",
+                    "value": 35
+                },
+                {
+                    "hero": "mei",
+                    "value": 34
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 34
+                },
+                {
+                    "hero": "tracer",
+                    "value": 34
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 31
+                },
+                {
+                    "hero": "dva",
+                    "value": 29
+                },
+                {
+                    "hero": "reaper",
+                    "value": 28
+                },
+                {
+                    "hero": "lucio",
+                    "value": 27
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 25
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 25
+                },
+                {
+                    "hero": "mercy",
+                    "value": 24
+                },
+                {
+                    "hero": "bastion",
+                    "value": 24
+                },
+                {
+                    "hero": "ana",
+                    "value": 14
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "sigma",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ],
+            "all": [
+                {
+                    "hero": "winston",
+                    "value": 63
+                },
+                {
+                    "hero": "ashe",
+                    "value": 51
+                },
+                {
+                    "hero": "wrecking-ball",
+                    "value": 50
+                },
+                {
+                    "hero": "zarya",
+                    "value": 45
+                },
+                {
+                    "hero": "junker-queen",
+                    "value": 44.5
+                },
+                {
+                    "hero": "cassidy",
+                    "value": 43.5
+                },
+                {
+                    "hero": "doomfist",
+                    "value": 39.5
+                },
+                {
+                    "hero": "pharah",
+                    "value": 37
+                },
+                {
+                    "hero": "orisa",
+                    "value": 36
+                },
+                {
+                    "hero": "tracer",
+                    "value": 36
+                },
+                {
+                    "hero": "roadhog",
+                    "value": 35
+                },
+                {
+                    "hero": "kiriko",
+                    "value": 34
+                },
+                {
+                    "hero": "genji",
+                    "value": 34
+                },
+                {
+                    "hero": "dva",
+                    "value": 33
+                },
+                {
+                    "hero": "hanzo",
+                    "value": 32
+                },
+                {
+                    "hero": "ramattra",
+                    "value": 31.5
+                },
+                {
+                    "hero": "symmetra",
+                    "value": 30
+                },
+                {
+                    "hero": "sigma",
+                    "value": 28.5
+                },
+                {
+                    "hero": "torbjorn",
+                    "value": 26.5
+                },
+                {
+                    "hero": "sombra",
+                    "value": 21
+                },
+                {
+                    "hero": "soldier-76",
+                    "value": 21
+                },
+                {
+                    "hero": "echo",
+                    "value": 19
+                },
+                {
+                    "hero": "widowmaker",
+                    "value": 19
+                },
+                {
+                    "hero": "sojourn",
+                    "value": 18.5
+                },
+                {
+                    "hero": "lifeweaver",
+                    "value": 18.5
+                },
+                {
+                    "hero": "mei",
+                    "value": 17
+                },
+                {
+                    "hero": "zenyatta",
+                    "value": 17
+                },
+                {
+                    "hero": "ana",
+                    "value": 15.5
+                },
+                {
+                    "hero": "reaper",
+                    "value": 14
+                },
+                {
+                    "hero": "lucio",
+                    "value": 13.5
+                },
+                {
+                    "hero": "junkrat",
+                    "value": 12.5
+                },
+                {
+                    "hero": "mercy",
+                    "value": 12
+                },
+                {
+                    "hero": "bastion",
+                    "value": 12
+                },
+                {
+                    "hero": "reinhardt",
+                    "value": 0
+                },
+                {
+                    "hero": "brigitte",
+                    "value": 0
+                },
+                {
+                    "hero": "moira",
+                    "value": 0
+                },
+                {
+                    "hero": "baptiste",
+                    "value": 0
+                }
+            ]
+        }
     }
 }

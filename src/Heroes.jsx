@@ -20,7 +20,7 @@ import Mercy from './assets/hero_logos/mercy.webp'
 import Moira from './assets/hero_logos/moira.webp'
 import Orisa from './assets/hero_logos/orisa.webp'
 import Pharah from './assets/hero_logos/pharah.webp'
-import Ramatrra from './assets/hero_logos/ramattra.webp'
+import Ramattra from './assets/hero_logos/ramattra.webp'
 import Reaper from './assets/hero_logos/reaper.webp'
 import Reinhardt from './assets/hero_logos/reinhardt.webp'
 import Roadhog from './assets/hero_logos/roadhog.webp'
@@ -38,7 +38,7 @@ import Zarya from './assets/hero_logos/zarya.webp'
 import Zenyatta from './assets/hero_logos/zenyatta.webp'
 
 const Heroes = {
-    tank: ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramatrra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya'],
+    tank: ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya'],
     support: ['ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta'],
     damage: ['ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker'],
     'all-heroes': {
@@ -150,7 +150,7 @@ const Heroes = {
         role: 'damage'
     },
     ramattra: {
-        logo: Ramatrra,
+        logo: Ramattra,
         color: '#a090d3',
         role: 'tank'
     },

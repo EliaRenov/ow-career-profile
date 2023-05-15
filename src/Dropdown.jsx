@@ -14,6 +14,8 @@ const Dropdown = (props) => {
             return "COMPETITIVE"
         } else if (option === 'unranked') {
             return "QUICK PLAY"
+        } else if (option === 'quickplay') {
+            return "QUICK PLAY"
         } else if (option === 'win_percentage') {
             return "WIN PERCENTAGE"
         } else if (option === 'objective_kills') {
