@@ -9,7 +9,6 @@ import OverfastAPIContext from './OverfastAPIContext'
 const Navbar = () => {
     const { data, setIsFormOpen, currentTab, setCurrentTab } = useContext(OverfastAPIContext)
     
-    console.log(data.navbar)
     const username = data.navbar.username.toUpperCase()
     const title = data.navbar.title ? data.summary.title.toUpperCase() : ''
 

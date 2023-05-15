@@ -1,3 +1,5 @@
+import CurrentMode from "./OverviewComponents/CurrentMode"
+
 export default function dataHandler(rawData, platform) {
 
     function combineModesHeroComparisonStats(stat, x, y) {
@@ -99,6 +101,44 @@ export default function dataHandler(rawData, platform) {
     const endorsement = rawData.summary.endorsement.frame;
     const privacy = rawData.summary.privacy;
 
+    let mode = 'quickplay'
+    console.log(rawData.stats[platform][mode].career_stats.moira)
+
+    function getHeroStats(hero, mode) {
+
+        const timePlayedIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'time_played')
+        
+        const gamesPlayedIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_played')
+
+        const gamesWonIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_played')
+
+        const gamesLostIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_lost')
+
+        const timePlayed = rawData.stats[platform][mode].career_stats[hero][3].stats[timePlayedIndex].value
+        const gamesPlayed = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesPlayedIndex].value
+        const gamesWon = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesWonIndex].value
+        const gamesLost = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesLostIndex].value
+
+
+// games lost
+// eliminations
+// assists
+// kill streak - best
+// win percentage
+// eliminations
+// eliminations per life
+// deaths
+// final blows
+// solo kills 
+// hero damage done
+// hero damage done per life  
+// objective time
+// objective kils
+// environmental kills
+// best kill streak
+// multikills
+//         
+    }
 
 
     return {

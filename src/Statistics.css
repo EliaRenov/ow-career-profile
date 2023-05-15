@@ -1,19 +1,57 @@
 .statistics {
     display: grid;
-    grid-template-columns: 2fr 5fr 7fr;
+    grid-template-columns: 2fr 5fr 8fr;
     grid-template-rows: 1fr 15fr;
     padding: 2.5%;
+    gap: 25px;
+    height: 70%;
 }
 
 .statistics .hero-select {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    border: 1px solid black;
 }
+
+.statistics .main-stats {
+    height: 90%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.statistics .main-stats .main-stats-card {
+    background-color: #343c4d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.statistics .main-stats .main-stats-card .card-logo {
+    margin-bottom: 10px;
+}
+
+.statistics .main-stats .main-stats-card .card-value {
+    color: #24dbdb;
+    font-size: 200%;
+    margin-bottom: 15%;
+    font-weight: 100;
+
+}
+
+.statistics .main-stats .main-stats-card .card-desc {
+    color: white;
+    font-weight: 100;
+} 
 
 .statistics .hero-logo {
     width: 100%;
     border-radius: 5px;
+
 }
 
 .statistics .select-hero-menu {
@@ -110,7 +148,7 @@
     gap: 13px;
 }
 
-.statistics .select-hero-menu .buttons button {
+.statistics .select-hero-menu .buttons button, .change-hero-btn {
     font-size: 1.35rem;
     font-weight: 900;
     padding: 13px 30px;
@@ -120,11 +158,17 @@
     cursor: inherit;
 }
 
-.statistics .select-hero-menu .buttons button:hover {
+.statistics .select-hero-menu .buttons button:hover, .change-hero-btn:hover {
     outline: 2px solid white;
+    transform: scale(1.03);
 }
 
-.statistics .select-hero-menu .buttons button.all-heroes {
+.statistics .select-hero-menu .buttons button.all-heroes, .change-hero-btn {
     color: white;
     background-color: #f06414;
 }
+
+.change-hero-btn {
+    width: 100%;
+}
+
