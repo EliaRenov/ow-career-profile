@@ -9,11 +9,12 @@ import OverfastAPIContext from './OverfastAPIContext'
 const Navbar = () => {
     const { data, setIsFormOpen, currentTab, setCurrentTab } = useContext(OverfastAPIContext)
     
-    const username = data.summary.username.toUpperCase()
-    const title = data.summary.title ? data.summary.title.toUpperCase() : ''
+    console.log(data.navbar)
+    const username = data.navbar.username.toUpperCase()
+    const title = data.navbar.title ? data.summary.title.toUpperCase() : ''
 
-    const avatar = data.summary.avatar
-    const endorsementLogo = data.summary.endorsement.frame
+    const avatar = data.navbar.avatar
+    const endorsementLogo = data.navbar.endorsement
     
 
     return (
@@ -77,10 +78,13 @@ const Navbar = () => {
             <div className="endorsement-level">
                 <img src={endorsementLogo} alt="endorsement level" />
             </div>
-            <div className="player-profile_line" />
-            <div className="player-profile_level">
+
+            {/* <div className="player-profile_line" /> */}
+
+            {/* API Does not provide player level: */}
+            {/* <div className="player-profile_level">
                 23
-            </div>
+            </div> */}
             
 
             </div>

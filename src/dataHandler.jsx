@@ -92,10 +92,23 @@ export default function dataHandler(rawData, platform) {
     const damageRank = rawData.summary.competitive[platform].damage?.rank_icon
     const supportRank = rawData.summary.competitive[platform].support?.rank_icon
     
-    
+    // NAVBAR
+    const username = rawData.summary.username;
+    const title = rawData.summary.title;
+    const avatar = rawData.summary.avatar;
+    const endorsement = rawData.summary.endorsement.frame;
+    const privacy = rawData.summary.privacy;
+
 
 
     return {
+            navbar: {
+                username,
+                title,
+                avatar,
+                endorsement,
+                privacy,
+            },
             roleRank: {
                 tank: tankRank,
                 damage: damageRank,
