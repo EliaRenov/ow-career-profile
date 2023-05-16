@@ -11,16 +11,17 @@ import TimePlayedIcon from './assets/icons/statistics_time_played_icon.png'
 
 import Heroes from './Heroes';
 import SelectHeroMenu from './StatisticsComponents/SelectHeroMenu';
+import Dropdown from './Dropdown';
 
 
 const Statistics = () => {
-    const {data, platform, currentHero, setCurrentHero, currentMode} = useContext(OverfastAPIContext);
+    const {data,  currentHero, setCurrentHero, currentMode, setCurrentMode} = useContext(OverfastAPIContext);
 
     const [timePlayedCardValue, gamesPlayedCardValue, gamesWonCardValue, eliminationsCardValue, assistsCardValue, killstreakCardValue] = [{stat: 'TIME PLAYED', type: 'total'}, {stat: 'GAMES PLAYED', type: 'total'}, {stat: 'GAMES WON', type: 'total'}, {stat: 'ELIMINATIONS', type: 'total'}, {stat: 'ASSISTS', type: 'total'}, {stat: 'KILL STREAK - BEST', type: 'best'}].map(value => {
-        return data.heroesStats[currentHero][currentMode].find(x => x.stat === value.stat)?.[value.type] || '0'
+        return data.heroesStats[currentHero][currentMode]?.find(x => x.stat === value.stat)?.[value.type] || '0'
     })
 
-    const tableRows = data.heroesStats[currentHero][currentMode].slice(1, 15).map(row => {
+    const tableRows = data.heroesStats[currentHero][currentMode]?.slice(1, 15).map(row => {
         return <div className="table-row" key={row.stat}>
             <h4 className="stat">{row.stat.toLocaleString()}</h4>
             <h4>{row.total?.toLocaleString()}{row.stat === 'TIME PLAYED' && ' HRS'}{row.stat === 'WIN PERCENTAGE' && '%'}</h4>
@@ -39,6 +40,8 @@ const Statistics = () => {
                 <img className="hero-logo" src={Heroes[currentHero].logo} alt="" />
                 <button className="change-hero-btn" onClick={() => setSelectHeroOpen(true)} >CHANGE HERO</button>
             </section>
+
+            <Dropdown state={currentMode} setState={setCurrentMode} options={data.modes} class="overview_mode_dropdown" />
 
             <section className="main-stats" >
                 <div className="main-stats-card">

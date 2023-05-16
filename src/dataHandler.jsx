@@ -1,5 +1,3 @@
-import CurrentMode from "./OverviewComponents/CurrentMode"
-
 export default function dataHandler(rawData, platform) {
 
     function combineModesHeroComparisonStats(stat, x, y) {
@@ -146,7 +144,12 @@ export default function dataHandler(rawData, platform) {
         ].filter(x => x.total || x.best || x.average)
 
     }
+
     
+    console.log(getHeroStats('reinhardt', 'quickplay'))
+    // console.log(getHeroStats('reinhardt', 'competitive'))
+    console.log(combineHeroStats(getHeroStats('reinhardt', 'quickplay'), getHeroStats('reinhardt', 'competitive')))
+
     function combineHeroStats(quickplay, competitive) {
         if (!quickplay && competitive) return competitive
         if (quickplay && !competitive) return quickplay
@@ -154,15 +157,16 @@ export default function dataHandler(rawData, platform) {
 
         const all = structuredClone(quickplay)
 
-        // Go through all stats of all, find them in competitive and add them to all.
+        // Go through every stat of all, find them in competitive and add them to all.
         for (let allItem of all) {
             const compStat = competitive.find(compItem => compItem.stat === allItem.stat)
 
             if (!compStat) continue;
 
-            if (compStat === 'total') allItem.value += compStat.value
-            if (compStat === 'best') allItem.value = Max(allItem.value, compStat.value)
-            if (compStat === 'average') allItem.value = allItem.value = allItem.value + compStat.value / 2
+            if (compStat.total) allItem.total += compStat.total
+            if (compStat.best) allItem.best = Math.max(allItem.best, compStat.best)
+            if (compStat.average) allItem.total = Number(((allItem.average + compStat.average) / 2).toFixed(2))
+
         }
 
         // If item is in competitive and not in all, add it to all.
@@ -231,6 +235,10 @@ export default function dataHandler(rawData, platform) {
         }
     }
 
+    let modes = ['all', 'quickplay']
+    if (rawData.summary.competitive?.[platform]) modes = ['all', 'quickplay', 'competitive']
+    
+
 
     return {
             navbar: {
@@ -275,6 +283,7 @@ export default function dataHandler(rawData, platform) {
                 all: timePlayedHeroComparison.all.slice(0, 3)
             },
             heroesStats,
+            modes,
         }
 }
 

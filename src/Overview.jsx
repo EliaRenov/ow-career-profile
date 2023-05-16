@@ -8,16 +8,11 @@ import { useContext } from 'react'
 
 
 const Overview = () => {
-    const {data, platform, currentMode, setCurrentMode} = useContext(OverfastAPIContext)
-    let options = ['all', 'quickplay']
-
-    if (data.summary.competitive && data.summary.competitive[platform]) {
-        options = ['all', 'quickplay', 'competitive']
-    }
+    const {data, currentMode, setCurrentMode} = useContext(OverfastAPIContext)
 
     return (
         <main className="overview">
-            <Dropdown state={currentMode} setState={setCurrentMode} options={options} class="overview_mode_dropdown" />
+            <Dropdown state={currentMode} setState={setCurrentMode} options={data.modes} class="overview_mode_dropdown" />
             <TimePlayed />
             <CurrentMode />
             <HeroComparison />

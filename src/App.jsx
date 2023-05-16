@@ -24,7 +24,8 @@ function App() {
   const [isFormOpen, setIsFormOpen] = useState(true) 
   const [username, setUsername] = useState('super-12850') 
   const [currentTab, setCurrentTab] = useState('overview')
-  const [currentHero, setCurrentHero] = useState('ramattra')
+  const [currentHero, setCurrentHero] = useState('reinhardt')
+  
 
 
   async function fetchData() {
