@@ -16,6 +16,11 @@ import SelectHeroMenu from './StatisticsComponents/SelectHeroMenu';
 const Statistics = () => {
     const {data, platform, currentHero, setCurrentHero, currentMode} = useContext(OverfastAPIContext);
 
+    const [timePlayedCardValue, gamesPlayedCardValue, gamesWonCardValue, eliminationsCardValue, assistsCardValue, killstreakCardValue] = [{stat: 'TIME PLAYED', type: 'total'}, {stat: 'GAMES PLAYED', type: 'total'}, {stat: 'GAMES WON', type: 'total'}, {stat: 'ELIMINATIONS', type: 'total'}, {stat: 'ASSISTS', type: 'total'}, {stat: 'KILL STREAK - BEST', type: 'best'}].map(value => {
+        return data.heroesStats[currentHero][currentMode].find(x => x.stat === value.stat)?.[value.type]
+    })
+
+
     const [selectHeroOpen, setSelectHeroOpen] = useState(false)
     
     return (
@@ -30,32 +35,33 @@ const Statistics = () => {
             <section className="main-stats" >
                 <div className="main-stats-card">
                     <img className="card-logo" src={TimePlayedIcon} alt="" />
-                    <h3 className="card-value" >Value HRS</h3>
+                    <h3 className="card-value" >
+                        {timePlayedCardValue} HRS</h3>
                     <h4 className="card-desc">TIME PLAYED</h4>
                 </div>
                 <div className="main-stats-card">
                     <img className="card-logo" src={GamesPlayedIcon} alt="" />
-                    <h3 className="card-value" >Value</h3>
+                    <h3 className="card-value" >{gamesPlayedCardValue}</h3>
                     <h4 className="card-desc">GAMES PLAYED</h4>
                 </div>
                 <div className="main-stats-card">
                     <img className="card-logo" src={GamesWonIcon} alt="" />
-                    <h3 className="card-value" >Value</h3>
+                    <h3 className="card-value" >{gamesWonCardValue}</h3>
                     <h4 className="card-desc">GAMES WON</h4>
                 </div>
                 <div className="main-stats-card">
                     <img className="card-logo" src={EliminationsIcon} alt="" />
-                    <h3 className="card-value" >Value</h3>
+                    <h3 className="card-value" >{eliminationsCardValue}</h3>
                     <h4 className="card-desc">ELIMINATIONS</h4>
                 </div>
                 <div className="main-stats-card">
                     <img className="card-logo" src={AssistsIcon} alt="" />
-                    <h3 className="card-value" >Value</h3>
+                    <h3 className="card-value" >{assistsCardValue}</h3>
                     <h4 className="card-desc">ASSISTS</h4>
                 </div>
                 <div className="main-stats-card">
                     <img className="card-logo" src={KillstreakIcon} alt="" />
-                    <h3 className="card-value" >Value</h3>
+                    <h3 className="card-value" >{killstreakCardValue}</h3>
                     <h4 className="card-desc">KILL STREAK - BEST</h4>
                 </div>
             </section>

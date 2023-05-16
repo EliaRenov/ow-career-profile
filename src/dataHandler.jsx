@@ -55,7 +55,123 @@ export default function dataHandler(rawData, platform) {
          }
 
          return roleValues
-     }
+    }
+
+    function getHeroStats(hero, mode) {
+        const path = rawData.stats[platform][mode]
+
+        if (!path.career_stats[hero]) return;
+    
+        const [game, average, best, combat, assists, HeroSpecific] = ['game', 'average', 'best', 'combat', 'assists', 'hero_specific'].map(category => {
+            if (!path.career_stats[hero].find(x => x.category === category)) return [];
+            return path.career_stats[hero].find(x => x.category === category).stats
+        })
+
+        const values = {};
+
+        for (let category of [game, best, average, combat, assists, HeroSpecific]) {
+            category.map(element => {
+                    values[element.key] = element.value
+                })
+        }
+
+        return [
+            {
+                stat: 'TIME PLAYED',
+                total: Math.round(values.time_played / 3600)
+            },
+            {
+                stat: 'GAMES PLAYED',
+                total: values.games_played
+            },
+            {
+                stat: 'GAMES WON',
+                total: values.games_played - values.games_lost
+            },
+            {
+                stat: 'GAMES LOST',
+                total: values.games_lost
+            },
+            {
+                stat: 'HEALING DONE',
+                total: values.healing_done,
+                best: values.healing_done_most_in_game,
+                average: values.healing_done_avg_per_10_min,
+            },
+            {
+                stat: 'ELIMINATIONS',
+                total: values.eliminations,
+                best: values.eliminations_most_in_game,
+                average: values.eliminations_avg_per_10_min,
+            },
+            {
+                stat: 'ASSISTS',
+                total: values.assists,
+                best: values.assists_most_in_game,
+                average: values.assists_avg_per_10_min
+            },
+            {
+                stat: 'DEATHS',
+                total: values.deaths,
+                average: values.deaths_avg_per_10_min   
+            },
+            {
+                stat: 'FINAL BLOWS',
+                total: values.final_blows,
+                best: values.final_blows_most_in_game,
+                average: values.final_blows_avg_per_10_min
+            },
+            {
+                stat: 'SOLO KILLS',
+                total: values.solo_kills,
+                best: values.solo_kills_most_in_game,
+                average: values.solo_kills_avg_per_10_min
+            },
+            {
+                stat: 'HERO DAMAGE DONE',
+                total: values.all_damage_done,
+                best: values.all_damage_done_most_in_game,
+                average: values.all_damage_done_avg_per_10_min,
+            },
+            {
+                stat: 'ENVIRONMENTAL KILLS',
+                total: values.environmental_kills,
+                best: values.environmental_kills_most_in_game,
+                average: values.environmental_kills_avg_per_10_min,
+            },
+            {
+                stat: 'KILL STREAK - BEST',
+                best: values.kill_streak_best
+            }
+        ].filter(x => x.total || x.best || x.average)
+
+    }
+    
+    function combineHeroStats(quickplay, competitive) {
+        if (!quickplay && competitive) return competitive
+        if (quickplay && !competitive) return quickplay
+        if (!quickplay && !competitive) return
+
+        const all = structuredClone(quickplay)
+
+        // Go through all stats of all, find them in competitive and add them to all.
+        for (let allItem of all) {
+            const compStat = competitive.find(compItem => compItem.stat === allItem.stat)
+
+            if (!compStat) continue;
+
+            if (compStat === 'total') allItem.value += compStat.value
+            if (compStat === 'best') allItem.value = Max(allItem.value, compStat.value)
+            if (compStat === 'average') allItem.value = allItem.value = allItem.value + compStat.value / 2
+        }
+
+        // If item is in competitive and not in all, add it to all.
+        for (let compItem of competitive) {
+            if (!all.find(allItem => allItem.stat === compItem.stat)) all.push(compItem)
+        }
+
+        return all
+    }
 
     const heroes = ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya', 'ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta', 'ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier-76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker'];
 
@@ -101,43 +217,18 @@ export default function dataHandler(rawData, platform) {
     const endorsement = rawData.summary.endorsement.frame;
     const privacy = rawData.summary.privacy;
 
-    let mode = 'quickplay'
-    console.log(rawData.stats[platform][mode].career_stats.moira)
+    const heroesStats = {}
 
-    function getHeroStats(hero, mode) {
+    for (let hero of heroes) {
+        const quickplay = getHeroStats(hero, 'quickplay')
+        const competitive = getHeroStats(hero, 'competitive')
+        const all = combineHeroStats(quickplay, competitive)
 
-        const timePlayedIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'time_played')
-        
-        const gamesPlayedIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_played')
-
-        const gamesWonIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_played')
-
-        const gamesLostIndex = rawData.stats[platform][mode].career_stats[hero][3].stats.find(stat => stat.key === 'games_lost')
-
-        const timePlayed = rawData.stats[platform][mode].career_stats[hero][3].stats[timePlayedIndex].value
-        const gamesPlayed = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesPlayedIndex].value
-        const gamesWon = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesWonIndex].value
-        const gamesLost = rawData.stats[platform][mode].career_stats[hero][3].stats[gamesLostIndex].value
-
-
-// games lost
-// eliminations
-// assists
-// kill streak - best
-// win percentage
-// eliminations
-// eliminations per life
-// deaths
-// final blows
-// solo kills 
-// hero damage done
-// hero damage done per life  
-// objective time
-// objective kils
-// environmental kills
-// best kill streak
-// multikills
-//         
+        heroesStats[hero] = {
+            quickplay,
+            competitive,
+            all,
+        }
     }
 
 
@@ -182,6 +273,7 @@ export default function dataHandler(rawData, platform) {
                 competitive: timePlayedHeroComparison.competitive.slice(0, 3),
                 quickplay: timePlayedHeroComparison.quickplay.slice(0, 3),
                 all: timePlayedHeroComparison.all.slice(0, 3)
-            }
+            },
+            heroesStats,
         }
 }
