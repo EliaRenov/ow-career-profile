@@ -38,7 +38,7 @@ function App() {
       } else if (data.stats.console) {
         setPlatform('console')
       }
-      setData({...data, ...dataHandler(data, platform, currentMode)})
+      setData(dataHandler(data, platform, currentMode))
     } catch (error) {
       console.log(error)
       alert('PLAYER NOT FOUND')
@@ -56,9 +56,9 @@ function App() {
     {data && <div className="container">
       {isFormOpen && <Form />}
       <Navbar />
-      {data.summary.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
-      {data.summary.privacy === 'public' && currentTab === 'overview' && <Overview />}
-      {data.summary.privacy === 'public' && currentTab === 'statistics' && <Statistics />}
+      {data.navbar.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
+      {data.navbar.privacy === 'public' && currentTab === 'overview' && <Overview />}
+      {data.navbar.privacy === 'public' && currentTab === 'statistics' && <Statistics />}
 
     </div>}
     </OverfastAPIContext.Provider>

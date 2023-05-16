@@ -10,7 +10,7 @@ const Navbar = () => {
     const { data, setIsFormOpen, currentTab, setCurrentTab } = useContext(OverfastAPIContext)
     
     const username = data.navbar.username.toUpperCase()
-    const title = data.navbar.title ? data.summary.title.toUpperCase() : ''
+    const title = data.navbar.title?.toUpperCase() || ''
 
     const avatar = data.navbar.avatar
     const endorsementLogo = data.navbar.endorsement
