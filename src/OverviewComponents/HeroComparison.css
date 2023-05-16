@@ -72,14 +72,10 @@
     font-size: 20px;
     position: relative;
     box-sizing: border-box;
-    transition: outline 0.8s;
 }
 
 .hero-comparison .table-cell:hover {
     transform: scale(1.05);
-    animation-name: outline;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 
 .hero-comparison .table-cell .hero-logo {

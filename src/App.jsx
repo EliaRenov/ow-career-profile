@@ -25,7 +25,7 @@ function App() {
   const [username, setUsername] = useState('super-12850') 
   const [currentTab, setCurrentTab] = useState('overview')
   const [currentHero, setCurrentHero] = useState('reinhardt')
-  
+  const [stat, setStat] = useState('time_played')
 
 
   async function fetchData() {
@@ -52,7 +52,7 @@ function App() {
 
  
   return (
-    <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero}}>
+    <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero, stat, setStat}}>
     {data && <div className="container">
       {isFormOpen && <Form />}
       <Navbar />
