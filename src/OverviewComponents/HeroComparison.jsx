@@ -3,7 +3,7 @@ import HeroComparisonTable from './HeroComparisonTable'
 import OverfastAPIContext from '../OverfastAPIContext';
 import Dropdown from '../Dropdown'
 import '../Dropdown.css'
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 
 const HeroComparison = () => {
 

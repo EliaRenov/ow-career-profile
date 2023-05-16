@@ -145,11 +145,6 @@ export default function dataHandler(rawData, platform) {
 
     }
 
-    
-    console.log(getHeroStats('reinhardt', 'quickplay'))
-    // console.log(getHeroStats('reinhardt', 'competitive'))
-    console.log(combineHeroStats(getHeroStats('reinhardt', 'quickplay'), getHeroStats('reinhardt', 'competitive')))
-
     function combineHeroStats(quickplay, competitive) {
         if (!quickplay && competitive) return competitive
         if (quickplay && !competitive) return quickplay

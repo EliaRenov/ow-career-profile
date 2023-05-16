@@ -82,7 +82,6 @@
     animation-iteration-count: infinite;
 }
 
-
 .hero-comparison .table-cell .hero-logo {
     height: 117%;
     width: 60px;
@@ -107,6 +106,19 @@
 .hero-comparison .table-cell .cell-fill {
     position: absolute;
     height: 100%;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
 
 
