@@ -2,6 +2,11 @@ const HeroComparisonCell = (props) => {
     const Heroes = props.heroes;
     const data = props.data
 
+    function handleClick() {
+        props.setCurrentHero(data.hero)
+        props.setCurrentTab('statistics')
+    }
+
     let fillWidth = Math.ceil(
         data === props.mostPlayed ? 100 : `${data.value / props.mostPlayed.value * 100}`)
     
@@ -25,7 +30,7 @@ const HeroComparisonCell = (props) => {
     } 
     
     return (
-        <div className="table-cell">
+        <div className="table-cell" onClick={handleClick} >
             <div className="hero-logo" 
             style={{
                 backgroundImage: `url(${Heroes[data.hero].logo})`}}

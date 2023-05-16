@@ -13,7 +13,7 @@ export default function dataHandler(rawData, platform) {
         let statHeroesQuickplay = structuredClone(rawData.stats[platform].quickplay.heroes_comparisons[stat].values)
 
 
-        for (let element of heroes) {
+        for (let element of heroes.filter(x => x !== 'all-heroes')) {
             if (!statHeroesCompetitive.find(hero => hero.hero === element)) statHeroesCompetitive.push({hero: element, value: 0})
             if (!statHeroesQuickplay.find(hero => hero.hero === element)) statHeroesQuickplay.push({hero: element, value: 0})
         }

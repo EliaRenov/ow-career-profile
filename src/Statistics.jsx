@@ -21,7 +21,7 @@ const Statistics = () => {
     })
 
     const tableRows = data.heroesStats[currentHero][currentMode].slice(1, 15).map(row => {
-        return <div className="table-row">
+        return <div className="table-row" key={row.stat}>
             <h4 className="stat">{row.stat.toLocaleString()}</h4>
             <h4>{row.total?.toLocaleString()}{row.stat === 'TIME PLAYED' && ' HRS'}{row.stat === 'WIN PERCENTAGE' && '%'}</h4>
             <h4>{row.best?.toLocaleString()}</h4>
