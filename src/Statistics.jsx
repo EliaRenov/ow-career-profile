@@ -17,9 +17,17 @@ const Statistics = () => {
     const {data, platform, currentHero, setCurrentHero, currentMode} = useContext(OverfastAPIContext);
 
     const [timePlayedCardValue, gamesPlayedCardValue, gamesWonCardValue, eliminationsCardValue, assistsCardValue, killstreakCardValue] = [{stat: 'TIME PLAYED', type: 'total'}, {stat: 'GAMES PLAYED', type: 'total'}, {stat: 'GAMES WON', type: 'total'}, {stat: 'ELIMINATIONS', type: 'total'}, {stat: 'ASSISTS', type: 'total'}, {stat: 'KILL STREAK - BEST', type: 'best'}].map(value => {
-        return data.heroesStats[currentHero][currentMode].find(x => x.stat === value.stat)?.[value.type]
+        return data.heroesStats[currentHero][currentMode].find(x => x.stat === value.stat)?.[value.type] || '0'
     })
 
+    const tableRows = data.heroesStats[currentHero][currentMode].slice(1, 15).map(row => {
+        return <div className="table-row">
+            <h4 className="stat">{row.stat.toLocaleString()}</h4>
+            <h4>{row.total?.toLocaleString()}{row.stat === 'TIME PLAYED' && ' HRS'}{row.stat === 'WIN PERCENTAGE' && '%'}</h4>
+            <h4>{row.best?.toLocaleString()}</h4>
+            <h4>{row.average?.toLocaleString()}</h4>
+        </div>
+    })
 
     const [selectHeroOpen, setSelectHeroOpen] = useState(false)
     
@@ -63,6 +71,18 @@ const Statistics = () => {
                     <img className="card-logo" src={KillstreakIcon} alt="" />
                     <h3 className="card-value" >{killstreakCardValue}</h3>
                     <h4 className="card-desc">KILL STREAK - BEST</h4>
+                </div>
+            </section>
+
+            <section className="all-stats">
+                <div className="table-header table-row">
+                    <h4 className="stat">STAT</h4>
+                    <h4>TOTAL</h4>
+                    <h4>BEST</h4>
+                    <h4>AVG/10 MIN</h4>
+                </div>
+                <div className="table-rows">
+                    {tableRows}
                 </div>
             </section>
         </main>
