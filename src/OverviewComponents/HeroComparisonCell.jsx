@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 const HeroComparisonCell = (props) => {
     const Heroes = props.heroes;
     const data = props.data
