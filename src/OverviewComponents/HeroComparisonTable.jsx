@@ -13,7 +13,7 @@ const HeroComparisonTable = ({stat}) => {
     return (
         <div className="hero-comparison-table">
             {comparison.map(hero => {
-                return <HeroComparisonCell data={hero} heroes={Heroes} mostPlayed={mostPlayed} key={hero.hero + hero.value} type={stat} setCurrentTab={setCurrentTab} setCurrentHero={setCurrentHero} />
+                return <HeroComparisonCell data={hero} heroes={Heroes} mostPlayed={mostPlayed} key={Math.random()} type={stat} setCurrentTab={setCurrentTab} setCurrentHero={setCurrentHero} />
                 
             })}
         </div>
