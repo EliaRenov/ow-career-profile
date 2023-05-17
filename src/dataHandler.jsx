@@ -158,9 +158,22 @@ export default function dataHandler(rawData, platform) {
 
             if (!compStat) continue;
 
+            if (compStat.stat === 'ENVIRONMENTAL KILLS') {
+                console.log(compStat)
+                console.log(allItem)
+            }
+
+            // allItem value does not exist, compStat value exists.
+            if (compStat.total && !allItem.total) allItem.total = compStat.total
+            if (compStat.best && !allItem.best) allItem.best = compStat.best
+            if (compStat.average && !allItem.average) allItem.average = compStat.average
+
+
+            // How to combine value types
+
             if (compStat.total) allItem.total += compStat.total
             if (compStat.best) allItem.best = Math.max(allItem.best, compStat.best)
-            if (compStat.average) allItem.total = Number(((allItem.average + compStat.average) / 2).toFixed(2))
+            if (compStat.average) allItem.average = Number(((allItem.average + compStat.average) / 2).toFixed(2))
 
         }
 
