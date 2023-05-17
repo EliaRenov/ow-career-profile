@@ -3,11 +3,9 @@ import OverfastAPIContext from '../OverfastAPIContext'
 import TankLogo from '../assets/icons/overview_tank-icon.png';
 import DamageLogo from '../assets/icons/overview_damage-icon.png';
 import SupportLogo from '../assets/icons/overview_support-icon.png';
-import Ranks from '../Ranks';
-import Heroes from '../Heroes'
 
 const CompRoleTable = () => {
-    const { data, platform } = useContext(OverfastAPIContext)
+    const { data } = useContext(OverfastAPIContext)
 
     const tankRank = data.roleRank.tank;
     const damageRank = data.roleRank.damage;
