@@ -158,10 +158,6 @@ export default function dataHandler(rawData, platform) {
 
             if (!compStat) continue;
 
-            if (compStat.stat === 'ENVIRONMENTAL KILLS') {
-                console.log(compStat)
-                console.log(allItem)
-            }
 
             // allItem value does not exist, compStat value exists.
             if (compStat.total && !allItem.total) allItem.total = compStat.total
@@ -169,7 +165,7 @@ export default function dataHandler(rawData, platform) {
             if (compStat.average && !allItem.average) allItem.average = compStat.average
 
 
-            // How to combine value types
+            // Combine value value types
 
             if (compStat.total) allItem.total += compStat.total
             if (compStat.best) allItem.best = Math.max(allItem.best, compStat.best)

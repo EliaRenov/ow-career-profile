@@ -8,6 +8,7 @@ import OverfastAPIContext from './OverfastAPIContext';
 import Form from './OverviewComponents/Form'
 import { tempData } from './tempdata';
 import dataHandler from './dataHandler'
+import Loading from './Loading';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
  
   return (
     <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero, stat, setStat}}>
+    {!data && <Loading />}
     {data && <div className="container">
       {isFormOpen && <Form />}
       <Navbar />

@@ -86,3 +86,30 @@ li {
     transform: translateX(0);
   }
 }
+
+.load-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#F48A19 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#F48A19);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 1s infinite linear;
+}
+
+@keyframes s3{ 
+  100%{transform: rotate(1turn)}
+}
