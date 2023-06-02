@@ -8,7 +8,7 @@
     padding: 3rem;
     padding-bottom: 2.3rem;
     padding-top: 2vh;
-    position: relative;
+    position: fixed;
 }
 
 nav.navbar .nav-links {
@@ -241,6 +241,12 @@ nav.navbar .nav-links {
 
     .navbar .player-settings .endorsement-level, .navbar .player-settings .player-profile-title, .navbar .player-settings .player-profile-title-small {
         display: block;
+    }
+    
+    .player-settings .player-profile-title {
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 0;
     }
 
     .navbar .player-settings .endorsement-level img {

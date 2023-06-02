@@ -1,15 +1,16 @@
 .overview_time-played {
     background-image: url('../assets/overview_time_played.png');
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5px;
     grid-row: 2 / 3;
     padding: 0 1.5rem;
-    /* padding-top: 19.5rem; */
+    width: 100%;
 }
 
 .overview_time-played-bar {
     background-color: #404656;
-    height: 43px;
+    height: 2.5rem;
     margin-bottom: 9px;
     border-radius: 5px;
     color: white;
@@ -28,7 +29,7 @@
 }
 
 .overview_mode-logo {
-    height: 28px;
+    height: 70%;
     margin-left: 8px;
     z-index: 5;
 }
@@ -70,20 +71,20 @@
 .overview_overall-hours-circle {
     text-align: center;
     font-weight: 500;
-    margin-top: 132px;
+    margin-top: 40%;
+    padding-bottom: 110px;
 }
 
 .overview_overall-hours {
     letter-spacing: 1px;
     color: #1cefef;
-    padding-bottom: 110px;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 165%;
 }
 
 .overview_overall-hours-text {
     color: #e9e9ea;
-    font-size: 18px;
+    font-size: 105%;
     font-weight: 300;
     padding-bottom: 4px;
 }

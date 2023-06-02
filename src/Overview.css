@@ -2,12 +2,14 @@
     padding: 3rem;
     display: grid;
     column-gap: 2.5rem;
+    column-gap: 10px;
     row-gap: 0.5rem;
     grid-template-rows: 1fr 21.5fr;
-    grid-template-columns: 381px 703px 635px;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding-top: 27vh;
 }
 
-@media (max-width: 1880px) {
+/* @media (max-width: 1880px) {
     .overview {
         transform: scale(0.9);
         margin-left: -110px;
@@ -53,4 +55,4 @@
         margin-top: -50px;
     }
 }
-
+ */
