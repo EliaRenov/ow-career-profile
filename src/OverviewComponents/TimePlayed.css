@@ -3,7 +3,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 5px;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
     padding: 0 1.5rem;
     width: 100%;
 }
@@ -91,4 +91,10 @@
 
 .overview_time-played-hours-numbers {
     letter-spacing: 2px;
+}
+
+@media (max-width: 1100px) {
+    .overview_time-played {
+        display: none;
+    }
 }

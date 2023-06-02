@@ -4,55 +4,15 @@
     column-gap: 2.5rem;
     column-gap: 10px;
     row-gap: 0.5rem;
-    grid-template-rows: 1fr 21.5fr;
+    grid-template-rows: 1fr 21.5fr 300px;
     grid-template-columns: 1fr 2fr 2fr;
     padding-top: 27vh;
 }
 
-/* @media (max-width: 1880px) {
+@media (max-width: 1100px) {
     .overview {
-        transform: scale(0.9);
-        margin-left: -110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
-
-@media (max-width: 1600px) {
-    .overview {
-        transform: scale(0.75);
-        margin-left: -150px;
-        margin-top: -25px;
-    }
-}
-
-@media (max-width: 1437px) {
-    .overview {
-        transform: scale(0.67);
-        margin-left: -200px;
-        margin-top: -50px;
-    }
-}
-
-@media (max-width: 1280px) {
-    .overview {
-        transform: scale(0.6);
-        margin-left: -200px;
-        margin-top: -50px;
-    }
-}
-
-@media (max-width: 1156px) {
-    .overview {
-        transform: scale(0.55);
-        margin-left: -200px;
-        margin-top: -50px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .overview {
-        transform: scale(0.5);
-        margin-left: -225px;
-        margin-top: -50px;
-    }
-}
- */

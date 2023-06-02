@@ -5,6 +5,8 @@
     padding: 2.5%;
     gap: 20px;
     height: 70%;
+    padding-top: 27vh;
+
 }
 
 .statistics .hero-select {
@@ -92,7 +94,7 @@
 
 .statistics .select-hero-menu {
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     top: 3.3%;
     bottom: 3.3%;
     left: 0;

@@ -9,13 +9,13 @@
     padding-bottom: 2.3rem;
     padding-top: 2vh;
     position: fixed;
+    z-index: 10;
 }
 
 nav.navbar .nav-links {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     display: flex;
-    /* background-color: #171d33; */
     list-style-type: none;
     border-radius: 5px;
 }
@@ -249,15 +249,18 @@ nav.navbar .nav-links {
         margin-top: 0;
     }
 
+    .navbar .player-settings .endorsement-level {
+        margin-left: auto;
+    }
+
     .navbar .player-settings .endorsement-level img {
-        height: 40px;
+        height: 50px;
     }
 
     nav.navbar .nav-links {
         justify-self: center;
         grid-row: 2;
         grid-column: 1 / -1;
-        margin-bottom: 5px;
     }
     
     .navbar .player-profile {

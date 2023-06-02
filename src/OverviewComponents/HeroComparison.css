@@ -24,7 +24,6 @@
     overflow-y: scroll;
     overflow-x: hidden;
     padding-top: 4px;
-    /* align-self: flex-start; */
 }
 
 .hero-comparison-dropdown {
@@ -116,5 +115,24 @@
     }
   }
 
-
+@media (max-width: 1100px) {
+    .hero-comparison {
+        grid-template-rows: 42px 42px 218px;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding-bottom: 50px;
+        /* align-items: center; */
+    }
+    button.hero-comparison-dropdown, .hero-comparison_title {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hero-comparison_title {
+        margin: 10px 0 10px 0;
+    }
+    
+}
 
