@@ -3,6 +3,7 @@ import DamageIcon from '../assets/icons/damage_icon.png'
 import SupportIcon from '../assets/icons/support_icon.png'
 
 import SelectHeroesCard from './SelectHeroesCard'
+import './SelectHeroMenu.css'
 
 const SelectHeroMenu = ({setSelectHeroOpen, setCurrentHero}) => {
 

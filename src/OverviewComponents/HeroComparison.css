@@ -20,18 +20,17 @@
     grid-row: 2 / 3;
     grid-column: 1 / 4;
     gap: 6px;
-    height: 574px;
+    height: 53vh;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-top: 4px;
 }
 
-.hero-comparison-dropdown {
+button.hero-comparison-dropdown {
     grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    height: 40px;
+    grid-column: 3 / 4;
+    height: 40px;    
     justify-self: flex-end;
-    margin-right: -76px;
 }
 
 .hero-comparison-table::-webkit-scrollbar {
@@ -123,15 +122,18 @@
         flex-direction: column;
         width: 75%;
         padding-bottom: 50px;
-        /* align-items: center; */
     }
     button.hero-comparison-dropdown, .hero-comparison_title {
         align-self: center;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 10px;
     }
     .hero-comparison_title {
         margin: 10px 0 10px 0;
+    }
+    .hero-comparison-table {
+        height: 400px;
     }
     
 }

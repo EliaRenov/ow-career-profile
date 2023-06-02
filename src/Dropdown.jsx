@@ -58,7 +58,7 @@ const Dropdown = (props) => {
                 })}
             </div>
     return (
-        <button onClick={handleDropdownClick} name={props.name} className={`dropdown ${props.className && props.className}`}>
+        <button onClick={handleDropdownClick} name={props.name} className={`dropdown ${props.class && props.class}`}>
             {matchOptionToMsg(props.state)}
             <img className="dropdown-icon" src={DropdownIcon} />
             {isDropdownOpen && dropdownOptions}
