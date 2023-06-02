@@ -25,18 +25,25 @@ const Navbar = () => {
                 <li className={`${currentTab === 'statistics' && 'current-tab'}`} onClick={() => setCurrentTab('statistics')}> 
                     STATISTICS
                 </li>
-                <li>
+                {/* <li>
                     ACHIEVEMENTS
                 </li>
                 <li>
                     CUSTOMIZATION
-                </li>
+                </li> */}
             </nav>
+
+            <div className="player-settings" >
             <div className="small-player">
                 <img className="small-player-logo" src={avatar} alt="small-player-logo" height="62px"/>
                 <h4 className="small-player-name">
                     {username}
                 </h4>
+                <h3 className={title.length < 14 ? "player-profile-title" : "player-profile-title-small"}>
+                        {title}
+                </h3>
+                <div className="endorsement-level">
+                <img src={endorsementLogo} alt="endorsement level" />
             </div>
                 <h4 className="small-player-hover">
                     <p className="small-player-hover-name">
@@ -46,22 +53,24 @@ const Navbar = () => {
                         #00000
                     </p>
                 </h4>
+            </div>
 
             <div className="top-right_icons">
                 <div className="small-player-line" />
                 <div className="social-logo">
                 <img  src={SocialLogo} alt="social-logo"/>
-                </div>
                 <h4 className="social-logo-hover">
                     SOCIAL
                 </h4>
+                </div>
 
                 <div className="settings-logo" onClick={() => setIsFormOpen(prev => !prev)}>
                 <img src={SettingsLogo} alt="settings logo" />
-                </div>
                 <h4 className="settings-logo-hover">
                     SETTINGS
                 </h4>
+                </div>
+            </div>
             </div>
 
             <div className="player-profile">
