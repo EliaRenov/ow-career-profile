@@ -13,15 +13,14 @@ import Loading from './Loading';
 
 function App() {
 
-  // console.log(tempData)
-
   let modesHrs = {
     arcadeHrs: 0,
     gamebrowserHrs: 0,
     experimentalHrs: 0
   }
 
-  const [data, setData] = useState(undefined)
+  const [isFirstLoad, setIsFirstLoad] = useState(true)
+  const [data, setData] = useState<any>(undefined)
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
   const [isFormOpen, setIsFormOpen] = useState(true) 
@@ -35,13 +34,17 @@ function App() {
     try {
       const response = await fetch(`https://overfast-api.tekrop.fr/players/${username}`)
       const data = await response.json()
+      const handledData = isFirstLoad ? dataHandler(tempData, 'pc') : dataHandler(data, platform)
+
+      setData(handledData)
+      setIsFirstLoad(false)
 
       if (data.stats.pc) {
         setPlatform('pc')
       } else if (data.stats.console) {
         setPlatform('console')
       }
-      setData(dataHandler(data, platform, currentMode))
+
     } catch (error) {
       console.log(error)
       alert('PLAYER NOT FOUND')

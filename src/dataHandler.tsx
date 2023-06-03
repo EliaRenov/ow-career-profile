@@ -232,7 +232,6 @@ export default function dataHandler(rawData: any, platform: string) {
 
     for (let hero of heroes) {
         const quickplay = getHeroStats(hero, 'quickplay')
-        console.log(hero, quickplay)
         const competitive = getHeroStats(hero, 'competitive')
         const all = combineHeroStats(quickplay, competitive)
         
