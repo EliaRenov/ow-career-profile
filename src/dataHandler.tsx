@@ -1,36 +1,63 @@
-export default function dataHandler(rawData, platform) {
+type heroStatComparison = {
+    hero: string
+    value: number
+}
 
-    function combineModesHeroComparisonStats(stat, x, y) {
+type heroStatCategory = {
+    key: string
+    label: string
+    value: number
+}
+
+type heroCareerStat = {
+    category: string
+    label: string
+    stats: object[]
+}
+
+type roleStat = 'time_played' | 'games_won'
+
+type modeType = 'competitive' | 'quickplay' | 'all'
+
+
+export default function dataHandler(rawData: any, platform: string) {
+
+
+    function combineModesHeroComparisonStats(stat: string, x: heroStatComparison, y: heroStatComparison) {
         if (stat === 'time_played' || stat === 'objective_kills' || stat === 'games_won') return x.value += y.value
         if (stat === 'weapon_accuracy' || stat === 'win_percentage' || stat === 'critical_hit_accuracy' || stat === 'eliminations_per_life') return (x.value + y.value) / 2
         if (stat === 'multikill_best') return x.value > y.value ? x.value : y.value
     }
     
-    function getHeroComparisonStats(stat) {
+    function getHeroComparisonStats(stat: string) {
+
         let statHeroesCompetitive = structuredClone(rawData.stats[platform].competitive.heroes_comparisons[stat].values)
         let statHeroesQuickplay = structuredClone(rawData.stats[platform].quickplay.heroes_comparisons[stat].values)
 
+        const heroNames = heroes.filter(x => x !== 'all-heroes')
 
-        for (let element of heroes.filter(x => x !== 'all-heroes')) {
-            if (!statHeroesCompetitive.find(hero => hero.hero === element)) statHeroesCompetitive.push({hero: element, value: 0})
-            if (!statHeroesQuickplay.find(hero => hero.hero === element)) statHeroesQuickplay.push({hero: element, value: 0})
+
+        for (let heroName of heroNames) {
+            if (!statHeroesCompetitive.find((hero: heroStatComparison) => hero.hero === heroName)) statHeroesCompetitive.push({hero: heroName, value: 0})
+
+            if (!statHeroesQuickplay.find((hero: heroStatComparison) => hero.hero === heroName)) statHeroesQuickplay.push({hero: heroName, value: 0})
         }
     
         const statHeroesAllModes = 
-        structuredClone(statHeroesQuickplay).map(quickHero => {
-            const element = statHeroesCompetitive.find(compHero => compHero.hero === quickHero.hero)
+        structuredClone(statHeroesQuickplay).map((quickHero: heroStatComparison) => {
+            const element = statHeroesCompetitive.find((compHero: heroStatComparison) => compHero.hero === quickHero.hero)
             return {hero: quickHero.hero, value: combineModesHeroComparisonStats(stat, quickHero, element)}
-        }).sort((a, b) => b.value - a.value)
+        }).sort((a: heroStatComparison, b: heroStatComparison) => b.value - a.value)
 
         return {competitive: statHeroesCompetitive, quickplay: statHeroesQuickplay, all: statHeroesAllModes}
     }
 
-    function roleValuesPerMode(mode, stat) {
+    function roleValuesPerMode(mode: modeType, stat: roleStat) {
         let tank = 0;
         let damage = 0;
         let support = 0;
 
-        getHeroComparisonStats(stat)[mode].forEach(item => {
+        getHeroComparisonStats(stat)[mode].forEach((item: heroStatComparison) => {
             if (heroesPerRoles.tank.includes(item.hero)) tank += item.value
             if (heroesPerRoles.damage.includes(item.hero)) damage += item.value
             if (heroesPerRoles.support.includes(item.hero)) support += item.value
@@ -55,20 +82,20 @@ export default function dataHandler(rawData, platform) {
          return roleValues
     }
 
-    function getHeroStats(hero, mode) {
+    function getHeroStats(hero: string, mode: modeType) {
         const path = rawData.stats[platform][mode]
 
         if (!path.career_stats[hero]) return;
     
         const [game, average, best, combat, assists, HeroSpecific] = ['game', 'average', 'best', 'combat', 'assists', 'hero_specific'].map(category => {
-            if (!path.career_stats[hero].find(x => x.category === category)) return [];
-            return path.career_stats[hero].find(x => x.category === category).stats
+            if (!path.career_stats[hero].find((x: heroCareerStat) => x.category === category)) return [];
+            return path.career_stats[hero].find((x: heroCareerStat) => x.category === category).stats
         })
 
-        const values = {};
+        const values: any = {};
 
         for (let category of [game, best, average, combat, assists, HeroSpecific]) {
-            category.map(element => {
+            category.map((element: heroStatCategory) => {
                     values[element.key] = element.value
                 })
         }
@@ -145,7 +172,7 @@ export default function dataHandler(rawData, platform) {
 
     }
 
-    function combineHeroStats(quickplay, competitive) {
+    function combineHeroStats(quickplay: any, competitive: any) {
         if (!quickplay && competitive) return competitive
         if (quickplay && !competitive) return quickplay
         if (!quickplay && !competitive) return
@@ -154,7 +181,7 @@ export default function dataHandler(rawData, platform) {
 
         // Go through every stat of all, find them in competitive and add them to all.
         for (let allItem of all) {
-            const compStat = competitive.find(compItem => compItem.stat === allItem.stat)
+            const compStat = competitive.find((compItem: any) => compItem.stat === allItem.stat)
 
             if (!compStat) continue;
 
@@ -165,8 +192,7 @@ export default function dataHandler(rawData, platform) {
             if (compStat.average && !allItem.average) allItem.average = compStat.average
 
 
-            // Combine value value types
-
+            // Combine value types
             if (compStat.total) allItem.total += compStat.total
             if (compStat.best) allItem.best = Math.max(allItem.best, compStat.best)
             if (compStat.average) allItem.average = Number(((allItem.average + compStat.average) / 2).toFixed(2))
@@ -175,7 +201,7 @@ export default function dataHandler(rawData, platform) {
 
         // If item is in competitive and not in all, add it to all.
         for (let compItem of competitive) {
-            if (!all.find(allItem => allItem.stat === compItem.stat)) all.push(compItem)
+            if (!all.find((allItem: any) => allItem.stat === compItem.stat)) all.push(compItem)
         }
 
         return all
@@ -184,9 +210,8 @@ export default function dataHandler(rawData, platform) {
     const heroes = ['all-heroes', 'doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya', 'ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta', 'ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier-76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker'];
 
     // API sometimes sends time played in seconds and sometimes in hours. Decide if there is a need to divide.
+    
     const compUntested = rawData.stats[platform].competitive.career_stats['all-heroes'][2].stats[1].value
-
-    // 
 
     const timePlayedCompetitive = Math.round(compUntested / 3600) !== 0 ? Math.round(compUntested / 3600) : compUntested;
     const timePlayedQuickplay = Math.round(rawData.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value / 3600);
@@ -194,78 +219,53 @@ export default function dataHandler(rawData, platform) {
 
 
     const timePlayedHeroComparison = getHeroComparisonStats('time_played')
-    const gamesWonHeroComparison = getHeroComparisonStats('games_won')
-    const objectiveKillsHeroComparison = getHeroComparisonStats('objective_kills')
-    const elimsPerLifeHeroComparison = getHeroComparisonStats('eliminations_per_life')
-    const multikillBestHeroComparison = getHeroComparisonStats('multikill_best')
-    const critHitAccHeroComparison = getHeroComparisonStats('critical_hit_accuracy')
-    const weaponAccHeroComparison = getHeroComparisonStats('weapon_accuracy')
-
+    
     const heroesPerRoles = {
         tank: ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya'],
         support: ['ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta'],
         damage: ['ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker']
     }
 
-    const quickplayRoleHours = roleValuesPerMode('quickplay', 'time_played')
-    const competitiveRoleHours = roleValuesPerMode('competitive', 'time_played')
-    const allRoleHours = roleValuesPerMode('all', 'time_played')
-    const quickplayRoleGamesWon = roleValuesPerMode('quickplay', 'games_won')
-    const competitiveRoleGamesWon = roleValuesPerMode('competitive', 'games_won')
-    const allRoleGamesWon = roleValuesPerMode('all', 'games_won')
-
-    const tankRank = rawData.summary.competitive[platform].tank?.rank_icon
-    const damageRank = rawData.summary.competitive[platform].damage?.rank_icon
-    const supportRank = rawData.summary.competitive[platform].support?.rank_icon
-    
     // NAVBAR
-    const username = rawData.summary.username;
-    const title = rawData.summary.title;
-    const avatar = rawData.summary.avatar;
-    const endorsement = rawData.summary.endorsement.frame;
-    const privacy = rawData.summary.privacy;
-
-    const heroesStats = {}
+    
+    const heroesStats: any = {}
 
     for (let hero of heroes) {
         const quickplay = getHeroStats(hero, 'quickplay')
+        console.log(hero, quickplay)
         const competitive = getHeroStats(hero, 'competitive')
         const all = combineHeroStats(quickplay, competitive)
-
+        
         heroesStats[hero] = {
             quickplay,
             competitive,
             all,
         }
     }
-
-    let modes = ['all', 'quickplay']
-    if (rawData.summary.competitive?.[platform]) modes = ['all', 'quickplay', 'competitive']
     
-
-
+    
     return {
-            navbar: {
-                username,
-                title,
-                avatar,
-                endorsement,
-                privacy,
+        navbar: {
+                username: rawData.summary.username,
+                title: rawData.summary.title,
+                avatar: rawData.summary.avatar,
+                endorsement: rawData.summary.endorsement.frame,
+                privacy: rawData.summary.privacy,
             },
             roleRank: {
-                tank: tankRank,
-                damage: damageRank,
-                support: supportRank,
+                tank: rawData.summary.competitive[platform].tank?.rank_icon,
+                damage: rawData.summary.competitive[platform].damage?.rank_icon,
+                support: rawData.summary.competitive[platform].support?.rank_icon,
             },
             roleHours: {
-                quickplay: quickplayRoleHours,
-                competitive: competitiveRoleHours,
-                all: allRoleHours,
+                quickplay: roleValuesPerMode('quickplay', 'time_played'),
+                competitive: roleValuesPerMode('competitive', 'time_played'),
+                all: roleValuesPerMode('all', 'time_played'),
             },
             roleGamesWon: {
-                quickplay: quickplayRoleGamesWon,
-                competitive: competitiveRoleGamesWon,
-                all: allRoleGamesWon,
+                quickplay: roleValuesPerMode('quickplay', 'games_won'),
+                competitive: roleValuesPerMode('competitive', 'games_won'),
+                all: roleValuesPerMode('all', 'games_won'),
             },
             timePlayedGamemodes: {
                 timePlayedCompetitive,
@@ -274,12 +274,12 @@ export default function dataHandler(rawData, platform) {
             },
             heroComparisonStats: {
                 time_played: timePlayedHeroComparison,
-                games_won: gamesWonHeroComparison,
-                objective_kills: objectiveKillsHeroComparison,
-                eliminations_per_life: elimsPerLifeHeroComparison,
-                multikill_best: multikillBestHeroComparison,
-                critical_hit_accuracy: critHitAccHeroComparison,
-                weapon_accuracy: weaponAccHeroComparison,
+                games_won: getHeroComparisonStats('games_won'),
+                objective_kills: getHeroComparisonStats('objective_kills'),
+                eliminations_per_life: getHeroComparisonStats('eliminations_per_life'),
+                multikill_best: getHeroComparisonStats('multikill_best'),
+                critical_hit_accuracy: getHeroComparisonStats('critical_hit_accuracy'),
+                weapon_accuracy: getHeroComparisonStats('weapon_accuracy'),
             },
             mostPlayedHeroes: {
                 competitive: timePlayedHeroComparison.competitive.slice(0, 3),
@@ -287,7 +287,7 @@ export default function dataHandler(rawData, platform) {
                 all: timePlayedHeroComparison.all.slice(0, 3)
             },
             heroesStats,
-            modes,
+            modes: rawData.summary.competitive?.[platform] ? ['all', 'quickplay', 'competitive'] : ['all', 'quickplay'],
         }
 }
 

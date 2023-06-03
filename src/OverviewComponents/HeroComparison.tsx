@@ -13,7 +13,7 @@ const HeroComparison = () => {
 
     return (            
         <div className="hero-comparison">
-            <Dropdown className="overview_mode_dropdown hero-comparison-dropdown" options={options} state={stat} setState={setStat} />
+            <Dropdown class="overview_mode_dropdown hero-comparison-dropdown" options={options} state={stat} setState={setStat} />
             <h4 className="hero-comparison_title" >
                 HERO COMPARISON
             </h4>

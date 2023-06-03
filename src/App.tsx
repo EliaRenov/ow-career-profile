@@ -13,6 +13,8 @@ import Loading from './Loading';
 
 function App() {
 
+  // console.log(tempData)
+
   let modesHrs = {
     arcadeHrs: 0,
     gamebrowserHrs: 0,
