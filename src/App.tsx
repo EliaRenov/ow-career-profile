@@ -23,21 +23,27 @@ function App() {
   const [data, setData] = useState<any>(undefined)
   const [platform, setPlatform] = useState('pc') 
   const [currentMode, setCurrentMode] = useState('all') 
-  const [isFormOpen, setIsFormOpen] = useState(true) 
+  const [isFormOpen, setIsFormOpen] = useState(false) 
   const [username, setUsername] = useState('super-12850') 
   const [currentTab, setCurrentTab] = useState('overview')
-  const [currentHero, setCurrentHero] = useState('reinhardt')
+  const [currentHero, setCurrentHero] = useState('all-heroes')
   const [stat, setStat] = useState('time_played')
 
 
   async function fetchData() {
+    if (isFirstLoad) {
+      setData(dataHandler(tempData, 'pc'))
+      setIsFirstLoad(false)
+      return;
+    }
+
+    
     try {
       const response = await fetch(`https://overfast-api.tekrop.fr/players/${username}`)
       const data = await response.json()
-      const handledData = isFirstLoad ? dataHandler(tempData, 'pc') : dataHandler(data, platform)
-
+      const handledData = dataHandler(data, platform)
+      
       setData(handledData)
-      setIsFirstLoad(false)
 
       if (data.stats.pc) {
         setPlatform('pc')
@@ -59,6 +65,7 @@ function App() {
  
   return (
     <OverfastAPIContext.Provider value={{data, modesHrs, currentMode, setCurrentMode, isFormOpen, setIsFormOpen, setUsername, platform,setPlatform, currentTab, setCurrentTab, currentHero, setCurrentHero, stat, setStat}}>
+
     {!data && <Loading />}
     {data && <div className="container">
       {isFormOpen && <Form />}
@@ -66,7 +73,6 @@ function App() {
       {data.navbar.privacy === 'private' && <h1 className="private-profile">PRIVATE PROFILE</h1>}
       {data.navbar.privacy === 'public' && currentTab === 'overview' && <Overview />}
       {data.navbar.privacy === 'public' && currentTab === 'statistics' && <Statistics />}
-
     </div>}
     </OverfastAPIContext.Provider>
   )

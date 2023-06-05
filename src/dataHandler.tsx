@@ -226,8 +226,6 @@ export default function dataHandler(rawData: any, platform: string) {
         damage: ['ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker']
     }
 
-    // NAVBAR
-    
     const heroesStats: any = {}
 
     for (let hero of heroes) {

@@ -5,14 +5,13 @@ import './Form.css'
 
 
 const Form = () => {
-    const { isFormOpen, setIsFormOpen, setUsername } = useContext(OverfastAPIContext)
-    if (!isFormOpen) return;
+    const { setIsFormOpen, setUsername } = useContext(OverfastAPIContext)
 
-    const usernameInput = useRef('')
+    const usernameInput = useRef<HTMLInputElement>(null!)
 
     
 
-    const handleSubmit = (event) => {
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
 
         setUsername(usernameInput.current.value.replace('#', '-'))
