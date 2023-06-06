@@ -1,3 +1,4 @@
+import React from 'react'
 import Competitive from '../assets/icons/competitive_icon.png'
 import Unranked from '../assets/icons/unranked_icon.png'
 import Arcade from '../assets/icons/arcade_icon.png'

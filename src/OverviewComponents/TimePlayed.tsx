@@ -1,3 +1,4 @@
+import React from 'react'
 import TimePlayedBars from "./TimePlayedBars";
 import '../styling/OverviewStyling/TimePlayed.css'
 

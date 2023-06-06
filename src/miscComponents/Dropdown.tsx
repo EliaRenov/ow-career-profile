@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import DropdownIcon from '../assets/dropdown-icon.png'
 import '../styling/Dropdown.css'
 
@@ -23,7 +23,7 @@ const Dropdown = (props: DropdownProps) => {
 
 
     const matchOptionToMsg = (option: string) => {
-        return option.toUpperCase().replaceAll("_", ' ').replace('KP', 'K P')
+        return option.toUpperCase().replace("_", ' ').replace("_", ' ').replace('KP', 'K P')
     }
 
     const handleDropdownClick = (event: React.MouseEvent<HTMLElement>) => {

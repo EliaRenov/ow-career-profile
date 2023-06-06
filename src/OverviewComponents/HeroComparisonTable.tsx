@@ -1,3 +1,4 @@
+import React from 'react'
 import HeroComparisonCell from "./HeroComparisonCell"
 import { useSelector } from 'react-redux'
 import { RootState } from '../ReduxToolKit/app/store';

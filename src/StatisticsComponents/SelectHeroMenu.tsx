@@ -1,3 +1,5 @@
+import React from 'react'
+
 import TankIcon from '../assets/icons/tank_icon.png'
 import DamageIcon from '../assets/icons/damage_icon.png'
 import SupportIcon from '../assets/icons/support_icon.png'

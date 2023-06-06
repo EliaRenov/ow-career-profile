@@ -1,3 +1,4 @@
+import React from 'react'
 import TimePlayedBar from "./TimePlayedBar";
 
 import { useSelector } from 'react-redux'

@@ -1,3 +1,4 @@
+import React from 'react'
 import UnrankedRoleTable from './UnrankedRoleTable'
 import CompRoleTable from './CompRoleTable'
 import { useSelector } from 'react-redux'

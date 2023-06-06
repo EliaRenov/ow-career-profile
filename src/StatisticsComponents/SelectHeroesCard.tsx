@@ -1,3 +1,4 @@
+import React from 'react'
 import Heroes from '../data/Heroes'
 
 const SelectHeroesCard = ({hero}: {hero: string}) => {

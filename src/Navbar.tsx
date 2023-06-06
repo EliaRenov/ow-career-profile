@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './styling/Navbar.css'
 import PlayerLogo from './assets/icons/sf_shock_logo.png'
 import SocialLogo from './assets/icons/social_logo.png'

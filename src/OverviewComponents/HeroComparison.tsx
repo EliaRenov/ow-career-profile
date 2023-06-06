@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styling/OverviewStyling/HeroComparison.css'
 import HeroComparisonTable from './HeroComparisonTable'
 import Dropdown from '../miscComponents/Dropdown'

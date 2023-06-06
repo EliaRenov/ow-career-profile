@@ -1,3 +1,4 @@
+import React from 'react'
 import TankLogo from '../assets/icons/overview_tank-icon.png';
 import DamageLogo from '../assets/icons/overview_damage-icon.png';
 import SupportLogo from '../assets/icons/overview_support-icon.png';

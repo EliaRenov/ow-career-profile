@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './styling/OverviewStyling/Overview.css'
 import TimePlayed from './OverviewComponents/TimePlayed'
 import CurrentMode from './OverviewComponents/CurrentMode'

@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import '../styling/Form.css'
 import { useDispatch } from 'react-redux'
 import { setIsFormOpen, setUsername } from '../ReduxToolKit/features/UISlice';
