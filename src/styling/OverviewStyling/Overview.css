@@ -1,8 +1,7 @@
 .overview {
     padding: 3rem;
     display: grid;
-    column-gap: 2.5rem;
-    column-gap: 10px;
+    column-gap: 1.5vw;
     row-gap: 0.5rem;
     grid-template-rows: 1fr 21.5fr 300px;
     grid-template-columns: 1fr 2fr 2fr;
