@@ -1,19 +1,24 @@
-import { useContext, useEffect, useState } from "react"
-import Heroes from "../Heroes"
 import HeroComparisonCell from "./HeroComparisonCell"
-import OverfastAPIContext from '../OverfastAPIContext';
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
 
-const HeroComparisonTable = ({stat}) => {
-    const {data, currentMode, setCurrentTab, setCurrentHero} = useContext(OverfastAPIContext)
+type Hero = {
+    hero: string
+    value: number
+}
 
-    const comparison = data.heroComparisonStats[stat][currentMode]
+const HeroComparisonTable = ({stat}: {stat: string}) => {
+    const { currentMode } = useSelector((state: RootState) => state.UI)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
+
+    const comparison: Hero[] = data.heroComparisonStats[stat][currentMode]
     const mostPlayed = comparison[0]
     
 
     return (
         <div className="hero-comparison-table">
             {comparison.map(hero => {
-                return <HeroComparisonCell data={hero} heroes={Heroes} mostPlayed={mostPlayed} key={Math.random()} type={stat} setCurrentTab={setCurrentTab} setCurrentHero={setCurrentHero} />
+                return <HeroComparisonCell data={hero} mostPlayed={mostPlayed} key={Math.random()} type={stat} />
                 
             })}
         </div>

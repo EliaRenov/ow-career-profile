@@ -1,14 +1,17 @@
-import './Overview.css'
+import './styling/OverviewStyling/Overview.css'
 import TimePlayed from './OverviewComponents/TimePlayed'
 import CurrentMode from './OverviewComponents/CurrentMode'
-import Dropdown from './Dropdown'
+import Dropdown from './miscComponents/Dropdown'
 import HeroComparison from './OverviewComponents/HeroComparison'
-import OverfastAPIContext from './OverfastAPIContext'
-import { useContext } from 'react'
 
+
+import { useSelector } from 'react-redux'
+import { RootState } from './ReduxToolKit/app/store';
+import { setCurrentMode } from './ReduxToolKit/features/UISlice';
 
 const Overview = () => {
-    const {data, currentMode, setCurrentMode} = useContext(OverfastAPIContext)
+    const { currentMode } = useSelector((state: RootState) => state.UI)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
 
     return (
         <main className="overview">

@@ -1,15 +1,16 @@
-import './HeroComparison.css'
+import '../styling/OverviewStyling/HeroComparison.css'
 import HeroComparisonTable from './HeroComparisonTable'
-import OverfastAPIContext from '../OverfastAPIContext';
-import Dropdown from '../Dropdown'
-import '../Dropdown.css'
-import { useContext, useEffect, useState } from 'react'
+import Dropdown from '../miscComponents/Dropdown'
+import '../styling/Dropdown.css'
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
+import { setStat } from '../ReduxToolKit/features/UISlice';
+
 
 const HeroComparison = () => {
+    const { stat } = useSelector((state: RootState) => state.UI)
 
-    const {data, platform, stat, setStat } = useContext(OverfastAPIContext)
     const options = ['time_played', 'games_won', 'objective_kills', 'multikill_best', 'eliminations_per_life', 'critical_hit_accuracy', 'weapon_accuracy']
-
 
     return (            
         <div className="hero-comparison">
@@ -21,7 +22,6 @@ const HeroComparison = () => {
 
         </div>
     )
-
 }
 
 export default HeroComparison

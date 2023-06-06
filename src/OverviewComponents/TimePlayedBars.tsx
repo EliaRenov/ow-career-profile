@@ -1,21 +1,22 @@
-import { useContext } from "react";
 import TimePlayedBar from "./TimePlayedBar";
-import OverfastAPIContext from '../OverfastAPIContext'
+
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
+
+type mode = {
+    mode: 'competitive' | 'unranked' | 'arcade' | 'gameBrowser' | 'experimental'
+    hours: number
+}
 
 const TimePlayedBars = () => {
-    const {data} = useContext(OverfastAPIContext)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
     
-    let modes = [
-        {mode: 'competitive', hours: data.timePlayedGamemodes?.timePlayedCompetitive
+    let modes: mode[] = [
+        {mode: 'competitive' as const, hours: data.timePlayedGamemodes?.timePlayedCompetitive
         },
-        {mode: 'unranked', hours: data.timePlayedGamemodes?.timePlayedQuickplay
+        {mode: 'unranked' as const, hours: data.timePlayedGamemodes?.timePlayedQuickplay
         }
-    ]
-
-
-    modes.sort((a, b) => {
-        return b.hours - a.hours
-    })
+    ].sort((a, b) => b.hours - a.hours)
 
     let mostPlayed = modes[0];
 

@@ -1,43 +1,56 @@
-import AllHeroes from './assets/hero_logos/all-heroes.webp'
-import Ana from './assets/hero_logos/ana.webp'
-import Ashe from './assets/hero_logos/ashe.webp'
-import Baptiste from './assets/hero_logos/baptiste.webp'
-import Bastion from './assets/hero_logos/bastion.webp'
-import Brigitte from './assets/hero_logos/brigitte.webp'
-import Cassidy from './assets/hero_logos/cassidy.webp'
-import Doomfist from './assets/hero_logos/doomfist.webp'
-import Dva from './assets/hero_logos/dva.webp'
-import Echo from './assets/hero_logos/echo.webp'
-import Genji from './assets/hero_logos/genji.webp'
-import Hanzo from './assets/hero_logos/hanzo.webp'
-import Junkerqueen from './assets/hero_logos/junkerqueen.webp'
-import Junkrat from './assets/hero_logos/junkrat.webp'
-import Kiriko from './assets/hero_logos/kiriko.webp'
-import Lifeweaver from './assets/hero_logos/lifeweaver.webp'
-import Lucio from './assets/hero_logos/lucio.webp'
-import Mei from './assets/hero_logos/mei.webp'
-import Mercy from './assets/hero_logos/mercy.webp'
-import Moira from './assets/hero_logos/moira.webp'
-import Orisa from './assets/hero_logos/orisa.webp'
-import Pharah from './assets/hero_logos/pharah.webp'
-import Ramattra from './assets/hero_logos/ramattra.webp'
-import Reaper from './assets/hero_logos/reaper.webp'
-import Reinhardt from './assets/hero_logos/reinhardt.webp'
-import Roadhog from './assets/hero_logos/roadhog.webp'
-import Sigma from './assets/hero_logos/sigma.webp'
-import Sojourn from './assets/hero_logos/sojourn.webp'
-import Soldier76 from './assets/hero_logos/soldier76.webp'
-import Sombra from './assets/hero_logos/sombra.webp'
-import Symmetra from './assets/hero_logos/symmetra.webp'
-import Torbjorn from './assets/hero_logos/torbjorn.webp'
-import Tracer from './assets/hero_logos/tracer.webp'
-import Widowmaker from './assets/hero_logos/widowmaker.webp'
-import Winston from './assets/hero_logos/winston.webp'
-import Wreckingball from './assets/hero_logos/wreckingball.webp'
-import Zarya from './assets/hero_logos/zarya.webp'
-import Zenyatta from './assets/hero_logos/zenyatta.webp'
+import AllHeroes from '../assets/hero_logos/all-heroes.webp'
+import Ana from '../assets/hero_logos/ana.webp'
+import Ashe from '../assets/hero_logos/ashe.webp'
+import Baptiste from '../assets/hero_logos/baptiste.webp'
+import Bastion from '../assets/hero_logos/bastion.webp'
+import Brigitte from '../assets/hero_logos/brigitte.webp'
+import Cassidy from '../assets/hero_logos/cassidy.webp'
+import Doomfist from '../assets/hero_logos/doomfist.webp'
+import Dva from '../assets/hero_logos/dva.webp'
+import Echo from '../assets/hero_logos/echo.webp'
+import Genji from '../assets/hero_logos/genji.webp'
+import Hanzo from '../assets/hero_logos/hanzo.webp'
+import Junkerqueen from '../assets/hero_logos/junkerqueen.webp'
+import Junkrat from '../assets/hero_logos/junkrat.webp'
+import Kiriko from '../assets/hero_logos/kiriko.webp'
+import Lifeweaver from '../assets/hero_logos/lifeweaver.webp'
+import Lucio from '../assets/hero_logos/lucio.webp'
+import Mei from '../assets/hero_logos/mei.webp'
+import Mercy from '../assets/hero_logos/mercy.webp'
+import Moira from '../assets/hero_logos/moira.webp'
+import Orisa from '../assets/hero_logos/orisa.webp'
+import Pharah from '../assets/hero_logos/pharah.webp'
+import Ramattra from '../assets/hero_logos/ramattra.webp'
+import Reaper from '../assets/hero_logos/reaper.webp'
+import Reinhardt from '../assets/hero_logos/reinhardt.webp'
+import Roadhog from '../assets/hero_logos/roadhog.webp'
+import Sigma from '../assets/hero_logos/sigma.webp'
+import Sojourn from '../assets/hero_logos/sojourn.webp'
+import Soldier76 from '../assets/hero_logos/soldier76.webp'
+import Sombra from '../assets/hero_logos/sombra.webp'
+import Symmetra from '../assets/hero_logos/symmetra.webp'
+import Torbjorn from '../assets/hero_logos/torbjorn.webp'
+import Tracer from '../assets/hero_logos/tracer.webp'
+import Widowmaker from '../assets/hero_logos/widowmaker.webp'
+import Winston from '../assets/hero_logos/winston.webp'
+import Wreckingball from '../assets/hero_logos/wreckingball.webp'
+import Zarya from '../assets/hero_logos/zarya.webp'
+import Zenyatta from '../assets/hero_logos/zenyatta.webp'
 
-const Heroes = {
+type Role = string[] | any
+
+type Hero = {
+    logo: string
+    color?: string
+    role?: string
+}
+
+type Heroes = {
+    [key: string]: Hero | Role
+}
+
+
+const Heroes: Heroes = {
     tank: ['doomfist', 'dva', 'junker-queen', 'orisa', 'ramattra', 'reinhardt', 'roadhog', 'sigma', 'winston', 'wrecking-ball', 'zarya'],
     support: ['ana', 'baptiste', 'brigitte', 'kiriko', 'lifeweaver', 'lucio', 'mercy', 'moira', 'zenyatta'],
     damage: ['ashe', 'bastion', 'cassidy', 'echo', 'genji', 'hanzo', 'junkrat', 'mei', 'pharah', 'reaper', 'sojourn', 'soldier76', 'sombra', 'symmetra', 'torbjorn', 'tracer', 'widowmaker'],

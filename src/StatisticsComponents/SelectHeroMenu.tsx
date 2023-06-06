@@ -3,21 +3,37 @@ import DamageIcon from '../assets/icons/damage_icon.png'
 import SupportIcon from '../assets/icons/support_icon.png'
 
 import SelectHeroesCard from './SelectHeroesCard'
-import './SelectHeroMenu.css'
+import '../styling/StatisticsStyling/SelectHeroMenu.css'
 
-const SelectHeroMenu = ({setSelectHeroOpen, setCurrentHero}) => {
+import { useDispatch } from 'react-redux'
+import { AppDispatch } from '../ReduxToolKit/app/store';
 
-    const handleHeroSelect = (e) => {
-        const hero = e.target.parentNode?.getAttribute('name')
-        // If element clicked is not a hero card then return
-        if (!hero) return;
+type MenuProps = {
+    setSelectHeroOpen: (bool: boolean) => void
+    setCurrentHero: (bool: string) => {
+        type: string
+        payload: string
+    }
+}
 
-        setCurrentHero(hero)
+const SelectHeroMenu = ({setSelectHeroOpen, setCurrentHero}: MenuProps) => {
+    const dispatch = useDispatch<AppDispatch>();
+
+    const handleHeroSelect = (e: React.MouseEvent) => {
+        if (e.target instanceof HTMLElement && e.target.parentNode instanceof HTMLElement) {
+            const hero = e.target.parentNode.getAttribute('data-name')
+
+            if (!hero) return;
+
+            dispatch(setCurrentHero(hero))
+
+        }
+        
         setSelectHeroOpen(false)
     }
 
     const handleAllHeroesSelect = () => {
-        setCurrentHero('all-heroes')
+        dispatch(setCurrentHero('all-heroes'))
         setSelectHeroOpen(false)
     }
 

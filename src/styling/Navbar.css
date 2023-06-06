@@ -217,7 +217,7 @@ nav.navbar .nav-links {
 }
 
 .navbar .player-profile_level {
-    background-image: url("./assets/icons/level_icon.png");
+    background-image: url("../assets/icons/level_icon.png");
     width: 3.5rem;
     height: 3.8rem;
     font-size: 1.6rem;

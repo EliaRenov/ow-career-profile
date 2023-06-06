@@ -1,12 +1,14 @@
-import { useContext } from 'react';
 import TankLogo from '../assets/icons/overview_tank-icon.png';
 import DamageLogo from '../assets/icons/overview_damage-icon.png';
 import SupportLogo from '../assets/icons/overview_support-icon.png';
-import OverfastAPIContext from '../OverfastAPIContext'
-import Heroes from '../Heroes'
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
+
 
 const UnrankedRoleTable = () => {
-    const {data, currentMode} = useContext(OverfastAPIContext)
+    const { currentMode } = useSelector((state: RootState) => state.UI)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
+
 
     const tankHours = data.roleHours[currentMode].tank;
     const tankGamesWon = data.roleGamesWon[currentMode].tank;

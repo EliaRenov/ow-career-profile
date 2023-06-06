@@ -1,4 +1,4 @@
-import './CurrentMode.css'
+import '../styling/OverviewStyling/CurrentMode.css'
 import MostPlayedHeroes from './MostPlayedHeroes'
 import RoleData from './RoleData'
 

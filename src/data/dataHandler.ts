@@ -1,3 +1,59 @@
+type roleRank = {
+    division: string
+    tier: number
+    role_icon: string
+}
+
+type rawData = {
+    stats: {
+            [key: string]: any
+            console: {
+                competitive: {
+                    career_stats: any
+                    heroes_comparisons: any
+                } | null
+                quickplay: {
+                    career_stats: any
+                    heroes_comparisons: any
+                }
+            }
+            pc: {
+                competitive: {
+                    career_stats: any
+                    heroes_comparisons: any
+                } | null
+                quickplay: {
+                    career_stats: any
+                    heroes_comparisons: any
+                }
+            }
+    }
+    summary: {
+        avatar: string
+        username: string
+        title: string
+        privacy: string
+        namecard: string
+        endorsement: {
+            level: number
+            frame: string
+        }
+        competitive: {
+            [key: string]: any
+            console: {
+                tank: roleRank
+                damage: roleRank
+                support: roleRank
+            } | null
+            pc: {
+                tank: roleRank
+                damage: roleRank
+                support: roleRank
+            } | null
+        }
+    }
+}
+
 type heroStatComparison = {
     hero: string
     value: number
@@ -20,8 +76,7 @@ type roleStat = 'time_played' | 'games_won'
 type modeType = 'competitive' | 'quickplay' | 'all'
 
 
-export default function dataHandler(rawData: any, platform: string) {
-
+export default function dataHandler(rawData: rawData, platform: string) {
 
     function combineModesHeroComparisonStats(stat: string, x: heroStatComparison, y: heroStatComparison) {
         if (stat === 'time_played' || stat === 'objective_kills' || stat === 'games_won') return x.value += y.value
@@ -67,9 +122,9 @@ export default function dataHandler(rawData: any, platform: string) {
 
          if (stat === 'time_played') {
             return {
-                tank: Math.round(tank / 3600),
-                damage: Math.round(damage / 3600),
-                support: Math.round(support / 3600),
+                tank: Math.ceil(tank / 3600),
+                damage: Math.ceil(damage / 3600),
+                support: Math.ceil(support / 3600),
             }
          } else if (stat === 'games_won') {
             return {
@@ -103,7 +158,7 @@ export default function dataHandler(rawData: any, platform: string) {
         return [
             {
                 stat: 'TIME PLAYED',
-                total: Math.round(values.time_played / 3600)
+                total: Math.ceil(values.time_played / 3600)
             },
             {
                 stat: 'GAMES PLAYED',
@@ -217,7 +272,6 @@ export default function dataHandler(rawData: any, platform: string) {
     const timePlayedQuickplay = Math.round(rawData.stats[platform].quickplay.career_stats['all-heroes'][2].stats[0].value / 3600);
     const timePlayedOverall = timePlayedCompetitive + timePlayedQuickplay;
 
-
     const timePlayedHeroComparison = getHeroComparisonStats('time_played')
     
     const heroesPerRoles = {
@@ -238,6 +292,42 @@ export default function dataHandler(rawData: any, platform: string) {
             competitive,
             all,
         }
+    }
+
+    const cardValues: any = {
+
+    }
+    
+    type cardValue = {
+        stat: string, 
+        total?: number, 
+        best?: number, 
+        average?: number
+    }
+
+    for (const hero in heroesStats) {
+        cardValues[hero] = {}
+
+        for (const mode in heroesStats[hero]) {
+            cardValues[hero][mode] = {}
+
+            let wantedStats = [{stat: 'TIME PLAYED', type: 'total', id: 'timePlayed'},
+             {stat: 'GAMES PLAYED', type: 'total', id: 'gamesPlayed'}, 
+             {stat: 'GAMES WON', type: 'total', id: 'gamesWon'}, 
+             {stat: 'ELIMINATIONS', type: 'total', id: 'eliminations'}, 
+             {stat: 'ASSISTS', type: 'total', id: 'assists'}, {stat: 'KILL STREAK - BEST', type: 'best', id: 'killstreak'}]
+
+            wantedStats.forEach(card => {
+
+                const statAllTypes = heroesStats[hero][mode]?.find((x: cardValue) => x.stat === card.stat)
+
+                const value = statAllTypes?.[card.type] || 0
+
+                cardValues[hero][mode][card.id] = value
+            })
+            
+        }
+        
     }
     
     
@@ -284,6 +374,7 @@ export default function dataHandler(rawData: any, platform: string) {
                 all: timePlayedHeroComparison.all.slice(0, 3)
             },
             heroesStats,
+            cardValues,
             modes: rawData.summary.competitive?.[platform] ? ['all', 'quickplay', 'competitive'] : ['all', 'quickplay'],
         }
 }

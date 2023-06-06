@@ -1,11 +1,14 @@
-import { useContext } from "react";
 import TimePlayedBars from "./TimePlayedBars";
-import './TimePlayed.css'
-import OverfastAPIContext from '../OverfastAPIContext'
+import '../styling/OverviewStyling/TimePlayed.css'
+
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
+
 
 const TimePlayed = () => {
     
-    const {data} = useContext(OverfastAPIContext)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
+
 
     const hoursPlayed = data.timePlayedGamemodes?.timePlayedOverall.toLocaleString()
 

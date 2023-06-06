@@ -1,28 +1,32 @@
-import './Navbar.css'
+import './styling/Navbar.css'
 import PlayerLogo from './assets/icons/sf_shock_logo.png'
 import SocialLogo from './assets/icons/social_logo.png'
 import ChallengesLogo from './assets/icons/challenges_logo.png'
 import SettingsLogo from './assets/icons/settings_icon.png'
-import { useContext } from 'react'
-import OverfastAPIContext from './OverfastAPIContext'
+
+import { useSelector, useDispatch } from 'react-redux'
+import { RootState, AppDispatch } from './ReduxToolKit/app/store';
+import { setCurrentTab, setIsFormOpen } from './ReduxToolKit/features/UISlice';
 
 const Navbar = () => {
-    const { data, setIsFormOpen, currentTab, setCurrentTab } = useContext(OverfastAPIContext)
+
+    const dispatch = useDispatch<AppDispatch>();
+    const { currentTab } = useSelector((state: RootState) => state.UI)
+    const { data } = useSelector((state: RootState) => state.PlayerData)
+
     
     const username = data.navbar.username.toUpperCase()
     const title = data.navbar.title?.toUpperCase() || ''
-
     const avatar = data.navbar.avatar
     const endorsementLogo = data.navbar.endorsement
     
-
     return (
         <nav className="navbar">
             <nav className="nav-links">
-                <li className={`${currentTab === 'overview' && 'current-tab'}`} onClick={() => setCurrentTab('overview')}>
+                <li className={`${currentTab === 'overview' && 'current-tab'}`} onClick={() => dispatch(setCurrentTab('overview'))}>
                     OVERVIEW
                 </li>
-                <li className={`${currentTab === 'statistics' && 'current-tab'}`} onClick={() => setCurrentTab('statistics')}> 
+                <li className={`${currentTab === 'statistics' && 'current-tab'}`} onClick={() => dispatch(setCurrentTab('statistics'))}> 
                     STATISTICS
                 </li>
                 {/* <li>
@@ -64,7 +68,7 @@ const Navbar = () => {
                 </h4>
                 </div>
 
-                <div className="settings-logo" onClick={() => setIsFormOpen(prev => !prev)}>
+                <div className="settings-logo" onClick={() => dispatch(setIsFormOpen(true))}>
                 <img src={SettingsLogo} alt="settings logo" />
                 <h4 className="settings-logo-hover">
                     SETTINGS

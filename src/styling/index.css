@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Overwatch';
-  src: url('./assets/fonts/big_noodle_titling.ttf');
+  src: url('../assets/fonts/big_noodle_titling.ttf');
 }
 
 @font-face {
   font-family: 'Config';
   src: local('Config Regular'), local('Config-Regular'),
-      url('./assets/fonts/Config-Regular.woff2') format('woff2'),
-      url('./assets/fonts/Config-Regular.woff') format('woff'),
-      url('./assets/fonts/Config-Regular.ttf') format('truetype');
+      url('../assets/fonts/Config-Regular.woff2') format('woff2'),
+      url('../assets/fonts/Config-Regular.woff') format('woff'),
+      url('../assets/fonts/Config-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -22,12 +22,12 @@
 
 body, html {
   height: 100%;
-  cursor: url('./assets/cursor.png'), auto;
+  cursor: url('../assets/cursor.png'), auto;
   overflow: hidden;
 }
 
 .container {
-  background-image: url('./assets/background.png');
+  background-image: url('../assets/background.png');
   background-size: cover;
   width: 100vw;
   height: 100vh;

@@ -1,11 +1,11 @@
-import { useContext } from 'react'
-import OverfastAPIContext from '../OverfastAPIContext'
 import UnrankedRoleTable from './UnrankedRoleTable'
 import CompRoleTable from './CompRoleTable'
+import { useSelector } from 'react-redux'
+import { RootState } from '../ReduxToolKit/app/store';
 
 
 const RoleData = () => {
-    const { currentMode } = useContext(OverfastAPIContext)
+    const { currentMode } = useSelector((state: RootState) => state.UI)
     return (
         <>
        {currentMode !== 'competitive' && <UnrankedRoleTable />}

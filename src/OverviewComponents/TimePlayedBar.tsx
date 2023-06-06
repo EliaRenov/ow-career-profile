@@ -3,35 +3,35 @@ import Unranked from '../assets/icons/unranked_icon.png'
 import Arcade from '../assets/icons/arcade_icon.png'
 import GameBrowser from '../assets/icons/gamebrowser_icon.png'
 import Experimental from '../assets/icons/experimental_icon.png'
-import OverfastAPIContext from '../OverfastAPIContext'
-import { useContext } from 'react'
 
-const TimePlayedBar = (props) => {
-    const { data } = useContext(OverfastAPIContext)
-
-    let img;
-
-    switch (props.mode) {
-        case 'competitive':
-            img = Competitive;
-            break;
-        case 'unranked':
-            img = Unranked;
-            break;
-        case 'arcade':
-            img = Arcade
-            break;
-        case 'gameBrowser':
-            img = GameBrowser
-            break;
-        case 'experimental':
-            img = Experimental
-            break;
+type BarProps = {
+    mode: 'competitive' | 'unranked' | 'arcade' | 'gameBrowser' | 'experimental'
+    hours: number
+    mostPlayed: {
+        mode: 'competitive' | 'unranked' | 'arcade' | 'gameBrowser' | 'experimental'
+        hours: number
     }
+}
 
-    const fillWidth = Math.ceil(
-    props.mode === props.mostPlayed.mode ? 100 : `${props.hours / props.mostPlayed.hours * 100}`)
+const TimePlayedBar = (props: BarProps) => {
 
+    const logos = {
+        'competitive': Competitive,
+        'unranked': Unranked,
+        'arcade': Arcade,
+        'gameBrowser': GameBrowser,
+        'experimental': Experimental
+    }
+    
+    let img = logos[props.mode];
+
+    
+    const isModeMostPlayed = props.mode === props.mostPlayed.mode
+    const fillWidthNotMostPlayed = Math.ceil(props.hours / props.mostPlayed.hours * 100)
+    const fillWidthMostPlayed = 100
+
+    const fillWidth = isModeMostPlayed ? fillWidthMostPlayed : fillWidthNotMostPlayed
+    
     return (
         <div className={`overview_time-played-bar`}>
             <img src={img} alt="mode logo" height="24px" className='overview_mode-logo' />
